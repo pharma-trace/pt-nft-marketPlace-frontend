@@ -1,0 +1,7 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% block content %}
+  <div class="sitemap">
+    <h1>Sitemap</h1>
+  </div>
+{% endblock %}
