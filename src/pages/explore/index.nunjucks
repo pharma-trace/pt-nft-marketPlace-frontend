@@ -1,0 +1,115 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../../../' %}
+  {% set pageTitle = 'Explore' %}
+  {% set slug = 'explore' %}
+  {% set collections = range(0, 32) %}
+{% endblock %}
+
+{% block content %}
+  {# nft__explore-whole-items #}
+  <section class="nft__explore-whole-items mt-36 px-36 xl:max-w-full lg:container">
+    <h2 class="text-dark_mode font-semibold">
+      Explore
+    </h2>
+    <div class="flex flex-row items-center mt-24">
+      <div class="basis-6/12">
+        <div class="border-b border-gray-200">
+          <ul class="flex flex-wrap text-lg font-semibold text-center" data-tabs-toggle="#tab-explore-whole-items" role="tablist">
+            <li class="mr-2" role="presentation">
+              <button
+                class="inline-block p-4 pb-2 border-b-2 !border-dark_mode !hover:border-gray-200 !text-dark_mode"
+                id="tab-collections"
+                data-tabs-target="#collections"
+                type="button"
+                role="tab"
+                aria-controls="collections"
+                aria-selected="false"
+              >
+                Collections
+                <span class="ml-3">22,934</span>
+              </button>
+            </li>
+            <li class="mr-2" role="presentation">
+              <button
+                class="inline-block p-4 pb-2 !text-gray-300 pointer-events-none"
+                id="tab-nfts"
+                data-tabs-target="#nfts"
+                type="button"
+                role="tab"
+                aria-controls="nfts"
+                aria-selected="false"
+              >
+                NFTs
+                <span class="ml-3">465,367</span>
+              </button>
+            </li>
+            <li class="mr-2" role="presentation">
+              <button
+                class="inline-block p-4 pb-2 !text-gray-300 pointer-events-none"
+                id="tab-creators"
+                data-tabs-target="#creators"
+                type="button"
+                role="tab"
+                aria-controls="creators"
+                aria-selected="false"
+              >
+                Creators
+                <span class="ml-3">232,987</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="basis-6/12">
+        <div class="flex flex-row justify-end">
+          <button
+            type="button"
+            class="py-1 px-4 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-100"
+          >
+            <i class="fa-solid fa-arrow-up-wide-short mr-4 text-lg"></i>
+            Price range
+          </button>
+          <button
+            type="button"
+            class="py-1 px-4 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-100"
+          >
+            <i class="fa-solid fa-arrow-up-wide-short mr-4 text-lg"></i>
+            Categories
+          </button>
+          <button
+            type="button"
+            class="py-1 px-4 last:mr-0 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-100"
+          >
+            <i class="fa-solid fa-arrow-up-wide-short mr-4 text-lg"></i>
+            Recently listed
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="tab-explore-whole-items" class="mt-10">
+      <div class="hidden" id="collections" role="tabpanel" aria-labelledby="tab-collections">
+        <div class="grid grid-cols-4 gap-4">
+          {% for collection in collections %}
+            {% include '_modules/card-collection/card-collection.nunjucks' %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="hidden" id="nfts" role="tabpanel" aria-labelledby="tab-nfts">
+        <span>Tab content - NFTs</span>
+      </div>
+      <div class="hidden" id="creators" role="tabpanel" aria-labelledby="tab-creators">
+        <span>Tab content - Creators</span>
+      </div>
+    </div>
+    <div class="nft__load-more-button flex justify-center mt-10">
+      <button type="button" class="py-3 px-12 mr-4 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium">
+        Load more
+      </button>
+    </div>
+  </section>
+  {# nft__steps-to-start #}
+  {% include '_modules/steps-to-start/steps-to-start.nunjucks' %}
+{% endblock %}

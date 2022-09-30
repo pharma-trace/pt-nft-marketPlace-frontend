@@ -1,0 +1,41 @@
+<div class="nft__card_collection py-4 px-4 border border-solid border-gray-100 rounded-xl hover:bg-gray-100">
+  <div class="grid grid-rows-4 grid-flow-col gap-x-4">
+    <figure class="row-span-4 col-span-2">
+      <img
+        src="{{ site.data.configs.imageUrl }}/collections/doodle-1.jpg"
+        alt="Doodle 1"
+        class="w-full h-[280px] rounded-lg object-cover"
+      >
+    </figure>
+    <figure class="row-span-2 self-start">
+      <img
+        src="{{ site.data.configs.imageUrl }}/collections/doodle-2.jpg"
+        alt="Doodle 2"
+        class="w-full h-[133px] rounded-lg object-cover"
+      >
+    </figure>
+    <figure class="row-span-2 self-end">
+      <img
+        src="{{ site.data.configs.imageUrl }}/collections/doodle-3.jpg"
+        alt="Doodle 3"
+        class="w-full h-[133px] rounded-lg object-cover"
+      >
+    </figure>
+  </div>
+  <div class="mt-4">
+    <span class="block text-dark_mode font-semibold">
+      Doodle
+    </span>
+    <span class="block text-sm text-gray-300">
+      Floor price: 19.02 ETH
+    </span>
+  </div>
+  <div class="flex items-center justify-between mt-6">
+    <span class="block text-dark_mode text-sm font-semibold">
+      512.57 ETH
+    </span>
+    <span class="block text-xs text-error font-medium">
+      -29.07%
+    </span>
+  </div>
+</div>

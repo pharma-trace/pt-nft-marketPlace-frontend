@@ -1,7 +1,29 @@
-{% extends '_layouts/base.nunjucks' %}
+{% extends '_layouts/sitemap.nunjucks' %}
 
 {% block content %}
   <div class="sitemap">
     <h1>Sitemap</h1>
+    <ul>
+      <li>
+        Pages
+        <ul>
+          <li>
+            <a href="/pages/homepage/index.html" target="_blank">Homepage</a>
+          </li>
+          <li>
+            <a href="/pages/explore/index.html" target="_blank">Explore</a>
+          </li>
+          <li>
+            <a href="/pages/collection-details/index.html" target="_blank">Collection details</a>
+          </li>
+          <li>
+            <a href="/pages/nft-details/index.html" target="_blank">NFT details</a>
+          </li>
+          <li>
+            <a href="/pages/creator-details/index.html" target="_blank">Creator details</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </div>
 {% endblock %}

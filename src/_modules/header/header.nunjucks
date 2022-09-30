@@ -1,0 +1,34 @@
+<header class="nft__header mx-auto z-10 py-4 px-20 xl:max-w-full lg:container bg-transparent fixed top-0 left-0">
+    <div class="flex justify-between">
+      <figure class="w-[15rem]">
+        <a href="{{ site.data.configs.pageUrl }}homepage/index.html">
+          <img
+            src="{{ site.data.configs.imageUrl }}trademarks/trademark-pharmatrace-nft.svg"
+            alt="Trademark PharmaTrace NFT"
+            class="object-cover"
+          >
+        </a>
+      </figure>
+      <nav class="nft__primary-nav flex">
+        <button
+          type="button"
+          class="py-2 px-6 mr-4 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium"
+        >
+          <i class="fa-solid fa-wallet mr-4 text-lg"></i>
+          Connect Wallet
+        </button>
+        <button
+          type="button"
+          class="py-2 px-6 mr-4 rounded-full {% if slug == 'home' %} bg-light_mode {% else %} bg-gray-100 {% endif %} text-dark_mode text-sm font-medium"
+        >
+          ⌘/J
+        </button>
+        <button
+          type="button"
+          class="py-2 px-6 rounded-full {% if slug == 'home' %} bg-light_mode {% else %} bg-gray-100 {% endif %} text-dark_mode text-sm font-medium"
+        >
+          <i class="fa-solid fa-bars text-lg"></i>
+        </button>
+      </nav>
+    </div>
+  </header>

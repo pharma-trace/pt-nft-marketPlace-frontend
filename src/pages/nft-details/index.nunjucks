@@ -1,0 +1,274 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../../../' %}
+  {% set pageTitle = 'NFT details' %}
+  {% set slug = 'nft-details' %}
+  {% set recentBids = range(0, 10) %}
+  {% set nfts = range(0, 8) %}
+{% endblock %}
+
+{% block content %}
+  {# nft__hero-cover-nft-details #}
+  <section class="nft__hero-cover-nft-details h-[calc(100vh-9rem)] relative mt-36 px-36 xl:max-w-full lg:container">
+    <div class="flex flex-row items-center gap-4">
+      <div class="basis-5/12">
+        <figure class="relative">
+          <img
+            src="{{ site.data.configs.imageUrl }}nfts/cover-nft.jpg"
+            alt="Cover collection"
+            class="w-full h-[60vh] rounded-xl border-4 border-solid border-gray-100 object-cover"
+          >
+          <figcaption>
+            <button
+              type="button"
+              class="py-1 px-5 flex items-center justify-center absolute top-4 left-4 rounded-full bg-light_mode text-dark_mode text-sm font-medium"
+            >
+              <i class="fa-solid fa-up-right-and-down-left-from-center text-lg"></i>
+            </button>
+            <button
+              type="button"
+              class="py-1 px-3 flex items-center justify-center absolute top-4 right-4 rounded-full bg-light_mode text-dark_mode text-sm font-medium"
+            >
+              <i class="fa-regular fa-heart mr-2 text-error text-lg"></i>
+              Like
+            </button>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-5/12 ml-28">
+        <hgroup>
+          <h4 class="text-dark_mode font-bold">
+            Doodles #001
+            <span class="relative align-super ml-2">
+              <i class="fa-solid fa-circle-info text-nft_institutional text-xl"></i>
+            </span>
+          </h4>
+          <h6 class="mt-2 text-gray-300 text-base">
+            Owned by
+            <span class="underline">Monkey Leahpar</span>
+          </h6>
+        </hgroup>
+        <div class="flex flex-row items-center mt-8">
+          <span class="flex items-center text-dark_mode text-sm font-medium">
+            <i class="fa-solid fa-heart text-error text-xl mr-2"></i>
+            13K Likes
+          </span>
+          <span class="flex items-center ml-6 text-dark_mode text-sm font-medium">
+            <i class="fa-solid fa-eye text-pt_institutional text-xl mr-2"></i>
+            122K Views
+          </span>
+          <button class="flex py-1 px-4 ml-6 items-center rounded-full text-dark_mode bg-gray-100 hover:bg-nft_institutional">
+            <i class="fa-solid fa-share-nodes mr-2 text-lg"></i>
+            <span class="block ml-1 text-sm font-medium">Share</span>
+          </button>
+        </div>
+        <div class="mt-10">
+          <p class="text-dark_mode leading-loose">
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration in some form, by injected humour, or randomised words which don’t look
+            even slightly believable.
+          </p>
+        </div>
+        <div class="flex flex-row items-center mt-10">
+          <div>
+            <h6 class="text-gray-300 text-base">
+              Created by
+            </h6>
+            <figure class="flex flex-row items-center mt-4 relative">
+              <img
+                src="{{ site.data.configs.imageUrl }}/avatars/avatar-6.jpg"
+                alt="Avatar 6"
+                class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover"
+              >
+              <figcaption class="ml-4">
+                <span class="absolute top-[2px] left-[32px] align-middle ml-2">
+                  <i class="fa-solid fa-certificate text-nft_institutional text-xl"></i>
+                  <i class="fa-solid fa-check text-light_mode text-sm absolute top-[1px] left-[3px]"></i>
+                </span>
+                <span class="block text-dark_mode text-sm font-semibold">
+                  Yung DooMari
+                </span>
+                <span class="block text-sm text-gray-300">
+                  yung_doomari
+                </span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="ml-10">
+            <h6 class="text-gray-300 text-base">
+              Collection
+            </h6>
+            <figure class="flex flex-row items-center mt-4">
+              <img
+                src="{{ site.data.configs.imageUrl }}/avatars/avatar-9.jpg"
+                alt="Avatar 9"
+                class="w-14 h-14 rounded-xl border-2 border-solid border-gray-100 object-cover"
+              >
+              <figcaption class="ml-4">
+                <span class="block text-dark_mode text-sm font-semibold">
+                  Doodles
+                </span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <aside class="flex justify-center w-full absolute left-0 bottom-6">
+      <div class="py-5 px-12 rounded-full bg-nft_institutional/20">
+        <div class="flex flex-row items-center justif-center">
+          <hgroup class="first:ml-0">
+            <h5 class="text-dark_mode text-xl font-semibold">2.25 ETH</h5>
+            <h6 class="text-dark_mode text-sm">Minimun Bid</h6>
+          </hgroup>
+          <hgroup class="ml-8">
+            <h5 class="text-dark_mode text-xl font-semibold">1.05 ETH</h5>
+            <h6 class="text-dark_mode text-sm">Highest Bid</h6>
+          </hgroup>
+          <button
+            type="button"
+            class="py-2 px-4 ml-8 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium"
+          >
+            <i class="fa-solid fa-tag mr-2 text-lg"></i>
+            Place Bid
+          </button>
+        </div>
+      </div>
+    </aside>
+  </section>
+  {# nft__info-details #}
+  <section class="nft__info-details mt-24 px-36 xl:max-w-full lg:container">
+    <div class="flex flex-row gap-4">
+      <div class="basis-5/12">
+        <h5 class="text-dark_mode font-medium">
+          Details
+        </h5>
+        <hgroup class="mt-6">
+          <h6 class="text-gray-300 text-base">
+            Type
+          </h6>
+          <h6 class="mt-1 text-dark_mode text-base">
+            Image 5000 x 5000 px, JPEG (6.7 MB)
+          </h6>
+        </hgroup>
+        <hgroup class="mt-6">
+          <h6 class="text-gray-300 text-base">
+            Contract Address
+          </h6>
+          <h6 class="mt-1 text-dark_mode text-base">
+            0x2acAb3DEa77832C09420663b0E1cB386031bA17B
+          </h6>
+        </hgroup>
+        <hgroup class="mt-6">
+          <h6 class="text-gray-300 text-base">
+            Token ID
+          </h6>
+          <h6 class="mt-1 text-dark_mode text-base">
+            #001
+          </h6>
+        </hgroup>
+        <hgroup class="mt-6">
+          <h6 class="text-gray-300 text-base">
+            Token Standard
+          </h6>
+          <h6 class="mt-1 text-dark_mode text-base">
+            ERC-721
+          </h6>
+        </hgroup>
+        <hgroup class="mt-6">
+          <h6 class="text-gray-300 text-base">
+            Blockchain
+          </h6>
+          <h6 class="mt-1 text-dark_mode text-base">
+            Ethereum
+          </h6>
+        </hgroup>
+        <hgroup class="mt-6">
+          <h6 class="text-gray-300 text-base">
+            Creator Fees
+          </h6>
+          <h6 class="mt-1 text-dark_mode text-base">
+            5%
+          </h6>
+        </hgroup>
+      </div>
+      <div class="basis-6/12 ml-32">
+        <h5 class="text-dark_mode font-medium">
+          Recent Bids
+        </h5>
+        <div class="nft__custom-table mt-6">
+          <ul class="nft__custom-table-heading grid grid-cols-6 gap-5 px-3">
+            <li>
+              <span class="text-gray-300">
+                Type
+              </span>
+            </li>
+            <li>
+              <span class="text-gray-300">
+                Floor Diff.
+              </span>
+            </li>
+            <li class="col-span-2">
+              <span class="text-gray-300">
+                Timestamp
+              </span>
+            </li>
+            <li class="col-span-2">
+              <span class="text-gray-300">
+                From
+              </span>
+            </li>
+          </ul>
+          {% for recentBid in recentBids %}
+            <ul class="nft__custom-table-rows grid grid-cols-6 gap-5 py-3 px-3 mt-4 rounded-lg border border-solid border-gray-200 bg-gray-100/30 hover:bg-gray-100">
+              <li>
+              <span class="text-dark_mode">
+                1.05 ETH
+              </span>
+              </li>
+              <li>
+              <span class="text-dark_mode">
+                8% below
+              </span>
+              </li>
+              <li class="col-span-2">
+              <span class="text-dark_mode">
+                2022-07-18 10:04
+              </span>
+              </li>
+              <li class="col-span-2">
+              <span class="text-dark_mode">
+                <a href="#" class="underline text-dark_mode hover:text-nft_institutional">Rarepep</a>
+              </span>
+              </li>
+            </ul>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  {# nft__related-collections #}
+  <section class="nft__related-collections mt-24 px-36 xl:max-w-full lg:container">
+    <div class="flex items-center justify-between">
+      <h5 class="text-dark_mode  font-medium">
+        More from this collection
+      </h5>
+    </div>
+    <div class="grid grid-cols-4 gap-4 mt-10">
+      {% for nft in nfts %}
+        <div class="basis-3/12 ">
+          {% include '_modules/card-nft/card-nft.nunjucks' %}
+        </div>
+      {% endfor %}
+    </div>
+    <div class="nft__load-more-button flex justify-center mt-10">
+      <button type="button" class="py-3 px-12 mr-4 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium">
+        Load more
+      </button>
+    </div>
+  </section>
+  {# nft__steps-to-start #}
+  {% include '_modules/steps-to-start/steps-to-start.nunjucks' %}
+{% endblock %}

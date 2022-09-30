@@ -1,0 +1,224 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../../../' %}
+  {% set pageTitle = 'Creator details' %}
+  {% set slug = 'creator-details' %}
+  {% set collections = range(0, 32) %}
+{% endblock %}
+
+{% block content %}
+  {# nft__hero-cover-creator-details #}
+  <section class="nft__hero-cover-creator-details mt-24 px-20 xl:max-w-full lg:container">
+    <figure class="relative">
+      <img
+        src="{{ site.data.configs.imageUrl }}creators/cover-creator.jpg"
+        alt="Cover creator"
+        class="w-full h-[40vh] rounded-xl border-4 border-solid border-gray-100 object-cover"
+      >
+      <figcaption class="absolute bottom-4 right-4">
+        <button
+          type="button"
+          class="py-2 px-4 flex items-center justify-center rounded-full bg-nft_institutional hover:bg-nft_institutional_dark text-dark_mode text-sm font-medium"
+        >
+          <i class="fa-solid fa-share-nodes mr-3 text-lg"></i>
+          Share
+        </button>
+      </figcaption>
+    </figure>
+    <div class="px-16 xl:max-w-full lg:container">
+      <div class="flex justify-between">
+        <div class="basis-6/12">
+          <figure class="relative z-10 mt-[-100px]">
+            <img
+              src="{{ site.data.configs.imageUrl }}creators/avatar-profile-creator.jpg"
+              alt="Avatar profile creator"
+              class="w-36 h-36 rounded-full object-cover border-4 border-solid border-gray-100"
+            >
+            <figcaption class="mt-6">
+              <h5 class="text-dark_mode font-semibold">
+                Monkey Leahpar
+                <span class="relative align-middle ml-2">
+                  <i class="fa-solid fa-certificate text-nft_institutional text-2xl"></i>
+                  <i class="fa-solid fa-check text-light_mode text-lg absolute top-[1px] left-[3px]"></i>
+                </span>
+              </h5>
+              <h6 class="text-base text-gray-300">
+                @monkeyleahpar
+              </h6>
+            </figcaption>
+          </figure>
+          <div class="mt-10">
+            <p class="text-dark_mode leading-loose">
+              Artist based in Germany.<br/>
+              My work revolves around human emotion and our mind states.
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+            </p>
+          </div>
+        </div>
+        <div class="basis-4/12">
+          <div class="flex flex-row items-start justify-end mt-16">
+            <hgroup class="first:ml-0">
+              <h5 class="text-dark_mode text-xl font-semibold">90.19 ETH</h5>
+              <h6 class="text-gray-300 text-sm">Total balance</h6>
+              {# <h6 class="text-nft_institutional text-sm mt-1">111,237 $</h6> #}
+            </hgroup>
+            <hgroup class="ml-10">
+              <h5 class="text-dark_mode text-xl font-semibold">115</h5>
+              <h6 class="text-gray-300 text-sm">Following</h6>
+            </hgroup>
+            <hgroup class="ml-10">
+              <h5 class="text-dark_mode text-xl font-semibold">88</h5>
+              <h6 class="text-gray-300 text-sm">Followers</h6>
+            </hgroup>
+          </div>
+          <div class="flex flex-row items-start justify-end mt-16">
+            <hgroup class="first:ml-4">
+              <h6 class="text-gray-300 text-sm">Joined on</h6>
+              <h6 class="mt-1 text-dark_mode text-base font-semibold">July 2022</h6>
+            </hgroup>
+            <div class="ml-14">
+              <h6 class="text-gray-300 text-sm">Followed by</h6>
+              <div class="flex -space-x-4 mt-2">
+                {% for alt, src in site.data.avatars %}
+                  <img
+                    src="{{ site.data.configs.imageUrl }}{{ src }}"
+                    alt="{{ alt }}"
+                    class="w-10 h-10 rounded-full border-2 border-solid border-gray-100 shadow-lg object-cover"
+                  >
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {# nft__main-creator-details #}
+  <section class="nft__main-creator-details px-36 mt-16 xl:max-w-full lg:container">
+    <div class="flex flex-row items-center">
+      <div class="basis-8/12">
+        <div class="border-b border-gray-200">
+          <ul class="flex flex-wrap text-lg font-semibold text-center" data-tabs-toggle="#tab-main-creator-details" role="tablist">
+            <li class="mr-2" role="presentation">
+              <button
+                class="inline-block p-3 pb-2 border-b-2 !border-dark_mode !hover:border-gray-200 !text-dark_mode"
+                id="tab-nfts"
+                data-tabs-target="#nfts"
+                type="button"
+                role="tab"
+                aria-controls="nfts"
+                aria-selected="false"
+              >
+                Collections
+                <span class="ml-2">1,567</span>
+              </button>
+            </li>
+            <li class="mr-2" role="presentation">
+              <button
+                class="inline-block p-3 pb-2 !text-gray-300 pointer-events-none"
+                id="tab-on-bid"
+                data-tabs-target="#on-bid"
+                type="button"
+                role="tab"
+                aria-controls="on-bid"
+                aria-selected="false"
+              >
+                On Bid
+                <span class="ml-2">8</span>
+              </button>
+            </li>
+            <li class="mr-2" role="presentation">
+              <button
+                class="inline-block p-3 pb-2 !text-gray-300 pointer-events-none"
+                id="tab-owned"
+                data-tabs-target="#owned"
+                type="button"
+                role="tab"
+                aria-controls="owned"
+                aria-selected="false"
+              >
+                Owned
+                <span class="ml-2">890</span>
+              </button>
+            </li>
+            <li class="mr-2" role="presentation">
+              <button
+                class="inline-block p-3 pb-2 !text-gray-300 pointer-events-none"
+                id="tab-liked"
+                data-tabs-target="#liked"
+                type="button"
+                role="tab"
+                aria-controls="liked"
+                aria-selected="false"
+              >
+                Liked
+                <span class="ml-2">415,673</span>
+              </button>
+            </li>
+            <li class="last:mr-0" role="presentation">
+              <button
+                class="inline-block p-3 pb-2 !text-gray-300 pointer-events-none"
+                id="tab-activities"
+                data-tabs-target="#activities"
+                type="button"
+                role="tab"
+                aria-controls="activities"
+                aria-selected="false"
+              >
+                Activities
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="basis-4/12">
+        <div class="flex flex-row justify-end">
+          <button
+            type="button"
+            class="py-1 px-4 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-100"
+          >
+            <i class="fa-solid fa-arrow-up-wide-short mr-4 text-lg"></i>
+            Price range
+          </button>
+          <button
+            type="button"
+            class="py-1 px-4 last:mr-0 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-100"
+          >
+            <i class="fa-solid fa-arrow-up-wide-short mr-4 text-lg"></i>
+            Recently listed
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="tab-main-creator-details" class="mt-10">
+      <div class="hidden" id="nfts" role="tabpanel" aria-labelledby="tab-nfts">
+        <div class="grid grid-cols-4 gap-4">
+          {% for collection in collections %}
+            {% include '_modules/card-collection/card-collection.nunjucks' %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="hidden" id="on-bid" role="tabpanel" aria-labelledby="tab-on-bid">
+        <span>Tab content - On Bid</span>
+      </div>
+      <div class="hidden" id="owned" role="tabpanel" aria-labelledby="tab-owned">
+        <span>Tab content - Owned</span>
+      </div>
+      <div class="hidden" id="liked" role="tabpanel" aria-labelledby="tab-liked">
+        <span>Tab content - Liked</span>
+      </div>
+      <div class="hidden" id="activities" role="tabpanel" aria-labelledby="tab-activities">
+        <span>Tab content - Activities</span>
+      </div>
+    </div>
+    <div class="nft__load-more-button flex justify-center mt-10">
+      <button type="button" class="py-3 px-12 mr-4 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium">
+        Load more
+      </button>
+    </div>
+  </section>
+  {# nft__steps-to-start #}
+  {% include '_modules/steps-to-start/steps-to-start.nunjucks' %}
+{% endblock %}

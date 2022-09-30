@@ -5,6 +5,7 @@
 
 import 'core-js';
 import 'regenerator-runtime/runtime';
+import './tailwind.config';
 
 (function() {
   console.log('Ready');
