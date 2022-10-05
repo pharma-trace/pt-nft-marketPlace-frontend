@@ -9,11 +9,14 @@
       <form id="footer-newsletter" class="mt-10">
         <div class="relative">
           <input
-            type="search"
-            class="block py-4 px-6 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:ring-gray-300/60 focus:border-gray-300/60"
+            type="text"
+            name="newsletter_email"
+            id="newsletter-email"
+            class="block mt-2 py-4 px-6 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
             placeholder="Enter your email to get started"
+            autocomplete="off"
             required
-          >
+          />
           <button
             type="submit"
             class="absolute right-1 bottom-1 rounded-lg text-dark_mode text-sm font-medium px-7 py-3 bg-nft_institutional hover:bg-nft_institutional_dark focus:outline-none focus:ring-blue-300"

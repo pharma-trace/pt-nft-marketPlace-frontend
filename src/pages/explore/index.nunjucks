@@ -105,7 +105,7 @@
       </div>
     </div>
     <div class="nft__load-more-button flex justify-center mt-10">
-      <button type="button" class="py-3 px-12 mr-4 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium">
+      <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium">
         Load more
       </button>
     </div>

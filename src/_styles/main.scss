@@ -59,8 +59,69 @@ body {
 // Pages
 // Homepage
 .nft__hero {
-  height: calc(100vh + 76px);
-  box-sizing: border-box;
   background: linear-gradient(130deg, rgba(255,255,255,1) 0%, rgba(238,197,43,0.3) 100%);
   clip-path: ellipse(135% 100% at 50% 0%);
+}
+
+// Components
+.nft__select-box {
+  &--current {
+    position: relative;
+    cursor: pointer;
+    outline: none;
+
+    &:focus {
+      & + .nft__select-box--list {
+        opacity: 1;
+        animation-name: none;
+
+        .nft__select-box--option {
+          cursor: pointer;
+        }
+      }
+
+      .nft__select-box--icon {
+        transform: translateY(-50%) rotate(180deg);
+      }
+    }
+  }
+
+  &--icon {
+    transform: translateY(-50%);
+    transition: 0.2s ease;
+  }
+
+  &--input {
+    display: none !important;
+
+    &:checked + .nft__select-box--input-text {
+      display: block;
+    }
+  }
+
+  &--input-text {
+    display: none;
+  }
+
+  &--list {
+    opacity: 0;
+    animation-name: HideList;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: step-start;
+  }
+
+  &--option {
+    display: block;
+  }
+}
+
+@keyframes HideList {
+  from {
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleY(0);
+  }
 }

@@ -9,5 +9,6 @@ import './tailwind.config';
 
 (function() {
   console.log('Ready');
+  //document.querySelector('input[name = "category"]:checked').value;
 })();
 

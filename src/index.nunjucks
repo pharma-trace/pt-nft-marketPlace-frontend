@@ -22,6 +22,31 @@
           <li>
             <a href="/pages/creator-details/index.html" target="_blank">Creator details</a>
           </li>
+          <li>
+            Account
+            <ul>
+              <li>
+                Create
+                <ul>
+                  <li>
+                    <a href="/pages/account/create/choose-type/index.html" target="_blank">Choose Type</a>
+                  </li>
+                  <li>
+                    <a href="/pages/account/create/choose-type-single/index.html" target="_blank">Choose Type Single</a>
+                  </li>
+                  <li>
+                    <a href="/pages/account/create/choose-type-multiple/index.html" target="_blank">Choose Type Multiple</a>
+                  </li>
+                  <li>
+                    <a href="/pages/account/create/choose-type-create-auction/index.html" target="_blank">Choose Type Create and Auction</a>
+                  </li>
+                  <li>
+                    <a href="/pages/account/create/collection/index.html" target="_blank">Collection</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
         </ul>
       </li>
     </ul>

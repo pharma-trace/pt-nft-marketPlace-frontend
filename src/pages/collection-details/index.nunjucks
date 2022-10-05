@@ -16,7 +16,7 @@
         src="{{ site.data.configs.imageUrl }}collections/cover-collection.jpg"
         alt="Cover collection"
         class="w-full h-[60vh] rounded-xl border-4 border-solid border-gray-100 object-cover"
-      >
+      />
       <figcaption class="absolute bottom-4 right-4">
         <button
           type="button"
@@ -35,7 +35,7 @@
               src="{{ site.data.configs.imageUrl }}collections/avatar-profile-collection.jpg"
               alt="Avatar profile collection"
               class="w-36 h-36 rounded-lg object-cover border-4 border-solid border-gray-100"
-            >
+            />
             <figcaption class="mt-6">
               <h5 class="text-dark_mode font-semibold">
                 Doodles
@@ -145,7 +145,7 @@
       </div>
     </div>
     <div class="nft__load-more-button flex justify-center mt-10">
-      <button type="button" class="py-3 px-12 mr-4 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium">
+      <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium">
         Load more
       </button>
     </div>

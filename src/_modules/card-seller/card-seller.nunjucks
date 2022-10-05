@@ -9,7 +9,7 @@
       src="{{ site.data.configs.imageUrl }}/avatars/avatar-1.jpg"
       alt="Avatar 1"
       class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover"
-    >
+    />
     <figcaption class="ml-4">
       <span class="block text-dark_mode text-sm font-semibold">
         Apocalypse Monkeys

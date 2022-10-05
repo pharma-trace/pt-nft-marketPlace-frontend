@@ -54,12 +54,20 @@
 <![endif]-->
 
 {# header #}
-{% include '_modules/header/header.nunjucks' %}
+{% if segment == 'account' %}
+  {% include '_modules/header-logged/header-logged.nunjucks' %}
+{% else %}
+  {% include '_modules/header/header.nunjucks' %}
+{% endif %}
 
 {% block content %}{% endblock %}
 
 {# footer #}
-{% include '_modules/footer/footer.nunjucks' %}
+{% if segment == 'account' %}
+  {% include '_modules/footer-logged/footer-logged.nunjucks' %}
+{% else %}
+  {% include '_modules/footer/footer.nunjucks' %}
+{% endif %}
 
 <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
 <script src="{{ baseUrl }}scripts/main.js"></script>
