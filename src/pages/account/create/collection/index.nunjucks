@@ -230,7 +230,7 @@
                 <label for="collection-image-file" class="w-32 h-32 rounded-full cursor-pointer">
                   <span
                     style="background-image: url('{{ site.data.configs.imageUrl }}commons/gradient-image.png');"
-                    class="w-32 h-32 bg-no-repeat bg-cover rounded-full border-4 border-solid border-gray-100"
+                    class="block w-32 h-32 bg-no-repeat bg-cover rounded-full border-4 border-solid border-gray-100"
                   ></span>
                   <input
                     type="file"
@@ -252,7 +252,7 @@
                 <label for="banner-image-file" class="w-32 h-32 rounded-lg cursor-pointer">
                   <span
                     style="background-image: url('{{ site.data.configs.imageUrl }}commons/gradient-image.png');"
-                    class="w-32 h-32 bg-no-repeat bg-cover rounded-lg border-4 border-solid border-gray-100"
+                    class="block w-32 h-32 bg-no-repeat bg-cover rounded-lg border-4 border-solid border-gray-100"
                   ></span>
                   <input
                     type="file"
