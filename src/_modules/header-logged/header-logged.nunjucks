@@ -38,7 +38,7 @@
       </button>
       <figure>
         <img
-          src="{{ site.data.configs.imageUrl }}/avatars/avatar-10.jpg"
+          src="{{ site.data.configs.imageUrl }}avatars/avatar-10.jpg"
           alt="Avatar 10"
           class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover"
         />

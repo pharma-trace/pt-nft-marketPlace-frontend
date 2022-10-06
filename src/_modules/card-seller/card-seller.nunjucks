@@ -6,7 +6,7 @@
   </div>
   <figure class="flex flex-row items-center ml-4">
     <img
-      src="{{ site.data.configs.imageUrl }}/avatars/avatar-1.jpg"
+      src="{{ site.data.configs.imageUrl }}savatars/avatar-1.jpg"
       alt="Avatar 1"
       class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover"
     />

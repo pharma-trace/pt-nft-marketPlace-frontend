@@ -78,7 +78,7 @@
             </h6>
             <figure class="flex flex-row items-center mt-4 relative">
               <img
-                src="{{ site.data.configs.imageUrl }}/avatars/avatar-6.jpg"
+                src="{{ site.data.configs.imageUrl }}avatars/avatar-6.jpg"
                 alt="Avatar 6"
                 class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover"
               />
@@ -102,7 +102,7 @@
             </h6>
             <figure class="flex flex-row items-center mt-4">
               <img
-                src="{{ site.data.configs.imageUrl }}/avatars/avatar-9.jpg"
+                src="{{ site.data.configs.imageUrl }}avatars/avatar-9.jpg"
                 alt="Avatar 9"
                 class="w-14 h-14 rounded-xl border-2 border-solid border-gray-100 object-cover"
               />

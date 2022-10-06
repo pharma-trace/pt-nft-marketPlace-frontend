@@ -35,15 +35,15 @@
                 </span>
                 <div class="flex justify-center items-center w-full">
                   <label for="nft-image-file" class="flex flex-col justify-center items-center w-full h-64 rounded-lg border border-gray-300 border-dashed bg-gray-100/50 hover:bg-gray-100 cursor-pointer ">
-                    <div class="flex flex-col justify-center items-center pt-5 pb-6">
+                    <span class="flex flex-col justify-center items-center pt-5 pb-6">
                       <i class="fa-solid fa-cloud-arrow-up text-nft_institutional text-6xl"></i>
                       <span class="block mt-3 text-dark_mode text-base font-semibold">
-                      Select a file to upload
-                    </span>
+                        Select a file to upload
+                      </span>
                       <span class="block text-gray-300 text-sm">
-                      max size: 100 MB
+                        max size: 100 MB
+                      </span>
                     </span>
-                    </div>
                     <input
                       type="file"
                       name="nft_image_file"
@@ -62,7 +62,7 @@
                   type="text"
                   name="name"
                   id="name"
-                  class="block py-4 px-6 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
+                  class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
                   placeholder="Enter item name"
                   autocomplete="off"
                   required
@@ -77,7 +77,7 @@
                   name="description"
                   id="description"
                   rows="4"
-                  class="block resize-none py-4 px-6 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
+                  class="block resize-none p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
                   placeholder="Provide a detailed description of your item"
                 ></textarea>
               </div>
@@ -87,7 +87,7 @@
                   {% for category in selectCategories %}
                     <div class="nft__select-box--value flex">
                       <input class="nft__select-box--input" type="radio" name="category" id="category-{{ loop.index }}" value="{{ category | lower }}" {% if loop.first %} checked="checked" {% endif %} />
-                      <p class="nft__select-box--input-text py-4 px-6 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent focus:border-gray-300/60">
+                      <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent focus:border-gray-300/60">
                         {{ category }}
                       </p>
                     </div>
@@ -97,7 +97,7 @@
                 <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60">
                   {% for category in selectCategories %}
                     <li class="rounded-lg bg-light_mode hover:bg-gray-100/40">
-                      <label class="nft__select-box--option py-4 px-6 text-dark_mode text-sm font-medium" for="category-{{ loop.index }}" aria-hidden="aria-hidden">{{ category }}</label>
+                      <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium" for="category-{{ loop.index }}" aria-hidden="true">{{ category }}</label>
                     </li>
                   {% endfor %}
                 </ul>
@@ -108,7 +108,7 @@
                   type="number"
                   name="supply"
                   id="name"
-                  class="block py-4 px-6 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
+                  class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
                   placeholder="Enter the number of items that can be minted"
                   autocomplete="off"
                   min="0"
@@ -121,7 +121,7 @@
                   {% for paymentToken in selectPaymentTokens %}
                     <div class="nft__select-box--value flex">
                       <input class="nft__select-box--input" type="radio" name="payment_token" id="payment-token-{{ loop.index }}" value="{{ paymentToken | lower }}" {% if loop.first %} checked="checked" {% endif %} />
-                      <p class="nft__select-box--input-text py-4 px-6 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent focus:border-gray-300/60">
+                      <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent focus:border-gray-300/60">
                         {{ paymentToken }}
                       </p>
                     </div>
@@ -131,7 +131,7 @@
                 <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60">
                   {% for paymentToken in selectPaymentTokens %}
                     <li class="rounded-lg bg-light_mode hover:bg-gray-100/40">
-                      <label class="nft__select-box--option py-4 px-6 text-dark_mode text-sm font-medium" for="payment-token-{{ loop.index }}" aria-hidden="aria-hidden">{{ paymentToken }}</label>
+                      <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium" for="payment-token-{{ loop.index }}" aria-hidden="true">{{ paymentToken }}</label>
                     </li>
                   {% endfor %}
                 </ul>
@@ -145,7 +145,7 @@
                   {% for collection in collections %}
                     <div class="nft__select-box--value flex">
                       <input class="nft__select-box--input" type="radio" name="collection" id="collection-{{ loop.index }}" value="{{ collection | lower }}" {% if loop.first %} checked="checked" {% endif %} />
-                      <p class="nft__select-box--input-text py-4 px-6 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent focus:border-gray-300/60">
+                      <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent focus:border-gray-300/60">
                         {{ collection }}
                       </p>
                     </div>
@@ -155,7 +155,7 @@
                 <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60">
                   {% for collection in collections %}
                     <li class="rounded-lg bg-light_mode hover:bg-gray-100/40">
-                      <label class="nft__select-box--option py-4 px-6 text-dark_mode text-sm font-medium" for="collection-{{ loop.index }}" aria-hidden="aria-hidden">{{ collection }}</label>
+                      <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium" for="collection-{{ loop.index }}" aria-hidden="true">{{ collection }}</label>
                     </li>
                   {% endfor %}
                 </ul>
@@ -166,7 +166,7 @@
                   type="number"
                   name="minimum_bid"
                   id="name"
-                  class="block py-4 px-6 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
+                  class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
                   placeholder="Enter the minimum bid"
                   autocomplete="off"
                   min="0.15"
@@ -180,7 +180,7 @@
                   {% for expirationDate in expirationDates %}
                     <div class="nft__select-box--value flex">
                       <input class="nft__select-box--input" type="radio" name="expiration_date" id="expiration-date-{{ loop.index }}" value="{{ expirationDate | lower }}" {% if loop.first %} checked="checked" {% endif %} />
-                      <p class="nft__select-box--input-text py-4 px-6 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent focus:border-gray-300/60">
+                      <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent focus:border-gray-300/60">
                         {{ expirationDate }}
                       </p>
                     </div>
@@ -190,15 +190,15 @@
                 <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60">
                   {% for expirationDate in expirationDates %}
                     <li class="rounded-lg bg-light_mode hover:bg-gray-100/40">
-                      <label class="nft__select-box--option py-4 px-6 text-dark_mode text-sm font-medium" for="expiration-date-{{ loop.index }}" aria-hidden="aria-hidden">{{ expirationDate }}</label>
+                      <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium" for="expiration-date-{{ loop.index }}" aria-hidden="true">{{ expirationDate }}</label>
                     </li>
                   {% endfor %}
                 </ul>
               </div>
               <div class="mt-8 flex items-center justify-between">
-                <span for="name" class="block mb-2 text-dark_mode text-sm font-semibold">
+                <span class="block mb-2 text-dark_mode text-sm font-semibold">
                   Properties
-                  <span class="block text-gray-300 leading-relaxed font-normal">
+                  <span class="block mt-1 text-gray-300 leading-relaxed font-normal">
                     Textual traits that show up as rectangles.
                   </span>
                 </span>
@@ -210,15 +210,15 @@
                 </button>
               </div>
               <div class="mt-8 flex items-center justify-between">
-                <span for="name" class="block mb-2 text-dark_mode text-sm font-semibold">
+                <span class="block mb-2 text-dark_mode text-sm font-semibold">
                   Explicit & Sensitive Content
-                  <span class="block text-gray-300 leading-relaxed font-normal">
+                  <span class="block mt-1 text-gray-300 leading-relaxed font-normal">
                     Set this item as explicit and sensitive content.
                   </span>
                 </span>
                 <label for="explicit-content" class="inline-flex relative items-center mr-2 cursor-pointer">
                   <input type="checkbox" name="explicit_content" id="explicit-content" class="sr-only peer">
-                  <div class="w-11 h-6 bg-gray-300/30 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-nft_institutional"></div>
+                  <span class="w-11 h-6 bg-gray-300/30 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-nft_institutional"></span>
                 </label>
               </div>
               <div class="mt-8">
@@ -226,7 +226,7 @@
                   Freeze metadata
                   <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base"></i>
                 </span>
-                <span class="block py-4 px-6 w-full text-gray-300 text-sm font-normal bg-gray-100/30 rounded-lg">
+                <span class="block p-4 w-full text-gray-300 text-sm font-normal bg-gray-100/30 rounded-lg">
                   To freeze your metadata, you must create your item first
                 </span>
               </div>

@@ -2,21 +2,21 @@
   <div class="grid grid-rows-4 grid-flow-col gap-x-4">
     <figure class="row-span-4 col-span-2">
       <img
-        src="{{ site.data.configs.imageUrl }}/collections/doodle-1.jpg"
+        src="{{ site.data.configs.imageUrl }}collections/doodle-1.jpg"
         alt="Doodle 1"
         class="w-full h-[280px] rounded-lg object-cover"
       />
     </figure>
     <figure class="row-span-2 self-start">
       <img
-        src="{{ site.data.configs.imageUrl }}/collections/doodle-2.jpg"
+        src="{{ site.data.configs.imageUrl }}collections/doodle-2.jpg"
         alt="Doodle 2"
         class="w-full h-[133px] rounded-lg object-cover"
       />
     </figure>
     <figure class="row-span-2 self-end">
       <img
-        src="{{ site.data.configs.imageUrl }}/collections/doodle-3.jpg"
+        src="{{ site.data.configs.imageUrl }}collections/doodle-3.jpg"
         alt="Doodle 3"
         class="w-full h-[133px] rounded-lg object-cover"
       />

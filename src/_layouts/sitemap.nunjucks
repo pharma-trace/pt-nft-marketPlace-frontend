@@ -14,21 +14,55 @@
   <meta name="description" content="Code repository for Markup (HTML/CSS)"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
-  <link rel="stylesheet" href="{{ baseUrl }}styles/main.css"/>
-  {% block stylesheets %}{% endblock %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  {% block stylesheets %}
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
 
+     .browsehappy {
+        text-align: center;
+        margin: 0;
+        background: #fff8e2;
+        color: #000;
+        padding: 0.5em 0;
+     }
+
+    .sitemap {
+      max-width: 1200px;
+      margin: auto;
+      color: #333333;
+    }
+
+    .sitemap ul li {
+      margin: 10px 0;
+      font-size: 1.125rem;
+    }
+
+    .sitemap ul li ul li {
+      font-size: 1rem;
+    }
+
+    .sitemap ul li a {
+      text-decoration: none;
+      color: #00A4EB;
+    }
+    </style>
+  {% endblock %}
 </head>
 <body>
 <!--[if lt IE 11]>
 <p class="browsehappy">
-  You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>
+  You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a>
   to improve your experience.
 </p>
 <![endif]-->
 
 {% block content %}{% endblock %}
 
-<script src="{{ baseUrl }}scripts/main.js"></script>
 {% block scripts %}{% endblock %}
 </body>
 </html>

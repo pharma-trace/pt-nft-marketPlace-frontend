@@ -8,11 +8,12 @@
       </h5>
       <form id="footer-newsletter" class="mt-10">
         <div class="relative">
+          <label for="newsletter-email" class="hidden">Email address*</label>
           <input
             type="text"
             name="newsletter_email"
             id="newsletter-email"
-            class="block mt-2 py-4 px-6 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
+            class="block mt-2 p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
             placeholder="Enter your email to get started"
             autocomplete="off"
             required

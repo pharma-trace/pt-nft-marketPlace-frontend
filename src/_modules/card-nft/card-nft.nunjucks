@@ -1,7 +1,7 @@
 <div class="nft__card_collection py-4 px-4 border border-solid border-gray-100 rounded-xl hover:bg-gray-100">
   <figure class="relative">
     <img
-      src="{{ site.data.configs.imageUrl }}/nfts/crypto-goro-6.jpg"
+      src="{{ site.data.configs.imageUrl }}nfts/crypto-goro-6.jpg"
       alt="Crypto Goro #006"
       class="w-full h-[280px] rounded-lg object-cover"
     />
@@ -13,7 +13,7 @@
   <div class="mt-4">
     <figure class="flex flex-row items-center">
       <img
-        src="{{ site.data.configs.imageUrl }}/avatars/avatar-2.jpg"
+        src="{{ site.data.configs.imageUrl }}avatars/avatar-2.jpg"
         alt="Avatar 1"
         class="w-12 h-12 rounded-full border-2 border-solid border-gray-100 object-cover"
       />

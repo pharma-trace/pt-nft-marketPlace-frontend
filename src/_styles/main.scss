@@ -22,31 +22,6 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-// Sitemap
-.sitemap {
-  max-width: 1200px;
-  margin: auto;
-  color: #333333;
-
-  ul {
-    li {
-      margin: 10px 0;
-      font-size: 1.125rem;
-
-      a {
-        text-decoration: none;
-        color: #00A4EB;
-      }
-
-      ul {
-        li {
-          font-size: 1rem;
-        }
-      }
-    }
-  }
-}
-
 // Styling on warning for users on IE7 or below
 .browsehappy {
   text-align: center;
