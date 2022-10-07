@@ -7,7 +7,6 @@
   {% set segment = 'account' %}
   {% set slug = 'account-create-choose-type-create-and-auction' %}
   {% set selectCategories = ['Art', 'Utility', 'Photo'] %}
-  {% set selectPaymentTokens = ['ETH', 'wETH'] %}
   {% set collections = ['Collection 1', 'Collection 2', 'Collection 3'] %}
   {% set expirationDates = ['1 day', '3 days', '5 days'] %}
 {% endblock %}
@@ -15,247 +14,216 @@
 {% block content %}
   {# nft__create-choose-type-create-auction #}
   <section class="nft__create-choose-type-create-auction mt-36 px-36 xl:max-w-full lg:container">
-    <div class="flex">
-      <div class="ml-[25%] basis-9/12">
-        <hgroup>
-          <h4 class="text-dark_mode font-semibold">
-            Create and Auction
-          </h4>
-          <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold">
-            Create NFT edition on Ethereum and auction
-            at the same time.
-          </h6>
-        </hgroup>
-        <div class="flex flex-row gap-4 mt-10">
-          <div class="basis-6/12">
-            <form id="create-choose-type-create-auction">
-              <div>
-                <span class="block mb-2 text-dark_mode text-sm font-semibold">
-                  Image, Video or Audio file*
-                </span>
-                <div class="flex justify-center items-center w-full">
-                  <label for="nft-image-file" class="flex flex-col justify-center items-center w-full h-64 rounded-lg border border-gray-300 border-dashed bg-gray-100/50 hover:bg-gray-100 cursor-pointer ">
-                    <span class="flex flex-col justify-center items-center pt-5 pb-6">
-                      <i class="fa-solid fa-cloud-arrow-up text-nft_institutional text-6xl"></i>
-                      <span class="block mt-3 text-dark_mode text-base font-semibold">
-                        Select a file to upload
-                      </span>
-                      <span class="block text-gray-300 text-sm">
-                        max size: 100 MB
-                      </span>
-                    </span>
-                    <input
-                      type="file"
-                      name="nft_image_file"
-                      id="nft-image-file"
-                      class="hidden"
-                    />
-                  </label>
-                </div>
-                <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed">
-                  File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV, OGG, GLB, GLTF.<br/>
-                </span>
-              </div>
-              <div class="mt-10">
-                <label for="name" class="block mb-2 text-dark_mode text-sm font-semibold">Name*</label>
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
-                  placeholder="Enter item name"
-                  autocomplete="off"
-                  required
-                />
-              </div>
-              <div class="mt-8">
-                <div class="flex items-center justify-between">
-                  <label for="description" class="block mb-2 text-dark_mode text-sm font-semibold">Description*</label>
-                  <span class="text-gray-300 text-xs font-medium">0 / 200</span>
-                </div>
-                <textarea
-                  name="description"
-                  id="description"
-                  rows="4"
-                  class="block resize-none p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
-                  placeholder="Provide a detailed description of your item"
-                ></textarea>
-              </div>
-              <div class="nft__select-box mt-8 block w-full relative my-0 mx-auto">
-                <label class="block mb-2 text-dark_mode text-sm font-semibold">Category*</label>
-                <div class="nft__select-box--current" tabindex="1">
-                  {% for category in selectCategories %}
-                    <div class="nft__select-box--value flex">
-                      <input class="nft__select-box--input" type="radio" name="category" id="category-{{ loop.index }}" value="{{ category | lower }}" {% if loop.first %} checked="checked" {% endif %} />
-                      <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent focus:border-gray-300/60">
-                        {{ category }}
-                      </p>
-                    </div>
-                  {% endfor %}
-                  <i class="nft__select-box--icon fa-solid fa-angle-down absolute top-[50%] right-[15px] text-gray-300"></i>
-                </div>
-                <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60">
-                  {% for category in selectCategories %}
-                    <li class="rounded-lg bg-light_mode hover:bg-gray-100/40">
-                      <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium" for="category-{{ loop.index }}" aria-hidden="true">{{ category }}</label>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-              <div class="mt-8">
-                <label for="supply" class="block mb-2 text-dark_mode text-sm font-semibold">Supply*</label>
-                <input
-                  type="number"
-                  name="supply"
-                  id="name"
-                  class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
-                  placeholder="Enter the number of items that can be minted"
-                  autocomplete="off"
-                  min="0"
-                  required
-                />
-              </div>
-              <div class="nft__select-box mt-8 block w-full relative my-0 mx-auto">
-                <label class="block mb-2 text-dark_mode text-sm font-semibold">Payment tokens*</label>
-                <div class="nft__select-box--current" tabindex="1">
-                  {% for paymentToken in selectPaymentTokens %}
-                    <div class="nft__select-box--value flex">
-                      <input class="nft__select-box--input" type="radio" name="payment_token" id="payment-token-{{ loop.index }}" value="{{ paymentToken | lower }}" {% if loop.first %} checked="checked" {% endif %} />
-                      <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent focus:border-gray-300/60">
-                        {{ paymentToken }}
-                      </p>
-                    </div>
-                  {% endfor %}
-                  <i class="nft__select-box--icon fa-solid fa-angle-down absolute top-[50%] right-[15px] text-gray-300"></i>
-                </div>
-                <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60">
-                  {% for paymentToken in selectPaymentTokens %}
-                    <li class="rounded-lg bg-light_mode hover:bg-gray-100/40">
-                      <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium" for="payment-token-{{ loop.index }}" aria-hidden="true">{{ paymentToken }}</label>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-              <div class="nft__select-box mt-8 block w-full relative my-0 mx-auto">
-                <label class="block mb-2 text-dark_mode text-sm font-semibold">
-                  Collection
-                  <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base"></i>
-                </label>
-                <div class="nft__select-box--current" tabindex="1">
-                  {% for collection in collections %}
-                    <div class="nft__select-box--value flex">
-                      <input class="nft__select-box--input" type="radio" name="collection" id="collection-{{ loop.index }}" value="{{ collection | lower }}" {% if loop.first %} checked="checked" {% endif %} />
-                      <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent focus:border-gray-300/60">
-                        {{ collection }}
-                      </p>
-                    </div>
-                  {% endfor %}
-                  <i class="nft__select-box--icon fa-solid fa-angle-down absolute top-[50%] right-[15px] text-gray-300"></i>
-                </div>
-                <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60">
-                  {% for collection in collections %}
-                    <li class="rounded-lg bg-light_mode hover:bg-gray-100/40">
-                      <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium" for="collection-{{ loop.index }}" aria-hidden="true">{{ collection }}</label>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-              <div class="mt-8">
-                <label for="supply" class="block mb-2 text-dark_mode text-sm font-semibold">Minimum bid*</label>
-                <input
-                  type="number"
-                  name="minimum_bid"
-                  id="name"
-                  class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
-                  placeholder="Enter the minimum bid"
-                  autocomplete="off"
-                  min="0.15"
-                  step="0.1"
-                  required
-                />
-              </div>
-              <div class="nft__select-box mt-8 block w-full relative my-0 mx-auto">
-                <label class="block mb-2 text-dark_mode text-sm font-semibold">Expiration Date*</label>
-                <div class="nft__select-box--current" tabindex="1">
-                  {% for expirationDate in expirationDates %}
-                    <div class="nft__select-box--value flex">
-                      <input class="nft__select-box--input" type="radio" name="expiration_date" id="expiration-date-{{ loop.index }}" value="{{ expirationDate | lower }}" {% if loop.first %} checked="checked" {% endif %} />
-                      <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent focus:border-gray-300/60">
-                        {{ expirationDate }}
-                      </p>
-                    </div>
-                  {% endfor %}
-                  <i class="nft__select-box--icon fa-solid fa-angle-down absolute top-[50%] right-[15px] text-gray-300"></i>
-                </div>
-                <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60">
-                  {% for expirationDate in expirationDates %}
-                    <li class="rounded-lg bg-light_mode hover:bg-gray-100/40">
-                      <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium" for="expiration-date-{{ loop.index }}" aria-hidden="true">{{ expirationDate }}</label>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-              <div class="mt-8 flex items-center justify-between">
-                <span class="block mb-2 text-dark_mode text-sm font-semibold">
-                  Properties
-                  <span class="block mt-1 text-gray-300 leading-relaxed font-normal">
-                    Textual traits that show up as rectangles.
+    <div class="ml-[25%] basis-9/12 pl-4">
+      <hgroup>
+        <h4 class="text-dark_mode font-semibold">
+          Create and Auction
+        </h4>
+        <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold">
+          Create NFT edition on Ethereum and auction
+          at the same time.
+        </h6>
+      </hgroup>
+    </div>
+    <div class="flex flex-row gap-4 mt-10 ml-[25%] pl-4">
+      <div class="basis-6/12">
+        <form id="create-choose-type-create-auction">
+          <div>
+            <span class="block mb-2 text-dark_mode text-sm font-semibold">
+              Image, Video or Audio file*
+            </span>
+            <div class="flex justify-center items-center w-full">
+              <label for="nft-image-file" class="flex flex-col justify-center items-center w-full h-64 rounded-lg border border-gray-300 border-dashed bg-gray-100/50 hover:bg-gray-100 cursor-pointer ">
+                <span class="flex flex-col justify-center items-center pt-5 pb-6">
+                  <i class="fa-solid fa-cloud-arrow-up text-nft_institutional text-6xl"></i>
+                  <span class="block mt-3 text-dark_mode text-base font-semibold">
+                    Select a file to upload
+                  </span>
+                  <span class="block text-gray-300 text-sm">
+                    max size: 100 MB
                   </span>
                 </span>
-                <button
-                  type="button"
-                  class="py-3 px-6 rounded-full bg-nft_institutional hover:bg-nft_institutional_dark text-dark_mode text-sm font-medium"
-                >
-                  Add
-                </button>
-              </div>
-              <div class="mt-8 flex items-center justify-between">
-                <span class="block mb-2 text-dark_mode text-sm font-semibold">
-                  Explicit & Sensitive Content
-                  <span class="block mt-1 text-gray-300 leading-relaxed font-normal">
-                    Set this item as explicit and sensitive content.
-                  </span>
-                </span>
-                <label for="explicit-content" class="inline-flex relative items-center mr-2 cursor-pointer">
-                  <input type="checkbox" name="explicit_content" id="explicit-content" class="sr-only peer">
-                  <span class="w-11 h-6 bg-gray-300/30 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-nft_institutional"></span>
-                </label>
-              </div>
-              <div class="mt-8">
-                <span class="block mb-2 text-dark_mode text-sm font-semibold">
-                  Freeze metadata
-                  <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base"></i>
-                </span>
-                <span class="block p-4 w-full text-gray-300 text-sm font-normal bg-gray-100/30 rounded-lg">
-                  To freeze your metadata, you must create your item first
-                </span>
-              </div>
-              <button type="submit" class="py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium">
-                Create NFT
-              </button>
-            </form>
+                <input
+                  type="file"
+                  name="nft_image_file"
+                  id="nft-image-file"
+                  class="hidden"
+                />
+              </label>
+            </div>
+            <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed">
+              File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV, OGG, GLB, GLTF.<br/>
+            </span>
           </div>
-          <div class="basis-4/12 ml-[8.333333%]">
-            <div class="sticky top-36">
-              <div>
-                <span class="block mb-2 text-dark_mode text-sm font-semibold">
-                Preview
+          <div class="mt-10">
+            <label for="name" class="block mb-2 text-dark_mode text-sm font-semibold">Name*</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+              placeholder="Enter item name"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div class="mt-8">
+            <div class="flex items-center justify-between">
+              <label for="description" class="block mb-2 text-dark_mode text-sm font-semibold">Description*</label>
+              <span class="text-gray-300 text-xs font-medium">0 / 200</span>
+            </div>
+            <textarea
+              name="description"
+              id="description"
+              rows="4"
+              class="block resize-none p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+              placeholder="Provide a detailed description of your item"
+            ></textarea>
+          </div>
+          <div class="nft__select-box mt-8 block w-full relative my-0 mx-auto">
+            <label class="block mb-2 text-dark_mode text-sm font-semibold">Category*</label>
+            <div class="nft__select-box--current" tabindex="1">
+              {% for category in selectCategories %}
+                <div class="nft__select-box--value flex">
+                  <input class="nft__select-box--input" type="radio" name="category" id="category-{{ loop.index }}" value="{{ category | lower }}" {% if loop.first %} checked="checked" {% endif %} />
+                  <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent hover:bg-gray-300/30">
+                    {{ category }}
+                  </p>
+                </div>
+              {% endfor %}
+              <i class="nft__select-box--icon fa-solid fa-angle-down absolute top-[50%] right-[15px] text-gray-300"></i>
+            </div>
+            <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60">
+              {% for category in selectCategories %}
+                <li class="rounded-lg bg-light_mode hover:bg-gray-100/40">
+                  <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium" for="category-{{ loop.index }}" aria-hidden="true">{{ category }}</label>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="mt-8">
+            <label for="supply" class="block mb-2 text-dark_mode text-sm font-semibold">Supply*</label>
+            <input
+              type="number"
+              name="supply"
+              id="name"
+              class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+              placeholder="Enter the number of items that can be minted"
+              autocomplete="off"
+              min="0"
+              required
+            />
+          </div>
+          <div class="nft__select-box mt-8 block w-full relative my-0 mx-auto">
+            <label class="block mb-2 text-dark_mode text-sm font-semibold">Collection</label>
+            <div class="nft__select-box--current" tabindex="1">
+              {% for collection in collections %}
+                <div class="nft__select-box--value flex">
+                  <input class="nft__select-box--input" type="radio" name="collection" id="collection-{{ loop.index }}" value="{{ collection | lower }}" {% if loop.first %} checked="checked" {% endif %} />
+                  <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent hover:bg-gray-300/30">
+                    {{ collection }}
+                  </p>
+                </div>
+              {% endfor %}
+              <i class="nft__select-box--icon fa-solid fa-angle-down absolute top-[50%] right-[15px] text-gray-300"></i>
+            </div>
+            <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60">
+              {% for collection in collections %}
+                <li class="rounded-lg bg-light_mode hover:bg-gray-100/40">
+                  <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium" for="collection-{{ loop.index }}" aria-hidden="true">{{ collection }}</label>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="mt-8">
+            <label for="supply" class="block mb-2 text-dark_mode text-sm font-semibold">Minimum bid*</label>
+            <input
+              type="number"
+              name="minimum_bid"
+              id="name"
+              class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+              placeholder="Enter the minimum bid"
+              autocomplete="off"
+              min="0.15"
+              step="0.1"
+              required
+            />
+          </div>
+          <div class="mt-8">
+            <label for="supply" class="block mb-2 text-dark_mode text-sm font-semibold">Expiration Date*</label>
+            <input
+              type="text"
+              name="expiration_date"
+              id="expiration-date"
+              class="datetime-picker block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+              placeholder="Enter the number of items that can be minted"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div class="mt-8 flex items-center justify-between">
+            <span class="block mb-2 text-dark_mode text-sm font-semibold">
+              Properties
+              <span class="block mt-1 text-gray-300 leading-relaxed font-normal">
+                Textual traits that show up as rectangles.
               </span>
-                <div class="nft__card_collection-empty py-4 px-4 border border-solid border-gray-100 rounded-xl">
-                  <div class="animate-pulse">
-                    <div class="w-full h-[280px] rounded-lg bg-gray-100"></div>
-                    <div class="flex flex-row items-center mt-4">
-                      <div class="w-12 h-12 rounded-full bg-gray-100"></div>
-                      <div class="flex flex-col ml-3">
-                        <div class="py-2 bg-gray-100 min-w-[130px]"></div>
-                        <div class="py-2 mt-1 bg-gray-100 min-w-[130px]"></div>
-                      </div>
-                    </div>
-                    <div class="flex items-center justify-between mt-6">
-                      <div class="min-w-[70px] py-2 bg-gray-100"></div>
-                      <div class="min-w-[70px] py-2 bg-gray-100"></div>
-                    </div>
+            </span>
+            <button
+              type="button"
+              class="py-3 px-6 rounded-full bg-nft_institutional text-dark_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-nft_institutional active:bg-nft_institutional_dark active:scale-[0.94] hover:scale-[0.97] ease-out duration-300"
+            >
+              Add
+            </button>
+          </div>
+          <div class="mt-8 flex items-center justify-between">
+            <span class="block mb-2 text-dark_mode text-sm font-semibold">
+              Explicit & Sensitive Content
+              <span class="block mt-1 text-gray-300 leading-relaxed font-normal">
+                Set this item as explicit and sensitive content.
+              </span>
+            </span>
+            <label for="explicit-content" class="inline-flex relative items-center mr-2 cursor-pointer">
+              <input type="checkbox" name="explicit_content" id="explicit-content" class="sr-only peer">
+              <span class="w-11 h-6 bg-gray-300/30 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-nft_institutional"></span>
+            </label>
+          </div>
+          <div class="mt-8">
+            <span class="block mb-2 text-dark_mode text-sm font-semibold">
+              Freeze metadata
+              <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base cursor-pointer hover:scale-110 ease-out duration-300"
+                 data-popover-target="popover-freeze-metadata"
+                 data-popover-placement="bottom"
+                 type="button">
+              </i>
+            </span>
+            <span class="block p-4 w-full text-gray-300 text-sm font-normal bg-gray-100/30 rounded-lg">
+              To freeze your metadata, you must create your item first
+            </span>
+          </div>
+          <button type="submit" class="py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
+            Create NFT
+          </button>
+        </form>
+      </div>
+      <div class="basis-4/12 ml-[8.333333%]">
+        <div class="sticky top-36">
+          <div>
+            <span class="block mb-2 text-dark_mode text-sm font-semibold">
+            Preview
+          </span>
+            <div class="nft__card_collection-empty py-4 px-4 border border-solid border-gray-100 rounded-xl">
+              <div class="animate-pulse">
+                <div class="w-full h-[280px] rounded-lg bg-gray-100"></div>
+                <div class="flex flex-row items-center mt-4">
+                  <div class="w-12 h-12 rounded-full bg-gray-100"></div>
+                  <div class="flex flex-col ml-3">
+                    <div class="py-2 bg-gray-100 min-w-[130px]"></div>
+                    <div class="py-2 mt-1 bg-gray-100 min-w-[130px]"></div>
                   </div>
+                </div>
+                <div class="flex items-center justify-between mt-6">
+                  <div class="min-w-[70px] py-2 bg-gray-100"></div>
+                  <div class="min-w-[70px] py-2 bg-gray-100"></div>
                 </div>
               </div>
             </div>
@@ -264,4 +232,16 @@
       </div>
     </div>
   </section>
+
+  <div data-popover id="popover-freeze-metadata" role="tooltip" class="inline-block absolute invisible z-10 w-72 bg-light_mode rounded-lg border border-gray-100 shadow-sm opacity-0 transition-opacity duration-300">
+    <div class="p-6">
+      <h6 class="text-dark_mode text-base font-semibold">
+        Freeze metadata
+      </h6>
+      <p class="mt-2 text-gray-300 text-sm leading-relaxed">
+        To freeze metadata is to store information about your NFT (name, file type, description, etc) in a decentralized file storage space like IPFS.
+      </p>
+    </div>
+    <div data-popper-arrow></div>
+  </div>
 {% endblock %}

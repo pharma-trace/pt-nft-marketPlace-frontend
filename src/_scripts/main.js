@@ -13,11 +13,27 @@ import ActiveMenuLink from 'active-menu-link';
   console.log('Ready');
   //document.querySelector('input[name = "category"]:checked').value;
 
-  let options = {
-    default: 'paragraph-1',
-    showHash: false
-  };
+  // ActiveMenuLink
+  if ((location.pathname == '/pages/privacy-policy/index.html') ||
+      (location.pathname == '/pages/cookie-policy/index.html') ||
+      (location.pathname == '/pages/terms-of-service/index.html')) {
+    let options = {
+      //default: 'paragraph-1',
+      showHash: false
+    };
 
-  new ActiveMenuLink('.nft__active-menu-link', options);
+    new ActiveMenuLink('.nft__active-menu-link', options);
+  }
+
+  // Flatpickr
+  if (location.pathname.indexOf('/account/create/' > -1)) {
+    let options = {
+      enableTime: true,
+      mode: 'range',
+      position: 'auto center',
+      dateFormat: 'Y-m-d H:i'
+    }
+
+    flatpickr('.datetime-picker', options);
+  }
 })();
-

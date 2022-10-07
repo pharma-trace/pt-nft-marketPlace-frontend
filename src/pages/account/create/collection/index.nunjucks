@@ -6,271 +6,277 @@
   {% set pageTitle = 'Account Create - Collection' %}
   {% set segment = 'account' %}
   {% set slug = 'account-create-collection' %}
-  {% set selectCategories = ['Art', 'Utility', 'Photo'] %}
-  {% set selectPaymentTokens = ['ETH', 'wETH'] %}
-  {% set collections = ['Collection 1', 'Collection 2', 'Collection 3'] %}
 {% endblock %}
 
 {% block content %}
   {# nft__create-collection #}
   <section class="nft__create-collection mt-36 px-36 xl:max-w-full lg:container">
-    <div class="flex">
-      <div class="ml-[25%] basis-9/12">
-        <hgroup>
-          <h4 class="text-dark_mode font-semibold">
-            Create Collection
-          </h4>
-          <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold">
-            Collection Type  ERC-721
-            <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base"></i>
-          </h6>
-        </hgroup>
-        <div class="flex flex-row gap-4 mt-10">
-          <div class="basis-6/12">
-            <form id="create-collection">
-              <div>
-                <label for="name" class="block mb-2 text-dark_mode text-sm font-semibold">Name*</label>
+    <div class="ml-[25%] basis-9/12 pl-4">
+      <hgroup>
+        <h4 class="text-dark_mode font-semibold">
+          Create Collection
+        </h4>
+        <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold">
+          Collection Type  ERC-721
+          <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base cursor-pointer hover:scale-110 ease-out duration-300"
+             data-popover-target="popover-erc-721"
+             data-popover-placement="bottom"
+             type="button">
+          </i>
+        </h6>
+      </hgroup>
+    </div>
+      <div class="flex flex-row gap-4 mt-10 ml-[25%] pl-4">
+        <div class="basis-6/12">
+          <form id="create-collection">
+            <div>
+              <label for="name" class="block mb-2 text-dark_mode text-sm font-semibold">Name*</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                placeholder="Enter item name"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="mt-8">
+              <div class="flex items-center justify-between">
+                <label for="description" class="block mb-2 text-dark_mode text-sm font-semibold">Description*</label>
+                <span class="text-gray-300 text-xs font-medium">0 / 200</span>
+              </div>
+              <textarea
+                id="description"
+                name="description"
+                rows="4"
+                class="block resize-none p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                placeholder="Provide a detailed description of your item"
+              ></textarea>
+            </div>
+            <div class="mt-8">
+              <label for="custom-url" class="block mb-2 text-dark_mode text-sm font-semibold">Custom URL*</label>
+              <div class="relative">
+                <span class="inline-block text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                  nft.pharmatrace.io/collection/
+                </span>
                 <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
-                  placeholder="Enter item name"
+                  type="url"
+                  name="custom_url"
+                  id="custom-url"
+                  class="block py-4 pl-[225px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  placeholder="Enter your custom URL"
                   autocomplete="off"
                   required
                 />
               </div>
-              <div class="mt-8">
-                <div class="flex items-center justify-between">
-                  <label for="description" class="block mb-2 text-dark_mode text-sm font-semibold">Description*</label>
-                  <span class="text-gray-300 text-xs font-medium">0 / 200</span>
-                </div>
-                <textarea
-                  id="description"
-                  name="description"
-                  rows="4"
-                  class="block resize-none p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
-                  placeholder="Provide a detailed description of your item"
-                ></textarea>
-              </div>
-              <div class="mt-8">
-                <label for="custom-url" class="block mb-2 text-dark_mode text-sm font-semibold">Custom URL*</label>
-                <div class="relative">
-                  <span class="inline-block text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                    nft.pharmatrace.io/collection/
-                  </span>
-                  <input
-                    type="url"
-                    name="custom_url"
-                    id="custom-url"
-                    class="block py-4 pl-[225px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
-                    placeholder="Enter your custom URL"
-                    autocomplete="off"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="nft__select-box mt-8 block w-full relative my-0 mx-auto">
-                <label class="block mb-2 text-dark_mode text-sm font-semibold">Category*</label>
-                <div class="nft__select-box--current" tabindex="1">
-                  {% for category in selectCategories %}
-                    <div class="nft__select-box--value flex">
-                      <input class="nft__select-box--input" type="radio" name="category" id="category-{{ loop.index }}" value="{{ category | lower }}" {% if loop.first %} checked="checked" {% endif %} />
-                      <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent focus:border-gray-300/60">
-                        {{ category }}
-                      </p>
-                    </div>
-                  {% endfor %}
-                  <i class="nft__select-box--icon fa-solid fa-angle-down absolute top-[50%] right-[15px] text-gray-300"></i>
-                </div>
-                <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60">
-                  {% for category in selectCategories %}
-                    <li class="rounded-lg bg-light_mode hover:bg-gray-100/40">
-                      <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium" for="category-{{ loop.index }}" aria-hidden="true">{{ category }}</label>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-              <div class="mt-8">
-                <label for="supply" class="block mb-2 text-dark_mode text-sm font-semibold">
-                  Percentage fee
-                  <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base"></i>
+            </div>
+            <div class="mt-8">
+              <label for="supply" class="block mb-2 text-dark_mode text-sm font-semibold">
+                Percentage fee
+                <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base cursor-pointer hover:scale-110 ease-out duration-300"
+                   data-popover-target="popover-percentage-fee"
+                   data-popover-placement="bottom"
+                   type="button">
+                </i>
+              </label>
+              <input
+                type="number"
+                id="name" class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                placeholder="Eg. 2.5"
+                autocomplete="off"
+                min="1.5"
+                step="1"
+                required
+              />
+            </div>
+            <div class="mt-8 flex items-center justify-between">
+              <span class="block mb-2 text-dark_mode text-sm font-semibold">
+                Explicit & Sensitive Content
+                <span class="block text-gray-300 leading-relaxed font-normal">
+                  Set this item as explicit and sensitive content.
+                </span>
+              </span>
+              <label for="explicit-content" class="inline-flex relative items-center mr-2 cursor-pointer">
+                <input type="checkbox" value="" id="explicit-content" class="sr-only peer">
+                <span class="w-11 h-6 bg-gray-300/30 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-nft_institutional"></span>
+              </label>
+            </div>
+            <h6 class="w-[80%] mt-20 text-dark_mode text-lg font-semibold">
+              Add links to your social media profiles.
+            </h6>
+            <div class="mt-10">
+              <div class="relative">
+                <label for="website-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                  <i class="fa-solid fa-globe text-dark_mode text-xl mr-2"></i>
+                  https://
                 </label>
                 <input
-                  type="number"
-                  id="name" class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
-                  placeholder="Eg. 2.5"
+                  type="url"
+                  name="website_url"
+                  id="website-url"
+                  class="block py-4 pl-[100px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  placeholder="Website URL"
                   autocomplete="off"
-                  min="1.5"
-                  step="1"
-                  required
                 />
               </div>
-              <div class="mt-8 flex items-center justify-between">
-                <span class="block mb-2 text-dark_mode text-sm font-semibold">
-                  Explicit & Sensitive Content
-                  <span class="block text-gray-300 leading-relaxed font-normal">
-                    Set this item as explicit and sensitive content.
-                  </span>
-                </span>
-                <label for="explicit-content" class="inline-flex relative items-center mr-2 cursor-pointer">
-                  <input type="checkbox" value="" id="explicit-content" class="sr-only peer">
-                  <span class="w-11 h-6 bg-gray-300/30 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-nft_institutional"></span>
+            </div>
+            <div class="mt-4">
+              <div class="relative">
+                <label for="facebook-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                  <i class="fa-brands fa-facebook text-dark_mode text-xl mr-2"></i>
+                  facebook.com/
                 </label>
+                <input
+                  type="url"
+                  name="facebook_url"
+                  id="facebook-url"
+                  class="block py-4 pl-[151px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  placeholder="Facebook Username"
+                  autocomplete="off"
+                />
               </div>
-              <h6 class="w-[80%] mt-20 text-dark_mode text-lg font-semibold">
-                Add links to your social media profiles.
-              </h6>
-              <div class="mt-10">
-                <div class="relative">
-                  <label for="website-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                    <i class="fa-solid fa-globe text-dark_mode text-xl mr-2"></i>
-                    https://
-                  </label>
-                  <input
-                    type="url"
-                    name="website_url"
-                    id="website-url"
-                    class="block py-4 pl-[100px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
-                    placeholder="Website URL"
-                    autocomplete="off"
-                  />
-                </div>
-              </div>
-              <div class="mt-4">
-                <div class="relative">
-                  <label for="facebook-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                    <i class="fa-brands fa-facebook text-dark_mode text-xl mr-2"></i>
-                    facebook.com/
-                  </label>
-                  <input
-                    type="url"
-                    name="facebook_url"
-                    id="facebook-url"
-                    class="block py-4 pl-[151px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
-                    placeholder="Facebook Username"
-                    autocomplete="off"
-                  />
-                </div>
-              </div>
-              <div class="mt-4">
-                <div class="relative">
-                  <label for="twitter-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                    <i class="fa-brands fa-twitter text-dark_mode text-xl mr-2"></i>
-                    twitter.com/
-                  </label>
-                  <input
-                    type="url"
-                    name="twitter_url"
-                    id="twitter-url"
-                    class="block py-4 pl-[132px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
-                    placeholder="Twitter Username"
-                    autocomplete="off"
-                  />
-                </div>
-              </div>
-              <div class="mt-4">
-                <div class="relative">
-                  <label for="instagram-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                    <i class="fa-brands fa-instagram text-dark_mode text-xl mr-2"></i>
-                    instagram.com/
-                  </label>
-                  <input
-                    type="url"
-                    name="instagram_url"
-                    id="instagram-url"
-                    class="block py-4 pl-[154px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
-                    placeholder="Instagram Username"
-                    autocomplete="off"
-                  />
-                </div>
-              </div>
-              <div class="mt-4">
-                <div class="relative">
-                  <label for="tiktok-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                    <i class="fa-brands fa-tiktok text-dark_mode text-xl mr-2"></i>
-                    tiktok.com/
-                  </label>
-                  <input
-                    type="url"
-                    name="tiktok_url"
-                    id="tiktok-url"
-                    class="block py-4 pl-[124px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
-                    placeholder="TikTok Username"
-                    autocomplete="off"
-                  />
-                </div>
-              </div>
-              <div class="mt-4">
-                <div class="relative">
-                  <label for="youtube-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                    <i class="fa-brands fa-youtube text-dark_mode text-xl"></i>
-                  </label>
-                  <input
-                    type="url"
-                    name="youtube_url"
-                    id="youtube-url"
-                    class="block py-4 pl-[47px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60"
-                    placeholder="Channel URL or video"
-                    autocomplete="off"
-                  />
-                </div>
-              </div>
-              <button type="submit" class="py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium">
-                Create collection
-              </button>
-            </form>
-          </div>
-          <div class="basis-4/12 ml-[8.333333%]">
-            <div class="sticky top-36">
-              <div>
-                <span class="block mb-4 text-dark_mode text-sm font-semibold">
-                  Collection Image
-                </span>
-                <label for="collection-image-file" class="w-32 h-32 rounded-full cursor-pointer">
-                  <span
-                    style="background-image: url('{{ site.data.configs.imageUrl }}commons/gradient-image.png');"
-                    class="block w-32 h-32 bg-no-repeat bg-cover rounded-full border-4 border-solid border-gray-100"
-                  ></span>
-                  <input
-                    type="file"
-                    name="collection_image_file"
-                    id="collection-image-file"
-                    class="hidden"
-                  />
+            </div>
+            <div class="mt-4">
+              <div class="relative">
+                <label for="twitter-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                  <i class="fa-brands fa-twitter text-dark_mode text-xl mr-2"></i>
+                  twitter.com/
                 </label>
-                <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed">
-                  Recommended size: 500x500px<br/>
-                  Type: JPG, PNG, or GIF<br/>
-                  Max size: 8MB
-                </span>
+                <input
+                  type="url"
+                  name="twitter_url"
+                  id="twitter-url"
+                  class="block py-4 pl-[132px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  placeholder="Twitter Username"
+                  autocomplete="off"
+                />
               </div>
-              <div class="mt-14">
-                <span class="block mb-4 text-dark_mode text-sm font-semibold">
-                  Banner Image
-                </span>
-                <label for="banner-image-file" class="w-32 h-32 rounded-lg cursor-pointer">
-                  <span
-                    style="background-image: url('{{ site.data.configs.imageUrl }}commons/gradient-image.png');"
-                    class="block w-32 h-32 bg-no-repeat bg-cover rounded-lg border-4 border-solid border-gray-100"
-                  ></span>
-                  <input
-                    type="file"
-                    name="banner_image_file"
-                    id="banner-image-file"
-                    class="hidden"
-                  />
+            </div>
+            <div class="mt-4">
+              <div class="relative">
+                <label for="instagram-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                  <i class="fa-brands fa-instagram text-dark_mode text-xl mr-2"></i>
+                  instagram.com/
                 </label>
-                <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed">
-                  Recommended size: 1500x1500px<br/>
-                  Type: JPG, PNG, or GIF<br/>
-                  Max size: 8MB
-                </span>
+                <input
+                  type="url"
+                  name="instagram_url"
+                  id="instagram-url"
+                  class="block py-4 pl-[154px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  placeholder="Instagram Username"
+                  autocomplete="off"
+                />
               </div>
+            </div>
+            <div class="mt-4">
+              <div class="relative">
+                <label for="tiktok-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                  <i class="fa-brands fa-tiktok text-dark_mode text-xl mr-2"></i>
+                  tiktok.com/
+                </label>
+                <input
+                  type="url"
+                  name="tiktok_url"
+                  id="tiktok-url"
+                  class="block py-4 pl-[124px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  placeholder="TikTok Username"
+                  autocomplete="off"
+                />
+              </div>
+            </div>
+            <div class="mt-4">
+              <div class="relative">
+                <label for="youtube-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                  <i class="fa-brands fa-youtube text-dark_mode text-xl"></i>
+                </label>
+                <input
+                  type="url"
+                  name="youtube_url"
+                  id="youtube-url"
+                  class="block py-4 pl-[47px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  placeholder="Channel URL or video"
+                  autocomplete="off"
+                />
+              </div>
+            </div>
+            <button type="submit" class="py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
+              Create collection
+            </button>
+          </form>
+        </div>
+        <div class="basis-4/12 ml-[8.333333%]">
+          <div class="sticky top-36">
+            <div>
+              <span class="block mb-4 text-dark_mode text-sm font-semibold">
+                Collection Image
+              </span>
+              <label for="collection-image-file" class="w-32 h-32 rounded-full cursor-pointer">
+                <span
+                  style="background-image: url('{{ site.data.configs.imageUrl }}commons/gradient-image.png');"
+                  class="block w-32 h-32 bg-no-repeat bg-cover rounded-full border-4 border-solid border-gray-100 hover:scale-95 ease-out duration-300"
+                ></span>
+                <input
+                  type="file"
+                  name="collection_image_file"
+                  id="collection-image-file"
+                  class="hidden"
+                />
+              </label>
+              <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed">
+                Recommended size: 500x500px<br/>
+                Type: JPG, PNG, or GIF<br/>
+                Max size: 8MB
+              </span>
+            </div>
+            <div class="mt-14">
+              <span class="block mb-4 text-dark_mode text-sm font-semibold">
+                Banner Image
+              </span>
+              <label for="banner-image-file" class="w-32 h-32 rounded-lg cursor-pointer">
+                <span
+                  style="background-image: url('{{ site.data.configs.imageUrl }}commons/gradient-image.png');"
+                  class="block w-32 h-32 bg-no-repeat bg-cover rounded-lg border-4 border-solid border-gray-100 hover:scale-95 ease-out duration-300"
+                ></span>
+                <input
+                  type="file"
+                  name="banner_image_file"
+                  id="banner-image-file"
+                  class="hidden"
+                />
+              </label>
+              <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed">
+                Recommended size: 1500x1500px<br/>
+                Type: JPG, PNG, or GIF<br/>
+                Max size: 8MB
+              </span>
             </div>
           </div>
         </div>
       </div>
-    </div>
   </section>
+
+  <div data-popover id="popover-erc-721" role="tooltip" class="inline-block absolute invisible z-10 w-72 bg-light_mode rounded-lg border border-gray-100 shadow-sm opacity-0 transition-opacity duration-300">
+    <div class="p-6">
+      <h6 class="text-dark_mode text-base font-semibold">
+        Token – ERC-721
+      </h6>
+      <p class="mt-2 text-gray-300 text-sm leading-relaxed">
+        The ERC-721 introduces a standard for NFT, in other words, this type of Token is unique and can have different value than another Token from the same Smart Contract, maybe due to its age, rarity or even something else like its visual.
+      </p>
+    </div>
+    <div data-popper-arrow></div>
+  </div>
+
+  <div data-popover id="popover-percentage-fee" role="tooltip" class="inline-block absolute invisible z-10 w-72 bg-light_mode rounded-lg border border-gray-100 shadow-sm opacity-0 transition-opacity duration-300">
+    <div class="p-6">
+      <h6 class="text-dark_mode text-base font-semibold">
+        Types of fees
+      </h6>
+      <p class="mt-2 text-gray-300 text-sm leading-relaxed">
+        When orders are created, we include those fees into the order. That means a fee for PharmaTrace, and another 2.5% royalty for the collection creator.
+      </p>
+    </div>
+    <div data-popper-arrow></div>
+  </div>
 {% endblock %}
