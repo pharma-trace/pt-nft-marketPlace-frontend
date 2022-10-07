@@ -18,6 +18,9 @@
   <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://kit.fontawesome.com/20c922db87.js" crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+  </style>
   <style type="text/tailwindcss">
     @layer base {
       h1 {

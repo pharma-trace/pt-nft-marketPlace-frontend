@@ -13,7 +13,7 @@
 
 {% block content %}
   {# nft__create-choose-type-multiple #}
-  <section class="nft__create-choose-type-multiple relative mt-36 px-36 xl:max-w-full lg:container">
+  <section class="nft__create-choose-type-multiple mt-36 px-36 xl:max-w-full lg:container">
     <div class="flex">
       <div class="ml-[25%] basis-9/12">
         <hgroup>

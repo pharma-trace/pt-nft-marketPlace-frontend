@@ -1,9 +1,6 @@
 // Normalize Styles
 @import 'node_modules/normalize.css/normalize';
 
-// Import Web Fonts
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300,400;500;600;700&display=swap');
-
 // Import Modules
 
 // Box sizing partial styles:
@@ -89,6 +86,13 @@ body {
 
   &--option {
     display: block;
+  }
+}
+
+.nft__active-menu-link {
+  .active {
+    color: #202225;
+    font-weight: 600;
   }
 }
 

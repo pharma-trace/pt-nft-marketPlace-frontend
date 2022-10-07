@@ -23,6 +23,15 @@
             <a href="/pages/creator-details/index.html" target="_blank">Creator details</a>
           </li>
           <li>
+            <a href="/pages/privacy-policy/index.html" target="_blank">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="/pages/cookie-policy/index.html" target="_blank">Cookie Policy</a>
+          </li>
+          <li>
+            <a href="/pages/terms-of-service/index.html" target="_blank">Terms of Service</a>
+          </li>
+          <li>
             Account
             <ul>
               <li>

@@ -2,6 +2,7 @@
   "name": "pt-nft-static-pages",
   "version": "0.0.1",
   "dependencies": {
+    "active-menu-link": "^1.1.8",
     "jquery": "~3.4.1",
     "normalize.css": "~8.0.1"
   },
