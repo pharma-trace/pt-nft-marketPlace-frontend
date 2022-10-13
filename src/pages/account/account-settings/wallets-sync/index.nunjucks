@@ -1,0 +1,92 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../../../../../' %}
+  {% set pageTitle = 'Account Settings - Wallets sync' %}
+  {% set segment = 'account' %}
+  {% set slug = 'account-account-settings-wallets-sync' %}
+{% endblock %}
+
+{% block content %}
+  {# nft__account-settings-wallets-sync #}
+  <section class="nft__account-settings-wallets-sync mt-36 px-36 xl:max-w-full lg:container">
+    <div class="ml-[25%] basis-9/12 pl-4">
+      <hgroup>
+        <h4 class="text-dark_mode font-semibold">
+          Wallets sync
+        </h4>
+        <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold">
+          Connected Wallet:
+          <span>
+            1
+          </span>
+        </h6>
+      </hgroup>
+    </div>
+    <div class="flex flex-row gap-4 mt-10">
+      <div class="basis-3/12">
+        <nav class="sticky top-36">
+          <span class="block text-gray-300">
+            Account settings
+          </span>
+          <a href="#" class="block first-of-type:mt-10 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none" aria-current="page">
+            Edit profile
+          </a>
+          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 active [&.active]:text-nft_institutional [&.active]:pointer-events-none">
+            Wallets sync
+          </a>
+          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none">
+            General settings
+          </a>
+        </nav>
+      </div>
+      <div class="basis-5/12">
+        <div class="p-8 border border-solid border-gray-200 rounded-lg">
+          <figure>
+            <img
+              src="{{ site.data.configs.imageUrl }}trademarks/trademark-metamask.svg"
+              alt="Trademark Metamask"
+              class="w-[8rem]"
+            />
+          </figure>
+          <div class="flex items-end justify-between mt-10">
+            <hgroup>
+              <h6 class="text-dark_mode text-sm font-semibold">
+                Ethereum
+              </h6>
+              <h5 class="text-gray-300 text-sm">
+                0x2acAb3DEa77832C09420663b0E1cB386031bA17B
+              </h5>
+            </hgroup>
+            <i class="fa-regular fa-copy text-gray-300 text-base hover:text-dark_mode cursor-pointer"></i>
+          </div>
+          <div class="flex mt-6">
+            <hgroup>
+              <h6 class="text-dark_mode text-sm font-semibold">
+                Wallet Balance
+              </h6>
+              <h4 class="text-success font-semibold">
+                15 ETH
+              </h4>
+            </hgroup>
+            <hgroup class="ml-16">
+              <h6 class="text-dark_mode text-sm font-semibold">
+                Marketplace Balance
+              </h6>
+              <h4 class="text-success font-semibold">
+                99 ETH
+              </h4>
+            </hgroup>
+          </div>
+          <span class="block mt-6 text-error text-sm font-semibold">
+            Disconnect
+          </span>
+        </div>
+        <button type="button" class="block py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
+          Connect new Wallet
+        </button>
+      </div>
+    </div>
+  </section>
+{% endblock %}

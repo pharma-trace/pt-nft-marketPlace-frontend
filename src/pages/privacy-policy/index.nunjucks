@@ -120,9 +120,9 @@
           </p>
         </div>
         <div id="paragraph-2" class="mt-10">
-          <h4 class="mb-4 text-dark_mode font-semibold">
+          <h5 class="mb-4 text-dark_mode font-semibold">
             Definitions
-          </h4>
+          </h5>
           <p class="text-dark_mode leading-loose">
             <span class="font-semibold">PERSONAL DATA:</span>
             Personal Data means data about a living individual who can be identified from those data
@@ -154,9 +154,9 @@
         </div>
         <div id="paragraph-3" class="mt-10">
           <hgroup>
-            <h4 class="mb-4 text-dark_mode font-semibold">
+            <h5 class="mb-4 text-dark_mode font-semibold">
               Information Collection and Use
-            </h4>
+            </h5>
             <h6 class="mt-10 text-dark_mode text-lg font-medium leading-loose">
               We collect several different types of information for various purposes to provide and improve our Service to you.
             </h6>
@@ -322,9 +322,9 @@
           </p>
         </div>
         <div id="paragraph-4" class="mt-10">
-          <h4 class="mb-4 text-dark_mode font-semibold">
+          <h5 class="mb-4 text-dark_mode font-semibold">
             Service Providers
-          </h4>
+          </h5>
           <p class="mt-4 text-dark_mode leading-loose">
             We may employ third-party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf,
             to perform Service-related services or to assist us in analyzing how our Service is used.
@@ -336,9 +336,9 @@
         </div>
         <div id="paragraph-5" class="mt-10">
           <group>
-            <h4 class="mb-4 text-dark_mode font-semibold">
+            <h5 class="mb-4 text-dark_mode font-semibold">
               Analytics
-            </h4>
+            </h5>
             <h6 class="mt-10 text-dark_mode text-lg font-medium leading-loose">
               We may use third-party Service Providers to monitor and analyze the use of our Service.
             </h6>
@@ -359,9 +359,9 @@
           </p>
         </div>
         <div id="paragraph-6" class="mt-10">
-          <h4 class="mb-4 text-dark_mode font-semibold">
+          <h5 class="mb-4 text-dark_mode font-semibold">
             Links to Other Sites
-          </h4>
+          </h5>
           <p class="mt-4 text-dark_mode leading-loose">
             Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party’s site.
             We strongly advise you to review the Privacy Policy of every site you visit.We have no control over and assume no responsibility for the content,
@@ -369,9 +369,9 @@
           </p>
         </div>
         <div id="paragraph-7" class="mt-10">
-          <h4 class="mb-4 text-dark_mode font-semibold">
+          <h5 class="mb-4 text-dark_mode font-semibold">
             Children’s Privacy
-          </h4>
+          </h5>
           <p class="mt-4 text-dark_mode leading-loose">
             Our Service does not address anyone under the age of 18 ("Children").
           </p>
@@ -382,9 +382,9 @@
           </p>
         </div>
         <div id="paragraph-8" class="mt-10">
-          <h4 class="mb-4 text-dark_mode font-semibold">
+          <h5 class="mb-4 text-dark_mode font-semibold">
             Changes to This Privacy Policy
-          </h4>
+          </h5>
           <p class="mt-4 text-dark_mode leading-loose">
             We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
           </p>

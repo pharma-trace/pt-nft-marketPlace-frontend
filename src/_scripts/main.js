@@ -16,7 +16,8 @@ import ActiveMenuLink from 'active-menu-link';
   // ActiveMenuLink
   if ((location.pathname == '/pages/privacy-policy/index.html') ||
       (location.pathname == '/pages/cookie-policy/index.html') ||
-      (location.pathname == '/pages/terms-of-service/index.html')) {
+      (location.pathname == '/pages/terms-of-service/index.html') ||
+      (location.pathname == '/pages/faq/index.html')) {
     let options = {
       //default: 'paragraph-1',
       showHash: false

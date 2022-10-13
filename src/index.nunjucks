@@ -32,6 +32,9 @@
             <a href="/pages/terms-of-service/index.html" target="_blank">Terms of Service</a>
           </li>
           <li>
+            <a href="/pages/faq/index.html" target="_blank">Faq</a>
+          </li>
+          <li>
             Account
             <ul>
               <li>
@@ -53,6 +56,25 @@
                     <a href="/pages/account/create/collection/index.html" target="_blank">Collection</a>
                   </li>
                 </ul>
+              </li>
+              <li>
+                Account Settings
+                <ul>
+                  <li>
+                    <a href="/pages/account/account-settings/edit-profile/index.html" target="_blank">Edit profile</a>
+                  </li>
+                  <li>
+                    <a href="/pages/account/account-settings/wallets-sync/index.html" target="_blank">Wallets sync</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Requests
+            <ul>
+              <li>
+                <a href="/pages/requests/verification-code/index.html" target="_blank">Verifican Code</a>
               </li>
             </ul>
           </li>

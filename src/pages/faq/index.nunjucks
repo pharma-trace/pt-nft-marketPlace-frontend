@@ -1,0 +1,458 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../../../' %}
+  {% set pageTitle = 'Faq' %}
+  {% set slug = 'faq' %}
+{% endblock %}
+
+{% block content %}
+  {# nft__faq #}
+  <section class="nft__faq mt-36 px-36 xl:max-w-full lg:container">
+    <div class="ml-[25%] basis-9/12 pl-4">
+      <hgroup>
+        <h6 class="text-nft_institutional text-lg font-medium">
+          Frequently Asked Questions
+        </h6>
+        <h2 class="mt-10 text-dark_mode font-semibold">
+          Questions? Look here.
+        </h2>
+      </hgroup>
+    </div>
+    <div class="flex flex-row gap-4 mt-10">
+      <div class="basis-3/12">
+        <nav class="nft__active-menu-link w-[90%] mt-2 sticky top-36">
+          <ul>
+            <li>
+              <a href="#paragraph-1" class="block text-gray-300 text-sm hover:text-dark_mode">
+                General Information
+              </a>
+            </li>
+            <li>
+              <a href="#paragraph-2" class="block mt-3 text-gray-300 text-sm hover:text-dark_mode">
+                Blockchain and Digital Wallets
+              </a>
+            </li>
+            <li>
+              <a href="#paragraph-3" class="block mt-3 text-gray-300 text-sm hover:text-dark_mode">
+                How NFT-PharmaTrace Works
+              </a>
+            </li>
+            <li>
+              <a href="#paragraph-4" class="block mt-3 text-gray-300 text-sm hover:text-dark_mode">
+                Selling on NFT-PharmaTrace
+              </a>
+            </li>
+            <li>
+              <a href="#paragraph-5" class="block mt-3 text-gray-300 text-sm hover:text-dark_mode">
+                Buying on NFT-PharmaTrace
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="basis-8/12">
+        <h6 class="text-dark_mode text-lg font-medium leading-loose">
+          Can’t find an answer? Click below on our Customer Service.<br/>
+          We will be happy to help you.
+        </h6>
+        <div id="paragraph-1" class="mt-16">
+          <h5 class="mb-4 text-dark_mode font-semibold">
+            General Information
+          </h5>
+          <div id="accordion-faq-1" class="nft__accordion" data-accordion="collapse" data-active-classes="bg-white text-nft_institutional" data-inactive-classes="text-dark_mode">
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-1-heading-1" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-1-body-1" aria-expanded="true" aria-controls="accordion-faq-1-body-1">
+                  <span>
+                    What is MakersPlace?
+                  </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-1-body-1" class="mb-6" aria-labelledby="accordion-faq-1-heading-1">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-1-heading-2" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-1-body-2" aria-expanded="false" aria-controls="accordion-faq-1-body-2">
+                <span>
+                  How much does it cost?
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-1-body-2" class="mb-6" aria-labelledby="accordion-1-heading-2">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-1-heading-3" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-1-body-3" aria-expanded="false" aria-controls="accordion-faq-1-body-3">
+                <span>
+                  How do I get started?
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-1-body-3" class="mb-6" aria-labelledby="accordion-faq-1-heading-3">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-1-heading-4" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-1-body-4" aria-expanded="false" aria-controls="accordion-faq-1-body-4">
+                <span>
+                  Contact and support?
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-1-body-4" class="mb-6" aria-labelledby="accordion-faq-1-heading-4">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="paragraph-2" class="mt-16">
+          <h5 class="mb-4 text-dark_mode font-semibold">
+            Blockchain and Digital Wallets
+          </h5>
+          <div id="accordion-faq-2" class="nft__accordion" data-accordion="collapse" data-active-classes="bg-white text-nft_institutional" data-inactive-classes="text-dark_mode">
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-heading-1.2" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-2-body-1" aria-expanded="true" aria-controls="accordion-faq-2-body-1">
+                  <span>
+                    What is a blockchain wallet?
+                  </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-2-body-1" class="mb-6" aria-labelledby="accordion-faq-2-heading-1">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-2-heading-2" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-2-body-2" aria-expanded="false" aria-controls="v-2-body-2">
+                <span>
+                  What is Ethereum?
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-2-body-2" class="mb-6" aria-labelledby="accordion-faq-2-heading-2">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-2-heading-3" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-2-body-3" aria-expanded="false" aria-controls="accordion-faq-2-body-3">
+                <span>
+                  What is gas (gwei)?
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-2-body-3" class="mb-6" aria-labelledby="accordion-faq-2-heading-3">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-2-heading-4" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-2-body-4" aria-expanded="false" aria-controls="accordion-faq-2-body-4">
+                <span>
+                  What is MetaMask?
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-2-body-4" class="mb-6" aria-labelledby="accordion-faq-2-heading-4">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="paragraph-3" class="mt-16">
+          <h5 class="mb-4 text-dark_mode font-semibold">
+            How NFT-PharmaTrace Works
+          </h5>
+          <div id="accordion-faq-3" class="nft__accordion" data-accordion="collapse" data-active-classes="bg-white text-nft_institutional" data-inactive-classes="text-dark_mode">
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-3-heading-1" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-3-body-1" aria-expanded="true" aria-controls="accordion-faq-3-body-1">
+                  <span>
+                    What is a unique digital creation?
+                  </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-3-body-1" class="mb-6" aria-labelledby="accordion-faq-3-heading-1">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-3-heading-2" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-3-body-2" aria-expanded="false" aria-controls="accordion-faq-3-body-2">
+                <span>
+                  Non-fungible tokens
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-3-body-2" class="mb-6" aria-labelledby="accordion-faq-3-heading-2">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-3-heading-3" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-3-body-3" aria-expanded="false" aria-controls="accordion-faq-3-body-3">
+                <span>
+                  Who owns my creations?
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-3-body-3" class="mb-6" aria-labelledby="accordion-faq-3-heading-3">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-3-heading-4" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-3-body-4" aria-expanded="false" aria-controls="accordion-faq-3-body-4">
+                <span>
+                  Where are my creations stored?
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-3-body-4" class="mb-6" aria-labelledby="accordion-faq-3-heading-4">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="paragraph-4" class="mt-16">
+          <h5 class="mb-4 text-dark_mode font-semibold">
+            Selling on NFT-PharmaTrace
+          </h5>
+          <div id="accordion-faq-4" class="nft__accordion" data-accordion="collapse" data-active-classes="bg-white text-nft_institutional" data-inactive-classes="text-dark_mode">
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-4-heading-1" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-4-body-1" aria-expanded="true" aria-controls="accordion-faq-4-body-1">
+                  <span>
+                    What am I selling?
+                  </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-4-body-1" class="mb-6" aria-labelledby="accordion-faq-4-heading-1">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-4-heading-2" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-4-body-2" aria-expanded="false" aria-controls="accordion-faq-4-body-2">
+                <span>
+                  How do I sell my creation?
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-4-body-2" class="mb-6" aria-labelledby="accordion-faq-4-heading-2">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-4-heading-3" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-4-body-3" aria-expanded="false" aria-controls="accordion-faq-4-body-3">
+                <span>
+                  I received an offer for my creation, now what?
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-4-body-3" class="mb-6" aria-labelledby="accordion-faq-4-heading-3">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-4-heading-4" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-4-body-4" aria-expanded="false" aria-controls="accordion-faq-4-body-4">
+                <span>
+                  If I sell using NFT-PharmaTrace, can I sell the same creations elsewhere?
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-4-body-4" class="mb-6" aria-labelledby="accordion-faq-4-heading-4">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="paragraph-5" class="mt-16">
+          <h5 class="mb-4 text-dark_mode font-semibold">
+            Buying on NFT-PharmaTrace
+          </h5>
+          <div id="accordion-faq-5" class="nft__accordion" data-accordion="collapse" data-active-classes="bg-white text-nft_institutional" data-inactive-classes="text-dark_mode">
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-5-heading-1" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-5-body-1" aria-expanded="true" aria-controls="accordion-faq-5-body-1">
+                  <span>
+                    What am I buying?
+                  </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-5-body-1" class="mb-6" aria-labelledby="accordion-faq-5-heading-1">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-5-heading-2" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-5-body-2" aria-expanded="false" aria-controls="accordion-faq-5-body-2">
+                <span>
+                  How does bidding work?
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-5-body-2" class="mb-6" aria-labelledby="accordion-faq-5-heading-2">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-5-heading-3" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-5-body-3" aria-expanded="false" aria-controls="accordion-faq-5-body-3">
+                <span>
+                  Where do my purchased creations live?
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-faq-5-body-3" class="mb-6" aria-labelledby="accordion-faq-faq-5-heading-3">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div class="mt-6 border-b border-gray-200">
+              <h6 id="accordion-faq-5-heading-4" class="text-nft_institutional text-lg font-medium">
+                <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-faq-5-body-4" aria-expanded="false" aria-controls="accordion-faq-5-body-4">
+                <span>
+                  Why can’t I sell or send my creation?
+                </span>
+                  <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+              </h6>
+              <div id="accordion-faq-5-body-4" class="mb-6" aria-labelledby="accordion-faq-5-heading-4">
+                <p class="text-dark_mode leading-loose">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

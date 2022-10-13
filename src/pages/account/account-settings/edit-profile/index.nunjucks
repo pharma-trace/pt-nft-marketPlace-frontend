@@ -1,0 +1,315 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../../../../../' %}
+  {% set pageTitle = 'Account Settings - Edit profile' %}
+  {% set segment = 'account' %}
+  {% set slug = 'account-account-settings-edit-profile' %}
+{% endblock %}
+
+{% block content %}
+  {# nft__account-settings-edit-profile #}
+  <section class="nft__account-settings-edit-profile mt-36 px-36 xl:max-w-full lg:container">
+    <div class="ml-[25%] basis-9/12 pl-4">
+      <hgroup>
+        <h4 class="text-dark_mode font-semibold">
+          Edit profile
+        </h4>
+        <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold">
+          Change personal info.
+        </h6>
+      </hgroup>
+    </div>
+    <div class="flex flex-row gap-4 mt-10">
+      <div class="basis-3/12">
+        <nav class="sticky top-36">
+          <span class="block text-gray-300">
+            Account settings
+          </span>
+          <a href="#" class="block first-of-type:mt-10 text-dark_mode text-base font-semibold hover:text-gray-300 active [&.active]:text-nft_institutional [&.active]:pointer-events-none" aria-current="page">
+            Edit profile
+          </a>
+          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none">
+            Wallets sync
+          </a>
+          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none">
+            General settings
+          </a>
+        </nav>
+      </div>
+      <div class="basis-8/12">
+        <div class="flex flex-row">
+          <div class="basis-7/12 pr-8">
+            <form id="edit-profile">
+              <div>
+                <label for="display-name" class="block mb-2 text-dark_mode text-sm font-semibold">Display Name*</label>
+                <input
+                  type="text"
+                  name="display_name"
+                  id="display-name"
+                  class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  placeholder="Enter your display name"
+                  autocomplete="off"
+                  required
+                />
+              </div>
+              <div class="mt-8">
+                <label for="email-address" class="block mb-2 text-dark_mode text-sm font-semibold">
+                  Email address
+                  <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base cursor-pointer hover:scale-110 ease-out duration-300"
+                     data-popover-target="popover-email-address"
+                     data-popover-placement="bottom"
+                     type="button">
+                  </i>
+                </label>
+                <input
+                  type="text"
+                  name="email_address"
+                  id="email-address"
+                  class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  placeholder="Enter your email address"
+                  autocomplete="off"
+                  required
+                />
+              </div>
+              <div class="mt-8">
+                <label for="custom-url" class="block mb-2 text-dark_mode text-sm font-semibold">Custom URL*</label>
+                <div class="relative">
+                <span class="inline-block text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                  nft.pharmatrace.io/account/
+                </span>
+                  <input
+                    type="url"
+                    name="custom_url"
+                    id="custom-url"
+                    class="block py-4 pl-[215px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    placeholder="Enter your custom URL"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="mt-8">
+                <div class="flex items-center justify-between">
+                  <label for="bio" class="block mb-2 text-dark_mode text-sm font-semibold">Bio</label>
+                  <span class="text-gray-300 text-xs font-medium">0 / 200</span>
+                </div>
+                <textarea
+                  id="bio"
+                  name="bio"
+                  rows="4"
+                  class="block resize-none p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  placeholder="Tell the world you story!"
+                ></textarea>
+              </div>
+              <h6 class="w-[80%] mt-20 text-dark_mode text-lg font-semibold">
+                Add links to your social media profiles.
+              </h6>
+              <div class="mt-10">
+                <div class="relative">
+                  <label for="website-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                    <i class="fa-solid fa-globe text-dark_mode text-xl mr-2"></i>
+                    https://
+                  </label>
+                  <input
+                    type="url"
+                    name="website_url"
+                    id="website-url"
+                    class="block py-4 pl-[100px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    placeholder="Website URL"
+                    autocomplete="off"
+                  />
+                </div>
+              </div>
+              <div class="mt-4">
+                <div class="relative">
+                  <label for="facebook-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                    <i class="fa-brands fa-facebook text-dark_mode text-xl mr-2"></i>
+                    facebook.com/
+                  </label>
+                  <input
+                    type="url"
+                    name="facebook_url"
+                    id="facebook-url"
+                    class="block py-4 pl-[151px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    placeholder="Facebook Username"
+                    autocomplete="off"
+                  />
+                </div>
+              </div>
+              <div class="mt-4">
+                <div class="relative">
+                  <label for="twitter-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                    <i class="fa-brands fa-twitter text-dark_mode text-xl mr-2"></i>
+                    twitter.com/
+                  </label>
+                  <input
+                    type="url"
+                    name="twitter_url"
+                    id="twitter-url"
+                    class="block py-4 pl-[132px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    placeholder="Twitter Username"
+                    autocomplete="off"
+                  />
+                </div>
+              </div>
+              <div class="mt-4">
+                <div class="relative">
+                  <label for="instagram-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                    <i class="fa-brands fa-instagram text-dark_mode text-xl mr-2"></i>
+                    instagram.com/
+                  </label>
+                  <input
+                    type="url"
+                    name="instagram_url"
+                    id="instagram-url"
+                    class="block py-4 pl-[154px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    placeholder="Instagram Username"
+                    autocomplete="off"
+                  />
+                </div>
+              </div>
+              <div class="mt-4">
+                <div class="relative">
+                  <label for="tiktok-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                    <i class="fa-brands fa-tiktok text-dark_mode text-xl mr-2"></i>
+                    tiktok.com/
+                  </label>
+                  <input
+                    type="url"
+                    name="tiktok_url"
+                    id="tiktok-url"
+                    class="block py-4 pl-[124px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    placeholder="TikTok Username"
+                    autocomplete="off"
+                  />
+                </div>
+              </div>
+              <div class="mt-4">
+                <div class="relative">
+                  <label for="youtube-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                    <i class="fa-brands fa-youtube text-dark_mode text-xl"></i>
+                  </label>
+                  <input
+                    type="url"
+                    name="youtube_url"
+                    id="youtube-url"
+                    class="block py-4 pl-[47px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    placeholder="Channel URL or video"
+                    autocomplete="off"
+                  />
+                </div>
+              </div>
+              <h6 class="w-[80%] mt-20 text-dark_mode text-lg font-semibold">
+                <span class="relative align-middle mr-3">
+                  <i class="fa-solid fa-certificate text-nft_institutional text-4xl"></i>
+                  <i class="fa-solid fa-check text-light_mode text-xl absolute top-[-6px] left-[8px]"></i>
+                </span>
+                Verify your profile
+              </h6>
+              <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed">
+                Show the NFT PharmaTrace community that your profile is authentic.
+              </span>
+              <div class="mt-6 status-not-verified">
+                <span class="block text-gray-300 text-sm">
+                  Status:
+                </span>
+                    <span class="inline-block mt-2 py-1 px-3 rounded-lg border border-solid border-error/50 text-error text-xs bg-error/20">
+                  Not verified
+                </span>
+              </div>
+              <div class="mt-6 status-verified hidden">
+                <span class="block text-gray-300 text-sm">
+                  Status: via Instagram on 24-10-2022 10:25:40
+                </span>
+                <span class="inline-block mt-2 py-1 px-3 rounded-lg border border-solid border-success/50 text-success text-xs bg-success/20">
+                Verified
+              </span>
+              </div>
+              <div class="flex mt-10">
+                <button
+                  type="button"
+                  class="min-h-[44px] py-2 px-5 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-light_mode text-dark_mode text-sm font-semibold hover:bg-gray-200 focus:ring-2 focus:ring-offset-2 focus:ring-gray-200 active:scale-[0.94] ease-out duration-300"
+                >
+                  <i class="fa-brands fa-twitter mr-3 text-lg"></i>
+                  Verify via Twitter
+                </button>
+                <button
+                  type="button"
+                  class="min-h-[44px] py-2 px-5 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-light_mode text-dark_mode text-sm font-semibold hover:bg-gray-200 focus:ring-2 focus:ring-offset-2 focus:ring-gray-200 active:scale-[0.94] ease-out duration-300"
+                >
+                  <i class="fa-brands fa-instagram mr-3 text-xl"></i>
+                  Verify via Instagram
+                </button>
+              </div>
+              <button type="submit" class="block py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
+                Update profile
+              </button>
+            </form>
+          </div>
+          <div class="basis-4/12 ml-[8.333333%]">
+            <div class="sticky top-36">
+              <div>
+                <span class="block mb-4 text-dark_mode text-sm font-semibold">
+                  Profile Image
+                </span>
+                <label for="profile-image-file" class="w-32 h-32 rounded-full cursor-pointer">
+                  <span
+                    style="background-image: url('{{ site.data.configs.imageUrl }}commons/gradient-image.png');"
+                    class="block w-32 h-32 bg-no-repeat bg-cover rounded-full border-4 border-solid border-gray-100 hover:scale-95 ease-out duration-300"
+                    ></span>
+                    <input
+                      type="file"
+                      name="profile_image_file"
+                      id="profile-image-file"
+                      class="hidden"
+                    />
+                </label>
+                <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed">
+                  Recommended size: 500x500px<br/>
+                  Type: JPG, PNG, or GIF<br/>
+                  Max size: 8MB
+                </span>
+              </div>
+              <div class="mt-14">
+                <span class="block mb-4 text-dark_mode text-sm font-semibold">
+                  Banner Image
+                </span>
+                <label for="banner-image-file" class="w-32 h-32 rounded-lg cursor-pointer">
+                  <span
+                    style="background-image: url('{{ site.data.configs.imageUrl }}commons/gradient-image.png');"
+                    class="block w-32 h-32 bg-no-repeat bg-cover rounded-lg border-4 border-solid border-gray-100 hover:scale-95 ease-out duration-300"
+                  ></span>
+                  <input
+                    type="file"
+                    name="banner_image_file"
+                    id="banner-image-file"
+                    class="hidden"
+                  />
+                </label>
+                <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed">
+                  Recommended size: 1500x1500px<br/>
+                  Type: JPG, PNG, or GIF<br/>
+                  Max size: 8MB
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div data-popover id="popover-email-address" role="tooltip" class="inline-block absolute invisible z-10 w-72 bg-light_mode rounded-lg border border-gray-100 shadow-sm opacity-0 transition-opacity duration-300">
+    <div class="p-6">
+      <h6 class="text-dark_mode text-base font-semibold">
+        Safety rules
+      </h6>
+      <p class="mt-2 text-gray-300 text-sm leading-relaxed">
+        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form.
+      </p>
+    </div>
+    <div data-popper-arrow></div>
+  </div>
+{% endblock %}

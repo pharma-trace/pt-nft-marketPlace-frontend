@@ -10,7 +10,7 @@
 
 {% block content %}
   {# nft__create-choose-type #}
-  <section class="nft__create-choose-type h-[calc(100vh-24rem)] relative mt-36 px-36 xl:max-w-full lg:container">
+  <section class="nft__create-choose-type h-[calc(100vh-24rem)] mt-36 px-36 xl:max-w-full lg:container">
     <div class="flex">
       <div class="ml-[16.666667%] basis-9/12">
         <h4 class="text-dark_mode font-semibold">

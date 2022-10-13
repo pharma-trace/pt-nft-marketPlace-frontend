@@ -43,7 +43,7 @@
             </div>
             <div class="mt-8">
               <div class="flex items-center justify-between">
-                <label for="description" class="block mb-2 text-dark_mode text-sm font-semibold">Description*</label>
+                <label for="description" class="block mb-2 text-dark_mode text-sm font-semibold">Description</label>
                 <span class="text-gray-300 text-xs font-medium">0 / 200</span>
               </div>
               <textarea
@@ -72,7 +72,7 @@
               </div>
             </div>
             <div class="mt-8">
-              <label for="supply" class="block mb-2 text-dark_mode text-sm font-semibold">
+              <label for="percentage-fee" class="block mb-2 text-dark_mode text-sm font-semibold">
                 Percentage fee
                 <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base cursor-pointer hover:scale-110 ease-out duration-300"
                    data-popover-target="popover-percentage-fee"
@@ -82,7 +82,9 @@
               </label>
               <input
                 type="number"
-                id="name" class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                name="percentage_fee"
+                id="percentage-fee"
+                class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
                 placeholder="Eg. 2.5"
                 autocomplete="off"
                 min="1.5"
@@ -200,7 +202,7 @@
                 />
               </div>
             </div>
-            <button type="submit" class="py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
+            <button type="submit" class="block py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
               Create collection
             </button>
           </form>
@@ -256,6 +258,7 @@
       </div>
   </section>
 
+  {# Popover erc-721 #}
   <div data-popover id="popover-erc-721" role="tooltip" class="inline-block absolute invisible z-10 w-72 bg-light_mode rounded-lg border border-gray-100 shadow-sm opacity-0 transition-opacity duration-300">
     <div class="p-6">
       <h6 class="text-dark_mode text-base font-semibold">
@@ -268,6 +271,7 @@
     <div data-popper-arrow></div>
   </div>
 
+  {# Popover percentage-fee #}
   <div data-popover id="popover-percentage-fee" role="tooltip" class="inline-block absolute invisible z-10 w-72 bg-light_mode rounded-lg border border-gray-100 shadow-sm opacity-0 transition-opacity duration-300">
     <div class="p-6">
       <h6 class="text-dark_mode text-base font-semibold">

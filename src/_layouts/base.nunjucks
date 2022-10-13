@@ -60,6 +60,8 @@
 {# header #}
 {% if segment == 'account' %}
   {% include '_modules/header-logged/header-logged.nunjucks' %}
+{% elif segment == 'request' %}
+  {% include '_modules/header-only-trademark/header-only-trademark.nunjucks' %}
 {% else %}
   {% include '_modules/header/header.nunjucks' %}
 {% endif %}
@@ -68,6 +70,8 @@
 
 {# footer #}
 {% if segment == 'account' %}
+  {% include '_modules/footer-logged/footer-logged.nunjucks' %}
+{% elif segment == 'request' %}
   {% include '_modules/footer-logged/footer-logged.nunjucks' %}
 {% else %}
   {% include '_modules/footer/footer.nunjucks' %}

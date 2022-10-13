@@ -66,9 +66,9 @@
           </p>
         </div>
         <div id="paragraph-2" class="mt-10">
-          <h4 class="mb-4 text-dark_mode font-semibold">
+          <h5 class="mb-4 text-dark_mode font-semibold">
             Links to Other Web Sites
-          </h4>
+          </h5>
           <p class="text-dark_mode leading-loose">
             Our Service may contain links to third-party web sites or services that are not owned or controlled by PharmaTrace.
             PharmaTrace has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any
@@ -78,9 +78,9 @@
           </p>
         </div>
         <div id="paragraph-3" class="mt-10">
-          <h4 class="mb-4 text-dark_mode font-semibold">
+          <h5 class="mb-4 text-dark_mode font-semibold">
             Changes
-          </h4>
+          </h5>
           <p class="text-dark_mode leading-loose">
             We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will
             try to provide at least 30 days’ notice prior to any new terms taking effect. What constitutes a material change
