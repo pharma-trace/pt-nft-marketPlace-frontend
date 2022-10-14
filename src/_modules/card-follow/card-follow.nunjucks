@@ -1,0 +1,28 @@
+<div class="nft__card-follow flex flex-row items-center py-4 px-2 border border-solid border-gray-100 rounded-xl hover:bg-gray-100">
+  <figure class="flex flex-row items-start ml-4">
+    <img
+      src="{{ site.data.configs.imageUrl }}avatars/avatar-4.jpg"
+      alt="Avatar 4"
+      class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover"
+    />
+    <figcaption class="mt-2 ml-4">
+      <span class="block text-dark_mode text-sm font-semibold">
+        Apocalypse Monkeys
+      </span>
+      <span class="block text-sm text-gray-300">
+        @apo_monkeys
+      </span>
+      <div class="mt-4 flex items-center">
+        <span class="text-sm text-gray-300">
+          0x2acAb3…31bA17B
+        </span>
+        <i
+          class="fa-regular fa-copy text-gray-300 ml-4 text-base hover:text-dark_mode cursor-pointer"
+          data-tooltip-target="tooltip-animation"
+          data-tooltip-placement="right"
+          type="button">
+        </i>
+      </div>
+    </figcaption>
+  </figure>
+</div>

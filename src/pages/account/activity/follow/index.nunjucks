@@ -1,0 +1,92 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../../../../../' %}
+  {% set pageTitle = 'Activity - Follow' %}
+  {% set segment = 'account' %}
+  {% set slug = 'account-activity-follow' %}
+  {% set followings = range(0, 15) %}
+{% endblock %}
+
+{% block content %}
+  {# nft__activity-follow #}
+  <section class="nft__activity-follow mt-36 px-36 xl:max-w-full lg:container">
+    <div class="ml-[25%] basis-9/12 pl-4">
+      <hgroup>
+        <h4 class="text-dark_mode font-semibold">
+          Follow
+        </h4>
+      </hgroup>
+    </div>
+    <div class="flex flex-row gap-4 mt-10">
+      <div class="basis-3/12">
+        <nav class="sticky top-36">
+          <span class="block text-gray-300">
+            Activity
+          </span>
+          <a href="#" class="block first-of-type:mt-10 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none" aria-current="page">
+            My Activity
+          </a>
+          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional active [&.active]:pointer-events-none">
+            Follow
+          </a>
+        </nav>
+      </div>
+      <div class="basis-9/12">
+        <div class="inline-block border-b border-gray-200">
+          <ul class="nft__tablist flex flex-wrap text-base font-semibold text-center" data-tabs-toggle="#tab-follow" role="tablist">
+            <li class="mr-8" role="presentation">
+              <button
+                class="inline-block p-0 pb-2 border-b-2"
+                id="tab-followings"
+                data-tabs-target="#followings"
+                type="button"
+                role="tab"
+                aria-controls="followings"
+                aria-selected="true"
+              >
+                Followings
+                <span class="ml-3">115</span>
+              </button>
+            </li>
+            <li class="last:mr-0" role="presentation">
+              <button
+                class="inline-block p-0 pb-2 border-b-2"
+                id="tab-followers"
+                data-tabs-target="#followers"
+                type="button"
+                role="tab"
+                aria-controls="followers"
+                aria-selected="false"
+              >
+                Followers
+                <span class="ml-3">20</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div id="tab-follow" class="mt-10">
+          <div class="hidden" id="followings" role="tabpanel" aria-labelledby="tab-followings">
+            <div class="grid grid-cols-3 gap-4">
+              {% for following in followings %}
+                {% include '_modules/card-follow/card-follow.nunjucks' %}
+              {% endfor %}
+            </div>
+            <div class="nft__load-more-button flex justify-center mt-10">
+              <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
+                Load more
+              </button>
+            </div>
+          </div>
+          <div class="hidden" id="followers" role="tabpanel" aria-labelledby="tab-followers">
+            <span>Tab content - Followers</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {# Tooltip copy-to-clipboard #}
+  {% include '_modules/tooltip-copy-to-clipboard/tooltip-copy-to-clipboard.nunjucks' %}
+{% endblock %}

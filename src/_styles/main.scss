@@ -96,6 +96,27 @@ body {
   }
 }
 
+.nft__tablist {
+  [aria-selected='true'] {
+    border-color: #202225;
+    color: #202225;
+
+    &:hover {
+      color: #202225;
+    }
+  }
+
+  [aria-selected='false'] {
+    border-color: transparent;
+    color: #BCBCBC;
+
+    &:hover {
+      border-color: transparent;
+      color: #202225;
+    }
+  }
+}
+
 .flatpickr-day.selected,
 .flatpickr-day.startRange,
 .flatpickr-day.endRange,

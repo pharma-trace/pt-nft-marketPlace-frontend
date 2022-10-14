@@ -16,25 +16,25 @@
     </h2>
     <div class="flex flex-row items-center mt-24">
       <div class="basis-6/12">
-        <div class="border-b border-gray-200">
-          <ul class="flex flex-wrap text-lg font-semibold text-center" data-tabs-toggle="#tab-explore-whole-items" role="tablist">
-            <li class="mr-2" role="presentation">
+        <div class="inline-block border-b border-gray-200">
+          <ul class="nft__tablist flex flex-wrap text-lg font-semibold text-center" data-tabs-toggle="#tab-explore-whole-items" role="tablist">
+            <li class="mr-8" role="presentation">
               <button
-                class="inline-block p-4 pb-2 border-b-2 !border-dark_mode !hover:border-gray-200 !text-dark_mode"
+                class="inline-block p-0 pb-2 border-b-2"
                 id="tab-collections"
                 data-tabs-target="#collections"
                 type="button"
                 role="tab"
                 aria-controls="collections"
-                aria-selected="false"
+                aria-selected="true"
               >
                 Collections
                 <span class="ml-3">22,934</span>
               </button>
             </li>
-            <li class="mr-2" role="presentation">
+            <li class="mr-8" role="presentation">
               <button
-                class="inline-block p-4 pb-2 !text-gray-300 pointer-events-none"
+                class="inline-block p-0 pb-2 border-b-2"
                 id="tab-nfts"
                 data-tabs-target="#nfts"
                 type="button"
@@ -46,9 +46,9 @@
                 <span class="ml-3">465,367</span>
               </button>
             </li>
-            <li class="mr-2" role="presentation">
+            <li class="last:mr-0" role="presentation">
               <button
-                class="inline-block p-4 pb-2 !text-gray-300 pointer-events-none"
+                class="inline-block p-0 pb-2 border-b-2"
                 id="tab-creators"
                 data-tabs-target="#creators"
                 type="button"
@@ -105,7 +105,7 @@
       </div>
     </div>
     <div class="nft__load-more-button flex justify-center mt-10">
-      <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium">
+      <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
         Load more
       </button>
     </div>

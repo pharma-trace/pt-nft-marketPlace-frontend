@@ -58,6 +58,25 @@
                 </ul>
               </li>
               <li>
+                Activity
+                <ul>
+                  <li>
+                    <a href="/pages/account/activity/my-activity/index.html" target="_blank">My activity</a>
+                  </li>
+                  <li>
+                    <a href="/pages/account/activity/follow/index.html" target="_blank">Follow</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Gathering
+                <ul>
+                  <li>
+                    <a href="/pages/account/gathering/created/index.html" target="_blank">Created</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
                 Account Settings
                 <ul>
                   <li>
