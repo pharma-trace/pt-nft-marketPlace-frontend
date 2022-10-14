@@ -259,28 +259,8 @@
   </section>
 
   {# Popover erc-721 #}
-  <div data-popover id="popover-erc-721" role="tooltip" class="inline-block absolute invisible z-10 w-72 bg-light_mode rounded-lg border border-gray-100 shadow-sm opacity-0 transition-opacity duration-300">
-    <div class="p-6">
-      <h6 class="text-dark_mode text-base font-semibold">
-        Token – ERC-721
-      </h6>
-      <p class="mt-2 text-gray-300 text-sm leading-relaxed">
-        The ERC-721 introduces a standard for NFT, in other words, this type of Token is unique and can have different value than another Token from the same Smart Contract, maybe due to its age, rarity or even something else like its visual.
-      </p>
-    </div>
-    <div data-popper-arrow></div>
-  </div>
+  {% include '_modules/popover-erc-721/popover-erc-721.nunjucks' %}
 
   {# Popover percentage-fee #}
-  <div data-popover id="popover-percentage-fee" role="tooltip" class="inline-block absolute invisible z-10 w-72 bg-light_mode rounded-lg border border-gray-100 shadow-sm opacity-0 transition-opacity duration-300">
-    <div class="p-6">
-      <h6 class="text-dark_mode text-base font-semibold">
-        Types of fees
-      </h6>
-      <p class="mt-2 text-gray-300 text-sm leading-relaxed">
-        When orders are created, we include those fees into the order. That means a fee for PharmaTrace, and another 2.5% royalty for the collection creator.
-      </p>
-    </div>
-    <div data-popper-arrow></div>
-  </div>
+  {% include '_modules/popover-percentage-fee/popover-percentage-fee.nunjucks' %}
 {% endblock %}

@@ -59,7 +59,12 @@
                 0x2acAb3DEa77832C09420663b0E1cB386031bA17B
               </h5>
             </hgroup>
-            <i class="fa-regular fa-copy text-gray-300 text-base hover:text-dark_mode cursor-pointer"></i>
+            <i
+              class="fa-regular fa-copy text-gray-300 text-base hover:text-dark_mode cursor-pointer"
+              data-tooltip-target="tooltip-animation"
+              data-tooltip-placement="right"
+              type="button">
+            </i>
           </div>
           <div class="flex mt-6">
             <hgroup>
@@ -89,4 +94,7 @@
       </div>
     </div>
   </section>
+
+  {# Tooltip copy-to-clipboard #}
+  {% include '_modules/tooltip-copy-to-clipboard/tooltip-copy-to-clipboard.nunjucks' %}
 {% endblock %}

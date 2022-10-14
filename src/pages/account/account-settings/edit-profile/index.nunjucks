@@ -301,15 +301,6 @@
     </div>
   </section>
 
-  <div data-popover id="popover-email-address" role="tooltip" class="inline-block absolute invisible z-10 w-72 bg-light_mode rounded-lg border border-gray-100 shadow-sm opacity-0 transition-opacity duration-300">
-    <div class="p-6">
-      <h6 class="text-dark_mode text-base font-semibold">
-        Safety rules
-      </h6>
-      <p class="mt-2 text-gray-300 text-sm leading-relaxed">
-        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form.
-      </p>
-    </div>
-    <div data-popper-arrow></div>
-  </div>
+  {# Popover email-address #}
+  {% include '_modules/popover-email-address/popover-email-address.nunjucks' %}
 {% endblock %}
