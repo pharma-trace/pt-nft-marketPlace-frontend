@@ -89,4 +89,10 @@
 
   {# Tooltip copy-to-clipboard #}
   {% include '_modules/tooltip-copy-to-clipboard/tooltip-copy-to-clipboard.nunjucks' %}
+
+  {# nft__modal-menu #}
+  {% include '_modules/modal-menu/modal-menu.nunjucks' %}
+
+  {# nft__modal-advance-search #}
+  {% include '_modules/modal-advance-search/modal-advance-search.nunjucks' %}
 {% endblock %}

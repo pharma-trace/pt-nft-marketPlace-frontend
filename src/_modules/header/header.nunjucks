@@ -9,9 +9,10 @@
           />
         </a>
       </figure>
-      <nav class="nft__primary-nav flex items-center">
+      <nav class="nft__top-nav flex items-center">
         <button
           type="button"
+          data-modal-toggle="modal-connect-wallet"
           class="min-h-[44px] py-2 px-6 mr-4 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium"
         >
           <i class="fa-solid fa-wallet mr-4 text-lg"></i>
@@ -19,12 +20,14 @@
         </button>
         <button
           type="button"
+          data-modal-toggle="modal-advance-search"
           class="min-h-[44px] py-2 px-6 mr-4 rounded-full {% if slug == 'home' %} bg-light_mode {% else %} bg-gray-100 {% endif %} text-dark_mode text-sm font-medium"
         >
           ⌘/J
         </button>
         <button
           type="button"
+          data-modal-toggle="modal-menu"
           class="min-h-[44px] py-2 px-6 rounded-full {% if slug == 'home' %} bg-light_mode {% else %} bg-gray-100 {% endif %} text-dark_mode text-sm font-medium"
         >
           <i class="fa-solid fa-bars text-lg"></i>

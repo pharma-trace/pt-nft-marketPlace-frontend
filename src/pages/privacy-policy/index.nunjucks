@@ -396,4 +396,13 @@
       </div>
     </div>
   </section>
+
+  {# nft__modal-connect-wallet #}
+  {% include '_modules/modal-connect-wallet/modal-connect-wallet.nunjucks' %}
+
+  {# nft__modal-menu #}
+  {% include '_modules/modal-menu/modal-menu.nunjucks' %}
+
+  {# nft__modal-advance-search #}
+  {% include '_modules/modal-advance-search/modal-advance-search.nunjucks' %}
 {% endblock %}

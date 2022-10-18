@@ -1,0 +1,26 @@
+<div id="popup-modal-recaptcha" tabindex="-1" class="nft__modal hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 md:inset-0 h-modal md:h-full justify-center items-center outline-none" aria-hidden="true">
+  <div class="relative p-4 w-full max-w-md h-full md:h-auto">
+    <div class="relative bg-white rounded-lg">
+      <button type="button" class="w-8 h-8 absolute top-3 right-3 text-gray-300 bg-transparent hover:bg-gray-100 hover:text-dark_mode rounded-lg ml-auto inline-flex items-center justify-center" data-modal-toggle="popup-modal-recaptcha">
+        <i class="fa-solid fa-xmark text-lg"></i>
+        <span class="sr-only">
+            Close modal
+          </span>
+      </button>
+      <div class="p-6 text-center">
+        <i class="fa-solid fa-shield-halved mt-2 text-gray-300 text-6xl"></i>
+        <h6 class="mt-5 text-gray-300 text-base">
+          Accept the reCAPTCHA before continuing.
+        </h6>
+        <div class="recaptcha-init my-10">
+        </div>
+        <button
+          data-modal-toggle="popup-modal-recaptcha"
+          type="button" class="min-h-[44px] py-2 px-6 mr-4 inline-flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300"
+        >
+          I'm sure
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

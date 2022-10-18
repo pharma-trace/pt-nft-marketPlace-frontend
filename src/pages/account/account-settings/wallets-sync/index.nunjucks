@@ -84,9 +84,10 @@
               </h4>
             </hgroup>
           </div>
-          <span class="block mt-6 text-error text-sm font-semibold">
+          <hr class="mt-4">
+          <button type="button" class="block mt-4 text-error text-sm font-semibold relative left-0 hover:left-1 ease-out duration-300">
             Disconnect
-          </span>
+          </button>
         </div>
         <button type="button" class="block py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
           Connect new Wallet
@@ -97,4 +98,10 @@
 
   {# Tooltip copy-to-clipboard #}
   {% include '_modules/tooltip-copy-to-clipboard/tooltip-copy-to-clipboard.nunjucks' %}
+
+  {# nft__modal-menu #}
+  {% include '_modules/modal-menu/modal-menu.nunjucks' %}
+
+  {# nft__modal-advance-search #}
+  {% include '_modules/modal-advance-search/modal-advance-search.nunjucks' %}
 {% endblock %}

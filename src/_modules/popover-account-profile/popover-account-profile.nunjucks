@@ -1,0 +1,92 @@
+<div data-popover id="popover-account-profile" role="tooltip" class="inline-block absolute invisible z-10 w-64 bg-white rounded-lg border border-solid border-gray-100 shadow-sm opacity-0 transition-opacity duration-100">
+  <div class="p-6">
+    <figure class="flex flex-row items-center relative">
+      <img
+        src="{{ site.data.configs.imageUrl }}avatars/avatar-10.jpg"
+        alt="Avatar 10"
+        class="w-16 h-16 rounded-full border-2 border-solid border-gray-100 object-cover"
+      />
+      <figcaption class="ml-4">
+        <span class="absolute top-[2px] left-[32px] align-middle ml-2">
+          <i class="fa-solid fa-certificate text-nft_institutional text-xl"></i>
+          <i class="fa-solid fa-check text-light_mode text-sm absolute top-[1px] left-[3px]"></i>
+        </span>
+        <span class="block text-dark_mode text-base font-semibold">
+          Yung DooMari
+        </span>
+        <span class="block text-sm text-gray-300">
+          yung_doomari
+        </span>
+      </figcaption>
+    </figure>
+    <nav class="nft_profile_nav mt-10 space-y-2">
+      <a href="#" class="flex items-center justify-between text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+        Profile
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+      <a href="#" class="block text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+        Activity
+      </a>
+      <a href="#" class="block text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+        Gathering
+      </a>
+      <a href="#" class="block text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+        Account settings
+      </a>
+      <a href="#" class="block text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+        Help Center
+      </a>
+    </nav>
+    <span class="block mt-10 text-dark_mode text-xs font-semibold">
+      Connected Wallet
+    </span>
+    <div class="mt-2 py-6 px-4 border border-solid border-gray-200 rounded-lg">
+      <figure>
+        <img
+          src="{{ site.data.configs.imageUrl }}trademarks/trademark-metamask.svg"
+          alt="Trademark Metamask"
+          class="w-[7rem]"
+        />
+      </figure>
+      <div class="flex items-end justify-between mt-6">
+        <hgroup>
+          <h6 class="text-dark_mode text-sm font-semibold">
+            Ethereum
+          </h6>
+          <h5 class="mt-1 text-gray-300 text-xs">
+            0x2acAb3…31bA17B
+          </h5>
+        </hgroup>
+        <i
+          class="fa-regular fa-copy text-gray-300 text-sm hover:text-dark_mode cursor-pointer"
+          data-tooltip-target="tooltip-animation"
+          data-tooltip-placement="right"
+          type="button">
+        </i>
+      </div>
+      <div class="flex flex-col mt-6">
+        <hgroup>
+          <h6 class="text-dark_mode text-sm font-semibold">
+            Wallet Balance
+          </h6>
+          <h4 class="mt-1 text-success text-sm font-semibold">
+            15 ETH
+          </h4>
+        </hgroup>
+        <hgroup class="mt-4">
+          <h6 class="text-dark_mode text-sm font-semibold">
+            Marketplace Balance
+          </h6>
+          <h4 class="mt-1 text-success text-sm font-semibold">
+            99 ETH
+          </h4>
+        </hgroup>
+      </div>
+      <hr class="mt-3">
+      <button type="button" class="block mt-3 text-error text-xs font-semibold relative left-0 hover:left-1 ease-out duration-300">
+        Disconnect
+      </button>
+    </div>
+  </div>
+  <div data-popper-arrow></div>
+</div>

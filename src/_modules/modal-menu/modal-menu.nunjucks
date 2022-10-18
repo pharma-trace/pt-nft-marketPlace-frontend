@@ -1,0 +1,75 @@
+<div id="modal-menu" tabindex="-1" aria-hidden="true" class="nft__modal hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full flex items-center justify-center outline-none">
+  <div class="absolute top-12 left-36 flex items-center">
+    <button
+      type="button" class="flex items-center outline-none"
+      data-modal-toggle="modal-menu"
+    >
+      <i class="fa-solid fa-xmark text-dark_mode text-4xl"></i>
+      <span class="ml-4 text-dark_mode text-lg font-semibold">Menu</span>
+    </button>
+    <button id="theme-toggle" type="button" class="ml-10 flex items-center" data-toggle-dark="light">
+      <span id="theme-toggle-dark-icon" class="flex items-center">
+        <span class="flex items-center justify-center w-[35px] h-[35px] bg-dark_mode rounded-lg">
+          <i class="fa-solid fa-moon text-light_mode text-xl"></i>
+        </span>
+        <span class="ml-3 font-medium">
+          Use dark-mode
+        </span>
+      </span>
+      <span id="theme-toggle-light-icon" class="hidden flex items-center">
+        <span class="flex items-center justify-center w-[35px] h-[35px] bg-light_mode rounded-lg">
+          <i class="fa-solid fa-sun text-xl"></i>
+        </span>
+        <span class="ml-3 font-medium">
+          Use light-mode
+        </span>
+      </span>
+    </button>
+  </div>
+  <div class="w-full flex justify-end mt-20">
+    <div class="basis-6/12">
+      <nav class="nft__primary-nav space-y-8">
+        <a href="#" class="block text-dark_mode text-8xl font-bold relative left-0 hover:left-2 hover:text-gray-300 ease-out duration-300">
+          Explore
+        </a>
+        <a href="#" class="block text-dark_mode text-8xl font-bold relative left-0 hover:left-2 hover:text-gray-300 ease-out duration-300">
+          Statistics
+        </a>
+        <a href="#" class="block text-dark_mode text-8xl font-bold relative left-0 hover:left-2 hover:text-gray-300 ease-out duration-300">
+          How it works?
+        </a>
+        <div class="space-y-4">
+          <a href="#" class="block text-dark_mode text-2xl font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+            About Us
+          </a>
+          <a href="#" class="block text-dark_mode text-2xl font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+            FAQ
+          </a>
+          <a href="#" class="block text-dark_mode text-2xl font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+            Term of Service
+          </a>
+        </div>
+      </nav>
+      <nav class="nft__social mt-36">
+        <a href="https://www.linkedin.com/company/pharmatrace" target="_blank" class="first:ml-0 text-dark_mode text-3xl relative bottom-0 hover:bottom-1 hover:text-gray-300 ease-out duration-300">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://twitter.com/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-gray-300 ease-out duration-300">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-gray-300 ease-out duration-300">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://github.com/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-gray-300 ease-out duration-300">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.xing.com/pages/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-gray-300 ease-out duration-300">
+          <i class="fa-brands fa-xing"></i>
+        </a>
+        <a href="https://t.me/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-gray-300 ease-out duration-300">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+      </nav>
+    </div>
+  </div>
+</div>

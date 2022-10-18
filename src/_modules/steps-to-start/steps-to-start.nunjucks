@@ -16,9 +16,9 @@
       <div class="flex flex-row items-center gap-x-14">
         <div class="basis-6/12">
           <div class="flex items-center">
-                <span class="block p-5 rounded-xl bg-light_mode">
-                  <i class="fa-solid fa-wallet text-nft_institutional text-2xl"></i>
-                </span>
+              <span class="flex items-center justify-center rounded-xl bg-light_mode w-[70px] h-[70px]">
+                <i class="fa-solid fa-wallet text-nft_institutional text-2xl"></i>
+              </span>
             <h6 class="ml-6 text-dark-mode text-lg font-medium">
               Set up your wallet
             </h6>
@@ -31,9 +31,9 @@
         </div>
         <div class="basis-6/12">
           <div class="flex items-center">
-                <span class="block p-5 rounded-xl bg-light_mode">
-                  <i class="fa-solid fa-box-open text-nft_institutional text-2xl"></i>
-                </span>
+              <span class="flex items-center justify-center rounded-xl bg-light_mode w-[70px] h-[70px]">
+                <i class="fa-solid fa-box-open text-nft_institutional text-2xl"></i>
+              </span>
             <h6 class="ml-6 text-dark-mode text-lg font-medium">
               Create your collection
             </h6>
@@ -48,9 +48,9 @@
       <div class="flex flex-row items-center gap-x-14 mt-14">
         <div class="basis-6/12">
           <div class="flex items-center">
-                <span class="block p-5 rounded-xl bg-light_mode">
-                  <i class="fa-solid fa-image text-nft_institutional text-2xl"></i>
-                </span>
+              <span class="flex items-center justify-center rounded-xl bg-light_mode w-[70px] h-[70px]">
+                <i class="fa-solid fa-image text-nft_institutional text-2xl"></i>
+              </span>
             <h6 class="ml-6 text-dark-mode text-lg font-medium">
               Add your NFTs
             </h6>
@@ -62,9 +62,9 @@
         </div>
         <div class="basis-6/12">
           <div class="flex items-center">
-                <span class="block p-5 rounded-xl bg-light_mode">
-                  <i class="fa-solid fa-bag-shopping text-nft_institutional text-2xl"></i>
-                </span>
+              <span class="flex items-center justify-center rounded-xl bg-light_mode w-[70px] h-[70px]">
+                <i class="fa-solid fa-bag-shopping text-nft_institutional text-2xl"></i>
+              </span>
             <h6 class="ml-6 text-dark-mode text-lg font-medium">
               List Them for Sale
             </h6>

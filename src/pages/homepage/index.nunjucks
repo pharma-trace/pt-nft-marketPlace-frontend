@@ -11,323 +11,331 @@
 {% endblock %}
 
 {% block content %}
-  <main>
-    {# nft__page #}
-    <section class="nft__hero min-h-[600px] h-[calc(100vh+76px)] px-36 xl:max-w-full lg:container">
-      <div class="flex flex-row gap-4 items-center h-full relative top-[-40px]">
-        <div class="basis-5/12">
-          <h1 class="text-dark_mode font-bold">
-            Discover<br/>
-            <span class="text-pt_institutional underline decoration-4">Digital Art</span> and<br/>
-            Collect NFTs
-          </h1>
-          <div class="flex flex-row items-center mt-16">
-            <a href="#" type="button" class="py-4 px-6 rounded-full bg-nft_institutional text-light_mode text-sm font-medium">
-              Explore the World
-            </a>
-            <div class="flex -space-x-4 ml-8">
-              {% for alt, src in site.data.avatars %}
-                <img
-                   src="{{ site.data.configs.imageUrl }}{{ src }}"
-                   alt="{{ alt }}"
-                   class="w-12 h-12 rounded-full border-2 border-solid border-gray-100 shadow-lg object-cover"
-                />
-              {% endfor %}
-            </div>
-            <div class="ml-4">
-              <span class="block text-sm font-bold">10+</span>
-              <span class="block text-sm text-gray-300">The best NFT artists</span>
-            </div>
-          </div>
-          <div class="flex flex-row items-center mt-10">
-            <hgroup>
-              <h4 class="text-dark_mode font-bold">190K+</h4>
-              <h6 class="text-gray-300 text-sm ml-1">NFTS Minted</h6>
-            </hgroup>
-            <hgroup class="ml-10">
-              <h4 class="text-dark_mode font-bold">22M+</h4>
-              <h6 class="text-gray-300 text-sm ml-1">Trading Volume</h6>
-            </hgroup>
-          </div>
-        </div>
-        <div class="basis-7/12">
-          <div class="nft__hero-figures relative w-full h-[700px]">
-            <figure class="-1 z-10 relative">
+  {# nft__page #}
+  <section class="nft__hero min-h-[600px] h-[calc(100vh+76px)] px-36 xl:max-w-full lg:container">
+    <div class="flex flex-row gap-4 items-center h-full relative top-[-40px]">
+      <div class="basis-5/12">
+        <h1 class="text-dark_mode font-bold">
+          Discover<br/>
+          <span class="text-pt_institutional underline decoration-4">Digital Art</span> and<br/>
+          Collect NFTs
+        </h1>
+        <div class="flex flex-row items-center mt-16">
+          <a href="#" type="button" class="py-4 px-6 rounded-full bg-nft_institutional text-light_mode text-sm font-medium">
+            Explore the World
+          </a>
+          <div class="flex -space-x-4 ml-8">
+            {% for alt, src in site.data.avatars %}
               <img
-                src="{{ site.data.configs.imageUrl }}homepage/hero/top-dashed-line.svg"
-                alt="Top dashed line"
-                class="max-h-[16rem] object-cover absolute top-[80px] left-0"
+                 src="{{ site.data.configs.imageUrl }}{{ src }}"
+                 alt="{{ alt }}"
+                 class="w-12 h-12 rounded-full border-2 border-solid border-gray-100 shadow-lg object-cover"
               />
-            </figure>
-            <figure class="z-30 relative">
-              <img
-                src="{{ site.data.configs.imageUrl }}homepage/hero/hero-card-1.png"
-                alt="Hero card 1"
-                class="max-h-[30rem] object-cover absolute top-[140px] left-[160px]"
-              />
-            </figure>
-            <figure class="z-20 relative">
-              <img
-                src="{{ site.data.configs.imageUrl }}homepage/hero/hero-card-2.png"
-                alt="Hero card 2"
-                class="max-h-[24rem] object-cover absolute top-[110px] left-[360px]"
-              />
-            </figure>
-            <figure class="z-10 relative">
-              <img
-                src="{{ site.data.configs.imageUrl }}homepage/hero/bottom-dashed-line.svg"
-                alt="Bottom dashed line"
-                class="max-h-[21rem] object-cover absolute top-[300px] left-[50px]"
-              />
-            </figure>
-            <figure class="z-20 relative">
-              <img
-                src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-art.svg"
-                alt="Icon category Art"
-                class="h-24 object-cover absolute top-[70px] left-[70px]"
-              />
-            </figure>
-            <figure class="z-20 relative">
-              <img
-                src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-sport.svg"
-                alt="Icon category Sport"
-                class="h-24 object-cover absolute top-[110px] left-[660px]"
-              />
-            </figure>
-            <figure class="z-20 relative">
-              <img
-                src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-utility.svg"
-                alt="Icon category Utility"
-                class="h-24 object-cover absolute top-[315px] left-[80px]"
-              />
-            </figure>
-            <figure class="z-20 relative">
-              <img
-                src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-photo.svg"
-                alt="Icon category Photo"
-                class="h-24 object-cover absolute top-[520px] left-[20px]"
-              />
-            </figure>
-            <figure class="z-20 relative">
-              <img
-                src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-music.svg"
-                alt="Icon category Music"
-                class="h-24 object-cover absolute top-[530px] left-[600px]"
-              />
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="nft__bar-corporate-trademarks w-full flex items-center justify-center absolute left-0 bottom-8">
-        <img
-           src="{{ site.data.configs.imageUrl }}trademarks/trademark-metamask.svg"
-           alt="Trademark Metamask"
-           class="w-[10rem]"
-        />
-        <img
-           src="{{ site.data.configs.imageUrl }}trademarks/trademark-coinbase.svg"
-           alt="Trademark Coinbase"
-           class="w-[10rem] ml-20"
-        />
-        <img
-           src="{{ site.data.configs.imageUrl }}trademarks/trademark-walletconnect.svg"
-           alt="Trademark WalletConnect"
-           class="w-[10rem] ml-20"
-        />
-        <img
-           src="{{ site.data.configs.imageUrl }}trademarks/trademark-fortmatic.svg"
-           alt="Trademark Fortmatic"
-           class="w-[10rem] ml-20"
-        />
-      </div>
-    </section>
-    {# nft__who-we-are #}
-    <section class="nft__who-we-are px-36 xl:max-w-full lg:container">
-      <div class="flex flex-row gap-4">
-        <div class="basis-7/12 mt-28">
-          <span class="text-nft_institutional text-lg">
-            Who we are
-          </span>
-          <h4 class="mt-10 text-dark_mode font-semibold">
-            The world’s first and largest digital marketplace for
-            crypto collectables and non-fungible tokens (NFTs).
-          </h4>
-        </div>
-        <div class="basis-5/12">
-          <figure>
-            <img
-              src="{{ site.data.configs.imageUrl }}homepage/dotted-line.svg"
-              alt="Illustration - Dotted line"
-              class="w-4/5 ml-20"
-            />
-          </figure>
-        </div>
-      </div>
-      <div class="nft__scroll-left-text absolute -right-[250px]">
-        <span class="text-gray-100 text-big font-bold leading-none">
-          This is our mission
-        </span>
-      </div>
-      <figure class="flex justify-end mt-44">
-        <img
-          src="{{ site.data.configs.imageUrl }}commons/fingerprint-blot.svg"
-          alt="Illustration - Fingerprint blot - Who we are"
-          class="w-44"
-        />
-      </figure>
-      <div class="flex flex-row items-center gap-4 mt-10">
-        <div class="basis-6/12">
-          <figure class="ml-14">
-            <img
-              src="{{ site.data.configs.imageUrl }}homepage/illustration-mission.svg"
-              alt="Illustration mission"
-              class="w-full"
-            />
-          </figure>
-        </div>
-        <div class="basis-6/12">
-          <div class="flex flex-col ml-10">
-            <div class="group py-4 px-6 rounded-xl bg-light_mode hover:bg-pt_institutional/20">
-              <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional">
-                Authentic
-              </h6>
-              <p class="mt-2 text-gray-300 text-md leading-relaxed group-hover:text-dark_mode">
-                Every digital creation on MakersPlace is digitally signed by the creator and
-                permanently recorded and verified through the blockchain.
-              </p>
-            </div>
-            <div class="group py-4 px-6 mt-4 ml-12 rounded-xl bg-light_mode hover:bg-pt_institutional/20">
-              <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional">
-                Unique
-              </h6>
-              <p class="mt-2 text-gray-300 text-md leading-relaxed group-hover:text-dark_mode">
-                Every digital creation is issued as a unique digital edition, using blockchain technology a creator
-                can ensure that only a limited number of authentic editions can be owned, ensuring and uniqueness.
-              </p>
-            </div>
-            <div class="group py-4 px-6 mt-4 rounded-xl bg-light_mode hover:bg-pt_institutional/20">
-              <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional">
-                Ownable
-              </h6>
-              <p class="mt-2 text-gray-300 text-md leading-relaxed group-hover:text-dark_mode">
-                Purchasing a unique digital creation means you’re given full ownership over the creation,
-                which is then transferred and stored in your digital wallet for safe-keeping.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <figure class="relative min-h-[400px]">
-        <img
-          src="{{ site.data.configs.imageUrl }}homepage/dotted-line-fingerprint.svg"
-          alt="Illustration - Dotted line with fingerprint blot"
-          class="w-9/12 absolute top-[-250px] left-[-220px]"
-        />
-      </figure>
-    </section>
-    {# nft__top-sellers #}
-    <section class="nft__top-sellers px-36 xl:max-w-full lg:container">
-      <div class="flex items-center justify-between">
-        <h5 class="text-dark_mode font-medium">
-          Top sellers
-        </h5>
-        <ul class="flex flex-wrap p-1 text-dark_mode text-sm font-semibold text-center rounded-xl bg-gray-100/40" data-tabs-toggle="#tab-top-sellers" role="tablist">
-          <li class="mr-2" role="presentation">
-            <button
-              type="button"
-              class="inline-block py-3 px-4 rounded-xl !text-dark_mode !bg-light_mode hover:bg-light_mode"
-              id="tab-one-day-sellers"
-              data-tabs-target="#one-day-sellers"
-              role="tab"
-              aria-controls="one-day"
-              aria-selected="false"
-            >
-              1 day
-            </button>
-          </li>
-          <li class="mr-2" role="presentation">
-            <button
-              type="button"
-              class="inline-block py-3 px-4 rounded-xl !text-dark_mode hover:bg-light_mode"
-              id="tab-seven-days-sellers"
-              data-tabs-target="#seven-days-sellers"
-              role="tab" aria-controls="seven-days"
-              aria-selected="false"
-            >
-              7 days
-            </button>
-          </li>
-          <li class="last:mr-0" role="presentation">
-            <button
-              type="button"
-              class="inline-block py-3 px-4 rounded-xl !text-dark_mode hover:bg-light_mode"
-              id="tab-thirty-days-sellers"
-              data-tabs-target="#thirty-days-sellers"
-              role="tab"
-              aria-controls="thirty-days"
-              aria-selected="false"
-            >
-              30 days
-            </button>
-          </li>
-        </ul>
-        <a href="#" class="underline text-sm hover:no-underline">
-          View all
-        </a>
-      </div>
-      <div id="#tab-top-sellers" class="mt-10">
-        <div class="hidden" id="one-day-sellers" role="tabpanel" aria-labelledby="tab-one-day-sellers">
-          <div class="grid grid-rows-5 grid-flow-col gap-4">
-            {% for seller in sellers %}
-              {% include '_modules/card-seller/card-seller.nunjucks' %}
             {% endfor %}
           </div>
-        </div>
-        <div class="hidden" id="seven-days-sellers" role="tabpanel" aria-labelledby="tab-seven-days-sellers">
-          <span>Tab content - Seven days</span>
-        </div>
-        <div class="hidden" id="thirty-days-sellers" role="tabpanel" aria-labelledby="tab-thirty-days-sellers">
-          <span>Tab content - Thirty days</span>
-        </div>
-      </div>
-    </section>
-    {# nft__top-collections #}
-    <section class="nft__top-collections px-36 mt-36 xl:max-w-full lg:container">
-      <div class="flex items-center justify-between">
-        <h5 class="text-dark_mode font-medium">
-          Top collections
-        </h5>
-        <a href="#" class="underline text-sm hover:no-underline">
-          View all
-        </a>
-      </div>
-      <div class="flex flex-nowrap gap-4 mt-10">
-        {% for collection in collections %}
-          <div class="basis-3/12 ">
-            {% include '_modules/card-collection/card-collection.nunjucks' %}
+          <div class="ml-4">
+            <span class="block text-sm font-bold">10+</span>
+            <span class="block text-sm text-gray-300">The best NFT artists</span>
           </div>
-        {% endfor %}
+        </div>
+        <div class="flex flex-row items-center mt-10">
+          <hgroup>
+            <h4 class="text-dark_mode font-bold">190K+</h4>
+            <h6 class="text-gray-300 text-sm ml-1">NFTS Minted</h6>
+          </hgroup>
+          <hgroup class="ml-10">
+            <h4 class="text-dark_mode font-bold">22M+</h4>
+            <h6 class="text-gray-300 text-sm ml-1">Trading Volume</h6>
+          </hgroup>
+        </div>
       </div>
-    </section>
-    {# nft__recent-bids #}
-    <section class="nft__top-collections px-36 mt-36 xl:max-w-full lg:container">
-      <div class="flex items-center justify-between">
-        <h5 class="text-dark_mode font-medium">
-          Recent Bids
-        </h5>
-        <a href="#" class="underline text-sm hover:no-underline">
-          View all
-        </a>
+      <div class="basis-7/12">
+        <div class="nft__hero-figures relative w-full h-[700px]">
+          <figure class="-1 z-10 relative">
+            <img
+              src="{{ site.data.configs.imageUrl }}homepage/hero/top-dashed-line.svg"
+              alt="Top dashed line"
+              class="max-h-[16rem] object-cover absolute top-[80px] left-0"
+            />
+          </figure>
+          <figure class="z-30 relative">
+            <img
+              src="{{ site.data.configs.imageUrl }}homepage/hero/hero-card-1.png"
+              alt="Hero card 1"
+              class="max-h-[30rem] object-cover absolute top-[140px] left-[160px]"
+            />
+          </figure>
+          <figure class="z-20 relative">
+            <img
+              src="{{ site.data.configs.imageUrl }}homepage/hero/hero-card-2.png"
+              alt="Hero card 2"
+              class="max-h-[24rem] object-cover absolute top-[110px] left-[360px]"
+            />
+          </figure>
+          <figure class="z-10 relative">
+            <img
+              src="{{ site.data.configs.imageUrl }}homepage/hero/bottom-dashed-line.svg"
+              alt="Bottom dashed line"
+              class="max-h-[21rem] object-cover absolute top-[300px] left-[50px]"
+            />
+          </figure>
+          <figure class="z-20 relative">
+            <img
+              src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-art.svg"
+              alt="Icon category Art"
+              class="h-24 object-cover absolute top-[70px] left-[70px]"
+            />
+          </figure>
+          <figure class="z-20 relative">
+            <img
+              src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-sport.svg"
+              alt="Icon category Sport"
+              class="h-24 object-cover absolute top-[110px] left-[660px]"
+            />
+          </figure>
+          <figure class="z-20 relative">
+            <img
+              src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-utility.svg"
+              alt="Icon category Utility"
+              class="h-24 object-cover absolute top-[315px] left-[80px]"
+            />
+          </figure>
+          <figure class="z-20 relative">
+            <img
+              src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-photo.svg"
+              alt="Icon category Photo"
+              class="h-24 object-cover absolute top-[520px] left-[20px]"
+            />
+          </figure>
+          <figure class="z-20 relative">
+            <img
+              src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-music.svg"
+              alt="Icon category Music"
+              class="h-24 object-cover absolute top-[530px] left-[600px]"
+            />
+          </figure>
+        </div>
       </div>
-      <div class="flex flex-nowrap gap-4 mt-10">
-        {% for nft in nfts %}
-          <div class="basis-3/12 ">
-            {% include '_modules/card-nft/card-nft.nunjucks' %}
+    </div>
+    <div class="nft__bar-corporate-trademarks w-full flex items-center justify-center absolute left-0 bottom-8">
+      <img
+         src="{{ site.data.configs.imageUrl }}trademarks/trademark-metamask.svg"
+         alt="Trademark Metamask"
+         class="w-[10rem]"
+      />
+      <img
+         src="{{ site.data.configs.imageUrl }}trademarks/trademark-coinbase.svg"
+         alt="Trademark Coinbase"
+         class="w-[10rem] ml-20"
+      />
+      <img
+         src="{{ site.data.configs.imageUrl }}trademarks/trademark-walletconnect.svg"
+         alt="Trademark WalletConnect"
+         class="w-[10rem] ml-20"
+      />
+      <img
+         src="{{ site.data.configs.imageUrl }}trademarks/trademark-fortmatic.svg"
+         alt="Trademark Fortmatic"
+         class="w-[10rem] ml-20"
+      />
+    </div>
+  </section>
+  {# nft__who-we-are #}
+  <section class="nft__who-we-are px-36 xl:max-w-full lg:container">
+    <div class="flex flex-row gap-4">
+      <div class="basis-7/12 mt-28">
+        <span class="text-nft_institutional text-lg">
+          Who we are
+        </span>
+        <h4 class="mt-10 text-dark_mode font-semibold">
+          The world’s first and largest digital marketplace for
+          crypto collectables and non-fungible tokens (NFTs).
+        </h4>
+      </div>
+      <div class="basis-5/12">
+        <figure>
+          <img
+            src="{{ site.data.configs.imageUrl }}homepage/dotted-line.svg"
+            alt="Illustration - Dotted line"
+            class="w-4/5 ml-20"
+          />
+        </figure>
+      </div>
+    </div>
+    <div class="nft__scroll-left-text absolute -right-[250px]">
+      <span class="text-gray-100 text-big font-bold leading-none">
+        This is our mission
+      </span>
+    </div>
+    <figure class="flex justify-end mt-44">
+      <img
+        src="{{ site.data.configs.imageUrl }}commons/fingerprint-blot.svg"
+        alt="Illustration - Fingerprint blot - Who we are"
+        class="w-44"
+      />
+    </figure>
+    <div class="flex flex-row items-center gap-4 mt-10">
+      <div class="basis-6/12">
+        <figure class="ml-14">
+          <img
+            src="{{ site.data.configs.imageUrl }}homepage/illustration-mission.svg"
+            alt="Illustration mission"
+            class="w-full"
+          />
+        </figure>
+      </div>
+      <div class="basis-6/12">
+        <div class="flex flex-col ml-10">
+          <div class="group py-4 px-6 rounded-xl bg-light_mode hover:bg-pt_institutional/20">
+            <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional">
+              Authentic
+            </h6>
+            <p class="mt-2 text-gray-300 text-md leading-relaxed group-hover:text-dark_mode">
+              Every digital creation on MakersPlace is digitally signed by the creator and
+              permanently recorded and verified through the blockchain.
+            </p>
           </div>
-        {% endfor %}
+          <div class="group py-4 px-6 mt-4 ml-12 rounded-xl bg-light_mode hover:bg-pt_institutional/20">
+            <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional">
+              Unique
+            </h6>
+            <p class="mt-2 text-gray-300 text-md leading-relaxed group-hover:text-dark_mode">
+              Every digital creation is issued as a unique digital edition, using blockchain technology a creator
+              can ensure that only a limited number of authentic editions can be owned, ensuring and uniqueness.
+            </p>
+          </div>
+          <div class="group py-4 px-6 mt-4 rounded-xl bg-light_mode hover:bg-pt_institutional/20">
+            <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional">
+              Ownable
+            </h6>
+            <p class="mt-2 text-gray-300 text-md leading-relaxed group-hover:text-dark_mode">
+              Purchasing a unique digital creation means you’re given full ownership over the creation,
+              which is then transferred and stored in your digital wallet for safe-keeping.
+            </p>
+          </div>
+        </div>
       </div>
-    </section>
-    {# nft__steps-to-start #}
-    {% include '_modules/steps-to-start/steps-to-start.nunjucks' %}
-  </main>
+    </div>
+    <figure class="relative min-h-[400px]">
+      <img
+        src="{{ site.data.configs.imageUrl }}homepage/dotted-line-fingerprint.svg"
+        alt="Illustration - Dotted line with fingerprint blot"
+        class="w-9/12 absolute top-[-250px] left-[-220px]"
+      />
+    </figure>
+  </section>
+  {# nft__top-sellers #}
+  <section class="nft__top-sellers px-36 xl:max-w-full lg:container">
+    <div class="flex items-center justify-between">
+      <h5 class="text-dark_mode font-medium">
+        Top sellers
+      </h5>
+      <ul class="flex flex-wrap p-1 text-dark_mode text-sm font-semibold text-center rounded-xl bg-gray-100/40" data-tabs-toggle="#tab-top-sellers" role="tablist">
+        <li class="mr-2" role="presentation">
+          <button
+            type="button"
+            class="inline-block py-3 px-4 rounded-xl !text-dark_mode !bg-light_mode hover:bg-light_mode"
+            id="tab-one-day-sellers"
+            data-tabs-target="#one-day-sellers"
+            role="tab"
+            aria-controls="one-day"
+            aria-selected="false"
+          >
+            1 day
+          </button>
+        </li>
+        <li class="mr-2" role="presentation">
+          <button
+            type="button"
+            class="inline-block py-3 px-4 rounded-xl !text-dark_mode hover:bg-light_mode"
+            id="tab-seven-days-sellers"
+            data-tabs-target="#seven-days-sellers"
+            role="tab" aria-controls="seven-days"
+            aria-selected="false"
+          >
+            7 days
+          </button>
+        </li>
+        <li class="last:mr-0" role="presentation">
+          <button
+            type="button"
+            class="inline-block py-3 px-4 rounded-xl !text-dark_mode hover:bg-light_mode"
+            id="tab-thirty-days-sellers"
+            data-tabs-target="#thirty-days-sellers"
+            role="tab"
+            aria-controls="thirty-days"
+            aria-selected="false"
+          >
+            30 days
+          </button>
+        </li>
+      </ul>
+      <a href="#" class="underline text-sm hover:no-underline">
+        View all
+      </a>
+    </div>
+    <div id="#tab-top-sellers" class="mt-10">
+      <div class="hidden" id="one-day-sellers" role="tabpanel" aria-labelledby="tab-one-day-sellers">
+        <div class="grid grid-rows-5 grid-flow-col gap-4">
+          {% for seller in sellers %}
+            {% include '_modules/card-seller/card-seller.nunjucks' %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="hidden" id="seven-days-sellers" role="tabpanel" aria-labelledby="tab-seven-days-sellers">
+        <span>Tab content - Seven days</span>
+      </div>
+      <div class="hidden" id="thirty-days-sellers" role="tabpanel" aria-labelledby="tab-thirty-days-sellers">
+        <span>Tab content - Thirty days</span>
+      </div>
+    </div>
+  </section>
+  {# nft__top-collections #}
+  <section class="nft__top-collections px-36 mt-36 xl:max-w-full lg:container">
+    <div class="flex items-center justify-between">
+      <h5 class="text-dark_mode font-medium">
+        Top collections
+      </h5>
+      <a href="#" class="underline text-sm hover:no-underline">
+        View all
+      </a>
+    </div>
+    <div class="flex flex-nowrap gap-4 mt-10">
+      {% for collection in collections %}
+        <div class="basis-3/12 ">
+          {% include '_modules/card-collection/card-collection.nunjucks' %}
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  {# nft__recent-bids #}
+  <section class="nft__top-collections px-36 mt-36 xl:max-w-full lg:container">
+    <div class="flex items-center justify-between">
+      <h5 class="text-dark_mode font-medium">
+        Recent Bids
+      </h5>
+      <a href="#" class="underline text-sm hover:no-underline">
+        View all
+      </a>
+    </div>
+    <div class="flex flex-nowrap gap-4 mt-10">
+      {% for nft in nfts %}
+        <div class="basis-3/12 ">
+          {% include '_modules/card-nft/card-nft.nunjucks' %}
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  {# nft__steps-to-start #}
+  {% include '_modules/steps-to-start/steps-to-start.nunjucks' %}
+
+  {# nft__modal-connect-wallet #}
+  {% include '_modules/modal-connect-wallet/modal-connect-wallet.nunjucks' %}
+
+  {# nft__modal-menu #}
+  {% include '_modules/modal-menu/modal-menu.nunjucks' %}
+
+  {# nft__modal-advance-search #}
+  {% include '_modules/modal-advance-search/modal-advance-search.nunjucks' %}
 {% endblock %}

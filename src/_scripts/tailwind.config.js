@@ -1,4 +1,5 @@
 tailwind.config = {
+  darkMode: 'class',
     theme: {
         extend: {
             colors: {
@@ -29,6 +30,7 @@ tailwind.config = {
               '5xl': '3rem',
               '6xl': '3.5rem',
               '7xl': '4rem',
+              '8xl': '5rem',
               'big': '9rem'
             },
             lineHeight: {

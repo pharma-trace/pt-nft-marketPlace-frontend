@@ -9,7 +9,7 @@
         />
       </a>
     </figure>
-    <nav class="nft__primary-nav flex items-center">
+    <nav class="nft__top-nav flex items-center">
       {% if slug != 'account-create-choose-type' %}
         <button
           type="button"
@@ -26,23 +26,30 @@
       </button>
       <button
         type="button"
+        data-modal-toggle="modal-advance-search"
         class="min-h-[44px] py-2 px-6 mr-4 rounded-full {% if slug == 'home' %} bg-light_mode {% else %} bg-gray-100 {% endif %} text-dark_mode text-sm font-medium"
       >
         ⌘/J
       </button>
       <button
         type="button"
+        data-modal-toggle="modal-menu"
         class="min-h-[44px] py-2 px-6 mr-4 rounded-full {% if slug == 'home' %} bg-light_mode {% else %} bg-gray-100 {% endif %} text-dark_mode text-sm font-medium"
       >
         <i class="fa-solid fa-bars text-lg"></i>
       </button>
-      <figure>
-        <img
-          src="{{ site.data.configs.imageUrl }}avatars/avatar-10.jpg"
-          alt="Avatar 10"
-          class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover"
-        />
-      </figure>
+      <button data-popover-target="popover-account-profile" data-popover-trigger="click">
+        <figure>
+          <img
+            src="{{ site.data.configs.imageUrl }}avatars/avatar-10.jpg"
+            alt="Avatar 10"
+            class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover"
+          />
+        </figure>
+      </button>
     </nav>
   </div>
 </header>
+
+{# nft__modal-advance-search #}
+{% include '_modules/popover-account-profile/popover-account-profile.nunjucks' %}

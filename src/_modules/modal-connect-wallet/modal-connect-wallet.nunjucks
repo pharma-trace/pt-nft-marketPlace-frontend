@@ -1,0 +1,63 @@
+<div id="modal-connect-wallet" tabindex="-1" aria-hidden="true" class="nft__modal hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full flex items-center justify-center outline-none">
+  <div class="absolute top-12 left-36 ">
+    <button
+      type="button" class="flex items-center outline-none"
+      data-modal-toggle="modal-connect-wallet"
+    >
+      <i class="fa-solid fa-xmark text-dark_mode text-4xl"></i>
+      <span class="ml-4 text-dark_mode text-lg font-semibold">Connect Wallet</span>
+    </button>
+  </div>
+  <div class="p-4 w-full max-w-lg h-full md:h-auto">
+    <div class="bg-white rounded-xl">
+      <div class="py-6 px-16 text-center">
+        <h5 class=" mt-10 text-dark_mode font-semibold">
+          Select a Wallet
+        </h5>
+        <ul class="mt-10 space-y-4">
+          <li>
+            <button class="flex items-center w-full min-h-[60px] border-2 border-solid border-gray-200 rounded-lg hover:bg-gray-100">
+              <img
+                src="{{ site.data.configs.imageUrl }}trademarks/trademark-metamask.svg"
+                alt="Trademark Metamask"
+                class="w-[8rem] mx-auto"
+              />
+            </button>
+          </li>
+          <li>
+            <button class="flex items-center w-full min-h-[60px] border-2 border-solid border-gray-200 rounded-lg hover:bg-gray-100">
+              <img
+                src="{{ site.data.configs.imageUrl }}trademarks/trademark-coinbase.svg"
+                alt="Trademark Coinbase"
+                class="w-[8rem] mx-auto"
+              />
+            </button>
+          </li>
+          <li>
+            <button class="flex items-center w-full min-h-[60px] border-2 border-solid border-gray-200 rounded-lg hover:bg-gray-100">
+              <img
+                src="{{ site.data.configs.imageUrl }}trademarks/trademark-walletconnect.svg"
+                alt="Trademark WalletConnect"
+                class="w-[8rem] mx-auto"
+              />
+            </button>
+          </li>
+          <li>
+            <button class="flex items-center w-full min-h-[60px] border-2 border-solid border-gray-200 rounded-lg hover:bg-gray-100">
+              <img
+                src="{{ site.data.configs.imageUrl }}trademarks/trademark-fortmatic.svg"
+                alt="Trademark Fortmatic"
+                class="w-[8rem] mx-auto"
+              />
+            </button>
+          </li>
+        </ul>
+        <div class="mt-10">
+            <span class="text-gray-300 text-xs">
+              By connecting your wallet, you agree to our <a href="#" class="underline hover:text-dark_mode">Terms of Service</a> and our <a href="#" class="underline hover:text-dark_mode">Privacy Policy</a>.
+            </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

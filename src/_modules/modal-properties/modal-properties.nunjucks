@@ -1,4 +1,4 @@
-<aside id="modal-properties" tabindex="-1" class="nft__modal hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full">
+<aside id="modal-properties" tabindex="-1" class="nft__modal hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full outline-none">
   <div class="relative p-6 w-full max-w-4xl h-full md:h-auto">
     <div class="relative bg-white rounded-md shadow px-8 py-6">
       <div class="flex justify-between items-center">

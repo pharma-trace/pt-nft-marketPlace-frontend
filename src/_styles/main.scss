@@ -31,11 +31,28 @@ body {
 // Pages
 // Homepage
 .nft__hero {
-  background: linear-gradient(130deg, rgba(255,255,255,1) 0%, rgba(238,197,43,0.3) 100%);
+  background: linear-gradient(130deg, rgba(255,255,255,1) 0%, rgba(238,197,43,0.3) 100%) !important;
   clip-path: ellipse(135% 100% at 50% 0%);
 }
 
 // Components
+.nft__modal {
+  background: rgba(255,250,228,0.80);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.nft__taglist-results {
+  .os-content {
+    display: flex;
+    justify-content: space-between;
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
 .nft__select-box {
   &--current {
     position: relative;

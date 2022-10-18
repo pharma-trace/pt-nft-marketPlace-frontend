@@ -303,4 +303,10 @@
 
   {# Popover email-address #}
   {% include '_modules/popover-email-address/popover-email-address.nunjucks' %}
+
+  {# nft__modal-menu #}
+  {% include '_modules/modal-menu/modal-menu.nunjucks' %}
+
+  {# nft__modal-advance-search #}
+  {% include '_modules/modal-advance-search/modal-advance-search.nunjucks' %}
 {% endblock %}
