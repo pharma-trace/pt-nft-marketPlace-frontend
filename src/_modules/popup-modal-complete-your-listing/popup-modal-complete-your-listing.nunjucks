@@ -1,0 +1,72 @@
+<div id="popup-modal-complete-your-listing" tabindex="-1" class="nft__modal hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 md:inset-0 h-modal md:h-full justify-center items-center outline-none" aria-hidden="true">
+  <div class="relative p-4 w-full max-w-4xl h-full md:h-auto">
+    <div class="relative bg-white rounded-lg">
+      <button type="button" class="w-8 h-8 absolute top-3 right-3 text-gray-300 bg-transparent hover:bg-gray-100 hover:text-dark_mode rounded-lg ml-auto inline-flex items-center justify-center" data-modal-toggle="popup-modal-complete-your-listing">
+        <i class="fa-solid fa-xmark text-lg"></i>
+        <span class="sr-only">
+            Close modal
+          </span>
+      </button>
+      <div class="py-12 px-16">
+        <h5 class="mt-5 text-dark_mode text-xl font-semibold text-center">
+          Complete your listing
+        </h5>
+        <div class="my-10 flex items-center justify-between">
+          <figure class="flex flex-row items-center mt-4">
+            <img
+              src="{{ site.data.configs.imageUrl }}avatars/avatar-9.jpg"
+              alt="Avatar 9"
+              class="w-20 h-20 rounded-xl border-2 border-solid border-gray-100 object-cover"
+            />
+            <figcaption class="ml-4 flex flex-col items-start">
+              <span class="text-gray-300 text-sm font-medium">
+                Collection: Doodles
+              </span>
+              <span class="mt-1 text-dark_mode text-sm font-semibold">
+                Doodles #001
+              </span>
+            </figcaption>
+          </figure>
+          <div class="flex flex-col items-end">
+            <span class="text-gray-300 text-sm font-medium">
+              Price
+            </span>
+            <span class="mt-1 text-dark_mode text-sm font-semibold">
+              <i class="mr-3 fa-brands fa-ethereum text-[#627EEA] text-xl align-middle"></i>
+              0.000001
+            </span>
+          </div>
+        </div>
+        <hr>
+        <div class="mt-10 flex">
+          <div role="status">
+            <svg class="inline w-8 h-8 text-gray-100 animate-spin fill-nft_institutional" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="currentColor"/>
+              <path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentFill"/>
+            </svg>
+            <span class="sr-only">Loading...</span>
+          </div>
+          <hgroup class="ml-6">
+            <h5 class="text-dark_mode text-base font-semibold">
+              Confirm listing
+            </h5>
+            <h6 class="mt-1 text-gray-300 text-sm">
+              You will be asked to review and confirm this listing from your wallet.
+            </h6>
+            <button
+              type="button"
+              class="mt-10 min-h-[44px] py-2 px-6 mr-4 inline-flex items-center justify-center rounded-full bg-gray-100 text-dark_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-100 active:scale-[0.94] hover:scale-[0.97] ease-out duration-300"
+            >
+              Waiting for approval...
+            </button>
+          </hgroup>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+

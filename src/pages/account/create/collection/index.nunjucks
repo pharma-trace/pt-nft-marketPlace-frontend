@@ -258,10 +258,10 @@
       </div>
   </section>
 
-  {# Popover erc-721 #}
+  {# nft__popover-erc-721 #}
   {% include '_modules/popover-erc-721/popover-erc-721.nunjucks' %}
 
-  {# Popover percentage-fee #}
+  {# nft__popover-percentage-fee #}
   {% include '_modules/popover-percentage-fee/popover-percentage-fee.nunjucks' %}
 
   {# nft__modal-menu #}

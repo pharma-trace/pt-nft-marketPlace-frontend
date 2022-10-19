@@ -152,15 +152,18 @@
           </div>
           <div class="mt-8">
             <label for="expiration-date" class="block mb-2 text-dark_mode text-sm font-semibold">Expiration Date*</label>
-            <input
-              type="text"
-              name="expiration_date"
-              id="expiration-date"
-              class="datetime-picker block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
-              placeholder="Enter the number of items that can be minted"
-              autocomplete="off"
-              required
-            />
+            <div class="relative">
+              <input
+                type="text"
+                name="expiration_date"
+                id="expiration-date"
+                class="datetime-picker block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                placeholder="Enter the expiration date"
+                autocomplete="off"
+                required
+              />
+              <i class="fa-regular fa-calendar-days text-gray-300 text-xl absolute top-[15px] right-3 pointer-events-none"></i>
+            </div>
           </div>
           <div class="mt-8 flex items-center justify-between">
             <span class="block mb-2 text-dark_mode text-sm font-semibold">
@@ -195,7 +198,8 @@
               <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base cursor-pointer hover:scale-110 ease-out duration-300"
                  data-popover-target="popover-freeze-metadata"
                  data-popover-placement="bottom"
-                 type="button">
+                 type="button"
+              >
               </i>
             </span>
             <span class="block p-4 w-full text-gray-300 text-sm font-normal bg-gray-100/30 rounded-lg">
@@ -235,10 +239,10 @@
     </div>
   </section>
 
-  {# Popover freeze-metadata #}
+  {# nft__popover-freeze-metadata #}
   {% include '_modules/popover-freeze-metadata/popover-freeze-metadata.nunjucks' %}
 
-  {# Modal properties #}
+  {# nft__modal-properties #}
   {% include '_modules/modal-properties/modal-properties.nunjucks' %}
 
   {# nft__modal-menu #}

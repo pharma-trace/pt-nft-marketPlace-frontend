@@ -15,8 +15,8 @@
         <div class="recaptcha-init my-10">
         </div>
         <button
-          data-modal-toggle="popup-modal-recaptcha"
-          type="button" class="min-h-[44px] py-2 px-6 mr-4 inline-flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300"
+          type="button"
+          class="min-h-[44px] py-2 px-6 mr-4 inline-flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300"
         >
           I'm sure
         </button>

@@ -207,10 +207,10 @@
     </div>
   </section>
 
-  {# Popover freeze-metadata #}
+  {# nft__popover-freeze-metadata #}
   {% include '_modules/popover-freeze-metadata/popover-freeze-metadata.nunjucks' %}
 
-  {# Modal properties #}
+  {# nft__modal-properties #}
   {% include '_modules/modal-properties/modal-properties.nunjucks' %}
 
   {# nft__modal-menu #}
