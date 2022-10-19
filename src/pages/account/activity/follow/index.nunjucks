@@ -87,7 +87,7 @@
     </div>
   </section>
 
-  {# Tooltip copy-to-clipboard #}
+  {# nft__tooltip-copy-to-clipboard #}
   {% include '_modules/tooltip-copy-to-clipboard/tooltip-copy-to-clipboard.nunjucks' %}
 
   {# nft__modal-menu #}

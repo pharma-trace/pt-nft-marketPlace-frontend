@@ -1,4 +1,4 @@
-<div data-popover id="popover-account-profile" role="tooltip" class="inline-block absolute invisible z-10 w-64 bg-white rounded-lg border border-solid border-gray-100 shadow-sm opacity-0 transition-opacity duration-100">
+<div data-popover id="popover-account-profile" role="tooltip" class="!ml-[-15px] inline-block absolute invisible z-10 w-64 bg-white rounded-lg border border-solid border-gray-100 shadow-sm opacity-0 transition-opacity duration-100">
   <div class="p-6">
     <figure class="flex flex-row items-center relative">
       <img
@@ -15,7 +15,7 @@
           Yung DooMari
         </span>
         <span class="block text-sm text-gray-300">
-          yung_doomari
+          @yung_doomari
         </span>
       </figcaption>
     </figure>
@@ -50,12 +50,12 @@
       </figure>
       <div class="flex items-end justify-between mt-6">
         <hgroup>
-          <h6 class="text-dark_mode text-sm font-semibold">
+          <h5 class="text-dark_mode text-sm font-semibold">
             Ethereum
-          </h6>
-          <h5 class="mt-1 text-gray-300 text-xs">
-            0x2acAb3…31bA17B
           </h5>
+          <h6 class="mt-1 text-gray-300 text-xs">
+            0x2acAb3…31bA17B
+          </h6>
         </hgroup>
         <i
           class="fa-regular fa-copy text-gray-300 text-sm hover:text-dark_mode cursor-pointer"
@@ -66,17 +66,17 @@
       </div>
       <div class="flex flex-col mt-6">
         <hgroup>
-          <h6 class="text-dark_mode text-sm font-semibold">
+          <h5 class="text-dark_mode text-sm font-semibold">
             Wallet Balance
-          </h6>
+          </h5>
           <h4 class="mt-1 text-success text-sm font-semibold">
             15 ETH
           </h4>
         </hgroup>
         <hgroup class="mt-4">
-          <h6 class="text-dark_mode text-sm font-semibold">
+          <h5 class="text-dark_mode text-sm font-semibold">
             Marketplace Balance
-          </h6>
+          </h5>
           <h4 class="mt-1 text-success text-sm font-semibold">
             99 ETH
           </h4>
@@ -88,5 +88,5 @@
       </button>
     </div>
   </div>
-  <div data-popper-arrow></div>
+  <div data-popper-arrow class="!ml-[15px]"></div>
 </div>

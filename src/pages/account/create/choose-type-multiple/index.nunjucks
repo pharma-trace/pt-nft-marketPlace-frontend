@@ -175,7 +175,7 @@
             <button
               type="button"
               data-modal-toggle="modal-properties"
-              class="py-3 px-6 rounded-full bg-nft_institutional hover:bg-nft_institutional_dark text-dark_mode text-sm font-medium"
+              class="py-3 px-6 rounded-full bg-nft_institutional text-dark_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-nft_institutional active:bg-nft_institutional_dark active:scale-[0.94] hover:scale-[0.97] ease-out duration-300"
             >
               Add
             </button>

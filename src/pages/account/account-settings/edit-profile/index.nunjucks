@@ -57,10 +57,12 @@
               <div class="mt-8">
                 <label for="email-address" class="block mb-2 text-dark_mode text-sm font-semibold">
                   Email address
-                  <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base cursor-pointer hover:scale-110 ease-out duration-300"
-                     data-popover-target="popover-email-address"
-                     data-popover-placement="bottom"
-                     type="button">
+                  <i
+                    type="button"
+                    data-popover-target="popover-email-address"
+                    data-popover-placement="bottom"
+                    class="fa-solid fa-circle-info ml-2 text-dark_mode text-base cursor-pointer hover:scale-110 ease-out duration-300"
+                  >
                   </i>
                 </label>
                 <input
@@ -301,7 +303,7 @@
     </div>
   </section>
 
-  {# Popover email-address #}
+  {# nft__popover-email-address #}
   {% include '_modules/popover-email-address/popover-email-address.nunjucks' %}
 
   {# nft__modal-menu #}

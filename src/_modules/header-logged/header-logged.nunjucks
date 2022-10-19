@@ -38,7 +38,11 @@
       >
         <i class="fa-solid fa-bars text-lg"></i>
       </button>
-      <button data-popover-target="popover-account-profile" data-popover-trigger="click">
+      <button
+        data-popover-target="popover-account-profile"
+        data-popover-placement="bottom"
+        data-popover-trigger="click"
+      >
         <figure>
           <img
             src="{{ site.data.configs.imageUrl }}avatars/avatar-10.jpg"
@@ -51,5 +55,5 @@
   </div>
 </header>
 
-{# nft__modal-advance-search #}
+{# nft__popover-account-profile #}
 {% include '_modules/popover-account-profile/popover-account-profile.nunjucks' %}
