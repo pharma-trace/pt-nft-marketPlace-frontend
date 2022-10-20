@@ -5,7 +5,7 @@
         src="{{ site.data.configs.imageUrl }}avatars/avatar-10.jpg"
         alt="Avatar 10"
         class="w-16 h-16 rounded-full border-2 border-solid border-gray-100 object-cover"
-      />
+      >
       <figcaption class="ml-4">
         <span class="absolute top-[2px] left-[32px] align-middle ml-2">
           <i class="fa-solid fa-certificate text-nft_institutional text-xl"></i>

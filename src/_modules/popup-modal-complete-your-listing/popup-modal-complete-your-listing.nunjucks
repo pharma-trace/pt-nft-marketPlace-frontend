@@ -17,7 +17,7 @@
               src="{{ site.data.configs.imageUrl }}avatars/avatar-9.jpg"
               alt="Avatar 9"
               class="w-20 h-20 rounded-xl border-2 border-solid border-gray-100 object-cover"
-            />
+            >
             <figcaption class="ml-4 flex flex-col items-start">
               <span class="text-gray-300 text-sm font-medium">
                 Collection: Doodles

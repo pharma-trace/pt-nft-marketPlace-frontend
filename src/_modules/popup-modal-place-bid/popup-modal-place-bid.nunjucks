@@ -1,0 +1,84 @@
+{% block config %}
+  {% set tokens = ['ETH', 'wETH'] %}
+{% endblock %}
+
+<div id="popup-modal-place-bid" tabindex="-1" class="nft__modal hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 md:inset-0 h-modal md:h-full justify-center items-center outline-none" aria-hidden="true">
+  <div class="relative p-4 w-full max-w-4xl h-full md:h-auto">
+    <div class="relative bg-white rounded-lg">
+      <button type="button" class="w-8 h-8 absolute top-3 right-3 text-gray-300 bg-transparent hover:bg-gray-100 hover:text-dark_mode rounded-lg ml-auto inline-flex items-center justify-center" data-button-close="popup-modal-place-bid">
+        <i class="fa-solid fa-xmark text-lg"></i>
+        <span class="sr-only">
+            Close modal
+          </span>
+      </button>
+      <div class="py-12 px-16">
+        <i class="block fa-solid fa-tag mt-2 text-nft_institutional text-6xl text-center"></i>
+        <h5 class="mt-5 text-dark_mode text-lg font-semibold text-center">
+          Place a bid
+        </h5>
+        <div class="w-4/5 mx-auto mt-8">
+          <form id="place-bid">
+            <div>
+              <label for="starting-price" class="block mb-2 text-dark_mode text-sm font-semibold">Offer amount*</label>
+              <div class="flex gap-4">
+                <div class="basis-4/12 relative">
+                  <div class="nft__select-box--current" tabindex="1">
+                    {% for token in tokens %}
+                      <div class="nft__select-box--value flex">
+                        <input class="nft__select-box--input " type="radio" name="token" id="token-{{ loop.index }}" value="{{ token | lower }}" {% if loop.first %} checked="checked" {% endif %} />
+                        <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent hover:bg-gray-300/30">
+                          {% if loop.first %}
+                            <i class="mr-3 fa-brands fa-ethereum text-[#627EEA] text-xl align-middle"></i>
+                          {% else %}
+                            <i class="mr-3 fa-brands fa-ethereum text-[#E51D75] text-xl align-middle"></i>
+                          {% endif %}
+                          {{ token }}
+                        </p>
+                      </div>
+                    {% endfor %}
+                    <i class="nft__select-box--icon fa-solid fa-angle-down absolute top-[50%] right-[15px] text-gray-300"></i>
+                  </div>
+                  <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60">
+                    {% for token in tokens %}
+                      <li class="rounded-lg bg-light_mode hover:bg-gray-100/40">
+                        <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium" for="token-{{ loop.index }}" aria-hidden="true">
+                          {% if loop.first %}
+                            <i class="mr-3 fa-brands fa-ethereum text-[#627EEA] text-xl align-middle"></i>
+                          {% else %}
+                            <i class="mr-3 fa-brands fa-ethereum text-[#E51D75] text-xl align-middle"></i>
+                          {% endif %}
+                          {{ token }}
+                        </label>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+                <div class="basis-8/12">
+                  <input
+                    type="number"
+                    name="starting_price"
+                    id="starting-price"
+                    class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    placeholder="Enter the amount"
+                    autocomplete="off"
+                    min="0"
+                    required
+                  />
+                </div>
+              </div>
+              <span class="block mt-3 text-gray-300 text-sm">
+                Total offer amount: 0.0001 ETH ($0.13)
+              </span>
+            </div>
+            <button
+              type="button"
+              class="block py-3 px-16 mx-auto mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300"
+            >
+              Place bid
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

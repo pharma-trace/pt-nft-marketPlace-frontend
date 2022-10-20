@@ -8,7 +8,7 @@
           </span>
       </button>
       <div class="p-6 text-center">
-        <i class="fa-solid fa-shield-halved mt-2 text-gray-300 text-6xl"></i>
+        <i class="fa-solid fa-shield-halved mt-2 text-nft_institutional text-6xl"></i>
         <h6 class="mt-5 text-gray-300 text-base">
           Accept the reCAPTCHA before continuing.
         </h6>
@@ -16,6 +16,7 @@
         </div>
         <button
           type="button"
+          data-button-check="popup-modal-recaptcha"
           class="min-h-[44px] py-2 px-6 mr-4 inline-flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300"
         >
           I'm sure
@@ -24,3 +25,4 @@
     </div>
   </div>
 </div>
+

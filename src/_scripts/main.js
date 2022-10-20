@@ -116,4 +116,67 @@ import ActiveMenuLink from 'active-menu-link';
 
     flatpickr('.datetime-picker', options);
   }
+
+  // Logic multiple modal (buy/bid) flow
+  // --------------------------------------------------------------------------------------------------------------------------------------------- //
+  const elPopupModalRecaptcha = document.getElementById('popup-modal-recaptcha');
+  const elPopupModalReviewInfoBuyBid = document.getElementById('popup-modal-review-info-buy-bid');
+  const elPopupModalPlaceBid = document.getElementById('popup-modal-place-bid');
+
+  const stepOne = {
+    onHide: () => {
+      const modalBackdrop = document.querySelectorAll('[modal-backdrop]');
+      modalBackdrop.forEach(backdrop => {
+        backdrop.classList.add('hidden');
+      });
+    },
+  };
+
+  const stepTwo = {
+    onHide: () => {
+      const modalBackdrop = document.querySelectorAll('[modal-backdrop]');
+      modalBackdrop.forEach(backdrop => {
+        backdrop.classList.add('hidden');
+      });
+    },
+    onShow: () => {
+      const buttonClosePopupReviewInfoBuyBid = document.querySelector('[data-button-close="popup-modal-review-info-buy-bid"]');
+      buttonClosePopupReviewInfoBuyBid.addEventListener('click', () => {
+        popupModalReviewInfoBuyBid.hide();
+      });
+
+      const checkboxUnderstand = document.querySelector('[data-checkbox-understand="popup-modal-review-info-buy-bid"]');
+      checkboxUnderstand.addEventListener('click', (e) => {
+        if (e.currentTarget.checked) {
+          popupModalReviewInfoBuyBid.hide();
+          popupModalPlaceBid.show();
+        }
+      });
+    },
+  };
+
+  const stepThree = {
+    onHide: () => {
+      const modalBackdrop = document.querySelectorAll('[modal-backdrop]');
+      modalBackdrop.forEach(backdrop => {
+        backdrop.classList.add('hidden');
+      });
+    },
+    onShow: () => {
+      const buttonClosePopupPlaceBid = document.querySelector('[data-button-close="popup-modal-place-bid"]');
+      buttonClosePopupPlaceBid.addEventListener('click', () => {
+        popupModalPlaceBid.hide();
+      });
+    },
+  };
+
+  const popupModalRecaptcha = new Modal(elPopupModalRecaptcha, stepOne);
+  const popupModalReviewInfoBuyBid = new Modal(elPopupModalReviewInfoBuyBid, stepTwo);
+  const popupModalPlaceBid = new Modal(elPopupModalPlaceBid, stepThree);
+
+  const buttonCheckPopupModalRecaptcha = document.querySelector('[data-button-check="popup-modal-recaptcha"]');
+  buttonCheckPopupModalRecaptcha.addEventListener('click', () => {
+    popupModalRecaptcha.hide();
+    popupModalReviewInfoBuyBid.show();
+  });
 })();

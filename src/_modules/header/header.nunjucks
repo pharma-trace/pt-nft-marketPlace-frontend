@@ -6,7 +6,7 @@
             src="{{ site.data.configs.imageUrl }}trademarks/trademark-pharmatrace-nft.svg"
             alt="Trademark PharmaTrace NFT"
             class="object-cover"
-          />
+          >
         </a>
       </figure>
       <nav class="nft__top-nav flex items-center">

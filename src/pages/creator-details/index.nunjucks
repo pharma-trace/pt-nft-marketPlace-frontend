@@ -16,7 +16,7 @@
         src="{{ site.data.configs.imageUrl }}creators/cover-creator.jpg"
         alt="Cover creator"
         class="w-full h-[40vh] rounded-xl border-4 border-solid border-gray-100 object-cover"
-      />
+      >
       <figcaption class="absolute bottom-4 right-4">
         <button
           type="button"
@@ -35,7 +35,7 @@
               src="{{ site.data.configs.imageUrl }}creators/avatar-profile-creator.jpg"
               alt="Avatar profile creator"
               class="w-36 h-36 rounded-full object-cover border-4 border-solid border-gray-100"
-            />
+            >
             <figcaption class="mt-6">
               <h5 class="text-dark_mode font-semibold">
                 Monkey Leahpar
@@ -86,7 +86,7 @@
                     src="{{ site.data.configs.imageUrl }}{{ src }}"
                     alt="{{ alt }}"
                     class="w-12 h-12 rounded-full border-2 border-solid border-gray-100 object-cover"
-                  />
+                  >
                 {% endfor %}
               </div>
             </div>

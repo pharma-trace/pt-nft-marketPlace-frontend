@@ -4,7 +4,7 @@
       src="{{ site.data.configs.imageUrl }}nfts/crypto-goro-6.jpg"
       alt="Crypto Goro #006"
       class="w-full h-[280px] rounded-lg object-cover"
-    />
+    >
     <figcaption class="flex py-1 px-3 items-center rounded-full bg-light_mode absolute top-3 right-3">
       <i class="fa-solid fa-heart text-error"></i>
       <span class="block ml-1 text-dark_mode text-xs font-medium">13K</span>
@@ -16,7 +16,7 @@
         src="{{ site.data.configs.imageUrl }}avatars/avatar-2.jpg"
         alt="Avatar 1"
         class="w-12 h-12 rounded-full border-2 border-solid border-gray-100 object-cover"
-      />
+      >
       <figcaption class="ml-4">
         <span class="block text-dark_mode text-sm font-semibold">
           Crypto Goro #006

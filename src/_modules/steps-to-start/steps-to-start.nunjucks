@@ -82,6 +82,6 @@
       src="{{ site.data.configs.imageUrl }}homepage/dotted-line-fingerprint.svg"
       alt="Illustration - Dotted line with fingerprint blot"
       class="w-6/12"
-    />
+    >
   </figure>
 </section>

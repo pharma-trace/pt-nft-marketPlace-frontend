@@ -21,7 +21,7 @@
                 src="{{ site.data.configs.imageUrl }}trademarks/trademark-metamask.svg"
                 alt="Trademark Metamask"
                 class="w-[8rem] mx-auto"
-              />
+              >
             </button>
           </li>
           <li>
@@ -30,7 +30,7 @@
                 src="{{ site.data.configs.imageUrl }}trademarks/trademark-coinbase.svg"
                 alt="Trademark Coinbase"
                 class="w-[8rem] mx-auto"
-              />
+              >
             </button>
           </li>
           <li>
@@ -39,7 +39,7 @@
                 src="{{ site.data.configs.imageUrl }}trademarks/trademark-walletconnect.svg"
                 alt="Trademark WalletConnect"
                 class="w-[8rem] mx-auto"
-              />
+              >
             </button>
           </li>
           <li>
@@ -48,7 +48,7 @@
                 src="{{ site.data.configs.imageUrl }}trademarks/trademark-fortmatic.svg"
                 alt="Trademark Fortmatic"
                 class="w-[8rem] mx-auto"
-              />
+              >
             </button>
           </li>
         </ul>

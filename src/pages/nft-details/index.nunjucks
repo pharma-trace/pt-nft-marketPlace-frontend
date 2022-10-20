@@ -19,7 +19,7 @@
             src="{{ site.data.configs.imageUrl }}nfts/cover-nft.jpg"
             alt="Cover collection"
             class="w-full h-[60vh] rounded-xl border-4 border-solid border-gray-100 object-cover"
-          />
+          >
           <figcaption>
             <button
               type="button"
@@ -89,7 +89,7 @@
                 src="{{ site.data.configs.imageUrl }}avatars/avatar-6.jpg"
                 alt="Avatar 6"
                 class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover"
-              />
+              >
               <figcaption class="ml-4">
                 <span class="absolute top-[2px] left-[32px] align-middle ml-2">
                   <i class="fa-solid fa-certificate text-nft_institutional text-xl"></i>
@@ -113,7 +113,7 @@
                 src="{{ site.data.configs.imageUrl }}avatars/avatar-9.jpg"
                 alt="Avatar 9"
                 class="w-14 h-14 rounded-xl border-2 border-solid border-gray-100 object-cover"
-              />
+              >
               <figcaption class="ml-4">
                 <span class="block text-dark_mode text-sm font-semibold">
                   Doodles
@@ -317,6 +317,12 @@
 
   {# nft__popup-modal-recaptcha #}
   {% include '_modules/popup-modal-recaptcha/popup-modal-recaptcha.nunjucks' %}
+
+  {# nft__popup-modal-review-info-buy-bid #}
+  {% include '_modules/popup-modal-review-info-buy-bid/popup-modal-review-info-buy-bid.nunjucks' %}
+
+  {# nft__popup-modal-place-bid #}
+  {% include '_modules/popup-modal-place-bid/popup-modal-place-bid.nunjucks' %}
 
   {# nft__popover-last-update #}
   {% include '_modules/popover-last-update/popover-last-update.nunjucks' %}
