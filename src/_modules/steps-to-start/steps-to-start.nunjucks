@@ -79,8 +79,8 @@
   </div>
   <figure class="absolute bottom-[10px] left-[-90px]">
     <img
-      src="{{ site.data.configs.imageUrl }}homepage/dotted-line-fingerprint.svg"
-      alt="Illustration - Dotted line with fingerprint blot"
+      src="{{ site.data.configs.imageUrl }}homepage/dashed-line-fingerprint.svg"
+      alt="Illustration - Dashed line with fingerprint blot"
       class="w-6/12"
     >
   </figure>

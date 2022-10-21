@@ -1,0 +1,1176 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="w-full" viewBox="0 0 775.057 587.866">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_103" data-name="Ellipse 103" cx="87.489" cy="87.489" r="87.489" transform="translate(0 0)" fill="#bf1414"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="184.482" height="184.916" fill="none"/>
+    </clipPath>
+    <filter id="Rectangle_36" x="162.018" y="26.976" width="124.523" height="124.523" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_89" x="587.018" y="0" width="124.523" height="124.523" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_36-2" x="156.017" y="364.316" width="124.523" height="124.523" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-3"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_36-3" x="549.079" y="427.676" width="124.523" height="124.523" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-4"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_9959" data-name="Group 9959" transform="translate(-1025.902 -1266.957)">
+    <path id="Path_11625" data-name="Path 11625" d="M-12146.178-14912.422s-126.949-8.225-161.609,28.873,25.049,73.146,23.092,126.139-76.3,152.6,108.572,162.064,100.975,55.721,100.975,55.721,353.742,89.574,443.449,18.582,139.656-417.76-11.629-430.178-304.906,87.994-304.906,87.994-68.563,49.178-38.49,77.18c3.813,3.552,67.595,18.984,74.926,22.684" transform="translate(13346 16266)" fill="none" stroke="#b4b4b4" stroke-width="3" stroke-dasharray="12"/>
+    <g id="Group_9958" data-name="Group 9958" transform="translate(67)">
+      <g id="Group_64" data-name="Group 64" transform="translate(1086.96 -282.799)">
+        <path id="Path_34" data-name="Path 34" d="M203.991.018C180.109,1.065-12.455,39.806.638,201.794c3.862,47.787,47.356,58.167,47.356,58.167l20.2,5.505,15.72,4.284s32.546,3.605,44.523,0,70.238,20.675,70.238,20.675,50.611,14.287,79.435-38.235c15.131-27.574,17.892-118.092,0-174.182C261.628,8.839,215.337-.479,203.991.018Z" transform="matrix(0.966, 0.259, -0.259, 0.966, 198.038, 1657.468)" fill="#eacf49" opacity="0.1"/>
+        <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(308.305 1762.766)" clip-path="url(#clip-path)">
+          <g id="Repeat_Grid_3" data-name="Repeat Grid 3" transform="translate(-5.847 -2.704)" clip-path="url(#clip-path-2)">
+            <g transform="translate(-482 -1893)">
+              <circle id="Ellipse_4" data-name="Ellipse 4" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1893)">
+              <circle id="Ellipse_5" data-name="Ellipse 5" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1893)">
+              <circle id="Ellipse_6" data-name="Ellipse 6" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1893)">
+              <circle id="Ellipse_7" data-name="Ellipse 7" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1893)">
+              <circle id="Ellipse_8" data-name="Ellipse 8" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1893)">
+              <circle id="Ellipse_9" data-name="Ellipse 9" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1893)">
+              <circle id="Ellipse_10" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1893)">
+              <circle id="Ellipse_10-2" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1893)">
+              <circle id="Ellipse_10-3" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1893)">
+              <circle id="Ellipse_10-4" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1893)">
+              <circle id="Ellipse_10-5" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1893)">
+              <circle id="Ellipse_10-6" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1893)">
+              <circle id="Ellipse_10-7" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1893)">
+              <circle id="Ellipse_10-8" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1893)">
+              <circle id="Ellipse_10-9" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1893)">
+              <circle id="Ellipse_10-10" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1893)">
+              <circle id="Ellipse_10-11" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1893)">
+              <circle id="Ellipse_10-12" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1893)">
+              <circle id="Ellipse_10-13" data-name="Ellipse 10" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1883)">
+              <circle id="Ellipse_13" data-name="Ellipse 13" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1883)">
+              <circle id="Ellipse_14" data-name="Ellipse 14" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1883)">
+              <circle id="Ellipse_15" data-name="Ellipse 15" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1883)">
+              <circle id="Ellipse_16" data-name="Ellipse 16" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1883)">
+              <circle id="Ellipse_17" data-name="Ellipse 17" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1883)">
+              <circle id="Ellipse_18" data-name="Ellipse 18" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1883)">
+              <circle id="Ellipse_19" data-name="Ellipse 19" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1883)">
+              <circle id="Ellipse_19-2" data-name="Ellipse 19" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1883)">
+              <circle id="Ellipse_19-3" data-name="Ellipse 19" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1883)">
+              <circle id="Ellipse_19-4" data-name="Ellipse 19" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1883)">
+              <circle id="Ellipse_19-5" data-name="Ellipse 19" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1883)">
+              <circle id="Ellipse_19-6" data-name="Ellipse 19" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1883)">
+              <circle id="Ellipse_19-7" data-name="Ellipse 19" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1883)">
+              <circle id="Ellipse_19-8" data-name="Ellipse 19" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1883)">
+              <circle id="Ellipse_19-9" data-name="Ellipse 19" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1883)">
+              <circle id="Ellipse_19-10" data-name="Ellipse 19" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1883)">
+              <circle id="Ellipse_19-11" data-name="Ellipse 19" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1883)">
+              <circle id="Ellipse_19-12" data-name="Ellipse 19" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1883)">
+              <circle id="Ellipse_19-13" data-name="Ellipse 19" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1873)">
+              <circle id="Ellipse_22" data-name="Ellipse 22" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1873)">
+              <circle id="Ellipse_23" data-name="Ellipse 23" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1873)">
+              <circle id="Ellipse_24" data-name="Ellipse 24" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1873)">
+              <circle id="Ellipse_25" data-name="Ellipse 25" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1873)">
+              <circle id="Ellipse_26" data-name="Ellipse 26" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1873)">
+              <circle id="Ellipse_27" data-name="Ellipse 27" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1873)">
+              <circle id="Ellipse_28" data-name="Ellipse 28" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1873)">
+              <circle id="Ellipse_28-2" data-name="Ellipse 28" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1873)">
+              <circle id="Ellipse_28-3" data-name="Ellipse 28" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1873)">
+              <circle id="Ellipse_28-4" data-name="Ellipse 28" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1873)">
+              <circle id="Ellipse_28-5" data-name="Ellipse 28" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1873)">
+              <circle id="Ellipse_28-6" data-name="Ellipse 28" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1873)">
+              <circle id="Ellipse_28-7" data-name="Ellipse 28" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1873)">
+              <circle id="Ellipse_28-8" data-name="Ellipse 28" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1873)">
+              <circle id="Ellipse_28-9" data-name="Ellipse 28" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1873)">
+              <circle id="Ellipse_28-10" data-name="Ellipse 28" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1873)">
+              <circle id="Ellipse_28-11" data-name="Ellipse 28" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1873)">
+              <circle id="Ellipse_28-12" data-name="Ellipse 28" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1873)">
+              <circle id="Ellipse_28-13" data-name="Ellipse 28" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1863)">
+              <circle id="Ellipse_31" data-name="Ellipse 31" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1863)">
+              <circle id="Ellipse_32" data-name="Ellipse 32" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1863)">
+              <circle id="Ellipse_33" data-name="Ellipse 33" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1863)">
+              <circle id="Ellipse_34" data-name="Ellipse 34" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1863)">
+              <circle id="Ellipse_35" data-name="Ellipse 35" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1863)">
+              <circle id="Ellipse_36" data-name="Ellipse 36" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1863)">
+              <circle id="Ellipse_37" data-name="Ellipse 37" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1863)">
+              <circle id="Ellipse_37-2" data-name="Ellipse 37" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1863)">
+              <circle id="Ellipse_37-3" data-name="Ellipse 37" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1863)">
+              <circle id="Ellipse_37-4" data-name="Ellipse 37" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1863)">
+              <circle id="Ellipse_37-5" data-name="Ellipse 37" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1863)">
+              <circle id="Ellipse_37-6" data-name="Ellipse 37" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1863)">
+              <circle id="Ellipse_37-7" data-name="Ellipse 37" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1863)">
+              <circle id="Ellipse_37-8" data-name="Ellipse 37" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1863)">
+              <circle id="Ellipse_37-9" data-name="Ellipse 37" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1863)">
+              <circle id="Ellipse_37-10" data-name="Ellipse 37" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1863)">
+              <circle id="Ellipse_37-11" data-name="Ellipse 37" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1863)">
+              <circle id="Ellipse_37-12" data-name="Ellipse 37" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1863)">
+              <circle id="Ellipse_37-13" data-name="Ellipse 37" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1853)">
+              <circle id="Ellipse_40" data-name="Ellipse 40" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1853)">
+              <circle id="Ellipse_41" data-name="Ellipse 41" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1853)">
+              <circle id="Ellipse_42" data-name="Ellipse 42" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1853)">
+              <circle id="Ellipse_43" data-name="Ellipse 43" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1853)">
+              <circle id="Ellipse_44" data-name="Ellipse 44" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1853)">
+              <circle id="Ellipse_45" data-name="Ellipse 45" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1853)">
+              <circle id="Ellipse_46" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1853)">
+              <circle id="Ellipse_46-2" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1853)">
+              <circle id="Ellipse_46-3" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1853)">
+              <circle id="Ellipse_46-4" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1853)">
+              <circle id="Ellipse_46-5" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1853)">
+              <circle id="Ellipse_46-6" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1853)">
+              <circle id="Ellipse_46-7" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1853)">
+              <circle id="Ellipse_46-8" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1853)">
+              <circle id="Ellipse_46-9" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1853)">
+              <circle id="Ellipse_46-10" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1853)">
+              <circle id="Ellipse_46-11" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1853)">
+              <circle id="Ellipse_46-12" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1853)">
+              <circle id="Ellipse_46-13" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1843)">
+              <circle id="Ellipse_49" data-name="Ellipse 49" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1843)">
+              <circle id="Ellipse_50" data-name="Ellipse 50" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1843)">
+              <circle id="Ellipse_51" data-name="Ellipse 51" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1843)">
+              <circle id="Ellipse_52" data-name="Ellipse 52" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1843)">
+              <circle id="Ellipse_53" data-name="Ellipse 53" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1843)">
+              <circle id="Ellipse_54" data-name="Ellipse 54" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1843)">
+              <circle id="Ellipse_55" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1843)">
+              <circle id="Ellipse_55-2" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1843)">
+              <circle id="Ellipse_55-3" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1843)">
+              <circle id="Ellipse_55-4" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1843)">
+              <circle id="Ellipse_55-5" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1843)">
+              <circle id="Ellipse_55-6" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1843)">
+              <circle id="Ellipse_55-7" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1843)">
+              <circle id="Ellipse_55-8" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1843)">
+              <circle id="Ellipse_55-9" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1843)">
+              <circle id="Ellipse_55-10" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1843)">
+              <circle id="Ellipse_55-11" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1843)">
+              <circle id="Ellipse_55-12" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1843)">
+              <circle id="Ellipse_55-13" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1833)">
+              <circle id="Ellipse_58" data-name="Ellipse 58" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1833)">
+              <circle id="Ellipse_59" data-name="Ellipse 59" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1833)">
+              <circle id="Ellipse_60" data-name="Ellipse 60" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1833)">
+              <circle id="Ellipse_61" data-name="Ellipse 61" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1833)">
+              <circle id="Ellipse_62" data-name="Ellipse 62" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1833)">
+              <circle id="Ellipse_63" data-name="Ellipse 63" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1833)">
+              <circle id="Ellipse_64" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1833)">
+              <circle id="Ellipse_64-2" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1833)">
+              <circle id="Ellipse_64-3" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1833)">
+              <circle id="Ellipse_64-4" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1833)">
+              <circle id="Ellipse_64-5" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1833)">
+              <circle id="Ellipse_64-6" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1833)">
+              <circle id="Ellipse_64-7" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1833)">
+              <circle id="Ellipse_64-8" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1833)">
+              <circle id="Ellipse_64-9" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1833)">
+              <circle id="Ellipse_64-10" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1833)">
+              <circle id="Ellipse_64-11" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1833)">
+              <circle id="Ellipse_64-12" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1833)">
+              <circle id="Ellipse_64-13" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1823)">
+              <circle id="Ellipse_58-2" data-name="Ellipse 58" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1823)">
+              <circle id="Ellipse_59-2" data-name="Ellipse 59" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1823)">
+              <circle id="Ellipse_60-2" data-name="Ellipse 60" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1823)">
+              <circle id="Ellipse_61-2" data-name="Ellipse 61" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1823)">
+              <circle id="Ellipse_62-2" data-name="Ellipse 62" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1823)">
+              <circle id="Ellipse_63-2" data-name="Ellipse 63" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1823)">
+              <circle id="Ellipse_64-14" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1823)">
+              <circle id="Ellipse_64-15" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1823)">
+              <circle id="Ellipse_64-16" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1823)">
+              <circle id="Ellipse_64-17" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1823)">
+              <circle id="Ellipse_64-18" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1823)">
+              <circle id="Ellipse_64-19" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1823)">
+              <circle id="Ellipse_64-20" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1823)">
+              <circle id="Ellipse_64-21" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1823)">
+              <circle id="Ellipse_64-22" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1823)">
+              <circle id="Ellipse_64-23" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1823)">
+              <circle id="Ellipse_64-24" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1823)">
+              <circle id="Ellipse_64-25" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1823)">
+              <circle id="Ellipse_64-26" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1813)">
+              <circle id="Ellipse_58-3" data-name="Ellipse 58" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1813)">
+              <circle id="Ellipse_59-3" data-name="Ellipse 59" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1813)">
+              <circle id="Ellipse_60-3" data-name="Ellipse 60" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1813)">
+              <circle id="Ellipse_61-3" data-name="Ellipse 61" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1813)">
+              <circle id="Ellipse_62-3" data-name="Ellipse 62" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1813)">
+              <circle id="Ellipse_63-3" data-name="Ellipse 63" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1813)">
+              <circle id="Ellipse_64-27" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1813)">
+              <circle id="Ellipse_64-28" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1813)">
+              <circle id="Ellipse_64-29" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1813)">
+              <circle id="Ellipse_64-30" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1813)">
+              <circle id="Ellipse_64-31" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1813)">
+              <circle id="Ellipse_64-32" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1813)">
+              <circle id="Ellipse_64-33" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1813)">
+              <circle id="Ellipse_64-34" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1813)">
+              <circle id="Ellipse_64-35" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1813)">
+              <circle id="Ellipse_64-36" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1813)">
+              <circle id="Ellipse_64-37" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1813)">
+              <circle id="Ellipse_64-38" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1813)">
+              <circle id="Ellipse_64-39" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1803)">
+              <circle id="Ellipse_58-4" data-name="Ellipse 58" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1803)">
+              <circle id="Ellipse_59-4" data-name="Ellipse 59" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1803)">
+              <circle id="Ellipse_60-4" data-name="Ellipse 60" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1803)">
+              <circle id="Ellipse_61-4" data-name="Ellipse 61" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1803)">
+              <circle id="Ellipse_62-4" data-name="Ellipse 62" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1803)">
+              <circle id="Ellipse_63-4" data-name="Ellipse 63" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1803)">
+              <circle id="Ellipse_64-40" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1803)">
+              <circle id="Ellipse_64-41" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1803)">
+              <circle id="Ellipse_64-42" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1803)">
+              <circle id="Ellipse_64-43" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1803)">
+              <circle id="Ellipse_64-44" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1803)">
+              <circle id="Ellipse_64-45" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1803)">
+              <circle id="Ellipse_64-46" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1803)">
+              <circle id="Ellipse_64-47" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1803)">
+              <circle id="Ellipse_64-48" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1803)">
+              <circle id="Ellipse_64-49" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1803)">
+              <circle id="Ellipse_64-50" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1803)">
+              <circle id="Ellipse_64-51" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1803)">
+              <circle id="Ellipse_64-52" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1793)">
+              <circle id="Ellipse_58-5" data-name="Ellipse 58" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1793)">
+              <circle id="Ellipse_59-5" data-name="Ellipse 59" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1793)">
+              <circle id="Ellipse_60-5" data-name="Ellipse 60" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1793)">
+              <circle id="Ellipse_61-5" data-name="Ellipse 61" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1793)">
+              <circle id="Ellipse_62-5" data-name="Ellipse 62" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1793)">
+              <circle id="Ellipse_63-5" data-name="Ellipse 63" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1793)">
+              <circle id="Ellipse_64-53" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1793)">
+              <circle id="Ellipse_64-54" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1793)">
+              <circle id="Ellipse_64-55" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1793)">
+              <circle id="Ellipse_64-56" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1793)">
+              <circle id="Ellipse_64-57" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1793)">
+              <circle id="Ellipse_64-58" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1793)">
+              <circle id="Ellipse_64-59" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1793)">
+              <circle id="Ellipse_64-60" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1793)">
+              <circle id="Ellipse_64-61" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1793)">
+              <circle id="Ellipse_64-62" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1793)">
+              <circle id="Ellipse_64-63" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1793)">
+              <circle id="Ellipse_64-64" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1793)">
+              <circle id="Ellipse_64-65" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1783)">
+              <circle id="Ellipse_58-6" data-name="Ellipse 58" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1783)">
+              <circle id="Ellipse_59-6" data-name="Ellipse 59" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1783)">
+              <circle id="Ellipse_60-6" data-name="Ellipse 60" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1783)">
+              <circle id="Ellipse_61-6" data-name="Ellipse 61" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1783)">
+              <circle id="Ellipse_62-6" data-name="Ellipse 62" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1783)">
+              <circle id="Ellipse_63-6" data-name="Ellipse 63" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1783)">
+              <circle id="Ellipse_64-66" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1783)">
+              <circle id="Ellipse_64-67" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1783)">
+              <circle id="Ellipse_64-68" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1783)">
+              <circle id="Ellipse_64-69" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1783)">
+              <circle id="Ellipse_64-70" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1783)">
+              <circle id="Ellipse_64-71" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1783)">
+              <circle id="Ellipse_64-72" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1783)">
+              <circle id="Ellipse_64-73" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1783)">
+              <circle id="Ellipse_64-74" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1783)">
+              <circle id="Ellipse_64-75" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1783)">
+              <circle id="Ellipse_64-76" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1783)">
+              <circle id="Ellipse_64-77" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1783)">
+              <circle id="Ellipse_64-78" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1773)">
+              <circle id="Ellipse_58-7" data-name="Ellipse 58" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1773)">
+              <circle id="Ellipse_59-7" data-name="Ellipse 59" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1773)">
+              <circle id="Ellipse_60-7" data-name="Ellipse 60" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1773)">
+              <circle id="Ellipse_61-7" data-name="Ellipse 61" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1773)">
+              <circle id="Ellipse_62-7" data-name="Ellipse 62" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1773)">
+              <circle id="Ellipse_63-7" data-name="Ellipse 63" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1773)">
+              <circle id="Ellipse_64-79" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1773)">
+              <circle id="Ellipse_64-80" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1773)">
+              <circle id="Ellipse_64-81" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1773)">
+              <circle id="Ellipse_64-82" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1773)">
+              <circle id="Ellipse_64-83" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1773)">
+              <circle id="Ellipse_64-84" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1773)">
+              <circle id="Ellipse_64-85" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1773)">
+              <circle id="Ellipse_64-86" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1773)">
+              <circle id="Ellipse_64-87" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1773)">
+              <circle id="Ellipse_64-88" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1773)">
+              <circle id="Ellipse_64-89" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1773)">
+              <circle id="Ellipse_64-90" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1773)">
+              <circle id="Ellipse_64-91" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1763)">
+              <circle id="Ellipse_58-8" data-name="Ellipse 58" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1763)">
+              <circle id="Ellipse_59-8" data-name="Ellipse 59" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1763)">
+              <circle id="Ellipse_60-8" data-name="Ellipse 60" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1763)">
+              <circle id="Ellipse_61-8" data-name="Ellipse 61" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1763)">
+              <circle id="Ellipse_62-8" data-name="Ellipse 62" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1763)">
+              <circle id="Ellipse_63-8" data-name="Ellipse 63" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1763)">
+              <circle id="Ellipse_64-92" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1763)">
+              <circle id="Ellipse_64-93" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1763)">
+              <circle id="Ellipse_64-94" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1763)">
+              <circle id="Ellipse_64-95" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1763)">
+              <circle id="Ellipse_64-96" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1763)">
+              <circle id="Ellipse_64-97" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1763)">
+              <circle id="Ellipse_64-98" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1763)">
+              <circle id="Ellipse_64-99" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1763)">
+              <circle id="Ellipse_64-100" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1763)">
+              <circle id="Ellipse_64-101" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1763)">
+              <circle id="Ellipse_64-102" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1763)">
+              <circle id="Ellipse_64-103" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1763)">
+              <circle id="Ellipse_64-104" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1753)">
+              <circle id="Ellipse_58-9" data-name="Ellipse 58" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1753)">
+              <circle id="Ellipse_59-9" data-name="Ellipse 59" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1753)">
+              <circle id="Ellipse_60-9" data-name="Ellipse 60" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1753)">
+              <circle id="Ellipse_61-9" data-name="Ellipse 61" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1753)">
+              <circle id="Ellipse_62-9" data-name="Ellipse 62" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1753)">
+              <circle id="Ellipse_63-9" data-name="Ellipse 63" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1753)">
+              <circle id="Ellipse_64-105" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1753)">
+              <circle id="Ellipse_64-106" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1753)">
+              <circle id="Ellipse_64-107" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1753)">
+              <circle id="Ellipse_64-108" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1753)">
+              <circle id="Ellipse_64-109" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1753)">
+              <circle id="Ellipse_64-110" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1753)">
+              <circle id="Ellipse_64-111" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1753)">
+              <circle id="Ellipse_64-112" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1753)">
+              <circle id="Ellipse_64-113" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1753)">
+              <circle id="Ellipse_64-114" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1753)">
+              <circle id="Ellipse_64-115" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1753)">
+              <circle id="Ellipse_64-116" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1753)">
+              <circle id="Ellipse_64-117" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1743)">
+              <circle id="Ellipse_58-10" data-name="Ellipse 58" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1743)">
+              <circle id="Ellipse_59-10" data-name="Ellipse 59" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1743)">
+              <circle id="Ellipse_60-10" data-name="Ellipse 60" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1743)">
+              <circle id="Ellipse_61-10" data-name="Ellipse 61" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1743)">
+              <circle id="Ellipse_62-10" data-name="Ellipse 62" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1743)">
+              <circle id="Ellipse_63-10" data-name="Ellipse 63" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1743)">
+              <circle id="Ellipse_64-118" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1743)">
+              <circle id="Ellipse_64-119" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1743)">
+              <circle id="Ellipse_64-120" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1743)">
+              <circle id="Ellipse_64-121" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1743)">
+              <circle id="Ellipse_64-122" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1743)">
+              <circle id="Ellipse_64-123" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1743)">
+              <circle id="Ellipse_64-124" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1743)">
+              <circle id="Ellipse_64-125" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1743)">
+              <circle id="Ellipse_64-126" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1743)">
+              <circle id="Ellipse_64-127" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1743)">
+              <circle id="Ellipse_64-128" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1743)">
+              <circle id="Ellipse_64-129" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1743)">
+              <circle id="Ellipse_64-130" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1733)">
+              <circle id="Ellipse_58-11" data-name="Ellipse 58" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1733)">
+              <circle id="Ellipse_59-11" data-name="Ellipse 59" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1733)">
+              <circle id="Ellipse_60-11" data-name="Ellipse 60" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1733)">
+              <circle id="Ellipse_61-11" data-name="Ellipse 61" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1733)">
+              <circle id="Ellipse_62-11" data-name="Ellipse 62" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1733)">
+              <circle id="Ellipse_63-11" data-name="Ellipse 63" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1733)">
+              <circle id="Ellipse_64-131" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1733)">
+              <circle id="Ellipse_64-132" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1733)">
+              <circle id="Ellipse_64-133" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1733)">
+              <circle id="Ellipse_64-134" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1733)">
+              <circle id="Ellipse_64-135" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1733)">
+              <circle id="Ellipse_64-136" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1733)">
+              <circle id="Ellipse_64-137" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1733)">
+              <circle id="Ellipse_64-138" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1733)">
+              <circle id="Ellipse_64-139" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1733)">
+              <circle id="Ellipse_64-140" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1733)">
+              <circle id="Ellipse_64-141" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1733)">
+              <circle id="Ellipse_64-142" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1733)">
+              <circle id="Ellipse_64-143" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1723)">
+              <circle id="Ellipse_58-12" data-name="Ellipse 58" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1723)">
+              <circle id="Ellipse_59-12" data-name="Ellipse 59" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1723)">
+              <circle id="Ellipse_60-12" data-name="Ellipse 60" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1723)">
+              <circle id="Ellipse_61-12" data-name="Ellipse 61" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1723)">
+              <circle id="Ellipse_62-12" data-name="Ellipse 62" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1723)">
+              <circle id="Ellipse_63-12" data-name="Ellipse 63" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1723)">
+              <circle id="Ellipse_64-144" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1723)">
+              <circle id="Ellipse_64-145" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1723)">
+              <circle id="Ellipse_64-146" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1723)">
+              <circle id="Ellipse_64-147" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1723)">
+              <circle id="Ellipse_64-148" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1723)">
+              <circle id="Ellipse_64-149" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1723)">
+              <circle id="Ellipse_64-150" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1723)">
+              <circle id="Ellipse_64-151" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1723)">
+              <circle id="Ellipse_64-152" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1723)">
+              <circle id="Ellipse_64-153" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1723)">
+              <circle id="Ellipse_64-154" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1723)">
+              <circle id="Ellipse_64-155" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1723)">
+              <circle id="Ellipse_64-156" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-482 -1713)">
+              <circle id="Ellipse_58-13" data-name="Ellipse 58" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-472 -1713)">
+              <circle id="Ellipse_59-13" data-name="Ellipse 59" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-462 -1713)">
+              <circle id="Ellipse_60-13" data-name="Ellipse 60" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-452 -1713)">
+              <circle id="Ellipse_61-13" data-name="Ellipse 61" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-442 -1713)">
+              <circle id="Ellipse_62-13" data-name="Ellipse 62" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-432 -1713)">
+              <circle id="Ellipse_63-13" data-name="Ellipse 63" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-422 -1713)">
+              <circle id="Ellipse_64-157" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-412 -1713)">
+              <circle id="Ellipse_64-158" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-402 -1713)">
+              <circle id="Ellipse_64-159" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-392 -1713)">
+              <circle id="Ellipse_64-160" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-382 -1713)">
+              <circle id="Ellipse_64-161" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-372 -1713)">
+              <circle id="Ellipse_64-162" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-362 -1713)">
+              <circle id="Ellipse_64-163" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-352 -1713)">
+              <circle id="Ellipse_64-164" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-342 -1713)">
+              <circle id="Ellipse_64-165" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-332 -1713)">
+              <circle id="Ellipse_64-166" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-322 -1713)">
+              <circle id="Ellipse_64-167" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-312 -1713)">
+              <circle id="Ellipse_64-168" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+            <g transform="translate(-302 -1713)">
+              <circle id="Ellipse_64-169" data-name="Ellipse 64" cx="3" cy="3" r="3" transform="translate(482 1893)" fill="#0ba4eb"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_9947" data-name="Group 9947" transform="translate(1125.651 1295.433)">
+        <g id="Group_9951" data-name="Group 9951" transform="translate(-0.231)">
+          <g transform="matrix(1, 0, 0, 1, -166.52, -28.48)" filter="url(#Rectangle_36)">
+            <rect id="Rectangle_36-4" data-name="Rectangle 36" width="115.523" height="115.523" rx="12" transform="translate(166.52 28.48)" fill="#fff"/>
+          </g>
+          <path id="film" d="M57.332,46.42q-.363-.627-2.327-.382a4.808,4.808,0,0,1-5.25-2.364,5.437,5.437,0,0,1-.641-4.309,22.1,22.1,0,0,1,3.542-6.184l1.227-1.709q5.466-7.549,2.242-13.135c-2.187-3.791-8.5-3.472-13.046-1.523a22.935,22.935,0,1,0,.845,1.983,17.571,17.571,0,0,1,5.1-1.013c2.272-.083,4.328.393,5.145,1.807q2.73,4.732-2.637,11.175l-.733.881q-6.277,7.533-3.007,13.2a7.358,7.358,0,0,0,4.205,3.264,5.754,5.754,0,0,0,4.886-.181.983.983,0,0,0,.455-1.5Zm-45.047-14.9A4.725,4.725,0,1,1,17.01,26.8,4.724,4.724,0,0,1,12.285,31.522ZM22.68,41.917A4.725,4.725,0,1,1,27.4,37.192,4.724,4.724,0,0,1,22.68,41.917ZM20.827,26.8a1.891,1.891,0,1,1,1.892,1.89A1.892,1.892,0,0,1,20.827,26.8Zm1.852-5.67A4.725,4.725,0,1,1,27.4,16.4,4.724,4.724,0,0,1,22.68,21.127ZM33.075,31.522A4.725,4.725,0,1,1,37.8,26.8,4.724,4.724,0,0,1,33.075,31.522Z" transform="translate(29.229 31.082)" fill="#ce5f5f"/>
+        </g>
+        <text id="Video_file" data-name="Video file" transform="translate(16.769 136.981)" fill="#bcbcbc" font-size="17" font-family="Inter" font-weight="500"><tspan x="0" y="16">Video file</tspan></text>
+      </g>
+      <g id="Group_9950" data-name="Group 9950" transform="translate(1550.899 1268.457)">
+        <text id="Audio_file" data-name="Audio file" transform="translate(16.521 136.69)" fill="#bcbcbc" font-size="17" font-family="Inter" font-weight="500"><tspan x="0" y="16">Audio file</tspan></text>
+        <g id="Group_9952" data-name="Group 9952" transform="translate(-0.479 0)">
+          <g transform="matrix(1, 0, 0, 1, -591.52, -1.5)" filter="url(#Rectangle_89)">
+            <rect id="Rectangle_89-2" data-name="Rectangle 89" width="115.523" height="115.523" rx="12" transform="translate(591.52 1.5)" fill="#fff"/>
+          </g>
+          <path id="music" d="M38.762,41.744c-4.939,0-8.945-3.337-8.945-7.454s4.006-7.454,8.945-7.454a10.413,10.413,0,0,1,2.982.458V13.418L17.89,19.381V41.744h-.18c-.829,3.4-4.438,5.963-8.765,5.963C4.006,47.707,0,44.37,0,40.253S4.006,32.8,8.945,32.8a10.413,10.413,0,0,1,2.982.458V7.454L41.743,0h5.963V34.289C47.707,38.407,43.7,41.744,38.762,41.744Z" transform="translate(33.528 33.528)" fill="#369bb2"/>
+        </g>
+      </g>
+      <g id="Group_9953" data-name="Group 9953" transform="translate(1119.651 1632.773)">
+        <g id="Group_9951-2" data-name="Group 9951" transform="translate(-0.231 0)">
+          <g transform="matrix(1, 0, 0, 1, -160.52, -365.82)" filter="url(#Rectangle_36-2)">
+            <rect id="Rectangle_36-5" data-name="Rectangle 36" width="115.523" height="115.523" rx="12" transform="translate(160.52 365.82)" fill="#fff"/>
+          </g>
+          <path id="camera" d="M46.579,9.064l-25.329.029L21.258,4.1,7.753,4V9.064H4.376A3.377,3.377,0,0,0,1,12.441v28.7a3.377,3.377,0,0,0,3.376,3.376h42.2a3.377,3.377,0,0,0,3.376-3.376v-28.7A3.377,3.377,0,0,0,46.579,9.064ZM11.129,7.376h6.753v5.064H11.129Zm8.441,32A11.817,11.817,0,1,1,31.386,27.563,11.817,11.817,0,0,1,19.569,39.38Zm22.79-19.307A3.376,3.376,0,1,1,45.735,16.7,3.375,3.375,0,0,1,42.359,20.073Zm-22.79.176a7.6,7.6,0,1,0,7.6,7.6A7.6,7.6,0,0,0,19.569,20.248Z" transform="translate(32.528 32.966)" fill="#5b516b"/>
+        </g>
+        <text id="Image_file" data-name="Image file" transform="translate(16.768 136.69)" fill="#bcbcbc" font-size="17" font-family="Inter" font-weight="500"><tspan x="0" y="16">Image file</tspan></text>
+      </g>
+      <g id="Group_9954" data-name="Group 9954" transform="translate(1512.96 1696.133)">
+        <g id="Group_9951-3" data-name="Group 9951" transform="translate(-0.479 0)">
+          <g transform="matrix(1, 0, 0, 1, -553.58, -429.18)" filter="url(#Rectangle_36-3)">
+            <rect id="Rectangle_36-6" data-name="Rectangle 36" width="115.523" height="115.523" rx="12" transform="translate(553.58 429.18)" fill="#fff"/>
+          </g>
+          <g id="Group_9955" data-name="Group 9955" transform="translate(32.668 32.668)">
+            <g id="Ellipse_1579" data-name="Ellipse 1579" fill="#fff" stroke="#1d1f21" stroke-width="2" stroke-dasharray="5">
+              <ellipse cx="24.931" cy="24.931" rx="24.931" ry="24.931" stroke="none"/>
+              <ellipse cx="24.931" cy="24.931" rx="23.931" ry="23.931" fill="none"/>
+            </g>
+            <path id="Path_11624" data-name="Path 11624" d="M10.605,9.372a4.129,4.129,0,0,0-.5-1.051,3.287,3.287,0,0,0-.74-.794,3.156,3.156,0,0,0-.977-.5,3.971,3.971,0,0,0-1.2-.172,3.646,3.646,0,0,0-2,.568A3.864,3.864,0,0,0,3.782,9.09a6.3,6.3,0,0,0-.517,2.692,6.3,6.3,0,0,0,.519,2.7,3.849,3.849,0,0,0,1.423,1.672,3.789,3.789,0,0,0,2.063.569,3.836,3.836,0,0,0,1.863-.435,3.063,3.063,0,0,0,1.239-1.232,3.823,3.823,0,0,0,.441-1.879l.513.095H7.567V11.634h5.164v1.492a5.624,5.624,0,0,1-.7,2.87,4.84,4.84,0,0,1-1.936,1.874,5.891,5.891,0,0,1-2.828.661,5.876,5.876,0,0,1-3.122-.819A5.534,5.534,0,0,1,2.05,15.381,8,8,0,0,1,1.3,11.792a8.537,8.537,0,0,1,.435-2.82A6.134,6.134,0,0,1,2.963,6.847a5.346,5.346,0,0,1,1.865-1.34,5.861,5.861,0,0,1,2.349-.463,6.1,6.1,0,0,1,1.985.315,5.422,5.422,0,0,1,1.642.89,5.019,5.019,0,0,1,1.834,3.124Zm6.618-4.149V18.351H15.238V5.224ZM20.1,18.351V5.224h8.143v1.7H22.089v4h5.574v1.7H22.089v5.723Z" transform="translate(10.471 12.641)" fill="#202225"/>
+          </g>
+        </g>
+        <text id="Gif_file" data-name="Gif file" transform="translate(28.522 136.69)" fill="#bcbcbc" font-size="17" font-family="Inter" font-weight="500"><tspan x="0" y="16">Gif file</tspan></text>
+      </g>
+    </g>
+    <path id="Polygon_4" data-name="Polygon 4" d="M13.114,2.71a4,4,0,0,1,5.576,0l6.049,5.88a4,4,0,0,1-2.788,6.868H9.853A4,4,0,0,1,7.065,8.591Z" transform="translate(1449.361 1497.021) rotate(137)" fill="#0ba4eb"/>
+  </g>
+</svg>

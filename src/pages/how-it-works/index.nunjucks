@@ -1,0 +1,177 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../../../' %}
+  {% set pageTitle = 'How it works' %}
+  {% set slug = 'how-it-works' %}
+{% endblock %}
+
+{% block content %}
+  {# nft__hero-cover-how-it-works #}
+  <section class="nft__hero-cover-how-it-works mt-36 px-36 xl:max-w-full lg:container">
+    <div class="flex flex-row items-center gap-4">
+      <div class="basis-5/12">
+        <div class="w-[500px] min-h-[600px] relative">
+          <figure class="absolute top-0 left-0">
+            <img
+              src="{{ site.data.configs.imageUrl }}how-it-works/img-4.jpg"
+              alt="Image 1"
+              class="w-[16rem] h-[20rem] rounded-lg object-cover"
+            >
+          </figure>
+          <figure class="absolute bottom-0 right-0">
+            <img
+              src="{{ site.data.configs.imageUrl }}how-it-works/img-3.jpg"
+              alt="Image 1"
+              class="w-[16rem] h-[20rem] rounded-lg object-cover"
+            >
+          </figure>
+          <figure class="absolute top-10 right-10">
+            <img
+              src="{{ site.data.configs.imageUrl }}how-it-works/img-2.jpg"
+              alt="Image 1"
+              class="w-[16rem] h-[20rem] rounded-lg object-cover"
+            >
+          </figure>
+          <figure class="absolute bottom-10 left-10">
+            <img
+              src="{{ site.data.configs.imageUrl }}how-it-works/img-1.jpg"
+              alt="Image 1"
+              class="w-[16rem] h-[20rem] rounded-lg object-cover"
+            >
+          </figure>
+        </div>
+      </div>
+      <div class="basis-6/12 ml-28">
+        <hgroup>
+          <h6 class="text-nft_institutional text-lg font-medium">
+            How it works?
+          </h6>
+          <h1 class="mt-10 w-[80%] text-dark_mode font-bold">
+            All you need to know.
+          </h1>
+          <h6 class="mt-10 text-dark_mode text-lg font-medium leading-loose">
+            NFT Pharmatrace is the world’s most trusted marketplace and community to discover, buy, and sell authentic
+            NFTs from the world’s leading digital creators. We offer digital creators a trusted platform to sell their
+            creations directly to fans and collectors worldwide.
+          </h6>
+        </hgroup>
+        <h6 class="mt-10 text-nft_institutional text-lg font-medium">
+          Some data
+        </h6>
+        <div class="flex flex-row items-center mt-1">
+          <hgroup>
+            <h4 class="text-dark_mode font-bold">
+              190K+
+            </h4>
+            <h6 class="text-gray-300 text-sm ml-1">
+              NFTS Minted
+            </h6>
+          </hgroup>
+          <hgroup class="ml-10">
+            <h4 class="text-dark_mode font-bold">
+              22M+
+            </h4>
+            <h6 class="text-gray-300 text-sm ml-1">
+              Trading Volume
+            </h6>
+          </hgroup>
+        </div>
+      </div>
+    </div>
+  </section>
+  {# nft__what-is-nft #}
+  <section class="nft__what-is-nft mt-36 px-36 xl:max-w-full lg:container">
+    <div class="flex flex-row items-center gap-4">
+      <div class="basis-6/12">
+        <hgroup>
+          <h6 class="text-nft_institutional text-lg font-medium">
+            Why Are Non-Fungible Tokens Important?
+          </h6>
+          <h1 class="mt-10 w-[80%] text-dark_mode font-bold">
+            What is a NFT?
+          </h1>
+          <h6 class="mt-10 text-dark_mode text-lg font-medium leading-loose">
+            The cryptocurrency ecosystem is evolving. Several tokens, coins, currencies, and assets are accessible, each with its unique worth.
+            NFTs, or non-fungible tokens, are non-fungible cryptocurrency tokens that are indivisible and distinct whose ownership can be tracked
+            on NFT blockchain development like Ethereum.
+          </h6>
+          <h6 class="mt-8 text-gray-300 text-base leading-loose">
+            Any replicated digital file can be stored as an NFT to identify the original copy.
+            NFTs may be generated from any photography, art, audio, or video file.
+          </h6>
+        </hgroup>
+      </div>
+      <div class="basis-6/12">
+        {% include '_modules/illustration-what-is-nft-svg/illustration-what-is-nft-svg.nunjucks' %}
+      </div>
+    </div>
+    <div class="nft__scroll-left-text mt-32 relative -right-[250px]">
+      <span class="text-gray-100 text-big font-bold leading-none whitespace-nowrap">
+        Lorem ipsum ad lorem ipsum
+      </span>
+    </div>
+  </section>
+  {# nft__our-mission #}
+  <section class="nft__our-mission mt-36 px-36 xl:max-w-full lg:container">
+    <div class="basis-6/12">
+      <hgroup>
+        <h6 class="text-nft_institutional text-lg font-medium">
+          There are many variations of passages
+        </h6>
+        <h1 class="mt-10 w-[80%] text-dark_mode font-bold">
+          This is our mission
+        </h1>
+      </hgroup>
+    </div>
+    <div class="flex flex-row gap-4 mt-10">
+      <div class="basis-4/12">
+        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode">
+          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode">
+            Authentic
+          </h6>
+          <p class="mt-2 text-dark_mode leading-relaxed group-hover:text-gray-300">
+            Every digital creation on MakersPlace is digitally signed by the creator and
+            permanently recorded and verified through the blockchain.
+          </p>
+        </div>
+      </div>
+      <div class="basis-4/12">
+        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode">
+          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode">
+            Unique
+          </h6>
+          <p class="mt-2 text-dark_mode leading-relaxed group-hover:text-gray-300">
+            Every digital creation is issued as a unique digital edition, using blockchain
+            technology a creator can ensure that only a limited number of authentic editions
+            can be owned, ensuring and uniqueness.
+          </p>
+        </div>
+      </div>
+      <div class="basis-4/12">
+        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode">
+          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode">
+            Ownable
+          </h6>
+          <p class="mt-2 text-dark_mode leading-relaxed group-hover:text-gray-300">
+            Purchasing a unique digital creation means you’re given full ownership over the creation,
+            which is then transferred and stored in your digital wallet for safe-keeping.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {# nft__steps-to-start #}
+  {% include '_modules/steps-to-start/steps-to-start.nunjucks' %}
+
+  {# nft__modal-connect-wallet #}
+  {% include '_modules/modal-connect-wallet/modal-connect-wallet.nunjucks' %}
+
+  {# nft__modal-menu #}
+  {% include '_modules/modal-menu/modal-menu.nunjucks' %}
+
+  {# nft__modal-advance-search #}
+  {% include '_modules/modal-advance-search/modal-advance-search.nunjucks' %}
+{% endblock %}

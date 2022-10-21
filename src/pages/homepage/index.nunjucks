@@ -34,18 +34,30 @@
             {% endfor %}
           </div>
           <div class="ml-4">
-            <span class="block text-sm font-bold">10+</span>
-            <span class="block text-sm text-gray-300">The best NFT artists</span>
+            <span class="block text-sm font-bold">
+              10+
+            </span>
+            <span class="block text-sm text-gray-300">
+              The best NFT artists
+            </span>
           </div>
         </div>
         <div class="flex flex-row items-center mt-10">
           <hgroup>
-            <h4 class="text-dark_mode font-bold">190K+</h4>
-            <h6 class="text-gray-300 text-sm ml-1">NFTS Minted</h6>
+            <h4 class="text-dark_mode font-bold">
+              190K+
+            </h4>
+            <h6 class="text-gray-300 text-sm ml-1">
+              NFTS Minted
+            </h6>
           </hgroup>
           <hgroup class="ml-10">
-            <h4 class="text-dark_mode font-bold">22M+</h4>
-            <h6 class="text-gray-300 text-sm ml-1">Trading Volume</h6>
+            <h4 class="text-dark_mode font-bold">
+              22M+
+            </h4>
+            <h6 class="text-gray-300 text-sm ml-1">
+              Trading Volume
+            </h6>
           </hgroup>
         </div>
       </div>
@@ -144,30 +156,32 @@
   <section class="nft__who-we-are px-36 xl:max-w-full lg:container">
     <div class="flex flex-row gap-4">
       <div class="basis-7/12 mt-28">
-        <span class="text-nft_institutional text-lg">
-          Who we are
-        </span>
-        <h4 class="mt-10 text-dark_mode font-semibold">
-          The world’s first and largest digital marketplace for
-          crypto collectables and non-fungible tokens (NFTs).
-        </h4>
+        <hgroup>
+          <h6 class="text-nft_institutional text-lg font-medium">
+            Who we are
+          </h6>
+          <h4 class="mt-10 text-dark_mode font-semibold">
+            The world’s first and largest digital marketplace for
+            crypto collectables and non-fungible tokens (NFTs).
+          </h4>
+        </hgroup>
       </div>
       <div class="basis-5/12">
         <figure>
           <img
-            src="{{ site.data.configs.imageUrl }}homepage/dotted-line.svg"
-            alt="Illustration - Dotted line"
+            src="{{ site.data.configs.imageUrl }}homepage/dashed-line.svg"
+            alt="Illustration - Dashed line"
             class="w-4/5 ml-20"
           >
         </figure>
       </div>
     </div>
-    <div class="nft__scroll-left-text absolute -right-[250px]">
-      <span class="text-gray-100 text-big font-bold leading-none">
+    <div class="nft__scroll-left-text relative -right-[300px]">
+      <span class="text-gray-100 text-big font-bold leading-none whitespace-nowrap">
         This is our mission
       </span>
     </div>
-    <figure class="flex justify-end mt-44">
+    <figure class="flex justify-end mt-10">
       <img
         src="{{ site.data.configs.imageUrl }}commons/fingerprint-blot.svg"
         alt="Illustration - Fingerprint blot - Who we are"
@@ -190,7 +204,7 @@
             <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional">
               Authentic
             </h6>
-            <p class="mt-2 text-gray-300 text-md leading-relaxed group-hover:text-dark_mode">
+            <p class="mt-2 text-gray-300 leading-relaxed group-hover:text-dark_mode">
               Every digital creation on MakersPlace is digitally signed by the creator and
               permanently recorded and verified through the blockchain.
             </p>
@@ -199,7 +213,7 @@
             <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional">
               Unique
             </h6>
-            <p class="mt-2 text-gray-300 text-md leading-relaxed group-hover:text-dark_mode">
+            <p class="mt-2 text-gray-300 leading-relaxed group-hover:text-dark_mode">
               Every digital creation is issued as a unique digital edition, using blockchain technology a creator
               can ensure that only a limited number of authentic editions can be owned, ensuring and uniqueness.
             </p>
@@ -208,7 +222,7 @@
             <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional">
               Ownable
             </h6>
-            <p class="mt-2 text-gray-300 text-md leading-relaxed group-hover:text-dark_mode">
+            <p class="mt-2 text-gray-300 leading-relaxed group-hover:text-dark_mode">
               Purchasing a unique digital creation means you’re given full ownership over the creation,
               which is then transferred and stored in your digital wallet for safe-keeping.
             </p>
@@ -218,8 +232,8 @@
     </div>
     <figure class="relative min-h-[400px]">
       <img
-        src="{{ site.data.configs.imageUrl }}homepage/dotted-line-fingerprint.svg"
-        alt="Illustration - Dotted line with fingerprint blot"
+        src="{{ site.data.configs.imageUrl }}homepage/dashed-line-fingerprint.svg"
+        alt="Illustration - Dashed line with fingerprint blot"
         class="w-9/12 absolute top-[-250px] left-[-220px]"
       >
     </figure>
