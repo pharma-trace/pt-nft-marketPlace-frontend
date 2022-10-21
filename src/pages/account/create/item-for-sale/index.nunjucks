@@ -203,6 +203,9 @@
             Complete
           </button>
         </form>
+        <span class="block mt-6 text-gray-300 text-sm cursor-pointer hover:text-dark_mode" data-modal-toggle="popup-modal-item-listed">
+          **Open [popup-modal-item-listed] (only for view)
+        </span>
       </div>
       <div class="basis-4/12 ml-[8.333333%]">
         <div class="sticky top-36">
@@ -237,6 +240,9 @@
 
   {# nft__popup-modal-complete-your-listing #}
   {% include '_modules/popup-modal-complete-your-listing/popup-modal-complete-your-listing.nunjucks' %}
+
+  {# nft__popup-modal-item-listed #}
+  {% include '_modules/popup-modal-item-listed/popup-modal-item-listed.nunjucks' %}
 
   {# nft__modal-menu #}
   {% include '_modules/modal-menu/modal-menu.nunjucks' %}

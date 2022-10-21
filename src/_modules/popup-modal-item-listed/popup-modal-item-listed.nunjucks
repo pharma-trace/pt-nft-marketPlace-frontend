@@ -1,0 +1,63 @@
+<div id="popup-modal-item-listed" tabindex="-1" class="nft__modal hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 md:inset-0 h-modal md:h-full justify-center items-center outline-none" aria-hidden="true">
+  <div class="relative p-4 w-full max-w-lg h-full md:h-auto">
+    <div class="relative bg-white rounded-lg">
+      <button type="button" class="w-8 h-8 absolute top-3 right-3 text-gray-300 bg-transparent hover:bg-gray-100 hover:text-dark_mode rounded-lg ml-auto inline-flex items-center justify-center" data-modal-toggle="popup-modal-item-listed">
+        <i class="fa-solid fa-xmark text-lg"></i>
+        <span class="sr-only">
+            Close modal
+          </span>
+      </button>
+      <div class="py-12 px-16">
+        <h5 class="mt-5 text-dark_mode text-xl font-semibold text-center">
+          Your item has been listed!
+        </h5>
+        <div class="my-10">
+          <figure class="flex flex-row items-center mt-4">
+            <img
+              src="{{ site.data.configs.imageUrl }}avatars/avatar-9.jpg"
+              alt="Avatar 9"
+              class="w-24 h-24 rounded-xl border-2 border-solid border-gray-100 object-cover"
+            >
+            <figcaption class="ml-4 flex flex-col items-start">
+              <span class="text-gray-300 text-sm font-medium">
+                Collection: Doodles
+              </span>
+              <span class="mt-1 text-dark_mode text-sm font-semibold">
+                Doodles #001
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+        <hr>
+        <div class="mt-10">
+          <h5 class="text-dark_mode text-base font-semibold">
+            Share to
+          </h5>
+          <ul class="flex gap-4 mt-3">
+            <li>
+              <a href="#" target="_blank" class="text-gray-300 text-xl hover:text-dark_mode relative bottom-0 hover:bottom-0.5 hover:text-gray-300 ease-out duration-300">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="text-gray-300 text-xl hover:text-dark_mode relative bottom-0 hover:bottom-0.5 hover:text-gray-300 ease-out duration-300">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="text-gray-300 text-xl hover:text-dark_mode relative bottom-0 hover:bottom-0.5 hover:text-gray-300 ease-out duration-300">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+          <button
+            type="button"
+            class="py-3 px-8 mt-10 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300"
+          >
+            View listing
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -21,22 +21,22 @@
           </a>
         </nav>
         <nav class="nft__social">
-          <a href="https://www.linkedin.com/company/pharmatrace" target="_blank" class="first:ml-0 text-gray-300 text-xl hover:text-dark_mode">
+          <a href="https://www.linkedin.com/company/pharmatrace" target="_blank" class="first:ml-0 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300">
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
-          <a href="https://twitter.com/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl hover:text-dark_mode">
+          <a href="https://twitter.com/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300">
             <i class="fa-brands fa-twitter"></i>
           </a>
-          <a href="https://www.instagram.com/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl hover:text-dark_mode">
+          <a href="https://www.instagram.com/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300">
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://github.com/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl hover:text-dark_mode">
+          <a href="https://github.com/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://www.xing.com/pages/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl hover:text-dark_mode">
+          <a href="https://www.xing.com/pages/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300">
             <i class="fa-brands fa-xing"></i>
           </a>
-          <a href="https://t.me/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl hover:text-dark_mode">
+          <a href="https://t.me/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300">
             <i class="fa-brands fa-telegram"></i>
           </a>
         </nav>

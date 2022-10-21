@@ -46,7 +46,7 @@
             </svg>
             <span class="sr-only">Loading...</span>
           </div>
-          <hgroup class="ml-6">
+          <div class="ml-6">
             <h5 class="text-dark_mode text-base font-semibold">
               Confirm listing
             </h5>
@@ -59,14 +59,9 @@
             >
               Waiting for approval...
             </button>
-          </hgroup>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-
-
-
-
