@@ -1,0 +1,523 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../../../' %}
+  {% set pageTitle = 'About Us' %}
+  {% set slug = 'about-us' %}
+{% endblock %}
+
+{% block content %}
+  {# nft__hero-cover-about-us #}
+  <section class="nft__hero-cover-about-us mt-36 px-36 xl:max-w-full lg:container">
+    <div class="flex flex-row items-center gap-4">
+      <div class="basis-6/12">
+        <hgroup>
+          <h6 class="text-nft_institutional text-lg font-medium">
+            About Us
+          </h6>
+          <h1 class="mt-10 w-[80%] text-dark_mode font-bold">
+            We are a new type of digital asset called NFT which is not an NFT.
+          </h1>
+          <h6 class="mt-10 text-dark_mode text-lg font-medium leading-loose">
+            The NFT PharmaTrace Marketplace was born on September 2022 from the idea of <span class="text-pt_institutional underline">Dr. Issame Outaleb</span>
+            founder of PharmaTrace, blockchain based ecosystem where the pharmaceutical industry works together
+            and does better business based on a common distributed ledger.
+          </h6>
+        </hgroup>
+      </div>
+      {#ml-[8.333333%]#}
+      <div class="basis-6/12">
+        <div class="flex flex-row gap-4">
+          <div class="basis-2/12 relative">
+            <figure class="absolute top-[100px]">
+              <img
+                src="{{ site.data.configs.imageUrl }}about-us/group-icon-lightbulb.svg"
+                alt="Icon - lightbulb"
+                class="w-full rounded-lg object-cover"
+              >
+            </figure>
+            <figure class="absolute bottom-[-50px]">
+              <img
+                src="{{ site.data.configs.imageUrl }}about-us/group-icon-suitcase.svg"
+                alt="Icon - suitcase"
+                class="w-full rounded-lg object-cover"
+              >
+            </figure>
+          </div>
+          <div class="basis-10/12">
+            <figure>
+              <img
+                src="{{ site.data.configs.imageUrl }}about-us/cover-ceo-issame-outaleb.png"
+                alt="Cover - CEO - Issame Outaleb"
+                class="w-full rounded-lg object-cover"
+              >
+            </figure>
+          </div>
+          <div class="basis-2/12 relative">
+            <figure class="absolute top-[25px]">
+              <img
+                src="{{ site.data.configs.imageUrl }}about-us/group-icon-heart.svg"
+                alt="Icon - heart"
+                class="w-full rounded-lg object-cover"
+              >
+            </figure>
+            <figure class="absolute bottom-[-25px]">
+              <img
+                src="{{ site.data.configs.imageUrl }}about-us/group-icon-mug.svg"
+                alt="Icon - mug"
+                class="w-full rounded-lg object-cover"
+              >
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {# nft__our-philosophy #}
+  <section class="nft__our-philosophy mt-36 px-36 xl:max-w-full lg:container">
+    <div class="flex flex-row items-center gap-4">
+      <div class="basis-3/12 ml-[8.333333%]">
+        <div class="flex flex-col gap-y-10">
+          <div class="w-full p-8 relative bg-pt_institutional/20 rounded-lg">
+            <span class="block text-gray-300 text-6xl font-bold absolute top-[-25px] left-2">1</span>
+            <span class="block text-pt_institutional text-base font-semibold">
+              We are transparent
+            </span>
+          </div>
+          <div class="w-full p-8 relative bg-pt_institutional/20 rounded-lg">
+            <span class="block text-gray-300 text-6xl font-bold absolute top-[-25px] left-2">2</span>
+            <span class="block text-pt_institutional text-base font-semibold">
+              We are human
+            </span>
+          </div>
+          <div class="w-full p-8 relative bg-pt_institutional/20 rounded-lg">
+            <span class="block text-gray-300 text-6xl font-bold absolute top-[-25px] left-2">3</span>
+            <span class="block text-pt_institutional text-base font-semibold">
+              We are focused on product
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="basis-6/12 ml-[16.666667%]">
+        <hgroup>
+          <h6 class="text-nft_institutional text-lg font-medium">
+            There are many variations of passages
+          </h6>
+          <h1 class="mt-10 w-[80%] text-dark_mode font-bold">
+            Our philosophy
+          </h1>
+          <h6 class="mt-10 text-dark_mode text-lg font-medium leading-loose">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+            ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+            duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </h6>
+        </hgroup>
+      </div>
+    </div>
+  </section>
+  {# nft__top-management-team #}
+  <section class="nft__top-management-team mt-36 px-36 xl:max-w-full lg:container">
+    <div class="flex flex-row">
+      <div class="basis-6/12">
+        <hgroup>
+          <h6 class="text-nft_institutional text-lg font-medium">
+            Behind desks and laptops
+          </h6>
+          <h1 class="mt-10 w-[80%] text-dark_mode font-bold">
+            Top Management Team
+          </h1>
+        </hgroup>
+      </div>
+    </div>
+    <div class="flex flex-row flex-wrap gap-y-12 mt-16">
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Issame Outaleb"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Dr. Issame Outaleb
+            </span>
+            <span class="block text-sm text-gray-300">
+              CEO & Founder
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Helmut Hauschild"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Helmut Hauschild
+            </span>
+            <span class="block text-sm text-gray-300">
+              Co-CTO
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Mo Bamoh"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Mo Bamoh
+            </span>
+            <span class="block text-sm text-gray-300">
+              Co-CTO
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Manfred Voglmaer"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Manfred Voglmaer
+            </span>
+            <span class="block text-sm text-gray-300">
+              Product Owner
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Amit Joshi"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Amit Joshi
+            </span>
+            <span class="block text-sm text-gray-300">
+              Tokenzation Head
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Heist Kim"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Heist Kim
+            </span>
+            <span class="block text-sm text-gray-300">
+              Client management
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Tanvi Nigam"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Tanvi Nigam
+            </span>
+            <span class="block text-sm text-gray-300">
+              Project management
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Eva Jenisch"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Eva Jenisch
+            </span>
+            <span class="block text-sm text-gray-300">
+              Supply chain expert
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  {# nft__technical-team #}
+  <section class="nft__technical-team mt-24 px-36 xl:max-w-full lg:container">
+    <div class="flex flex-row">
+      <div class="basis-6/12">
+        <hgroup>
+          <h1 class="mt-10 w-[80%] text-dark_mode font-bold">
+            Technical Team
+          </h1>
+        </hgroup>
+      </div>
+    </div>
+    <div class="flex flex-row flex-wrap gap-y-12 mt-16">
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Sandeep Mishra"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Sandeep Mishra
+            </span>
+            <span class="block text-sm text-gray-300">
+              Lead Developer
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Jay Sun"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Jay Sun
+            </span>
+            <span class="block text-sm text-gray-300">
+              Blockchain Lead
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Touqeer Shah"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Touqeer Shah
+            </span>
+            <span class="block text-sm text-gray-300">
+              Blockchain Developer
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Majid Keshtidar"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Majid Keshtidar
+            </span>
+            <span class="block text-sm text-gray-300">
+              Backend Developer
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Federico La Terra"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Federico La Terra
+            </span>
+            <span class="block text-sm text-gray-300">
+              Frontend Developer<br/>
+              & UX/UI Lead
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Ali Mirkharazi"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Ali Mirkharazi
+            </span>
+            <span class="block text-sm text-gray-300">
+              Frontend Developer
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Zubaer Haque"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Zubaer Haque
+            </span>
+            <span class="block text-sm text-gray-300">
+              Frontend Developer
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Vikas Pathak"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Vikas Pathak
+            </span>
+            <span class="block text-sm text-gray-300">
+              Business Analyst
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Manjeet Singh"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Manjeet Singh
+            </span>
+            <span class="block text-sm text-gray-300">
+              Business Analyst
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Amir Fatemi"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Amir Fatemi
+            </span>
+            <span class="block text-sm text-gray-300">
+              Devops Lead
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure class="flex flex-row items-center">
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/top-team-issame-outaleb.png"
+            alt="Avatar - Abhinav"
+            class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
+          >
+          <figcaption class="ml-4">
+            <span class="block text-dark_mode text-base font-bold">
+              Abhinav
+            </span>
+            <span class="block text-sm text-gray-300">
+              QA Lead
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  <div class="nft__scroll-left-text mt-32 relative -right-[250px]">
+    <span class="text-gray-100 text-big font-bold leading-none whitespace-nowrap">
+      Team Work Together
+    </span>
+  </div>
+  {# nft__team-work #}
+  <section class="nft__team-work mt-32 px-36 xl:max-w-full lg:container">
+    <div class="flex flex-row gap-4 mt-10">
+      <div class="basis-4/12">
+        <figure>
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/team-work-1.png"
+            alt="Team work 1"
+            class="w-full rounded-lg object-cover"
+          >
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure>
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/team-work-2.png"
+            alt="Team work 2"
+            class="w-full rounded-lg object-cover"
+          >
+        </figure>
+      </div>
+      <div class="basis-4/12">
+        <figure>
+          <img
+            src="{{ site.data.configs.imageUrl }}about-us/team-work-3.png"
+            alt="Team work 3"
+            class="w-full rounded-lg object-cover"
+          >
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  {# nft__steps-to-start #}
+  {% include '_modules/steps-to-start/steps-to-start.nunjucks' %}
+
+  {# nft__modal-connect-wallet #}
+  {% include '_modules/modal-connect-wallet/modal-connect-wallet.nunjucks' %}
+
+  {# nft__modal-menu #}
+  {% include '_modules/modal-menu/modal-menu.nunjucks' %}
+
+  {# nft__modal-advance-search #}
+  {% include '_modules/modal-advance-search/modal-advance-search.nunjucks' %}
+{% endblock %}

@@ -43,7 +43,7 @@
           </figure>
         </div>
       </div>
-      <div class="basis-6/12 ml-28">
+      <div class="basis-6/12 ml-[8.333333%]">
         <hgroup>
           <h6 class="text-nft_institutional text-lg font-medium">
             How it works?
@@ -107,23 +107,25 @@
         {% include '_modules/illustration-what-is-nft-svg/illustration-what-is-nft-svg.nunjucks' %}
       </div>
     </div>
-    <div class="nft__scroll-left-text mt-32 relative -right-[250px]">
+  </section>
+  <div class="nft__scroll-left-text mt-32 relative -right-[250px]">
       <span class="text-gray-100 text-big font-bold leading-none whitespace-nowrap">
         Lorem ipsum ad lorem ipsum
       </span>
-    </div>
-  </section>
+  </div>
   {# nft__our-mission #}
   <section class="nft__our-mission mt-36 px-36 xl:max-w-full lg:container">
-    <div class="basis-6/12">
-      <hgroup>
-        <h6 class="text-nft_institutional text-lg font-medium">
-          There are many variations of passages
-        </h6>
-        <h1 class="mt-10 w-[80%] text-dark_mode font-bold">
-          This is our mission
-        </h1>
-      </hgroup>
+    <div class="flex flex-row">
+      <div class="basis-6/12">
+        <hgroup>
+          <h6 class="text-nft_institutional text-lg font-medium">
+            There are many variations of passages
+          </h6>
+          <h1 class="mt-10 w-[80%] text-dark_mode font-bold">
+            This is our mission
+          </h1>
+        </hgroup>
+      </div>
     </div>
     <div class="flex flex-row gap-4 mt-10">
       <div class="basis-4/12">
