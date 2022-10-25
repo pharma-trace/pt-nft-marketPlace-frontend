@@ -1,8 +1,8 @@
 <section class="nft__steps-to-start px-36 mt-36 xl:max-w-full lg:container relative">
-  <div class="flex flex-row items-center p-16 rounded-xl bg-gray-300/20">
+  <div class="flex flex-row items-center p-16 rounded-xl bg-gray-300/20 dark:bg-sub_dark_mode">
     <div class="basis-5/12">
       <hgroup>
-        <h4 class="text-dark_mode font-medium">
+        <h4 class="text-dark_mode font-medium dark:text-light_mode">
           Start your
           <span class="underline text-pt_institutional">own collection</span><br/>
           today and sell your NFTs.
@@ -16,14 +16,14 @@
       <div class="flex flex-row items-center gap-x-14">
         <div class="basis-6/12">
           <div class="flex items-center">
-              <span class="flex items-center justify-center rounded-xl bg-light_mode w-[70px] h-[70px]">
-                <i class="fa-solid fa-wallet text-nft_institutional text-2xl"></i>
-              </span>
-            <h6 class="ml-6 text-dark-mode text-lg font-medium">
+            <span class="flex items-center justify-center rounded-xl w-[70px] h-[70px] bg-light_mode dark:bg-dark_mode">
+              <i class="fa-solid fa-wallet text-nft_institutional text-2xl"></i>
+            </span>
+            <h6 class="ml-6 text-dark-mode text-lg font-medium dark:text-light_mode">
               Set up your wallet
             </h6>
           </div>
-          <p class="mt-6 text-dark_mode/90 text-sm leading-loose">
+          <p class="mt-6 text-dark_mode/90 text-sm leading-loose dark:text-gray-300">
             Once you’ve set up your wallet of choice, connect it to PharmaTrace by
             clicking the wallet icon in the top right corner.
             Learn about the wallets we support.
@@ -31,14 +31,14 @@
         </div>
         <div class="basis-6/12">
           <div class="flex items-center">
-              <span class="flex items-center justify-center rounded-xl bg-light_mode w-[70px] h-[70px]">
-                <i class="fa-solid fa-box-open text-nft_institutional text-2xl"></i>
-              </span>
-            <h6 class="ml-6 text-dark-mode text-lg font-medium">
+            <span class="flex items-center justify-center rounded-xl w-[70px] h-[70px] bg-light_mode dark:bg-dark_mode">
+              <i class="fa-solid fa-box-open text-nft_institutional text-2xl"></i>
+            </span>
+            <h6 class="ml-6 text-dark-mode text-lg font-medium dark:text-light_mode">
               Create your collection
             </h6>
           </div>
-          <p class="mt-6 text-dark_mode/90 text-sm leading-loose">
+          <p class="mt-6 text-dark_mode/90 text-sm leading-loose dark:text-gray-300">
             Click My Collections and set up your collection.
             Add social links, a description, profile & banner images,
             and set a secondary sales fee.
@@ -48,28 +48,28 @@
       <div class="flex flex-row items-center gap-x-14 mt-14">
         <div class="basis-6/12">
           <div class="flex items-center">
-              <span class="flex items-center justify-center rounded-xl bg-light_mode w-[70px] h-[70px]">
-                <i class="fa-solid fa-image text-nft_institutional text-2xl"></i>
-              </span>
-            <h6 class="ml-6 text-dark-mode text-lg font-medium">
+            <span class="flex items-center justify-center rounded-xl w-[70px] h-[70px] bg-light_mode dark:bg-dark_mode">
+              <i class="fa-solid fa-image text-nft_institutional text-2xl"></i>
+            </span>
+            <h6 class="ml-6 text-dark-mode text-lg font-medium dark:text-light_mode">
               Add your NFTs
             </h6>
           </div>
-          <p class="mt-6 text-dark_mode/90 text-sm leading-loose">
+          <p class="mt-6 text-dark_mode/90 text-sm leading-loose dark:text-gray-300">
             Upload your work (image, video, audio, or 3D art), add a title and description,
             and customize your NFTs with properties, stats, and unlockable content.
           </p>
         </div>
         <div class="basis-6/12">
           <div class="flex items-center">
-              <span class="flex items-center justify-center rounded-xl bg-light_mode w-[70px] h-[70px]">
-                <i class="fa-solid fa-bag-shopping text-nft_institutional text-2xl"></i>
-              </span>
-            <h6 class="ml-6 text-dark-mode text-lg font-medium">
+            <span class="flex items-center justify-center rounded-xl w-[70px] h-[70px] bg-light_mode dark:bg-dark_mode">
+              <i class="fa-solid fa-bag-shopping text-nft_institutional text-2xl"></i>
+            </span>
+            <h6 class="ml-6 text-dark-mode text-lg font-medium dark:text-light_mode">
               List Them for Sale
             </h6>
           </div>
-          <p class="mt-6 text-dark_mode/90 text-sm leading-loose">
+          <p class="mt-6 text-dark_mode/90 text-sm leading-loose dark:text-gray-300">
             Choose between auctions, fixed-price listings, and declining-price listings.
             You choose how you want to sell your NFTs, and we help you sell them!
           </p>

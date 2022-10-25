@@ -9,7 +9,7 @@ tailwind.config = {
                 light_mode: '#FFFFFF',
                 dark_mode: '#202225',
                 sub_dark_mode: '#2F3031',
-                sub_dark_boder: '#48494B',
+                sub_dark_border: '#48494B',
                 gray: {
                     300: '#BCBCBC',
                     200: '#E8E8E8',

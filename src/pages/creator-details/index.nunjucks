@@ -15,7 +15,7 @@
       <img
         src="{{ site.data.configs.imageUrl }}creators/cover-creator.jpg"
         alt="Cover creator"
-        class="w-full h-[40vh] rounded-xl border-4 border-solid border-gray-100 object-cover"
+        class="w-full h-[40vh] rounded-xl border-4 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
       >
       <figcaption class="absolute bottom-4 right-4">
         <button
@@ -34,10 +34,10 @@
             <img
               src="{{ site.data.configs.imageUrl }}creators/avatar-profile-creator.jpg"
               alt="Avatar profile creator"
-              class="w-36 h-36 rounded-full object-cover border-4 border-solid border-gray-100"
+              class="w-36 h-36 rounded-full object-cover border-4 border-solid border-gray-100 dark:border-sub_dark_border/80"
             >
             <figcaption class="mt-6">
-              <h5 class="text-dark_mode font-semibold">
+              <h5 class="text-dark_mode font-semibold dark:text-light_mode">
                 Monkey Leahpar
                 <span class="relative align-middle ml-2">
                   <i class="fa-solid fa-certificate text-nft_institutional text-2xl"></i>
@@ -50,7 +50,7 @@
             </figcaption>
           </figure>
           <div class="mt-10">
-            <p class="text-dark_mode leading-loose">
+            <p class="text-dark_mode leading-loose dark:text-gray-300">
               Artist based in Germany.<br/>
               My work revolves around human emotion and our mind states.
               There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
@@ -60,23 +60,23 @@
         <div class="basis-4/12">
           <div class="flex flex-row items-start justify-end mt-16">
             <hgroup class="first:ml-0">
-              <h5 class="text-dark_mode text-xl font-semibold">90.19 ETH</h5>
+              <h5 class="text-dark_mode text-xl font-semibold dark:text-light_mode">90.19 ETH</h5>
               <h6 class="text-gray-300 text-sm">Total balance</h6>
               {# <h6 class="text-nft_institutional text-sm mt-1">111,237 $</h6> #}
             </hgroup>
             <hgroup class="ml-10">
-              <h5 class="text-dark_mode text-xl font-semibold">115</h5>
+              <h5 class="text-dark_mode text-xl font-semibold dark:text-light_mode">115</h5>
               <h6 class="text-gray-300 text-sm">Following</h6>
             </hgroup>
             <hgroup class="ml-10">
-              <h5 class="text-dark_mode text-xl font-semibold">88</h5>
+              <h5 class="text-dark_mode text-xl font-semibold dark:text-light_mode">88</h5>
               <h6 class="text-gray-300 text-sm">Followers</h6>
             </hgroup>
           </div>
           <div class="flex flex-row items-start justify-end mt-16">
             <hgroup class="first:ml-4">
               <h6 class="text-gray-300 text-sm">Joined on</h6>
-              <h6 class="mt-1 text-dark_mode text-base font-semibold">July 2022</h6>
+              <h6 class="mt-1 text-dark_mode text-base font-semibold dark:text-light_mode">July 2022</h6>
             </hgroup>
             <div class="ml-14">
               <h6 class="text-gray-300 text-sm">Followed by</h6>
@@ -85,7 +85,7 @@
                   <img
                     src="{{ site.data.configs.imageUrl }}{{ src }}"
                     alt="{{ alt }}"
-                    class="w-12 h-12 rounded-full border-2 border-solid border-gray-100 object-cover"
+                    class="w-12 h-12 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
                   >
                 {% endfor %}
               </div>
@@ -99,7 +99,7 @@
   <section class="nft__main-creator-details px-36 mt-16 xl:max-w-full lg:container">
     <div class="flex flex-row items-center">
       <div class="basis-8/12">
-        <div class="inline-block border-b border-gray-200">
+        <div class="inline-block border-b border-gray-200 dark:border-sub_dark_border">
           <ul class="nft__tablist flex flex-wrap text-lg font-semibold text-center" data-tabs-toggle="#tab-main-creator-details" role="tablist">
             <li class="mr-8" role="presentation">
               <button
@@ -177,14 +177,14 @@
         <div class="flex flex-row justify-end">
           <button
             type="button"
-            class="py-1 px-4 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-100"
+            class="py-1 px-4 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-100 dark:text-light_mode dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode"
           >
             <i class="fa-solid fa-arrow-up-wide-short mr-4 text-lg"></i>
             Price range
           </button>
           <button
             type="button"
-            class="py-1 px-4 last:mr-0 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-100"
+            class="py-1 px-4 last:mr-0 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-100 dark:text-light_mode dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode"
           >
             <i class="fa-solid fa-arrow-up-wide-short mr-4 text-lg"></i>
             Recently listed
@@ -199,24 +199,24 @@
             {% include '_modules/card-collection/card-collection.nunjucks' %}
           {% endfor %}
         </div>
+        <div class="nft__load-more-button flex justify-center mt-10">
+          <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300 dark:bg-sub_dark_mode dark:focus:!ring-sub_dark_mode">
+            Load more
+          </button>
+        </div>
       </div>
       <div class="hidden" id="on-bid" role="tabpanel" aria-labelledby="tab-on-bid">
-        <span>Tab content - On Bid</span>
+        <span class="dark:text-light_mode">Tab content - On Bid</span>
       </div>
       <div class="hidden" id="owned" role="tabpanel" aria-labelledby="tab-owned">
-        <span>Tab content - Owned</span>
+        <span class="dark:text-light_mode">Tab content - Owned</span>
       </div>
       <div class="hidden" id="liked" role="tabpanel" aria-labelledby="tab-liked">
-        <span>Tab content - Liked</span>
+        <span class="dark:text-light_mode">Tab content - Liked</span>
       </div>
       <div class="hidden" id="activities" role="tabpanel" aria-labelledby="tab-activities">
-        <span>Tab content - Activities</span>
+        <span class="dark:text-light_mode">Tab content - Activities</span>
       </div>
-    </div>
-    <div class="nft__load-more-button flex justify-center mt-10">
-      <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
-        Load more
-      </button>
     </div>
   </section>
   {# nft__steps-to-start #}

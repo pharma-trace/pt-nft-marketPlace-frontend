@@ -1,7 +1,7 @@
 <footer class="nft__footer logged mx-auto px-36 mt-36 mb-6 xl:max-w-full lg:container">
   <div class="flex justify-center mt-14">
     <div class="basis-10/12">
-      <hr>
+      <hr class="border-gray-300/30 dark:border-sub_dark_border">
       <div class="flex items-center justify-between mt-10 px-8">
         <nav class="nft__copy">
               <span class="text-gray-300 text-xs">
@@ -10,33 +10,33 @@
                   PharmaTrace
                 </a>
               </span>
-          <a href="#" class="ml-4 underline text-gray-300 text-xs hover:text-dark_mode">
+          <a href="#" class="ml-4 underline text-gray-300 text-xs hover:text-dark_mode dark:hover:text-light_mode">
             Term of Service
           </a>
-          <a href="#" class="ml-4 underline text-gray-300 text-xs hover:text-dark_mode">
+          <a href="#" class="ml-4 underline text-gray-300 text-xs hover:text-dark_mode dark:hover:text-light_mode">
             Privacy Policy
           </a>
-          <a href="#" class="ml-4 underline text-gray-300 text-xs hover:text-dark_mode">
+          <a href="#" class="ml-4 underline text-gray-300 text-xs hover:text-dark_mode dark:hover:text-light_mode">
             Cookie Policy
           </a>
         </nav>
         <nav class="nft__social">
-          <a href="https://www.linkedin.com/company/pharmatrace" target="_blank" class="first:ml-0 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300">
+          <a href="https://www.linkedin.com/company/pharmatrace" target="_blank" class="first:ml-0 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300 dark:hover:text-light_mode">
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
-          <a href="https://twitter.com/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300">
+          <a href="https://twitter.com/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300 dark:hover:text-light_mode">
             <i class="fa-brands fa-twitter"></i>
           </a>
-          <a href="https://www.instagram.com/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300">
+          <a href="https://www.instagram.com/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300 dark:hover:text-light_mode">
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://github.com/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300">
+          <a href="https://github.com/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300 dark:hover:text-light_mode">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://www.xing.com/pages/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300">
+          <a href="https://www.xing.com/pages/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300 dark:hover:text-light_mode">
             <i class="fa-brands fa-xing"></i>
           </a>
-          <a href="https://t.me/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300">
+          <a href="https://t.me/pharmatrace" target="_blank" class="ml-4 text-gray-300 text-xl relative bottom-0 hover:bottom-0.5 hover:text-dark_mode ease-out duration-300 dark:hover:text-light_mode">
             <i class="fa-brands fa-telegram"></i>
           </a>
         </nav>

@@ -48,10 +48,10 @@
           <h6 class="text-nft_institutional text-lg font-medium">
             How it works?
           </h6>
-          <h1 class="mt-10 w-[80%] text-dark_mode font-bold">
+          <h1 class="mt-10 w-[80%] text-dark_mode font-bold dark:text-light_mode">
             All you need to know.
           </h1>
-          <h6 class="mt-10 text-dark_mode text-lg font-medium leading-loose">
+          <h6 class="mt-10 text-dark_mode text-lg font-medium leading-loose dark:text-gray-300">
             NFT Pharmatrace is the world’s most trusted marketplace and community to discover, buy, and sell authentic
             NFTs from the world’s leading digital creators. We offer digital creators a trusted platform to sell their
             creations directly to fans and collectors worldwide.
@@ -62,7 +62,7 @@
         </h6>
         <div class="flex flex-row items-center mt-1">
           <hgroup>
-            <h4 class="text-dark_mode font-bold">
+            <h4 class="text-dark_mode font-bold dark:text-light_mode">
               190K+
             </h4>
             <h6 class="text-gray-300 text-sm ml-1">
@@ -70,7 +70,7 @@
             </h6>
           </hgroup>
           <hgroup class="ml-10">
-            <h4 class="text-dark_mode font-bold">
+            <h4 class="text-dark_mode font-bold dark:text-light_mode">
               22M+
             </h4>
             <h6 class="text-gray-300 text-sm ml-1">
@@ -89,10 +89,10 @@
           <h6 class="text-nft_institutional text-lg font-medium">
             Why Are Non-Fungible Tokens Important?
           </h6>
-          <h1 class="mt-10 w-[80%] text-dark_mode font-bold">
+          <h1 class="mt-10 w-[80%] text-dark_mode font-bold dark:text-light_mode">
             What is a NFT?
           </h1>
-          <h6 class="mt-10 text-dark_mode text-lg font-medium leading-loose">
+          <h6 class="mt-10 text-dark_mode text-lg font-medium leading-loose dark:text-gray-300">
             The cryptocurrency ecosystem is evolving. Several tokens, coins, currencies, and assets are accessible, each with its unique worth.
             NFTs, or non-fungible tokens, are non-fungible cryptocurrency tokens that are indivisible and distinct whose ownership can be tracked
             on NFT blockchain development like Ethereum.
@@ -109,7 +109,7 @@
     </div>
   </section>
   <div class="nft__scroll-left-text mt-32 relative -right-[250px]">
-      <span class="text-gray-100 text-big font-bold leading-none whitespace-nowrap">
+      <span class="text-gray-100 text-big font-bold leading-none whitespace-nowrap dark:text-sub_dark_border">
         Lorem ipsum ad lorem ipsum
       </span>
   </div>
@@ -121,7 +121,7 @@
           <h6 class="text-nft_institutional text-lg font-medium">
             There are many variations of passages
           </h6>
-          <h1 class="mt-10 w-[80%] text-dark_mode font-bold">
+          <h1 class="mt-10 w-[80%] text-dark_mode font-bold dark:text-light_mode">
             This is our mission
           </h1>
         </hgroup>
@@ -129,22 +129,22 @@
     </div>
     <div class="flex flex-row gap-4 mt-10">
       <div class="basis-4/12">
-        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode">
-          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode">
+        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode dark:hover:bg-sub_dark_mode">
+          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode group-hover:text-light_mode">
             Authentic
           </h6>
-          <p class="mt-2 text-dark_mode leading-relaxed group-hover:text-gray-300">
+          <p class="mt-2 text-dark_mode leading-relaxed group-hover:text-gray-300 dark:text-gray-300">
             Every digital creation on MakersPlace is digitally signed by the creator and
             permanently recorded and verified through the blockchain.
           </p>
         </div>
       </div>
       <div class="basis-4/12">
-        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode">
-          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode">
+        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode dark:hover:bg-sub_dark_mode">
+          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode group-hover:text-light_mode">
             Unique
           </h6>
-          <p class="mt-2 text-dark_mode leading-relaxed group-hover:text-gray-300">
+          <p class="mt-2 text-dark_mode leading-relaxed group-hover:text-gray-300 dark:text-gray-300">
             Every digital creation is issued as a unique digital edition, using blockchain
             technology a creator can ensure that only a limited number of authentic editions
             can be owned, ensuring and uniqueness.
@@ -152,11 +152,11 @@
         </div>
       </div>
       <div class="basis-4/12">
-        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode">
-          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode">
+        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode dark:hover:bg-sub_dark_mode">
+          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode group-hover:text-light_mode">
             Ownable
           </h6>
-          <p class="mt-2 text-dark_mode leading-relaxed group-hover:text-gray-300">
+          <p class="mt-2 text-dark_mode leading-relaxed group-hover:text-gray-300 dark:text-gray-300">
             Purchasing a unique digital creation means you’re given full ownership over the creation,
             which is then transferred and stored in your digital wallet for safe-keeping.
           </p>

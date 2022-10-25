@@ -1,5 +1,5 @@
 {# variant 1 nft #}
-{#<div class="nft__card_collection py-4 px-4 border border-solid border-gray-100 rounded-xl hover:bg-gray-100">
+{#<div class="nft__card_collection py-4 px-4 border border-solid border-gray-100 rounded-xl hover:bg-gray-100 dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode">
   <div class="grid grid-rows-4 grid-flow-col gap-x-4">
     <figure class="row-span-4 col-span-2">
       <img
@@ -10,7 +10,7 @@
     </figure>
   </div>
   <div class="mt-4">
-    <span class="block text-dark_mode font-semibold">
+    <span class="block text-dark_mode font-semibold dark:text-light_mode">
       Doodle
     </span>
     <span class="block text-sm text-gray-300">
@@ -18,17 +18,17 @@
     </span>
   </div>
   <div class="flex items-center justify-between mt-6">
-    <span class="block text-dark_mode text-sm font-semibold">
+    <span class="block text-dark_mode text-sm font-semibold dark:text-light_mode">
       512.57 ETH
     </span>
-    <span class="block text-xs text-error font-medium">
+    <span class="block text-xs text-error font-mediu ">
       -29.07%
     </span>
   </div>
 </div>#}
 
 {# variant 2 nft #}
-{#<div class="nft__card_collection py-4 px-4 border border-solid border-gray-100 rounded-xl hover:bg-gray-100">
+{#<div class="nft__card_collection py-4 px-4 border border-solid border-gray-100 rounded-xl hover:bg-gray-100 dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode">
   <div class="grid grid-rows-4 grid-flow-col gap-x-4">
     <figure class="row-span-4 col-span-2">
       <img
@@ -46,7 +46,7 @@
     </figure>
   </div>
   <div class="mt-4">
-    <span class="block text-dark_mode font-semibold">
+    <span class="block text-dark_mode font-semibold dark:text-light_mode">
       Doodle
     </span>
     <span class="block text-sm text-gray-300">
@@ -54,7 +54,7 @@
     </span>
   </div>
   <div class="flex items-center justify-between mt-6">
-    <span class="block text-dark_mode text-sm font-semibold">
+    <span class="block text-dark_mode text-sm font-semibold dark:text-light_mode">
       512.57 ETH
     </span>
     <span class="block text-xs text-error font-medium">
@@ -64,7 +64,7 @@
 </div>#}
 
 {# variant 3 nft #}
-<div class="nft__card_collection py-4 px-4 border border-solid border-gray-100 rounded-xl hover:bg-gray-100">
+<div class="nft__card_collection py-4 px-4 border border-solid border-gray-100 rounded-xl hover:bg-gray-100 dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode">
   <div class="grid grid-rows-4 grid-flow-col gap-x-4">
     <figure class="row-span-4 col-span-2">
       <img
@@ -89,7 +89,7 @@
     </figure>
   </div>
   <div class="mt-4">
-    <span class="block text-dark_mode font-semibold">
+    <span class="block text-dark_mode font-semibold dark:text-light_mode">
       Doodle
     </span>
     <span class="block text-sm text-gray-300">
@@ -97,7 +97,7 @@
     </span>
   </div>
   <div class="flex items-center justify-between mt-6">
-    <span class="block text-dark_mode text-sm font-semibold">
+    <span class="block text-dark_mode text-sm font-semibold dark:text-light_mode">
       512.57 ETH
     </span>
     <span class="block text-xs text-error font-medium">
