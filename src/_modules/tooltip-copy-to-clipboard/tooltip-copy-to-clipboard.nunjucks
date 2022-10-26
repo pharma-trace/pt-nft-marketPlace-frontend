@@ -1,4 +1,4 @@
-<div id="tooltip-animation" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-light_mode text-sm font-medium bg-dark_mode rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(0px, 665px, 0px);">
+<div id="tooltip-animation" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-light_mode text-sm font-medium bg-dark_mode rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-sub_dark_mode dark:text-gray-300" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(0px, 665px, 0px);">
   Copy to clipboard
   <div class="tooltip-arrow" data-popper-arrow="" style="position: absolute; left: 0px; transform: translate3d(0px, 0px, 0px);"></div>
 </div>

@@ -13,7 +13,7 @@
             type="text"
             name="newsletter_email"
             id="newsletter-email"
-            class="block mt-2 p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+            class="block mt-2 p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
             placeholder="Enter your email to get started"
             autocomplete="off"
             required

@@ -11,12 +11,12 @@
 {% block content %}
   {# nft__explore-whole-items #}
   <section class="nft__explore-whole-items mt-36 px-36 xl:max-w-full lg:container">
-    <h2 class="text-dark_mode font-semibold">
+    <h2 class="text-dark_mode font-semibold dark:text-light_mode">
       Explore
     </h2>
     <div class="flex flex-row items-center mt-24">
       <div class="basis-6/12">
-        <div class="inline-block border-b border-gray-200">
+        <div class="inline-block border-b border-gray-200 dark:border-sub_dark_border">
           <ul class="nft__tablist flex flex-wrap text-lg font-semibold text-center" data-tabs-toggle="#tab-explore-whole-items" role="tablist">
             <li class="mr-8" role="presentation">
               <button
@@ -67,21 +67,21 @@
         <div class="flex flex-row justify-end">
           <button
             type="button"
-            class="py-1 px-4 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-100"
+            class="py-1 px-4 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-medium hover:bg-gray-100 dark:text-light_mode dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode"
           >
             <i class="fa-solid fa-arrow-up-wide-short mr-4 text-lg"></i>
             Price range
           </button>
           <button
             type="button"
-            class="py-1 px-4 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-100"
+            class="py-1 px-4 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-medium hover:bg-gray-100 dark:text-light_mode dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode"
           >
             <i class="fa-solid fa-arrow-up-wide-short mr-4 text-lg"></i>
             Categories
           </button>
           <button
             type="button"
-            class="py-1 px-4 last:mr-0 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-100"
+            class="py-1 px-4 last:mr-0 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-medium hover:bg-gray-100 dark:text-light_mode dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode"
           >
             <i class="fa-solid fa-arrow-up-wide-short mr-4 text-lg"></i>
             Recently listed
@@ -96,18 +96,18 @@
             {% include '_modules/card-collection/card-collection.nunjucks' %}
           {% endfor %}
         </div>
+        <div class="nft__load-more-button flex justify-center mt-10">
+          <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300 dark:bg-sub_dark_mode dark:focus:ring-sub_dark_mode">
+            Load more
+          </button>
+        </div>
       </div>
       <div class="hidden" id="nfts" role="tabpanel" aria-labelledby="tab-nfts">
-        <span>Tab content - NFTs</span>
+        <span class="dark:text-light_mode">Tab content - NFTs</span>
       </div>
       <div class="hidden" id="creators" role="tabpanel" aria-labelledby="tab-creators">
-        <span>Tab content - Creators</span>
+        <span class="dark:text-light_mode">Tab content - Creators</span>
       </div>
-    </div>
-    <div class="nft__load-more-button flex justify-center mt-10">
-      <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
-        Load more
-      </button>
     </div>
   </section>
   {# nft__steps-to-start #}

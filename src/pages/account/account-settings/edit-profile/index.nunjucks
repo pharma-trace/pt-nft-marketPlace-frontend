@@ -13,10 +13,10 @@
   <section class="nft__account-settings-edit-profile mt-36 px-36 xl:max-w-full lg:container">
     <div class="ml-[25%] basis-9/12 pl-4">
       <hgroup>
-        <h4 class="text-dark_mode font-semibold">
+        <h4 class="text-dark_mode font-semibold dark:text-light_mode">
           Edit profile
         </h4>
-        <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold">
+        <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold dark:text-light_mode">
           Change personal info.
         </h6>
       </hgroup>
@@ -27,13 +27,13 @@
           <span class="block text-gray-300">
             Account settings
           </span>
-          <a href="#" class="block first-of-type:mt-10 text-dark_mode text-base font-semibold hover:text-gray-300 active [&.active]:text-nft_institutional [&.active]:pointer-events-none" aria-current="page">
+          <a href="#" class="block first-of-type:mt-10 text-dark_mode text-base font-semibold hover:text-gray-300 active [&.active]:text-nft_institutional [&.active]:pointer-events-none dark:text-light_mode dark:hover:text-gray-300" aria-current="page">
             Edit profile
           </a>
-          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none">
+          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none dark:text-light_mode dark:hover:text-gray-300">
             Wallets sync
           </a>
-          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none">
+          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none dark:text-light_mode dark:hover:text-gray-300">
             General settings
           </a>
         </nav>
@@ -43,25 +43,25 @@
           <div class="basis-7/12 pr-8">
             <form id="edit-profile">
               <div>
-                <label for="display-name" class="block mb-2 text-dark_mode text-sm font-semibold">Display Name*</label>
+                <label for="display-name" class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">Display Name*</label>
                 <input
                   type="text"
                   name="display_name"
                   id="display-name"
-                  class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                   placeholder="Enter your display name"
                   autocomplete="off"
                   required
                 />
               </div>
               <div class="mt-8">
-                <label for="email-address" class="block mb-2 text-dark_mode text-sm font-semibold">
+                <label for="email-address" class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">
                   Email address
                   <i
                     type="button"
                     data-popover-target="popover-email-address"
                     data-popover-placement="bottom"
-                    class="fa-solid fa-circle-info ml-2 text-dark_mode text-base cursor-pointer hover:scale-110 ease-out duration-300"
+                    class="fa-solid fa-circle-info ml-2 text-dark_mode text-base cursor-pointer hover:scale-110 ease-out duration-300 dark:text-light_mode"
                   >
                   </i>
                 </label>
@@ -69,23 +69,23 @@
                   type="text"
                   name="email_address"
                   id="email-address"
-                  class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                   placeholder="Enter your email address"
                   autocomplete="off"
                   required
                 />
               </div>
               <div class="mt-8">
-                <label for="custom-url" class="block mb-2 text-dark_mode text-sm font-semibold">Custom URL*</label>
+                <label for="custom-url" class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">Custom URL*</label>
                 <div class="relative">
-                <span class="inline-block text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                <span class="inline-block text-dark_mode text-sm font-semibold absolute top-4 left-4 dark:text-light_mode">
                   nft.pharmatrace.io/account/
                 </span>
                   <input
                     type="url"
                     name="custom_url"
                     id="custom-url"
-                    class="block py-4 pl-[215px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    class="block py-4 pl-[215px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                     placeholder="Enter your custom URL"
                     autocomplete="off"
                     required
@@ -94,31 +94,31 @@
               </div>
               <div class="mt-8">
                 <div class="flex items-center justify-between">
-                  <label for="bio" class="block mb-2 text-dark_mode text-sm font-semibold">Bio</label>
+                  <label for="bio" class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">Bio</label>
                   <span class="text-gray-300 text-xs font-medium">0 / 200</span>
                 </div>
                 <textarea
                   id="bio"
                   name="bio"
                   rows="4"
-                  class="block resize-none p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  class="block resize-none p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                   placeholder="Tell the world you story!"
                 ></textarea>
               </div>
-              <h6 class="w-[80%] mt-20 text-dark_mode text-lg font-semibold">
+              <h6 class="w-[80%] mt-20 text-dark_mode text-lg font-semibold dark:text-light_mode">
                 Add links to your social media profiles.
               </h6>
               <div class="mt-10">
                 <div class="relative">
-                  <label for="website-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                    <i class="fa-solid fa-globe text-dark_mode text-xl mr-2"></i>
+                  <label for="website-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4 dark:text-light_mode">
+                    <i class="fa-solid fa-globe text-dark_mode text-xl mr-2 dark:text-light_mode"></i>
                     https://
                   </label>
                   <input
                     type="url"
                     name="website_url"
                     id="website-url"
-                    class="block py-4 pl-[100px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    class="block py-4 pl-[100px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                     placeholder="Website URL"
                     autocomplete="off"
                   />
@@ -126,15 +126,15 @@
               </div>
               <div class="mt-4">
                 <div class="relative">
-                  <label for="facebook-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                    <i class="fa-brands fa-facebook text-dark_mode text-xl mr-2"></i>
+                  <label for="facebook-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4 dark:text-light_mode">
+                    <i class="fa-brands fa-facebook text-dark_mode text-xl mr-2 dark:text-light_mode"></i>
                     facebook.com/
                   </label>
                   <input
                     type="url"
                     name="facebook_url"
                     id="facebook-url"
-                    class="block py-4 pl-[151px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    class="block py-4 pl-[151px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                     placeholder="Facebook Username"
                     autocomplete="off"
                   />
@@ -142,15 +142,15 @@
               </div>
               <div class="mt-4">
                 <div class="relative">
-                  <label for="twitter-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                    <i class="fa-brands fa-twitter text-dark_mode text-xl mr-2"></i>
+                  <label for="twitter-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4 dark:text-light_mode">
+                    <i class="fa-brands fa-twitter text-dark_mode text-xl mr-2 dark:text-light_mode"></i>
                     twitter.com/
                   </label>
                   <input
                     type="url"
                     name="twitter_url"
                     id="twitter-url"
-                    class="block py-4 pl-[132px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    class="block py-4 pl-[132px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                     placeholder="Twitter Username"
                     autocomplete="off"
                   />
@@ -158,15 +158,15 @@
               </div>
               <div class="mt-4">
                 <div class="relative">
-                  <label for="instagram-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                    <i class="fa-brands fa-instagram text-dark_mode text-xl mr-2"></i>
+                  <label for="instagram-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4 dark:text-light_mode">
+                    <i class="fa-brands fa-instagram text-dark_mode text-xl mr-2 dark:text-light_mode"></i>
                     instagram.com/
                   </label>
                   <input
                     type="url"
                     name="instagram_url"
                     id="instagram-url"
-                    class="block py-4 pl-[154px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    class="block py-4 pl-[154px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                     placeholder="Instagram Username"
                     autocomplete="off"
                   />
@@ -174,15 +174,15 @@
               </div>
               <div class="mt-4">
                 <div class="relative">
-                  <label for="tiktok-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                    <i class="fa-brands fa-tiktok text-dark_mode text-xl mr-2"></i>
+                  <label for="tiktok-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4 dark:text-light_mode">
+                    <i class="fa-brands fa-tiktok text-dark_mode text-xl mr-2 dark:text-light_mode"></i>
                     tiktok.com/
                   </label>
                   <input
                     type="url"
                     name="tiktok_url"
                     id="tiktok-url"
-                    class="block py-4 pl-[124px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    class="block py-4 pl-[124px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                     placeholder="TikTok Username"
                     autocomplete="off"
                   />
@@ -190,20 +190,20 @@
               </div>
               <div class="mt-4">
                 <div class="relative">
-                  <label for="youtube-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                    <i class="fa-brands fa-youtube text-dark_mode text-xl"></i>
+                  <label for="youtube-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4 dark:text-light_mode">
+                    <i class="fa-brands fa-youtube text-dark_mode text-xl dark:text-light_mode"></i>
                   </label>
                   <input
                     type="url"
                     name="youtube_url"
                     id="youtube-url"
-                    class="block py-4 pl-[47px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                    class="block py-4 pl-[47px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                     placeholder="Channel URL or video"
                     autocomplete="off"
                   />
                 </div>
               </div>
-              <h6 class="w-[80%] mt-20 text-dark_mode text-lg font-semibold">
+              <h6 class="w-[80%] mt-20 text-dark_mode text-lg font-semibold dark:text-light_mode">
                 <span class="relative align-middle mr-3">
                   <i class="fa-solid fa-certificate text-nft_institutional text-4xl"></i>
                   <i class="fa-solid fa-check text-light_mode text-xl absolute top-[-6px] left-[8px]"></i>
@@ -217,35 +217,35 @@
                 <span class="block text-gray-300 text-sm">
                   Status:
                 </span>
-                    <span class="inline-block mt-2 py-1 px-3 rounded-lg border border-solid border-error/50 text-error text-xs bg-error/20">
+                <span class="inline-block mt-2 py-1 px-3 rounded-lg border border-solid border-error/50 text-error text-xs bg-error/20 dark:bg-error/40">
                   Not verified
                 </span>
               </div>
-              <div class="mt-6 status-verified hidden">
+              {#<div class="mt-6 status-verified hidden">
                 <span class="block text-gray-300 text-sm">
                   Status: via Instagram on 24-10-2022 10:25:40
                 </span>
-                <span class="inline-block mt-2 py-1 px-3 rounded-lg border border-solid border-success/50 text-success text-xs bg-success/20">
-                Verified
-              </span>
-              </div>
+                <span class="inline-block mt-2 py-1 px-3 rounded-lg border border-solid border-success/50 text-success text-xs bg-success/20 dark:bg-success/40">
+                  Verified
+                </span>
+              </div>#}
               <div class="flex mt-10">
                 <button
                   type="button"
-                  class="min-h-[44px] py-2 px-5 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-light_mode text-dark_mode text-sm font-semibold hover:bg-gray-200 focus:ring-2 focus:ring-offset-2 focus:ring-gray-200 active:scale-[0.94] ease-out duration-300"
+                  class="min-h-[44px] py-2 px-5 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-200 focus:ring-2 focus:ring-offset-2 focus:ring-gray-200 active:scale-[0.94] ease-out duration-300 dark:text-light_mode dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode"
                 >
                   <i class="fa-brands fa-twitter mr-3 text-lg"></i>
                   Verify via Twitter
                 </button>
                 <button
                   type="button"
-                  class="min-h-[44px] py-2 px-5 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-light_mode text-dark_mode text-sm font-semibold hover:bg-gray-200 focus:ring-2 focus:ring-offset-2 focus:ring-gray-200 active:scale-[0.94] ease-out duration-300"
+                  class="min-h-[44px] py-2 px-5 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-200 focus:ring-2 focus:ring-offset-2 focus:ring-gray-200 active:scale-[0.94] ease-out duration-300 dark:text-light_mode dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode"
                 >
                   <i class="fa-brands fa-instagram mr-3 text-xl"></i>
                   Verify via Instagram
                 </button>
               </div>
-              <button type="submit" class="block py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
+              <button type="submit" class="block py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300 dark:bg-sub_dark_mode dark:focus:ring-sub_dark_mode">
                 Update profile
               </button>
             </form>
@@ -253,13 +253,13 @@
           <div class="basis-4/12 ml-[8.333333%]">
             <div class="sticky top-36">
               <div>
-                <span class="block mb-4 text-dark_mode text-sm font-semibold">
+                <span class="block mb-4 text-dark_mode text-sm font-semibold dark:text-light_mode">
                   Profile Image
                 </span>
                 <label for="profile-image-file" class="w-32 h-32 rounded-full cursor-pointer">
                   <span
                     style="background-image: url('{{ site.data.configs.imageUrl }}commons/gradient-image.png');"
-                    class="block w-32 h-32 bg-no-repeat bg-cover rounded-full border-4 border-solid border-gray-100 hover:scale-95 ease-out duration-300"
+                    class="block w-32 h-32 bg-no-repeat bg-cover rounded-full border-4 border-solid border-gray-100 hover:scale-95 ease-out duration-300 dark:border-sub_dark_border"
                     ></span>
                     <input
                       type="file"
@@ -275,13 +275,13 @@
                 </span>
               </div>
               <div class="mt-14">
-                <span class="block mb-4 text-dark_mode text-sm font-semibold">
+                <span class="block mb-4 text-dark_mode text-sm font-semibold dark:text-light_mode">
                   Banner Image
                 </span>
                 <label for="banner-image-file" class="w-32 h-32 rounded-lg cursor-pointer">
                   <span
                     style="background-image: url('{{ site.data.configs.imageUrl }}commons/gradient-image.png');"
-                    class="block w-32 h-32 bg-no-repeat bg-cover rounded-lg border-4 border-solid border-gray-100 hover:scale-95 ease-out duration-300"
+                    class="block w-32 h-32 bg-no-repeat bg-cover rounded-lg border-4 border-solid border-gray-100 hover:scale-95 ease-out duration-300 dark:border-sub_dark_border"
                   ></span>
                   <input
                     type="file"

@@ -15,7 +15,7 @@
   <section class="nft__gathering-created mt-36 px-36 xl:max-w-full lg:container">
     <div class="ml-[25%] basis-9/12 pl-4">
       <hgroup>
-        <h4 class="text-dark_mode font-semibold">
+        <h4 class="text-dark_mode font-semibold dark:text-light_mode">
           Created
         </h4>
       </hgroup>
@@ -26,22 +26,22 @@
           <span class="block text-gray-300">
             Gathering
           </span>
-          <a href="#" class="block first-of-type:mt-10 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none" aria-current="page">
+          <a href="#" class="block first-of-type:mt-10 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none dark:text-light_mode dark:hover:text-gray-300" aria-current="page">
             On Bid
           </a>
-          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none">
+          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none dark:text-light_mode dark:hover:text-gray-300">
             Saled
           </a>
-          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none">
+          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional [&.active]:pointer-events-none dark:text-light_mode dark:hover:text-gray-300">
             Owned
           </a>
-          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional active [&.active]:pointer-events-none">
+          <a href="#" class="block mt-2 text-dark_mode text-base font-semibold hover:text-gray-300 [&.active]:text-nft_institutional active [&.active]:pointer-events-none dark:text-light_mode dark:hover:text-gray-300">
             Created
           </a>
         </nav>
       </div>
       <div class="basis-9/12">
-        <div class="inline-block border-b border-gray-200">
+        <div class="inline-block border-b border-gray-200 dark:border-sub_dark_border">
           <ul class="nft__tablist flex flex-wrap text-base font-semibold text-center" data-tabs-toggle="#tab-created" role="tablist">
             <li class="mr-8" role="presentation">
               <button
@@ -81,7 +81,7 @@
               {% endfor %}
             </div>
             <div class="nft__load-more-button flex justify-center mt-10">
-              <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
+              <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300 dark:bg-sub_dark_mode dark:focus:ring-sub_dark_mode">
                 Load more
               </button>
             </div>
@@ -89,13 +89,13 @@
           <div class="hidden" id="collections" role="tabpanel" aria-labelledby="tab-collections">
             {# empty collection #}
             <div class="nft__no-found-block">
-              <h6 class="text-dark_mode text-lg font-semibold">
+              <h6 class="text-dark_mode text-lg font-semibold dark:text-light_mode">
                 No collections found
               </h6>
               <span class="block mt-2 text-gray-300">
                 We couldn’t find any of your collections.
               </span>
-              <button type="button" class="mt-10 py-3 px-6 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
+              <button type="button" class="mt-10 py-3 px-6 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300 dark:bg-sub_dark_mode dark:focus:ring-sub_dark_mode">
                 Create a collection
               </button>
             </div>
@@ -106,7 +106,7 @@
               {% endfor %}
             </div>
             <div class="nft__load-more-button flex justify-center mt-10">
-              <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
+              <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300 dark:bg-sub_dark_mode dark:focus:ring-sub_dark_mode">
                 Load more
               </button>
             </div>#}

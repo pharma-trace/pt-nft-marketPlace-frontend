@@ -15,7 +15,7 @@
   <section class="nft__hero min-h-[600px] h-[calc(100vh+76px)] px-36 xl:max-w-full lg:container">
     <div class="flex flex-row gap-4 items-center h-full relative top-[-40px]">
       <div class="basis-5/12">
-        <h1 class="text-dark_mode font-bold">
+        <h1 class="text-dark_mode font-bold dark:text-light_mode">
           Discover<br/>
           <span class="text-pt_institutional underline decoration-4">Digital Art</span> and<br/>
           Collect NFTs
@@ -29,12 +29,12 @@
               <img
                  src="{{ site.data.configs.imageUrl }}{{ src }}"
                  alt="{{ alt }}"
-                 class="w-12 h-12 rounded-full border-2 border-solid border-gray-100 shadow-lg object-cover"
+                 class="w-12 h-12 rounded-full border-2 border-solid border-gray-100 shadow-lg object-cover dark:border-sub_dark_border"
               >
             {% endfor %}
           </div>
           <div class="ml-4">
-            <span class="block text-sm font-bold">
+            <span class="block text-sm font-bold dark:text-light_mode">
               10+
             </span>
             <span class="block text-sm text-gray-300">
@@ -44,7 +44,7 @@
         </div>
         <div class="flex flex-row items-center mt-10">
           <hgroup>
-            <h4 class="text-dark_mode font-bold">
+            <h4 class="text-dark_mode font-bold dark:text-light_mode">
               190K+
             </h4>
             <h6 class="text-gray-300 text-sm ml-1">
@@ -52,7 +52,7 @@
             </h6>
           </hgroup>
           <hgroup class="ml-10">
-            <h4 class="text-dark_mode font-bold">
+            <h4 class="text-dark_mode font-bold dark:text-light_mode">
               22M+
             </h4>
             <h6 class="text-gray-300 text-sm ml-1">
@@ -160,7 +160,7 @@
           <h6 class="text-nft_institutional text-lg font-medium">
             Who we are
           </h6>
-          <h4 class="mt-10 text-dark_mode font-semibold">
+          <h4 class="mt-10 text-dark_mode font-semibold dark:text-light_mode">
             The world’s first and largest digital marketplace for
             crypto collectables and non-fungible tokens (NFTs).
           </h4>
@@ -177,7 +177,7 @@
       </div>
     </div>
     <div class="nft__scroll-left-text relative -right-[300px]">
-      <span class="text-gray-100 text-big font-bold leading-none whitespace-nowrap">
+      <span class="text-gray-100 text-big font-bold leading-none whitespace-nowrap dark:text-sub_dark_border">
         This is our mission
       </span>
     </div>
@@ -200,29 +200,29 @@
       </div>
       <div class="basis-6/12">
         <div class="flex flex-col ml-10">
-          <div class="group py-4 px-6 rounded-xl bg-light_mode hover:bg-pt_institutional/20">
-            <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional">
+          <div class="group py-4 px-6 rounded-xl bg-transparent hover:bg-pt_institutional/20">
+            <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional dark:text-light_mode">
               Authentic
             </h6>
-            <p class="mt-2 text-gray-300 leading-relaxed group-hover:text-dark_mode">
+            <p class="mt-2 text-gray-300 leading-relaxed group-hover:text-dark_mode dark:group-hover:text-light_mode">
               Every digital creation on MakersPlace is digitally signed by the creator and
               permanently recorded and verified through the blockchain.
             </p>
           </div>
-          <div class="group py-4 px-6 mt-4 ml-12 rounded-xl bg-light_mode hover:bg-pt_institutional/20">
-            <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional">
+          <div class="group py-4 px-6 mt-4 ml-12 rounded-xl bg-pt_institutional/20">
+            <h6 class="text-pt_institutional text-lg font-semibold dark:text-pt_institutional">
               Unique
             </h6>
-            <p class="mt-2 text-gray-300 leading-relaxed group-hover:text-dark_mode">
+            <p class="mt-2 text-dark_mode leading-relaxed dark:text-light_mode">
               Every digital creation is issued as a unique digital edition, using blockchain technology a creator
               can ensure that only a limited number of authentic editions can be owned, ensuring and uniqueness.
             </p>
           </div>
-          <div class="group py-4 px-6 mt-4 rounded-xl bg-light_mode hover:bg-pt_institutional/20">
-            <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional">
+          <div class="group py-4 px-6 mt-4 rounded-xl bg-transparent hover:bg-pt_institutional/20">
+            <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional dark:text-light_mode">
               Ownable
             </h6>
-            <p class="mt-2 text-gray-300 leading-relaxed group-hover:text-dark_mode">
+            <p class="mt-2 text-gray-300 leading-relaxed group-hover:text-dark_mode dark:group-hover:text-light_mode">
               Purchasing a unique digital creation means you’re given full ownership over the creation,
               which is then transferred and stored in your digital wallet for safe-keeping.
             </p>
@@ -241,14 +241,14 @@
   {# nft__top-sellers #}
   <section class="nft__top-sellers px-36 xl:max-w-full lg:container">
     <div class="flex items-center justify-between">
-      <h5 class="text-dark_mode font-medium">
+      <h5 class="text-dark_mode font-medium dark:text-light_mode">
         Top sellers
       </h5>
-      <ul class="flex flex-wrap p-1 text-dark_mode text-sm font-semibold text-center rounded-xl bg-gray-100/40" data-tabs-toggle="#tab-top-sellers" role="tablist">
+      <ul class="flex flex-wrap p-1 text-sm font-semibold text-center rounded-xl bg-gray-100/40 dark:bg-sub_dark_mode" data-tabs-toggle="#tab-top-sellers" role="tablist">
         <li class="mr-2" role="presentation">
           <button
             type="button"
-            class="inline-block py-3 px-4 rounded-xl !text-dark_mode !bg-light_mode hover:bg-light_mode"
+            class="inline-block py-3 px-4 rounded-xl !text-dark_mode !bg-light_mode hover:bg-light_mode dark:!text-light_mode dark:!bg-dark_mode dark:hover:bg-dark_mode"
             id="tab-one-day-sellers"
             data-tabs-target="#one-day-sellers"
             role="tab"
@@ -261,7 +261,7 @@
         <li class="mr-2" role="presentation">
           <button
             type="button"
-            class="inline-block py-3 px-4 rounded-xl !text-dark_mode hover:bg-light_mode"
+            class="inline-block py-3 px-4 rounded-xl !text-dark_mode hover:bg-light_mode dark:!text-light_mode dark:hover:bg-dark_mode"
             id="tab-seven-days-sellers"
             data-tabs-target="#seven-days-sellers"
             role="tab" aria-controls="seven-days"
@@ -273,7 +273,7 @@
         <li class="last:mr-0" role="presentation">
           <button
             type="button"
-            class="inline-block py-3 px-4 rounded-xl !text-dark_mode hover:bg-light_mode"
+            class="inline-block py-3 px-4 rounded-xl !text-dark_mode hover:bg-light_mode dark:!text-light_mode dark:hover:bg-dark_mode"
             id="tab-thirty-days-sellers"
             data-tabs-target="#thirty-days-sellers"
             role="tab"
@@ -284,7 +284,7 @@
           </button>
         </li>
       </ul>
-      <a href="#" class="underline text-sm hover:no-underline">
+      <a href="#" class="text-dark_mode underline text-sm hover:no-underline dark:text-gray-300">
         View all
       </a>
     </div>
@@ -297,20 +297,20 @@
         </div>
       </div>
       <div class="hidden" id="seven-days-sellers" role="tabpanel" aria-labelledby="tab-seven-days-sellers">
-        <span>Tab content - Seven days</span>
+        <span class="dark:text-light_mode">Tab content - Seven days</span>
       </div>
       <div class="hidden" id="thirty-days-sellers" role="tabpanel" aria-labelledby="tab-thirty-days-sellers">
-        <span>Tab content - Thirty days</span>
+        <span class="dark:text-light_mode">Tab content - Thirty days</span>
       </div>
     </div>
   </section>
   {# nft__top-collections #}
   <section class="nft__top-collections px-36 mt-36 xl:max-w-full lg:container">
     <div class="flex items-center justify-between">
-      <h5 class="text-dark_mode font-medium">
+      <h5 class="text-dark_mode font-medium dark:text-light_mode">
         Top collections
       </h5>
-      <a href="#" class="underline text-sm hover:no-underline">
+      <a href="#" class="text-dark_mode underline text-sm hover:no-underline dark:text-gray-300">
         View all
       </a>
     </div>
@@ -325,10 +325,10 @@
   {# nft__recent-bids #}
   <section class="nft__top-collections px-36 mt-36 xl:max-w-full lg:container">
     <div class="flex items-center justify-between">
-      <h5 class="text-dark_mode font-medium">
+      <h5 class="text-dark_mode font-medium dark:text-light_mode">
         Recent Bids
       </h5>
-      <a href="#" class="underline text-sm hover:no-underline">
+      <a href="#" class="text-dark_mode underline text-sm hover:no-underline dark:text-gray-300">
         View all
       </a>
     </div>

@@ -1,6 +1,6 @@
-<div class="nft__card-seller flex flex-row items-center py-2 px-2 border border-solid border-gray-100 rounded-xl hover:bg-gray-100">
+<div class="nft__card-seller flex flex-row items-center py-2 px-2 border border-solid border-gray-100 rounded-xl hover:bg-gray-100 dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode">
   <div>
-    <span class="text-dark_mode text-sm font-semibold">
+    <span class="text-dark_mode text-sm font-semibold dark:text-light_mode">
       1
     </span>
   </div>
@@ -8,10 +8,10 @@
     <img
       src="{{ site.data.configs.imageUrl }}avatars/avatar-1.jpg"
       alt="Avatar 1"
-      class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover"
+      class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
     >
     <figcaption class="ml-4">
-      <span class="block text-dark_mode text-sm font-semibold">
+      <span class="block text-dark_mode text-sm font-semibold dark:text-light_mode">
         Apocalypse Monkeys
       </span>
       <span class="block text-sm text-gray-300">
@@ -20,7 +20,7 @@
     </figcaption>
   </figure>
   <div class="ml-12">
-    <span class="block text-dark_mode text-sm font-semibold">
+    <span class="block text-dark_mode text-sm font-semibold dark:text-light_mode">
       90.19 ETH
     </span>
     <span class="block text-sm text-nft_institutional">

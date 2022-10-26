@@ -129,8 +129,8 @@
     </div>
     <div class="flex flex-row gap-4 mt-10">
       <div class="basis-4/12">
-        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode dark:hover:bg-sub_dark_mode">
-          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode group-hover:text-light_mode">
+        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode dark:hover:bg-transparent">
+          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode dark:group-hover:text-light_mode">
             Authentic
           </h6>
           <p class="mt-2 text-dark_mode leading-relaxed group-hover:text-gray-300 dark:text-gray-300">
@@ -140,8 +140,8 @@
         </div>
       </div>
       <div class="basis-4/12">
-        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode dark:hover:bg-sub_dark_mode">
-          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode group-hover:text-light_mode">
+        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode dark:hover:bg-transparent">
+          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode dark:group-hover:text-light_mode">
             Unique
           </h6>
           <p class="mt-2 text-dark_mode leading-relaxed group-hover:text-gray-300 dark:text-gray-300">
@@ -152,8 +152,8 @@
         </div>
       </div>
       <div class="basis-4/12">
-        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode dark:hover:bg-sub_dark_mode">
-          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode group-hover:text-light_mode">
+        <div class="group p-6 min-h-[220px] rounded-xl bg-pt_institutional/20 hover:bg-light_mode dark:hover:bg-transparent">
+          <h6 class="text-pt_institutional text-lg font-semibold group-hover:text-dark_mode dark:group-hover:text-light_mode">
             Ownable
           </h6>
           <p class="mt-2 text-dark_mode leading-relaxed group-hover:text-gray-300 dark:text-gray-300">

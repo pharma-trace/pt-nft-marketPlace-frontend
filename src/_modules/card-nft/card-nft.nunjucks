@@ -1,13 +1,13 @@
-<div class="nft__card_collection py-4 px-4 border border-solid border-gray-100 rounded-xl hover:bg-gray-100">
+<div class="nft__card_collection py-4 px-4 border border-solid border-gray-100 rounded-xl hover:bg-gray-100 dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode">
   <figure class="relative">
     <img
       src="{{ site.data.configs.imageUrl }}nfts/crypto-goro-6.jpg"
       alt="Crypto Goro #006"
       class="w-full h-[280px] rounded-lg object-cover"
     >
-    <figcaption class="flex py-1 px-3 items-center rounded-full bg-light_mode absolute top-3 right-3">
+    <figcaption class="flex py-1 px-3 items-center rounded-full bg-light_mode absolute top-3 right-3 dark:bg-dark_mode">
       <i class="fa-solid fa-heart text-error"></i>
-      <span class="block ml-1 text-dark_mode text-xs font-medium">13K</span>
+      <span class="block ml-1 text-dark_mode text-xs font-medium dark:text-light_mode">13K</span>
     </figcaption>
   </figure>
   <div class="mt-4">
@@ -15,10 +15,10 @@
       <img
         src="{{ site.data.configs.imageUrl }}avatars/avatar-2.jpg"
         alt="Avatar 1"
-        class="w-12 h-12 rounded-full border-2 border-solid border-gray-100 object-cover"
+        class="w-12 h-12 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
       >
       <figcaption class="ml-4">
-        <span class="block text-dark_mode text-sm font-semibold">
+        <span class="block text-dark_mode text-sm font-semibold dark:text-light_mode">
           Crypto Goro #006
         </span>
         <span class="block text-sm text-gray-300">
@@ -28,7 +28,7 @@
     </figure>
   </div>
   <div class="flex items-center justify-between mt-6">
-      <span class="block text-dark_mode text-sm font-semibold">
+      <span class="block text-dark_mode text-sm font-semibold dark:text-light_mode">
         5 ETH
       </span>
     <span class="block text-xs text-gray-300 font-medium">

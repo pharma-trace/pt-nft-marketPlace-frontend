@@ -18,18 +18,18 @@
           <img
             src="{{ site.data.configs.imageUrl }}nfts/cover-nft.jpg"
             alt="Cover collection"
-            class="w-full h-[60vh] rounded-xl border-4 border-solid border-gray-100 object-cover"
+            class="w-full h-[60vh] rounded-xl border-4 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption>
             <button
               type="button"
-              class="py-1 px-5 flex items-center justify-center absolute top-4 left-4 rounded-full bg-light_mode text-dark_mode text-sm font-medium"
+              class="py-1 px-5 flex items-center justify-center absolute top-4 left-4 rounded-full bg-light_mode text-dark_mode text-sm font-medium dark:bg-dark_mode dark:text-light_mode"
             >
               <i class="fa-solid fa-up-right-and-down-left-from-center text-lg"></i>
             </button>
             <button
               type="button"
-              class="py-1 px-3 flex items-center justify-center absolute top-4 right-4 rounded-full bg-light_mode text-dark_mode text-sm font-medium"
+              class="py-1 px-3 flex items-center justify-center absolute top-4 right-4 rounded-full bg-light_mode text-dark_mode text-sm font-medium dark:bg-dark_mode dark:text-light_mode"
             >
               <i class="fa-regular fa-heart mr-2 text-error text-lg"></i>
               Like
@@ -39,7 +39,7 @@
       </div>
       <div class="basis-5/12 ml-28">
         <hgroup>
-          <h4 class="text-dark_mode font-bold">
+          <h4 class="text-dark_mode font-bold dark:text-light_mode">
             Doodles #001
             <span class="relative align-super ml-2">
               <i
@@ -59,21 +59,21 @@
           </h6>
         </hgroup>
         <div class="flex flex-row items-center mt-8">
-          <span class="flex items-center text-dark_mode text-sm font-medium">
+          <span class="flex items-center text-dark_mode text-sm font-medium dark:text-light_mode">
             <i class="fa-solid fa-heart text-error text-xl mr-2"></i>
             13K Likes
           </span>
-          <span class="flex items-center ml-6 text-dark_mode text-sm font-medium">
+          <span class="flex items-center ml-6 text-dark_mode text-sm font-medium dark:text-light_mode">
             <i class="fa-solid fa-eye text-pt_institutional text-xl mr-2"></i>
             122K Views
           </span>
-          <button class="flex py-1 px-4 ml-6 items-center rounded-full text-dark_mode bg-gray-100 hover:bg-nft_institutional">
+          <button class="flex py-1 px-4 ml-6 items-center rounded-full text-dark_mode bg-gray-100 hover:bg-nft_institutional dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-nft_institutional dark:hover:text-dark_mode">
             <i class="fa-solid fa-share-nodes mr-2 text-lg"></i>
             <span class="block ml-1 text-sm font-medium">Share</span>
           </button>
         </div>
         <div class="mt-10">
-          <p class="text-dark_mode leading-loose">
+          <p class="text-dark_mode leading-loose dark:text-gray-300">
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered
             alteration in some form, by injected humour, or randomised words which don’t look
             even slightly believable.
@@ -81,21 +81,21 @@
         </div>
         <div class="flex flex-row items-center mt-10">
           <div>
-            <h6 class="text-gray-300 text-base">
+            <h6 class="text-gray-300 text-base dark:text-gray-300">
               Created by
             </h6>
             <figure class="flex flex-row items-center mt-4 relative">
               <img
                 src="{{ site.data.configs.imageUrl }}avatars/avatar-6.jpg"
                 alt="Avatar 6"
-                class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover"
+                class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
               >
               <figcaption class="ml-4">
                 <span class="absolute top-[2px] left-[32px] align-middle ml-2">
                   <i class="fa-solid fa-certificate text-nft_institutional text-xl"></i>
                   <i class="fa-solid fa-check text-light_mode text-sm absolute top-[1px] left-[3px]"></i>
                 </span>
-                <span class="block text-dark_mode text-sm font-semibold">
+                <span class="block text-dark_mode text-sm font-semibold dark:text-light_mode">
                   Yung DooMari
                 </span>
                 <span class="block text-sm text-gray-300">
@@ -112,10 +112,10 @@
               <img
                 src="{{ site.data.configs.imageUrl }}avatars/avatar-9.jpg"
                 alt="Avatar 9"
-                class="w-14 h-14 rounded-xl border-2 border-solid border-gray-100 object-cover"
+                class="w-14 h-14 rounded-xl border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
               >
               <figcaption class="ml-4">
-                <span class="block text-dark_mode text-sm font-semibold">
+                <span class="block text-dark_mode text-sm font-semibold dark:text-light_mode">
                   Doodles
                 </span>
               </figcaption>
@@ -126,15 +126,15 @@
     </div>
     {# aside for guest #}
     <aside class="flex justify-center w-full absolute left-0 bottom-6">
-      <div class="py-5 px-12 rounded-full bg-nft_institutional/20">
+      <div class="py-5 px-12 rounded-full bg-nft_institutional/20 dark:bg-sub_dark_mode">
         <div class="flex flex-row items-center justify-center">
           <hgroup class="first:ml-0">
-            <h5 class="text-dark_mode text-xl font-semibold">2.25 ETH</h5>
-            <h6 class="text-dark_mode text-sm">Minimun Bid</h6>
+            <h5 class="text-dark_mode text-xl font-semibold dark:text-light_mode">2.25 ETH</h5>
+            <h6 class="text-dark_mode text-sm dark:text-gray-300">Minimun Bid</h6>
           </hgroup>
           <hgroup class="ml-8">
-            <h5 class="text-dark_mode text-xl font-semibold">1.05 ETH</h5>
-            <h6 class="text-dark_mode text-sm">Highest Bid</h6>
+            <h5 class="text-dark_mode text-xl font-semibold dark:text-light_mode">1.05 ETH</h5>
+            <h6 class="text-dark_mode text-sm dark:text-gray-300">Highest Bid</h6>
           </hgroup>
           <button
             type="button"
@@ -150,7 +150,7 @@
 
     {# aside for customer-logged #}
     {#<aside class="flex justify-center w-full absolute left-0 bottom-6">
-      <div class="py-5 px-12 rounded-full bg-gray-100">
+      <div class="py-5 px-12 rounded-full bg-gray-100 dark:bg-gray-300">
         <div class="flex flex-row items-center justify-center">
           <a href="#"
              type="button"
@@ -172,14 +172,14 @@
   <section class="nft__info-details mt-24 px-36 xl:max-w-full lg:container">
     <div class="flex flex-row gap-4">
       <div class="basis-5/12">
-        <h5 class="text-dark_mode font-medium">
+        <h5 class="text-dark_mode font-medium dark:text-light_mode">
           Details
         </h5>
         <hgroup class="mt-6">
           <h6 class="text-gray-300 text-base">
             Type
           </h6>
-          <h6 class="mt-1 text-dark_mode text-base">
+          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode">
             Image 5000 x 5000 px, JPEG (6.7 MB)
           </h6>
         </hgroup>
@@ -187,13 +187,13 @@
           <h6 class="text-gray-300 text-base flex items-center">
             Contract Address
             <i
-              class="ml-3 fa-regular fa-copy text-gray-300 text-base hover:text-dark_mode cursor-pointer"
+              class="ml-3 fa-regular fa-copy text-gray-300 text-base hover:text-dark_mode cursor-pointer dark:hover:text-light_mode"
               data-tooltip-target="tooltip-animation"
               data-tooltip-placement="right"
               type="button">
             </i>
           </h6>
-          <h6 class="mt-1 text-dark_mode text-base">
+          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode">
             0x2acAb3DEa77832C09420663b0E1cB386031bA17B
           </h6>
         </hgroup>
@@ -201,7 +201,7 @@
           <h6 class="text-gray-300 text-base">
             Token ID
           </h6>
-          <h6 class="mt-1 text-dark_mode text-base">
+          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode">
             #001
           </h6>
         </hgroup>
@@ -209,7 +209,7 @@
           <h6 class="text-gray-300 text-base">
             Token Standard
           </h6>
-          <h6 class="mt-1 text-dark_mode text-base">
+          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode">
             ERC-721
           </h6>
         </hgroup>
@@ -217,7 +217,7 @@
           <h6 class="text-gray-300 text-base">
             Blockchain
           </h6>
-          <h6 class="mt-1 text-dark_mode text-base">
+          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode">
             Ethereum
           </h6>
         </hgroup>
@@ -225,13 +225,13 @@
           <h6 class="text-gray-300 text-base">
             Creator Fees
           </h6>
-          <h6 class="mt-1 text-dark_mode text-base">
+          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode">
             5%
           </h6>
         </hgroup>
       </div>
       <div class="basis-6/12 ml-32">
-        <h5 class="text-dark_mode font-medium">
+        <h5 class="text-dark_mode font-medium dark:text-light_mode">
           Recent Bids
         </h5>
         <div class="nft__custom-table mt-6">
@@ -258,25 +258,25 @@
             </li>
           </ul>
           {% for recentBid in recentBids %}
-            <ul class="nft__custom-table-rows grid grid-cols-6 gap-5 py-3 px-3 mt-4 rounded-lg border border-solid border-gray-200 bg-gray-100/30 hover:bg-gray-100">
+            <ul class="nft__custom-table-rows grid grid-cols-6 gap-5 py-3 px-3 mt-4 rounded-lg border border-solid border-gray-200 bg-gray-100/30 hover:bg-gray-100 dark:bg-sub_dark_mode dark:border-sub_dark_border dark:hover:bg-sub_dark_border">
               <li>
-              <span class="text-dark_mode">
+              <span class="text-dark_mode dark:text-light_mode">
                 1.05 ETH
               </span>
               </li>
               <li>
-              <span class="text-dark_mode">
+              <span class="text-dark_mode dark:text-light_mode">
                 8% below
               </span>
               </li>
               <li class="col-span-2">
-              <span class="text-dark_mode">
+              <span class="text-dark_mode dark:text-light_mode">
                 2022-07-18 10:04
               </span>
               </li>
               <li class="col-span-2">
-              <span class="text-dark_mode">
-                <a href="#" class="underline text-dark_mode hover:text-nft_institutional">Rarepep</a>
+              <span>
+                <a href="#" class="underline text-dark_mode hover:text-nft_institutional dark:text-light_mode dark:hover:text-nft_institutional">Rarepep</a>
               </span>
               </li>
             </ul>
@@ -288,7 +288,7 @@
   {# nft__related-collections #}
   <section class="nft__related-collections mt-24 px-36 xl:max-w-full lg:container">
     <div class="flex items-center justify-between">
-      <h5 class="text-dark_mode  font-medium">
+      <h5 class="text-dark_mode font-medium dark:text-light_mode">
         More from this collection
       </h5>
     </div>
@@ -298,7 +298,7 @@
       {% endfor %}
     </div>
     <div class="nft__load-more-button flex justify-center mt-10">
-      <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
+      <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300 dark:bg-sub_dark_mode dark:focus:ring-sub_dark_mode">
         Load more
       </button>
     </div>

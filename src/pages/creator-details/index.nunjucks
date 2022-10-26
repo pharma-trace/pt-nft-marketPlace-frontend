@@ -177,14 +177,14 @@
         <div class="flex flex-row justify-end">
           <button
             type="button"
-            class="py-1 px-4 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-100 dark:text-light_mode dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode"
+            class="py-1 px-4 mr-4 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-medium hover:bg-gray-100 dark:text-light_mode dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode"
           >
             <i class="fa-solid fa-arrow-up-wide-short mr-4 text-lg"></i>
             Price range
           </button>
           <button
             type="button"
-            class="py-1 px-4 last:mr-0 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-semibold hover:bg-gray-100 dark:text-light_mode dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode"
+            class="py-1 px-4 last:mr-0 flex items-center justify-center rounded-full border border-solid border-gray-200 bg-transparent text-dark_mode text-sm font-medium hover:bg-gray-100 dark:text-light_mode dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode"
           >
             <i class="fa-solid fa-arrow-up-wide-short mr-4 text-lg"></i>
             Recently listed
@@ -200,7 +200,7 @@
           {% endfor %}
         </div>
         <div class="nft__load-more-button flex justify-center mt-10">
-          <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300 dark:bg-sub_dark_mode dark:focus:!ring-sub_dark_mode">
+          <button type="button" class="py-3 px-12 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300 dark:bg-sub_dark_mode dark:focus:ring-sub_dark_mode">
             Load more
           </button>
         </div>

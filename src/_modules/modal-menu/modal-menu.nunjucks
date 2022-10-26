@@ -29,44 +29,44 @@
   <div class="w-full flex justify-end mt-20">
     <div class="basis-6/12">
       <nav class="nft__primary-nav space-y-8">
-        <a href="#" class="block text-dark_mode text-8xl font-bold relative left-0 hover:left-2 hover:text-gray-300 ease-out duration-300">
+        <a href="#" class="block text-dark_mode text-8xl font-bold relative left-0 hover:left-2 hover:text-sub_dark_border ease-out duration-300">
           Explore
         </a>
-        <a href="#" class="block text-dark_mode text-8xl font-bold relative left-0 hover:left-2 hover:text-gray-300 ease-out duration-300">
+        <a href="#" class="block text-dark_mode text-8xl font-bold relative left-0 hover:left-2 hover:text-sub_dark_border ease-out duration-300">
           Statistics
         </a>
-        <a href="#" class="block text-dark_mode text-8xl font-bold relative left-0 hover:left-2 hover:text-gray-300 ease-out duration-300">
+        <a href="#" class="block text-dark_mode text-8xl font-bold relative left-0 hover:left-2 hover:text-sub_dark_border ease-out duration-300">
           How it works?
         </a>
         <div class="space-y-4">
-          <a href="#" class="block text-dark_mode text-2xl font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+          <a href="#" class="block text-dark_mode text-2xl font-semibold relative left-0 hover:left-1 hover:text-sub_dark_border ease-out duration-300">
             About Us
           </a>
-          <a href="#" class="block text-dark_mode text-2xl font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+          <a href="#" class="block text-dark_mode text-2xl font-semibold relative left-0 hover:left-1 hover:text-sub_dark_border ease-out duration-300">
             FAQ
           </a>
-          <a href="#" class="block text-dark_mode text-2xl font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+          <a href="#" class="block text-dark_mode text-2xl font-semibold relative left-0 hover:left-1 hover:text-sub_dark_border ease-out duration-300">
             Term of Service
           </a>
         </div>
       </nav>
       <nav class="nft__social mt-36">
-        <a href="https://www.linkedin.com/company/pharmatrace" target="_blank" class="first:ml-0 text-dark_mode text-3xl relative bottom-0 hover:bottom-1 hover:text-gray-300 ease-out duration-300">
+        <a href="https://www.linkedin.com/company/pharmatrace" target="_blank" class="first:ml-0 text-dark_mode text-3xl relative bottom-0 hover:bottom-1 hover:text-sub_dark_border ease-out duration-300">
           <i class="fa-brands fa-linkedin-in"></i>
         </a>
-        <a href="https://twitter.com/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-gray-300 ease-out duration-300">
+        <a href="https://twitter.com/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-sub_dark_border ease-out duration-300">
           <i class="fa-brands fa-twitter"></i>
         </a>
-        <a href="https://www.instagram.com/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-gray-300 ease-out duration-300">
+        <a href="https://www.instagram.com/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-sub_dark_border ease-out duration-300">
           <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="https://github.com/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-gray-300 ease-out duration-300">
+        <a href="https://github.com/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-sub_dark_border ease-out duration-300">
           <i class="fa-brands fa-github"></i>
         </a>
-        <a href="https://www.xing.com/pages/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-gray-300 ease-out duration-300">
+        <a href="https://www.xing.com/pages/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-sub_dark_border ease-out duration-300">
           <i class="fa-brands fa-xing"></i>
         </a>
-        <a href="https://t.me/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-gray-300 ease-out duration-300">
+        <a href="https://t.me/pharmatrace" target="_blank" class="ml-4 text-dark_mode text-3xl hover:text-gray-300 relative bottom-0 hover:bottom-1 hover:text-sub_dark_border ease-out duration-300">
           <i class="fa-brands fa-telegram"></i>
         </a>
       </nav>

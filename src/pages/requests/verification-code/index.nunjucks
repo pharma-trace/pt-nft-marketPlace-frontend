@@ -13,12 +13,12 @@
   <section class="nft__verification-code-content flex items-center h-[calc(100vh-24rem)] mt-36 px-36 xl:max-w-full lg:container">
     <div class="basis-5/12 ml-[8.333333%]">
       <hgroup>
-        <h4 class="text-dark_mode font-semibold">
+        <h4 class="text-dark_mode font-semibold dark:text-light_mode">
           Verification Code
         </h4>
         <h6 class="mt-4 text-gray-300 text-base">
           The Verification code sent to:
-          <a href="#" class="underline hover:text-dark_mode">f.laterra@pharmatrace.io</a>
+          <a href="#" class="underline hover:text-dark_mode dark:hover:text-light_mode">f.laterra@pharmatrace.io</a>
         </h6>
       </hgroup>
       <form id="verification-code" class="w-[90%] mt-10">

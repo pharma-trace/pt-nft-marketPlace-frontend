@@ -13,28 +13,28 @@
       {% if slug != 'account-create-choose-type' %}
         <button
           type="button"
-          class="min-h-[44px] py-2 px-6 mr-4 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium"
+          class="min-h-[44px] py-2 px-6 mr-4 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium dark:bg-gray-100 dark:text-dark_mode"
         >
           Create
         </button>
       {% endif %}
       <button
         type="button"
-        class="min-h-[44px] py-2 px-6 mr-4 rounded-full {% if slug == 'home' %} bg-light_mode {% else %} bg-gray-100 {% endif %} text-dark_mode text-sm font-medium"
+        class="min-h-[44px] py-2 px-6 mr-4 rounded-full {% if slug == 'home' %} bg-light_mode {% else %} bg-gray-100 {% endif %} text-dark_mode text-sm font-medium dark:bg-sub_dark_mode dark:text-light_mode"
       >
         <i class="fa-solid fa-bell text-lg"></i>
       </button>
       <button
         type="button"
         data-modal-toggle="modal-advance-search"
-        class="min-h-[44px] py-2 px-6 mr-4 rounded-full {% if slug == 'home' %} bg-light_mode {% else %} bg-gray-100 {% endif %} text-dark_mode text-sm font-medium"
+        class="min-h-[44px] py-2 px-6 mr-4 rounded-full {% if slug == 'home' %} bg-light_mode {% else %} bg-gray-100 {% endif %} text-dark_mode text-sm font-medium dark:bg-sub_dark_mode dark:text-light_mode"
       >
         ⌘/J
       </button>
       <button
         type="button"
         data-modal-toggle="modal-menu"
-        class="min-h-[44px] py-2 px-6 mr-4 rounded-full {% if slug == 'home' %} bg-light_mode {% else %} bg-gray-100 {% endif %} text-dark_mode text-sm font-medium"
+        class="min-h-[44px] py-2 px-6 mr-4 rounded-full {% if slug == 'home' %} bg-light_mode {% else %} bg-gray-100 {% endif %} text-dark_mode text-sm font-medium dark:bg-sub_dark_mode dark:text-light_mode"
       >
         <i class="fa-solid fa-bars text-lg"></i>
       </button>
@@ -47,7 +47,7 @@
           <img
             src="{{ site.data.configs.imageUrl }}avatars/avatar-10.jpg"
             alt="Avatar 10"
-            class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover"
+            class="w-14 h-14 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
         </figure>
       </button>
