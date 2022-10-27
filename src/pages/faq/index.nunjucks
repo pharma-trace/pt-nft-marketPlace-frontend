@@ -12,10 +12,10 @@
   <section class="nft__faq mt-36 px-36 xl:max-w-full lg:container">
     <div class="ml-[25%] basis-9/12 pl-4">
       <hgroup>
-        <h6 class="text-nft_institutional text-lg font-medium">
+        <h6 class="text-nft_institutional text-lg font-medium select-text">
           Frequently Asked Questions
         </h6>
-        <h2 class="mt-10 text-dark_mode font-semibold dark:text-light_mode">
+        <h2 class="mt-10 text-dark_mode font-semibold dark:text-light_mode select-text">
           Questions? Look here.
         </h2>
       </hgroup>
@@ -53,12 +53,12 @@
         </nav>
       </div>
       <div class="basis-8/12">
-        <h6 class="text-dark_mode text-lg font-medium leading-loose dark:text-light_mode">
+        <h6 class="text-dark_mode text-lg font-medium leading-loose dark:text-light_mode select-text">
           Can’t find an answer? Click below on our Customer Service.<br/>
           We will be happy to help you.
         </h6>
         <div id="paragraph-1" class="mt-16">
-          <h5 class="mb-4 text-dark_mode font-semibold dark:text-light_mode">
+          <h5 class="mb-4 text-dark_mode font-semibold dark:text-light_mode select-text">
             General Information
           </h5>
           <div id="accordion-faq-1" class="nft__accordion" data-accordion="collapse" data-active-classes="text-nft_institutional dark:text-nft_institutional" data-inactive-classes="text-dark_mode dark:text-light_mode">
@@ -72,7 +72,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-1-body-1" class="mb-6" aria-labelledby="accordion-faq-1-heading-1">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -90,7 +90,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-1-body-2" class="mb-6" aria-labelledby="accordion-1-heading-2">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -108,7 +108,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-1-body-3" class="mb-6" aria-labelledby="accordion-faq-1-heading-3">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -126,7 +126,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-1-body-4" class="mb-6" aria-labelledby="accordion-faq-1-heading-4">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -151,7 +151,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-2-body-1" class="mb-6" aria-labelledby="accordion-faq-2-heading-1">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -169,7 +169,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-2-body-2" class="mb-6" aria-labelledby="accordion-faq-2-heading-2">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -187,7 +187,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-2-body-3" class="mb-6" aria-labelledby="accordion-faq-2-heading-3">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -205,7 +205,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-2-body-4" class="mb-6" aria-labelledby="accordion-faq-2-heading-4">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -230,7 +230,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-3-body-1" class="mb-6" aria-labelledby="accordion-faq-3-heading-1">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -248,7 +248,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-3-body-2" class="mb-6" aria-labelledby="accordion-faq-3-heading-2">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -266,7 +266,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-3-body-3" class="mb-6" aria-labelledby="accordion-faq-3-heading-3">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -284,7 +284,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-3-body-4" class="mb-6" aria-labelledby="accordion-faq-3-heading-4">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -309,7 +309,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-4-body-1" class="mb-6" aria-labelledby="accordion-faq-4-heading-1">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -327,7 +327,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-4-body-2" class="mb-6" aria-labelledby="accordion-faq-4-heading-2">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -345,7 +345,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-4-body-3" class="mb-6" aria-labelledby="accordion-faq-4-heading-3">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -363,7 +363,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-4-body-4" class="mb-6" aria-labelledby="accordion-faq-4-heading-4">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -388,7 +388,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-5-body-1" class="mb-6" aria-labelledby="accordion-faq-5-heading-1">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -406,7 +406,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-5-body-2" class="mb-6" aria-labelledby="accordion-faq-5-heading-2">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -424,7 +424,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-5-body-3" class="mb-6" aria-labelledby="accordion-faq-5-heading-3">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -442,7 +442,7 @@
                 </button>
               </h6>
               <div id="accordion-faq-5-body-4" class="mb-6" aria-labelledby="accordion-faq-5-heading-4">
-                <p class="text-dark_mode leading-loose dark:text-gray-300">
+                <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,

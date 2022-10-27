@@ -1,7 +1,7 @@
 <footer class="nft__footer mx-auto px-36 mt-36 mb-6 xl:max-w-full lg:container">
   <div class="flex flex-row justify-between">
     <div class="basis-4/12">
-      <h5 class="text-dark_mode font-medium dark:text-light_mode">
+      <h5 class="text-dark_mode font-medium dark:text-light_mode select-text">
         Subscribe to our exclusive list and be the first
         to know about upcoming on new NFTs,
         Auctions and more!

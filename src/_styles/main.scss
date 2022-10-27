@@ -189,7 +189,13 @@ body {
   }
 }
 
+// Dark-mode
 html.dark {
+  .nft__hero {
+    background: linear-gradient(130deg, rgba(32,34,37,0.90) 0%, rgba(238,197,43,0.10) 100%) !important;
+    clip-path: ellipse(135% 100% at 50% 0%);
+  }
+
   .nft__active-menu-link {
     .active {
       color: #FFFFFF;

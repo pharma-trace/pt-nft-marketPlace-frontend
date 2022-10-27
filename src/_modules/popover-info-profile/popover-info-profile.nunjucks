@@ -1,26 +1,26 @@
-<div data-popover id="popover-info-profile" role="tooltip" class="inline-block absolute invisible z-10 w-72 bg-white rounded-lg border border-solid border-gray-100 shadow-sm opacity-0 transition-opacity duration-100">
+<div data-popover id="popover-info-profile" role="tooltip" class="inline-block absolute invisible z-10 w-72 bg-white rounded-lg border border-solid border-gray-100 shadow-sm opacity-0 transition-opacity duration-100 dark:bg-sub_dark_mode dark:border-sub_dark_border/50">
   <div class="p-6">
     <figure class="flex flex-row items-center relative">
       <img
         src="{{ site.data.configs.imageUrl }}avatars/avatar-10.jpg"
         alt="Avatar 10"
-        class="w-16 h-16 rounded-full border-2 border-solid border-gray-100 object-cover"
+        class="w-16 h-16 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
       >
       <figcaption class="ml-4">
         <span class="absolute top-[2px] left-[32px] align-middle ml-2">
           <i class="fa-solid fa-certificate text-nft_institutional text-xl"></i>
           <i class="fa-solid fa-check text-light_mode text-sm absolute top-[1px] left-[3px]"></i>
         </span>
-        <span class="block text-dark_mode text-base font-semibold">
+        <span class="block text-dark_mode text-base font-semibold dark:text-light_mode">
           Yung DooMari
         </span>
-        <span class="block text-sm text-gray-300">
+        <span class="block text-sm text-gray-300 select-all">
           @yung_doomari
         </span>
       </figcaption>
     </figure>
     <div class="mt-6">
-      <p class="text-gray-300 text-sm">
+      <p class="text-gray-300 text-sm dark:text-light_mode select-text">
         Artist based in Germany.<br/>
         My work revolves around human emotion and our mind states…
       </p>
@@ -28,20 +28,20 @@
         <h6 class="text-gray-300 text-sm">
           Total balance
         </h6>
-        <h5 class="mt-1 text-dark_mode text-base font-semibold">
+        <h5 class="mt-1 text-dark_mode text-base font-semibold dark:text-light_mode select-all">
           90.19 ETH
         </h5>
-        <h6 class="mt-1 text-nft_institutional text-sm">
+        <h6 class="mt-1 text-nft_institutional text-sm select-all">
           111,237 $
         </h6>
       </hgroup>
     </div>
-    <hr class="my-5">
+    <hr class="my-5 dark:border-sub_dark_border">
     <div class="flex space-x-4">
-      <h6 class="mt-1 text-dark_mode text-base font-semibold">
+      <h6 class="mt-1 text-dark_mode text-base font-semibold dark:text-light_mode">
         115 Following
       </h6>
-      <h6 class="mt-1 text-dark_mode text-base font-semibold">
+      <h6 class="mt-1 text-dark_mode text-base font-semibold dark:text-light_mode">
         88 Followers
       </h6>
     </div>

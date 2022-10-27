@@ -13,10 +13,10 @@
   <section class="nft__account-settings-wallets-sync mt-36 px-36 xl:max-w-full lg:container">
     <div class="ml-[25%] basis-9/12 pl-4">
       <hgroup>
-        <h4 class="text-dark_mode font-semibold dark:text-light_mode">
+        <h4 class="text-dark_mode font-semibold dark:text-light_mode select-text">
           Wallets sync
         </h4>
-        <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold dark:text-light_mode">
+        <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold dark:text-light_mode select-text">
           Connected Wallet:
           <span>
             1
@@ -55,7 +55,7 @@
               <h6 class="text-dark_mode text-sm font-semibold dark:text-light_mode">
                 Ethereum
               </h6>
-              <h5 class="text-gray-300 text-sm">
+              <h5 class="text-gray-300 text-sm select-text select-all">
                 0x2acAb3DEa77832C09420663b0E1cB386031bA17B
               </h5>
             </hgroup>
@@ -72,7 +72,7 @@
               <h6 class="text-dark_mode text-sm font-semibold dark:text-light_mode">
                 Wallet Balance
               </h6>
-              <h4 class="text-success font-semibold">
+              <h4 class="text-success font-semibold select-all">
                 15 ETH
               </h4>
             </hgroup>
@@ -80,7 +80,7 @@
               <h6 class="text-dark_mode text-sm font-semibold dark:text-light_mode">
                 Marketplace Balance
               </h6>
-              <h4 class="text-success font-semibold">
+              <h4 class="text-success font-semibold select-all">
                 99 ETH
               </h4>
             </hgroup>

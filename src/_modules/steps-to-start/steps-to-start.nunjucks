@@ -1,5 +1,5 @@
 <section class="nft__steps-to-start px-36 mt-36 xl:max-w-full lg:container relative">
-  <div class="flex flex-row items-center p-16 rounded-xl bg-gray-300/20 dark:bg-sub_dark_mode">
+  <div class="flex flex-row items-center p-16 relative z-10 rounded-xl bg-gray-300/20 dark:bg-sub_dark_mode">
     <div class="basis-5/12">
       <hgroup>
         <h4 class="text-dark_mode font-medium dark:text-light_mode">
@@ -19,11 +19,11 @@
             <span class="flex items-center justify-center rounded-xl w-[70px] h-[70px] bg-light_mode dark:bg-dark_mode">
               <i class="fa-solid fa-wallet text-nft_institutional text-2xl"></i>
             </span>
-            <h6 class="ml-6 text-dark-mode text-lg font-medium dark:text-light_mode">
+            <h6 class="ml-6 text-dark-mode text-lg font-medium dark:text-light_mode select-all">
               Set up your wallet
             </h6>
           </div>
-          <p class="mt-6 text-dark_mode/90 text-sm leading-loose dark:text-gray-300">
+          <p class="mt-6 text-dark_mode/90 text-sm leading-loose dark:text-gray-300 select-all">
             Once you’ve set up your wallet of choice, connect it to PharmaTrace by
             clicking the wallet icon in the top right corner.
             Learn about the wallets we support.
@@ -34,11 +34,11 @@
             <span class="flex items-center justify-center rounded-xl w-[70px] h-[70px] bg-light_mode dark:bg-dark_mode">
               <i class="fa-solid fa-box-open text-nft_institutional text-2xl"></i>
             </span>
-            <h6 class="ml-6 text-dark-mode text-lg font-medium dark:text-light_mode">
+            <h6 class="ml-6 text-dark-mode text-lg font-medium dark:text-light_mode select-all">
               Create your collection
             </h6>
           </div>
-          <p class="mt-6 text-dark_mode/90 text-sm leading-loose dark:text-gray-300">
+          <p class="mt-6 text-dark_mode/90 text-sm leading-loose dark:text-gray-300 select-all">
             Click My Collections and set up your collection.
             Add social links, a description, profile & banner images,
             and set a secondary sales fee.
@@ -51,11 +51,11 @@
             <span class="flex items-center justify-center rounded-xl w-[70px] h-[70px] bg-light_mode dark:bg-dark_mode">
               <i class="fa-solid fa-image text-nft_institutional text-2xl"></i>
             </span>
-            <h6 class="ml-6 text-dark-mode text-lg font-medium dark:text-light_mode">
+            <h6 class="ml-6 text-dark-mode text-lg font-medium dark:text-light_mode select-all">
               Add your NFTs
             </h6>
           </div>
-          <p class="mt-6 text-dark_mode/90 text-sm leading-loose dark:text-gray-300">
+          <p class="mt-6 text-dark_mode/90 text-sm leading-loose dark:text-gray-300 select-all">
             Upload your work (image, video, audio, or 3D art), add a title and description,
             and customize your NFTs with properties, stats, and unlockable content.
           </p>
@@ -65,11 +65,11 @@
             <span class="flex items-center justify-center rounded-xl w-[70px] h-[70px] bg-light_mode dark:bg-dark_mode">
               <i class="fa-solid fa-bag-shopping text-nft_institutional text-2xl"></i>
             </span>
-            <h6 class="ml-6 text-dark-mode text-lg font-medium dark:text-light_mode">
+            <h6 class="ml-6 text-dark-mode text-lg font-medium dark:text-light_mode select-all">
               List Them for Sale
             </h6>
           </div>
-          <p class="mt-6 text-dark_mode/90 text-sm leading-loose dark:text-gray-300">
+          <p class="mt-6 text-dark_mode/90 text-sm leading-loose dark:text-gray-300 select-all">
             Choose between auctions, fixed-price listings, and declining-price listings.
             You choose how you want to sell your NFTs, and we help you sell them!
           </p>
@@ -81,7 +81,7 @@
     <img
       src="{{ site.data.configs.imageUrl }}homepage/dashed-line-fingerprint.svg"
       alt="Illustration - Dashed line with fingerprint blot"
-      class="w-6/12"
+      class="w-6/12 relative z-20"
     >
   </figure>
 </section>

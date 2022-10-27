@@ -11,7 +11,7 @@
 {% block content %}
   {# nft__explore-whole-items #}
   <section class="nft__explore-whole-items mt-36 px-36 xl:max-w-full lg:container">
-    <h2 class="text-dark_mode font-semibold dark:text-light_mode">
+    <h2 class="text-dark_mode font-semibold dark:text-light_mode select-text">
       Explore
     </h2>
     <div class="flex flex-row items-center mt-24">

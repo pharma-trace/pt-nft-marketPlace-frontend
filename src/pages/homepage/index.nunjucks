@@ -15,7 +15,7 @@
   <section class="nft__hero min-h-[600px] h-[calc(100vh+76px)] px-36 xl:max-w-full lg:container">
     <div class="flex flex-row gap-4 items-center h-full relative top-[-40px]">
       <div class="basis-5/12">
-        <h1 class="text-dark_mode font-bold dark:text-light_mode">
+        <h1 class="text-dark_mode font-bold dark:text-light_mode select-text">
           Discover<br/>
           <span class="text-pt_institutional underline decoration-4">Digital Art</span> and<br/>
           Collect NFTs
@@ -157,10 +157,10 @@
     <div class="flex flex-row gap-4">
       <div class="basis-7/12 mt-28">
         <hgroup>
-          <h6 class="text-nft_institutional text-lg font-medium">
+          <h6 class="text-nft_institutional text-lg font-medium select-text">
             Who we are
           </h6>
-          <h4 class="mt-10 text-dark_mode font-semibold dark:text-light_mode">
+          <h4 class="mt-10 text-dark_mode font-semibold dark:text-light_mode select-text">
             The world’s first and largest digital marketplace for
             crypto collectables and non-fungible tokens (NFTs).
           </h4>
@@ -177,7 +177,7 @@
       </div>
     </div>
     <div class="nft__scroll-left-text relative -right-[300px]">
-      <span class="text-gray-100 text-big font-bold leading-none whitespace-nowrap dark:text-sub_dark_border">
+      <span class="text-gray-100 text-big font-bold leading-none whitespace-nowrap dark:text-sub_dark_border select-all">
         This is our mission
       </span>
     </div>
@@ -201,28 +201,28 @@
       <div class="basis-6/12">
         <div class="flex flex-col ml-10">
           <div class="group py-4 px-6 rounded-xl bg-transparent hover:bg-pt_institutional/20">
-            <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional dark:text-light_mode">
+            <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional dark:text-light_mode select-all">
               Authentic
             </h6>
-            <p class="mt-2 text-gray-300 leading-relaxed group-hover:text-dark_mode dark:group-hover:text-light_mode">
+            <p class="mt-2 text-gray-300 leading-relaxed group-hover:text-dark_mode dark:group-hover:text-light_mode select-all">
               Every digital creation on MakersPlace is digitally signed by the creator and
               permanently recorded and verified through the blockchain.
             </p>
           </div>
           <div class="group py-4 px-6 mt-4 ml-12 rounded-xl bg-pt_institutional/20">
-            <h6 class="text-pt_institutional text-lg font-semibold dark:text-pt_institutional">
+            <h6 class="text-pt_institutional text-lg font-semibold dark:text-pt_institutional select-all">
               Unique
             </h6>
-            <p class="mt-2 text-dark_mode leading-relaxed dark:text-light_mode">
+            <p class="mt-2 text-dark_mode leading-relaxed dark:text-light_mode select-all">
               Every digital creation is issued as a unique digital edition, using blockchain technology a creator
               can ensure that only a limited number of authentic editions can be owned, ensuring and uniqueness.
             </p>
           </div>
           <div class="group py-4 px-6 mt-4 rounded-xl bg-transparent hover:bg-pt_institutional/20">
-            <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional dark:text-light_mode">
+            <h6 class="text-dark_mode text-lg font-semibold group-hover:text-pt_institutional dark:text-light_mode select-all">
               Ownable
             </h6>
-            <p class="mt-2 text-gray-300 leading-relaxed group-hover:text-dark_mode dark:group-hover:text-light_mode">
+            <p class="mt-2 text-gray-300 leading-relaxed group-hover:text-dark_mode dark:group-hover:text-light_mode select-all">
               Purchasing a unique digital creation means you’re given full ownership over the creation,
               which is then transferred and stored in your digital wallet for safe-keeping.
             </p>

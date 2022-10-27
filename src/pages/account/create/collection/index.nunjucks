@@ -13,10 +13,10 @@
   <section class="nft__create-collection mt-36 px-36 xl:max-w-full lg:container">
     <div class="ml-[25%] basis-9/12 pl-4">
       <hgroup>
-        <h4 class="text-dark_mode font-semibold">
+        <h4 class="text-dark_mode font-semibold dark:text-light_mode select-text">
           Create Collection
         </h4>
-        <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold">
+        <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold dark:text-light_mode select-text">
           Collection Type  ERC-721
           <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base cursor-pointer hover:scale-110 ease-out duration-300"
              data-popover-target="popover-erc-721"
@@ -30,12 +30,12 @@
         <div class="basis-6/12">
           <form id="create-collection">
             <div>
-              <label for="name" class="block mb-2 text-dark_mode text-sm font-semibold">Name*</label>
+              <label for="name" class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">Name*</label>
               <input
                 type="text"
                 name="name"
                 id="name"
-                class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                 placeholder="Enter item name"
                 autocomplete="off"
                 required
@@ -43,28 +43,28 @@
             </div>
             <div class="mt-8">
               <div class="flex items-center justify-between">
-                <label for="description" class="block mb-2 text-dark_mode text-sm font-semibold">Description</label>
+                <label for="description" class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">Description</label>
                 <span class="text-gray-300 text-xs font-medium">0 / 200</span>
               </div>
               <textarea
                 id="description"
                 name="description"
                 rows="4"
-                class="block resize-none p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                class="block resize-none p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                 placeholder="Provide a detailed description of your item"
               ></textarea>
             </div>
             <div class="mt-8">
-              <label for="custom-url" class="block mb-2 text-dark_mode text-sm font-semibold">Custom URL*</label>
+              <label for="custom-url" class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">Custom URL*</label>
               <div class="relative">
-                <span class="inline-block text-dark_mode text-sm font-semibold absolute top-4 left-4">
+                <span class="inline-block text-dark_mode text-sm font-semibold absolute top-4 left-4 dark:text-light_mode">
                   nft.pharmatrace.io/collection/
                 </span>
                 <input
                   type="url"
                   name="custom_url"
                   id="custom-url"
-                  class="block py-4 pl-[225px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  class="block py-4 pl-[225px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                   placeholder="Enter your custom URL"
                   autocomplete="off"
                   required
@@ -72,7 +72,7 @@
               </div>
             </div>
             <div class="mt-8">
-              <label for="percentage-fee" class="block mb-2 text-dark_mode text-sm font-semibold">
+              <label for="percentage-fee" class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">
                 Percentage fee
                 <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base cursor-pointer hover:scale-110 ease-out duration-300"
                    data-popover-target="popover-percentage-fee"
@@ -84,7 +84,7 @@
                 type="number"
                 name="percentage_fee"
                 id="percentage-fee"
-                class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                 placeholder="Eg. 2.5"
                 autocomplete="off"
                 min="1.5"
@@ -93,7 +93,7 @@
               />
             </div>
             <div class="mt-8 flex items-center justify-between">
-              <span class="block mb-2 text-dark_mode text-sm font-semibold">
+              <span class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">
                 Explicit & Sensitive Content
                 <span class="block text-gray-300 leading-relaxed font-normal">
                   Set this item as explicit and sensitive content.
@@ -101,23 +101,23 @@
               </span>
               <label for="explicit-content" class="inline-flex relative items-center mr-2 cursor-pointer">
                 <input type="checkbox" value="" id="explicit-content" class="sr-only peer">
-                <span class="w-11 h-6 bg-gray-300/30 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-nft_institutional"></span>
+                <span class="w-11 h-6 bg-gray-300/30 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-nft_institutional dark:after:bg-dark_mode"></span>
               </label>
             </div>
-            <h6 class="w-[80%] mt-20 text-dark_mode text-lg font-semibold">
+            <h6 class="w-[80%] mt-20 text-dark_mode text-lg font-semibold dark:text-light_mode">
               Add links to your social media profiles.
             </h6>
             <div class="mt-10">
               <div class="relative">
-                <label for="website-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                  <i class="fa-solid fa-globe text-dark_mode text-xl mr-2"></i>
+                <label for="website-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4 dark:text-light_mode">
+                  <i class="fa-solid fa-globe text-dark_mode text-xl mr-2 dark:text-light_mode"></i>
                   https://
                 </label>
                 <input
                   type="url"
                   name="website_url"
                   id="website-url"
-                  class="block py-4 pl-[100px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  class="block py-4 pl-[100px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                   placeholder="Website URL"
                   autocomplete="off"
                 />
@@ -125,15 +125,15 @@
             </div>
             <div class="mt-4">
               <div class="relative">
-                <label for="facebook-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                  <i class="fa-brands fa-facebook text-dark_mode text-xl mr-2"></i>
+                <label for="facebook-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4 dark:text-light_mode">
+                  <i class="fa-brands fa-facebook text-dark_mode text-xl mr-2 dark:text-light_mode"></i>
                   facebook.com/
                 </label>
                 <input
                   type="url"
                   name="facebook_url"
                   id="facebook-url"
-                  class="block py-4 pl-[151px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  class="block py-4 pl-[151px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                   placeholder="Facebook Username"
                   autocomplete="off"
                 />
@@ -141,15 +141,15 @@
             </div>
             <div class="mt-4">
               <div class="relative">
-                <label for="twitter-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                  <i class="fa-brands fa-twitter text-dark_mode text-xl mr-2"></i>
+                <label for="twitter-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4 dark:text-light_mode">
+                  <i class="fa-brands fa-twitter text-dark_mode text-xl mr-2 dark:text-light_mode"></i>
                   twitter.com/
                 </label>
                 <input
                   type="url"
                   name="twitter_url"
                   id="twitter-url"
-                  class="block py-4 pl-[132px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  class="block py-4 pl-[132px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                   placeholder="Twitter Username"
                   autocomplete="off"
                 />
@@ -157,15 +157,15 @@
             </div>
             <div class="mt-4">
               <div class="relative">
-                <label for="instagram-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                  <i class="fa-brands fa-instagram text-dark_mode text-xl mr-2"></i>
+                <label for="instagram-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4 dark:text-light_mode">
+                  <i class="fa-brands fa-instagram text-dark_mode text-xl mr-2 dark:text-light_mode"></i>
                   instagram.com/
                 </label>
                 <input
                   type="url"
                   name="instagram_url"
                   id="instagram-url"
-                  class="block py-4 pl-[154px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  class="block py-4 pl-[154px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                   placeholder="Instagram Username"
                   autocomplete="off"
                 />
@@ -173,15 +173,15 @@
             </div>
             <div class="mt-4">
               <div class="relative">
-                <label for="tiktok-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                  <i class="fa-brands fa-tiktok text-dark_mode text-xl mr-2"></i>
+                <label for="tiktok-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4 dark:text-light_mode">
+                  <i class="fa-brands fa-tiktok text-dark_mode text-xl mr-2 dark:text-light_mode"></i>
                   tiktok.com/
                 </label>
                 <input
                   type="url"
                   name="tiktok_url"
                   id="tiktok-url"
-                  class="block py-4 pl-[124px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  class="block py-4 pl-[124px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                   placeholder="TikTok Username"
                   autocomplete="off"
                 />
@@ -189,20 +189,20 @@
             </div>
             <div class="mt-4">
               <div class="relative">
-                <label for="youtube-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4">
-                  <i class="fa-brands fa-youtube text-dark_mode text-xl"></i>
+                <label for="youtube-url" class="flex items-center text-dark_mode text-sm font-semibold absolute top-4 left-4 dark:text-light_mode">
+                  <i class="fa-brands fa-youtube text-dark_mode text-xl dark:text-light_mode"></i>
                 </label>
                 <input
                   type="url"
                   name="youtube_url"
                   id="youtube-url"
-                  class="block py-4 pl-[47px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                  class="block py-4 pl-[47px] pr-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                   placeholder="Channel URL or video"
                   autocomplete="off"
                 />
               </div>
             </div>
-            <button type="submit" class="block py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
+            <button type="submit" class="block py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300 dark:bg-sub_dark_mode dark:focus:ring-sub_dark_mode">
               Create collection
             </button>
           </form>
@@ -210,13 +210,13 @@
         <div class="basis-4/12 ml-[8.333333%]">
           <div class="sticky top-36">
             <div>
-              <span class="block mb-4 text-dark_mode text-sm font-semibold">
+              <span class="block mb-4 text-dark_mode text-sm font-semibold dark:text-light_mode">
                 Collection Image
               </span>
               <label for="collection-image-file" class="w-32 h-32 rounded-full cursor-pointer">
                 <span
                   style="background-image: url('{{ site.data.configs.imageUrl }}commons/gradient-image.png');"
-                  class="block w-32 h-32 bg-no-repeat bg-cover rounded-full border-4 border-solid border-gray-100 hover:scale-95 ease-out duration-300"
+                  class="block w-32 h-32 bg-no-repeat bg-cover rounded-full border-4 border-solid border-gray-100 hover:scale-95 ease-out duration-300 dark:border-sub_dark_border"
                 ></span>
                 <input
                   type="file"
@@ -232,13 +232,13 @@
               </span>
             </div>
             <div class="mt-14">
-              <span class="block mb-4 text-dark_mode text-sm font-semibold">
+              <span class="block mb-4 text-dark_mode text-sm font-semibold dark:text-light_mode">
                 Banner Image
               </span>
               <label for="banner-image-file" class="w-32 h-32 rounded-lg cursor-pointer">
                 <span
                   style="background-image: url('{{ site.data.configs.imageUrl }}commons/gradient-image.png');"
-                  class="block w-32 h-32 bg-no-repeat bg-cover rounded-lg border-4 border-solid border-gray-100 hover:scale-95 ease-out duration-300"
+                  class="block w-32 h-32 bg-no-repeat bg-cover rounded-lg border-4 border-solid border-gray-100 hover:scale-95 ease-out duration-300 dark:border-sub_dark_border"
                 ></span>
                 <input
                   type="file"

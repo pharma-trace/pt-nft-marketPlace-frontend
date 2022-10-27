@@ -17,10 +17,10 @@
   <section class="nft__create-choose-type-multiple mt-36 px-36 xl:max-w-full lg:container">
     <div class="ml-[25%] basis-9/12 pl-4">
       <hgroup>
-        <h4 class="text-dark_mode font-semibold">
+        <h4 class="text-dark_mode font-semibold dark:text-light_mode select-text">
           Create Multiple
         </h4>
-        <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold">
+        <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold dark:text-light_mode select-text">
           Multiple NFT batches edition on Ethereum.
         </h6>
       </hgroup>
@@ -29,24 +29,24 @@
       <div class="basis-6/12">
         <form id="create-choose-type-multiple">
           <div class="mb-16">
-            <label for="nft-number" class="block mb-2 text-dark_mode text-sm font-semibold">Number NFTs*</label>
+            <label for="nft-number" class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">Number NFTs*</label>
             <input
               type="number"
               name="nft_number"
               value="2"
               id="nft-number"
-              class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+              class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
               placeholder="Enter the number of NFTs you want to create"
               autocomplete="off"
               min="2"
               required
             />
           </div>
-          <div id="accordion-create-choose-type-multiple" class="nft__accordion" data-accordion="collapse" data-active-classes="bg-white text-nft_institutional" data-inactive-classes="text-dark_mode">
+          <div id="accordion-create-choose-type-multiple" class="nft__accordion" data-accordion="collapse" data-active-classes="text-nft_institutional dark:text-nft_institutional" data-inactive-classes="text-dark_mode dark:text-light_mode">
             {% for numberNft in numberNfts %}
-              <div class="mt-6 border-b border-gray-200">
+              <div class="mt-6 border-b border-gray-200 dark:border-sub_dark_border">
                 <h6 id="accordion-create-choose-type-multiple-heading-{{ numberNft }}" class="text-nft_institutional text-lg font-medium">
-                  <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left bg-white text-dark_mode" data-accordion-target="#accordion-create-choose-type-multiple-body-{{ numberNft }}" {% if loop.first %} aria-expanded="true" {% else %} aria-expanded="false" {% endif %} aria-controls="accordion-create-choose-type-multiple-body-{{ numberNft }}">
+                  <button type="button" class="flex items-center justify-between w-full pb-6 font-medium text-left text-dark_mode dark:text-light_mode" data-accordion-target="#accordion-create-choose-type-multiple-body-{{ numberNft }}" {% if loop.first %} aria-expanded="true" {% else %} aria-expanded="false" {% endif %} aria-controls="accordion-create-choose-type-multiple-body-{{ numberNft }}">
                     <span>
                       NFT {{ numberNft }}
                     </span>
@@ -55,14 +55,14 @@
                 </h6>
                 <div id="accordion-create-choose-type-multiple-body-{{ numberNft }}" class="mb-6" aria-labelledby="accordion-create-choose-type-multiple-heading-{{ numberNft }}">
                   <div>
-                    <span class="block mb-2 text-dark_mode text-sm font-semibold">
+                    <span class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">
                       Image, Video or Audio file*
                     </span>
                     <div class="flex justify-center items-center w-full">
-                      <label for="nft-image-file-{{ numberNft }}" class="flex flex-col justify-center items-center w-full h-64 rounded-lg border border-gray-300 border-dashed bg-gray-100/50 hover:bg-gray-100 cursor-pointer ">
+                      <label for="nft-image-file-{{ numberNft }}" class="flex flex-col justify-center items-center w-full h-64 rounded-lg border border-gray-300 border-dashed bg-gray-100/50 hover:bg-gray-100 cursor-pointer dark:border-sub_dark_border dark:bg-sub_dark_mode dark:hover:bg-sub_dark_border/50">
                         <span class="flex flex-col justify-center items-center pt-5 pb-6">
                           <i class="fa-solid fa-cloud-arrow-up text-nft_institutional text-6xl"></i>
-                          <span class="block mt-3 text-dark_mode text-base font-semibold">
+                          <span class="block mt-3 text-dark_mode text-base font-semibold dark:text-light_mode">
                             Select a file to upload
                           </span>
                           <span class="block text-gray-300 text-sm">
@@ -82,12 +82,12 @@
                     </span>
                   </div>
                   <div class="mt-10">
-                    <label for="name-{{ numberNft }}" class="block mb-2 text-dark_mode text-sm font-semibold">Name*</label>
+                    <label for="name-{{ numberNft }}" class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">Name*</label>
                     <input
                       type="text"
                       name="name_{{ numberNft }}"
                       id="name-{{ numberNft }}"
-                      class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                      class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                       placeholder="Enter item name"
                       autocomplete="off"
                       required
@@ -95,45 +95,45 @@
                   </div>
                   <div class="mt-8">
                     <div class="flex items-center justify-between">
-                      <label for="description-{{ numberNft }}" class="block mb-2 text-dark_mode text-sm font-semibold">Description</label>
+                      <label for="description-{{ numberNft }}" class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">Description</label>
                       <span class="text-gray-300 text-xs font-medium">0 / 200</span>
                     </div>
                     <textarea
                       name="description_{{ numberNft }}"
                       id="description-{{ numberNft }}"
                       rows="4"
-                      class="block resize-none p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                      class="block resize-none p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                       placeholder="Provide a detailed description of your item"
                     ></textarea>
                   </div>
                   <div class="nft__select-box mt-8 block w-full relative my-0 mx-auto">
-                    <label class="block mb-2 text-dark_mode text-sm font-semibold">Category*</label>
+                    <label class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">Category*</label>
                     <div class="nft__select-box--current" tabindex="1">
                       {% for category in selectCategories %}
                         <div class="nft__select-box--value flex">
                           <input class="nft__select-box--input" type="radio" name="category_{{ numberNft }}" id="category-{{ numberNft }}-{{ loop.index }}" value="{{ category | lower }}" {% if loop.first %} checked="checked" {% endif %} />
-                          <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent hover:bg-gray-300/30">
+                          <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50">
                             {{ category }}
                           </p>
                         </div>
                       {% endfor %}
                       <i class="nft__select-box--icon fa-solid fa-angle-down absolute top-[50%] right-[15px] text-gray-300"></i>
                     </div>
-                    <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60">
+                    <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60 dark:bg-sub_dark_mode dark:border-sub_dark_border">
                       {% for category in selectCategories %}
-                        <li class="rounded-lg bg-light_mode hover:bg-gray-100/40">
-                          <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium" for="category-{{ numberNft }}-{{ loop.index }}" aria-hidden="true">{{ category }}</label>
+                        <li class="rounded-lg bg-light_mode hover:bg-gray-100/40 dark:bg-sub_dark_mode dark:hover:bg-sub_dark_border">
+                          <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium dark:text-light_mode" for="category-{{ numberNft }}-{{ loop.index }}" aria-hidden="true">{{ category }}</label>
                         </li>
                       {% endfor %}
                     </ul>
                   </div>
                   <div class="mt-8">
-                    <label for="supply-{{ numberNft }}" class="block mb-2 text-dark_mode text-sm font-semibold">Supply*</label>
+                    <label for="supply-{{ numberNft }}" class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">Supply*</label>
                     <input
                       type="number"
                       name="supply_{{ numberNft }}"
                       id="supply-{{ numberNft }}"
-                      class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30"
+                      class="block p-4 w-full text-dark_mode text-sm font-medium placeholder:text-gray-300 placeholder:font-normal bg-gray-300/20 rounded-lg border-none focus:outline-none focus:ring-1 focus:ring-gray-300/60 focus:bg-gray-300/30 hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50 dark:focus:ring-gray-300/50 dark:focus:bg-sub_dark_border/50"
                       placeholder="Enter the number of items that can be minted"
                       autocomplete="off"
                       min="0"
@@ -145,28 +145,28 @@
             {% endfor %}
           </div>
           <div class="nft__select-box mt-16 block w-full relative my-0 mx-auto">
-            <label class="block mb-2 text-dark_mode text-sm font-semibold">Collection</label>
+            <label class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">Collection</label>
             <div class="nft__select-box--current" tabindex="1">
               {% for collection in collections %}
                 <div class="nft__select-box--value flex">
                   <input class="nft__select-box--input" type="radio" name="collection" id="collection-{{ loop.index }}" value="{{ collection | lower }}" {% if loop.first %} checked="checked" {% endif %} />
-                  <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent hover:bg-gray-300/30">
+                  <p class="nft__select-box--input-text p-4 w-full text-dark_mode text-sm font-medium bg-gray-300/20 rounded-lg border border-solid border-transparent hover:bg-gray-300/30 dark:bg-sub_dark_mode dark:text-light_mode dark:hover:bg-sub_dark_border/50">
                     {{ collection }}
                   </p>
                 </div>
               {% endfor %}
               <i class="nft__select-box--icon fa-solid fa-angle-down absolute top-[50%] right-[15px] text-gray-300"></i>
             </div>
-            <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60">
+            <ul class="nft__select-box--list absolute z-10 w-full p-0 list-none mt-2 bg-light_mode rounded-lg border border-solid border-gray-100/60 dark:bg-sub_dark_mode dark:border-sub_dark_border">
               {% for collection in collections %}
-                <li class="rounded-lg bg-light_mode hover:bg-gray-100/40">
-                  <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium" for="collection-{{ loop.index }}" aria-hidden="true">{{ collection }}</label>
+                <li class="rounded-lg bg-light_mode hover:bg-gray-100/40 dark:bg-sub_dark_mode dark:hover:bg-sub_dark_border">
+                  <label class="nft__select-box--option p-4 text-dark_mode text-sm font-medium dark:text-light_mode" for="collection-{{ loop.index }}" aria-hidden="true">{{ collection }}</label>
                 </li>
               {% endfor %}
             </ul>
           </div>
           <div class="mt-8 flex items-center justify-between">
-            <span class="block mb-2 text-dark_mode text-sm font-semibold">
+            <span class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">
               Properties
               <span class="block text-gray-300 leading-relaxed font-normal">
                 Textual traits that show up as rectangles.
@@ -181,7 +181,7 @@
             </button>
           </div>
           <div class="mt-8 flex items-center justify-between">
-            <span class="block mb-2 text-dark_mode text-sm font-semibold">
+            <span class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">
               Explicit & Sensitive Content
               <span class="block text-gray-300 leading-relaxed font-normal">
                 Set this item as explicit and sensitive content.
@@ -189,11 +189,11 @@
             </span>
             <label for="explicit-content" class="inline-flex relative items-center mr-2 cursor-pointer">
               <input type="checkbox" name="explicit_content" id="explicit-content" class="sr-only peer">
-              <span class="w-11 h-6 bg-gray-300/30 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-nft_institutional"></span>
+              <span class="w-11 h-6 bg-gray-300/30 rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-nft_institutional dark:after:bg-dark_mode"></span>
             </label>
           </div>
           <div class="mt-8">
-            <span class="block mb-2 text-dark_mode text-sm font-semibold">
+            <span class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">
               Freeze metadata
               <i class="fa-solid fa-circle-info ml-2 text-dark_mode text-base cursor-pointer hover:scale-110 ease-out duration-300"
                  data-popover-target="popover-freeze-metadata"
@@ -201,11 +201,11 @@
                  type="button">
               </i>
             </span>
-            <span class="block p-4 w-full text-gray-300 text-sm font-normal bg-gray-100/30 rounded-lg">
+            <span class="block p-4 w-full text-gray-300 text-sm font-normal bg-gray-100/30 rounded-lg dark:bg-sub_dark_mode/40">
               To freeze your metadata, you must create your item first
             </span>
           </div>
-          <button type="submit" class="block py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300">
+          <button type="submit" class="block py-3 px-8 mt-14 rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300 dark:bg-sub_dark_mode dark:focus:ring-sub_dark_mode">
             Create NFT
           </button>
         </form>
@@ -213,22 +213,22 @@
       <div class="basis-4/12 ml-[8.333333%]">
         <div class="sticky top-36">
           <div>
-            <span class="block mb-2 text-dark_mode text-sm font-semibold">
+            <span class="block mb-2 text-dark_mode text-sm font-semibold dark:text-light_mode">
             Preview
           </span>
-            <div class="nft__card_collection-empty py-4 px-4 border border-solid border-gray-100 rounded-xl">
+            <div class="nft__card_collection-empty py-4 px-4 border border-solid border-gray-100 rounded-xl dark:border-sub_dark_mode">
               <div class="animate-pulse">
-                <div class="w-full h-[280px] rounded-lg bg-gray-100"></div>
+                <div class="w-full h-[280px] rounded-lg bg-gray-100 dark:bg-sub_dark_border"></div>
                 <div class="flex flex-row items-center mt-4">
-                  <div class="w-12 h-12 rounded-full bg-gray-100"></div>
+                  <div class="w-12 h-12 rounded-full bg-gray-100 dark:bg-sub_dark_border"></div>
                   <div class="flex flex-col ml-3">
-                    <div class="py-2 bg-gray-100 min-w-[130px]"></div>
-                    <div class="py-2 mt-1 bg-gray-100 min-w-[130px]"></div>
+                    <div class="min-w-[130px] py-2 bg-gray-100 dark:bg-sub_dark_border"></div>
+                    <div class="min-w-[130px] py-2 mt-1 bg-gray-100 dark:bg-sub_dark_border"></div>
                   </div>
                 </div>
                 <div class="flex items-center justify-between mt-6">
-                  <div class="min-w-[70px] py-2 bg-gray-100"></div>
-                  <div class="min-w-[70px] py-2 bg-gray-100"></div>
+                  <div class="min-w-[70px] py-2 bg-gray-100 dark:bg-sub_dark_border"></div>
+                  <div class="min-w-[70px] py-2 bg-gray-100 dark:bg-sub_dark_border"></div>
                 </div>
               </div>
             </div>

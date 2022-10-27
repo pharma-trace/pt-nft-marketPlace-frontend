@@ -1,46 +1,46 @@
-<div data-popover id="popover-account-profile" role="tooltip" class="!ml-[-15px] inline-block absolute invisible z-10 w-64 bg-white rounded-lg border border-solid border-gray-100 shadow-sm opacity-0 transition-opacity duration-100">
+<div data-popover id="popover-account-profile" role="tooltip" class="!ml-[-15px] inline-block absolute invisible z-10 w-64 bg-white rounded-lg border border-solid border-gray-100 shadow-sm opacity-0 transition-opacity duration-100 dark:bg-sub_dark_mode dark:border-sub_dark_border/50">
   <div class="p-6">
     <figure class="flex flex-row items-center relative">
       <img
         src="{{ site.data.configs.imageUrl }}avatars/avatar-10.jpg"
         alt="Avatar 10"
-        class="w-16 h-16 rounded-full border-2 border-solid border-gray-100 object-cover"
+        class="w-16 h-16 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
       />
       <figcaption class="ml-4">
         <span class="absolute top-[2px] left-[32px] align-middle ml-2">
           <i class="fa-solid fa-certificate text-nft_institutional text-xl"></i>
           <i class="fa-solid fa-check text-light_mode text-sm absolute top-[1px] left-[3px]"></i>
         </span>
-        <span class="block text-dark_mode text-base font-semibold">
+        <span class="block text-dark_mode text-base font-semibold dark:text-light_mode">
           Yung DooMari
         </span>
-        <span class="block text-sm text-gray-300">
+        <span class="block text-sm text-gray-300 select-all">
           @yung_doomari
         </span>
       </figcaption>
     </figure>
     <nav class="nft_profile_nav mt-10 space-y-2">
-      <a href="#" class="flex items-center justify-between text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+      <a href="#" class="flex items-center justify-between text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300 dark:text-light_mode dark:hover:text-gray-300">
         Profile
         <i class="fa-solid fa-arrow-up-right-from-square"></i>
       </a>
-      <a href="#" class="block text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+      <a href="#" class="block text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300 dark:text-light_mode dark:hover:text-gray-300">
         Activity
       </a>
-      <a href="#" class="block text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+      <a href="#" class="block text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300 dark:text-light_mode dark:hover:text-gray-300">
         Gathering
       </a>
-      <a href="#" class="block text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+      <a href="#" class="block text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300 dark:text-light_mode dark:hover:text-gray-300">
         Account settings
       </a>
-      <a href="#" class="block text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300">
+      <a href="#" class="block text-dark_mode text-base font-semibold relative left-0 hover:left-1 hover:text-gray-300 ease-out duration-300 dark:text-light_mode dark:hover:text-gray-300">
         Help Center
       </a>
     </nav>
-    <span class="block mt-10 text-dark_mode text-xs font-semibold">
+    <span class="block mt-10 text-dark_mode text-xs font-semibold dark:text-light_mode">
       Connected Wallet
     </span>
-    <div class="mt-2 py-6 px-4 border border-solid border-gray-200 rounded-lg">
+    <div class="mt-2 py-6 px-4 border border-solid border-gray-200 rounded-lg dark:border-sub_dark_border">
       <figure>
         <img
           src="{{ site.data.configs.imageUrl }}trademarks/trademark-metamask.svg"
@@ -50,15 +50,15 @@
       </figure>
       <div class="flex items-end justify-between mt-6">
         <hgroup>
-          <h5 class="text-dark_mode text-sm font-semibold">
+          <h5 class="text-dark_mode text-sm font-semibold dark:text-light_mode">
             Ethereum
           </h5>
-          <h6 class="mt-1 text-gray-300 text-xs">
+          <h6 class="mt-1 text-gray-300 text-xs select-all">
             0x2acAb3…31bA17B
           </h6>
         </hgroup>
         <i
-          class="fa-regular fa-copy text-gray-300 text-sm hover:text-dark_mode cursor-pointer"
+          class="fa-regular fa-copy text-gray-300 text-sm hover:text-dark_mode cursor-pointer dark:hover:text-light_mode"
           data-tooltip-target="tooltip-animation"
           data-tooltip-placement="right"
           type="button">
@@ -66,23 +66,23 @@
       </div>
       <div class="flex flex-col mt-6">
         <hgroup>
-          <h5 class="text-dark_mode text-sm font-semibold">
+          <h5 class="text-dark_mode text-sm font-semibold dark:text-light_mode">
             Wallet Balance
           </h5>
-          <h4 class="mt-1 text-success text-sm font-semibold">
+          <h4 class="mt-1 text-success text-sm font-semibold select-all">
             15 ETH
           </h4>
         </hgroup>
         <hgroup class="mt-4">
-          <h5 class="text-dark_mode text-sm font-semibold">
+          <h5 class="text-dark_mode text-sm font-semibold dark:text-light_mode">
             Marketplace Balance
           </h5>
-          <h4 class="mt-1 text-success text-sm font-semibold">
+          <h4 class="mt-1 text-success text-sm font-semibold select-all">
             99 ETH
           </h4>
         </hgroup>
       </div>
-      <hr class="mt-3">
+      <hr class="mt-3 dark:border-sub_dark_border">
       <button type="button" class="block mt-3 text-error text-xs font-semibold relative left-0 hover:left-1 ease-out duration-300">
         Disconnect
       </button>

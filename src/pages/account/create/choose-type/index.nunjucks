@@ -13,20 +13,20 @@
   <section class="nft__create-choose-type h-[calc(100vh-24rem)] mt-36 px-36 xl:max-w-full lg:container">
     <div class="flex">
       <div class="ml-[16.666667%] basis-9/12">
-        <h4 class="text-dark_mode font-semibold">
+        <h4 class="text-dark_mode font-semibold dark:text-light_mode select-text">
           Choose Type
         </h4>
         <div class="flex flex-row gap-4 mt-10">
           <div class="basis-4/12">
             <input type="radio" name="choose_type" id="type-single" value="type-single" class="hidden peer">
-            <label for="type-single" class="inline-flex w-full min-h-[350px] p-10 bg-light_mode rounded-xl border border-gray-200 cursor-pointer peer-checked:bg-nft_institutional/20 hover:bg-gray-100">
+            <label for="type-single" class="inline-flex w-full min-h-[350px] p-10 bg-transparent rounded-xl border border-gray-200 cursor-pointer peer-checked:bg-nft_institutional/20 hover:bg-gray-100 dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode dark:peer-checked:bg-nft_institutional/20">
               <span class="block">
                 <img
                   src="{{ site.data.configs.imageUrl }}account/radio-type-single.svg"
                   alt="Choose Type Single"
                   class="h-40"
                 >
-                <span class="block mt-6 text-dark_mode text-lg font-semibold">
+                <span class="block mt-6 text-dark_mode text-lg font-semibold dark:text-light_mode">
                   Single
                 </span>
                 <span class="block mt-1 text-gray-300 text-sm">
@@ -37,14 +37,14 @@
           </div>
           <div class="basis-4/12">
             <input type="radio" name="choose_type" id="type-multiple" value="type-multiple" class="hidden peer">
-            <label for="type-multiple" class="inline-flex w-full min-h-[350px] p-10 bg-light_mode rounded-xl border border-gray-200 cursor-pointer peer-checked:bg-nft_institutional/20 hover:bg-gray-100">
+            <label for="type-multiple" class="inline-flex w-full min-h-[350px] p-10 bg-transparent rounded-xl border border-gray-200 cursor-pointer peer-checked:bg-nft_institutional/20 hover:bg-gray-100 dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode dark:peer-checked:bg-nft_institutional/20">
               <span class="block">
                 <img
                   src="{{ site.data.configs.imageUrl }}account/radio-type-multiple.svg"
                   alt="Choose Type Multiple"
                   class="h-40"
                 >
-                <span class="block mt-6 text-dark_mode text-lg font-semibold">
+                <span class="block mt-6 text-dark_mode text-lg font-semibold dark:text-light_mode">
                   Multiple
                 </span>
                 <span class="block mt-1 text-gray-300 text-sm">
@@ -55,14 +55,14 @@
           </div>
           <div class="basis-4/12">
             <input type="radio" name="choose_type" id="type-create-auction" value="type-create-auction" class="hidden peer" required="">
-            <label for="type-create-auction" class="inline-flex w-full min-h-[350px] p-10 bg-light_mode rounded-xl border border-gray-200 cursor-pointer peer-checked:bg-nft_institutional/20 hover:bg-gray-100">
+            <label for="type-create-auction" class="inline-flex w-full min-h-[350px] p-10 bg-transparent rounded-xl border border-gray-200 cursor-pointer peer-checked:bg-nft_institutional/20 hover:bg-gray-100 dark:border-sub_dark_mode dark:hover:bg-sub_dark_mode dark:peer-checked:bg-nft_institutional/20">
               <span class="block">
                 <img
                   src="{{ site.data.configs.imageUrl }}account/radio-type-create-auction.svg"
                   alt="Choose Type Create and Auction"
                   class="h-40"
                 >
-                <span class="block mt-6 text-dark_mode text-lg font-semibold">
+                <span class="block mt-6 text-dark_mode text-lg font-semibold dark:text-light_mode">
                   Create and Auction
                 </span>
                 <span class="block mt-1 text-gray-300 text-sm">
@@ -72,9 +72,9 @@
             </label>
           </div>
         </div>
-        <h6 class="mt-14 text-dark_mode text-lg font-semibold">
+        <h6 class="mt-14 text-dark_mode text-lg font-semibold dark:text-light_mode select-text">
           Do you want create a collection?
-          <a href="#" class="underline text-nft_institutional hover:text-dark_mode">Let's go.</a>
+          <a href="#" class="underline text-nft_institutional hover:text-dark_mode dark:hover:text-light_mode select-all">Let's go.</a>
         </h6>
       </div>
     </div>

@@ -13,10 +13,10 @@
   <section class="nft__account-settings-edit-profile mt-36 px-36 xl:max-w-full lg:container">
     <div class="ml-[25%] basis-9/12 pl-4">
       <hgroup>
-        <h4 class="text-dark_mode font-semibold dark:text-light_mode">
+        <h4 class="text-dark_mode font-semibold dark:text-light_mode select-text">
           Edit profile
         </h4>
-        <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold dark:text-light_mode">
+        <h6 class="w-[50%] mt-10 text-dark_mode text-lg font-semibold dark:text-light_mode select-text">
           Change personal info.
         </h6>
       </hgroup>
@@ -203,14 +203,14 @@
                   />
                 </div>
               </div>
-              <h6 class="w-[80%] mt-20 text-dark_mode text-lg font-semibold dark:text-light_mode">
+              <h6 class="w-[80%] mt-20 text-dark_mode text-lg font-semibold dark:text-light_mode select-text">
                 <span class="relative align-middle mr-3">
                   <i class="fa-solid fa-certificate text-nft_institutional text-4xl"></i>
                   <i class="fa-solid fa-check text-light_mode text-xl absolute top-[-6px] left-[8px]"></i>
                 </span>
                 Verify your profile
               </h6>
-              <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed">
+              <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed select-text">
                 Show the NFT PharmaTrace community that your profile is authentic.
               </span>
               <div class="mt-6 status-not-verified">
@@ -268,7 +268,7 @@
                       class="hidden"
                     />
                 </label>
-                <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed">
+                <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed select-text">
                   Recommended size: 500x500px<br/>
                   Type: JPG, PNG, or GIF<br/>
                   Max size: 8MB
@@ -290,7 +290,7 @@
                     class="hidden"
                   />
                 </label>
-                <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed">
+                <span class="block w-3/4 mt-3 text-gray-300 text-sm leading-relaxed select-text">
                   Recommended size: 1500x1500px<br/>
                   Type: JPG, PNG, or GIF<br/>
                   Max size: 8MB

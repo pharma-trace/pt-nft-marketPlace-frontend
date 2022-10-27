@@ -15,7 +15,7 @@
   <section class="nft__gathering-created mt-36 px-36 xl:max-w-full lg:container">
     <div class="ml-[25%] basis-9/12 pl-4">
       <hgroup>
-        <h4 class="text-dark_mode font-semibold dark:text-light_mode">
+        <h4 class="text-dark_mode font-semibold dark:text-light_mode select-text">
           Created
         </h4>
       </hgroup>
@@ -89,10 +89,10 @@
           <div class="hidden" id="collections" role="tabpanel" aria-labelledby="tab-collections">
             {# empty collection #}
             <div class="nft__no-found-block">
-              <h6 class="text-dark_mode text-lg font-semibold dark:text-light_mode">
+              <h6 class="text-dark_mode text-lg font-semibold dark:text-light_mode select-text">
                 No collections found
               </h6>
-              <span class="block mt-2 text-gray-300">
+              <span class="block mt-2 text-gray-300 select-text">
                 We couldn’t find any of your collections.
               </span>
               <button type="button" class="mt-10 py-3 px-6 flex items-center justify-center rounded-full bg-dark_mode text-light_mode text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-dark_mode active:scale-[0.94] hover:scale-[0.97] ease-out duration-300 dark:bg-sub_dark_mode dark:focus:ring-sub_dark_mode">

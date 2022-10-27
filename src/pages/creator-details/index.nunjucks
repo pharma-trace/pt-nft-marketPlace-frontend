@@ -37,20 +37,20 @@
               class="w-36 h-36 rounded-full object-cover border-4 border-solid border-gray-100 dark:border-sub_dark_border/80"
             >
             <figcaption class="mt-6">
-              <h5 class="text-dark_mode font-semibold dark:text-light_mode">
+              <h5 class="text-dark_mode font-semibold dark:text-light_mode select-text">
                 Monkey Leahpar
                 <span class="relative align-middle ml-2">
                   <i class="fa-solid fa-certificate text-nft_institutional text-2xl"></i>
                   <i class="fa-solid fa-check text-light_mode text-lg absolute top-[1px] left-[3px]"></i>
                 </span>
               </h5>
-              <h6 class="text-base text-gray-300">
+              <h6 class="text-base text-gray-300 select-all">
                 @monkeyleahpar
               </h6>
             </figcaption>
           </figure>
           <div class="mt-10">
-            <p class="text-dark_mode leading-loose dark:text-gray-300">
+            <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
               Artist based in Germany.<br/>
               My work revolves around human emotion and our mind states.
               There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
@@ -60,16 +60,16 @@
         <div class="basis-4/12">
           <div class="flex flex-row items-start justify-end mt-16">
             <hgroup class="first:ml-0">
-              <h5 class="text-dark_mode text-xl font-semibold dark:text-light_mode">90.19 ETH</h5>
+              <h5 class="text-dark_mode text-xl font-semibold dark:text-light_mode select-all">90.19 ETH</h5>
               <h6 class="text-gray-300 text-sm">Total balance</h6>
               {# <h6 class="text-nft_institutional text-sm mt-1">111,237 $</h6> #}
             </hgroup>
             <hgroup class="ml-10">
-              <h5 class="text-dark_mode text-xl font-semibold dark:text-light_mode">115</h5>
+              <h5 class="text-dark_mode text-xl font-semibold dark:text-light_mode select-all">115</h5>
               <h6 class="text-gray-300 text-sm">Following</h6>
             </hgroup>
             <hgroup class="ml-10">
-              <h5 class="text-dark_mode text-xl font-semibold dark:text-light_mode">88</h5>
+              <h5 class="text-dark_mode text-xl font-semibold dark:text-light_mode select-all">88</h5>
               <h6 class="text-gray-300 text-sm">Followers</h6>
             </hgroup>
           </div>

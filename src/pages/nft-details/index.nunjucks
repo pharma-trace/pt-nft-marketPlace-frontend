@@ -39,7 +39,7 @@
       </div>
       <div class="basis-5/12 ml-28">
         <hgroup>
-          <h4 class="text-dark_mode font-bold dark:text-light_mode">
+          <h4 class="text-dark_mode font-bold dark:text-light_mode select-text">
             Doodles #001
             <span class="relative align-super ml-2">
               <i
@@ -53,7 +53,7 @@
           </h4>
           <h6 class="mt-2 text-gray-300 text-base">
             Owned by
-            <span class="underline" data-popover-target="popover-info-profile" data-popover-placement="bottom">
+            <span class="underline select-all" data-popover-target="popover-info-profile" data-popover-placement="bottom">
               Monkey Leahpar
             </span>
           </h6>
@@ -73,7 +73,7 @@
           </button>
         </div>
         <div class="mt-10">
-          <p class="text-dark_mode leading-loose dark:text-gray-300">
+          <p class="text-dark_mode leading-loose dark:text-gray-300 select-text">
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered
             alteration in some form, by injected humour, or randomised words which don’t look
             even slightly believable.
@@ -98,7 +98,7 @@
                 <span class="block text-dark_mode text-sm font-semibold dark:text-light_mode">
                   Yung DooMari
                 </span>
-                <span class="block text-sm text-gray-300">
+                <span class="block text-sm text-gray-300 select-all">
                   @yung_doomari
                 </span>
               </figcaption>
@@ -179,7 +179,7 @@
           <h6 class="text-gray-300 text-base">
             Type
           </h6>
-          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode">
+          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode select-text">
             Image 5000 x 5000 px, JPEG (6.7 MB)
           </h6>
         </hgroup>
@@ -193,7 +193,7 @@
               type="button">
             </i>
           </h6>
-          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode">
+          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode select-all">
             0x2acAb3DEa77832C09420663b0E1cB386031bA17B
           </h6>
         </hgroup>
@@ -201,7 +201,7 @@
           <h6 class="text-gray-300 text-base">
             Token ID
           </h6>
-          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode">
+          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode select-all">
             #001
           </h6>
         </hgroup>
@@ -209,7 +209,7 @@
           <h6 class="text-gray-300 text-base">
             Token Standard
           </h6>
-          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode">
+          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode select-all">
             ERC-721
           </h6>
         </hgroup>
@@ -217,7 +217,7 @@
           <h6 class="text-gray-300 text-base">
             Blockchain
           </h6>
-          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode">
+          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode select-text">
             Ethereum
           </h6>
         </hgroup>
@@ -225,7 +225,7 @@
           <h6 class="text-gray-300 text-base">
             Creator Fees
           </h6>
-          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode">
+          <h6 class="mt-1 text-dark_mode text-base dark:text-light_mode select-text">
             5%
           </h6>
         </hgroup>
@@ -260,23 +260,25 @@
           {% for recentBid in recentBids %}
             <ul class="nft__custom-table-rows grid grid-cols-6 gap-5 py-3 px-3 mt-4 rounded-lg border border-solid border-gray-200 bg-gray-100/30 hover:bg-gray-100 dark:bg-sub_dark_mode dark:border-sub_dark_border dark:hover:bg-sub_dark_border">
               <li>
-              <span class="text-dark_mode dark:text-light_mode">
+              <span class="text-dark_mode dark:text-light_mode select-all">
                 1.05 ETH
               </span>
               </li>
               <li>
-              <span class="text-dark_mode dark:text-light_mode">
+              <span class="text-dark_mode dark:text-light_mode select-all">
                 8% below
               </span>
               </li>
               <li class="col-span-2">
-              <span class="text-dark_mode dark:text-light_mode">
+              <span class="text-dark_mode dark:text-light_mode select-all">
                 2022-07-18 10:04
               </span>
               </li>
               <li class="col-span-2">
               <span>
-                <a href="#" class="underline text-dark_mode hover:text-nft_institutional dark:text-light_mode dark:hover:text-nft_institutional">Rarepep</a>
+                <a href="#" class="underline text-dark_mode hover:text-nft_institutional dark:text-light_mode dark:hover:text-nft_institutional select-all">
+                  Rarepep
+                </a>
               </span>
               </li>
             </ul>

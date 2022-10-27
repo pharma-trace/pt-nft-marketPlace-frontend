@@ -14,7 +14,7 @@
   <section class="nft__activity-my-activity mt-36 px-36 xl:max-w-full lg:container">
     <div class="ml-[25%] basis-9/12 pl-4">
       <hgroup>
-        <h4 class="text-dark_mode font-semibold dark:text-light_mode">
+        <h4 class="text-dark_mode font-semibold dark:text-light_mode select-text">
           My Activity
         </h4>
       </hgroup>
@@ -113,28 +113,30 @@
               {% for recentBid in recentBids %}
                 <ul class="nft__custom-table-rows grid grid-cols-7 gap-5 py-3 px-3 mt-4 rounded-lg border border-solid border-gray-200 bg-gray-100/30 hover:bg-gray-100 dark:bg-sub_dark_mode dark:border-sub_dark_border dark:hover:bg-sub_dark_border">
                   <li>
-                    <span class="text-dark_mode dark:text-light_mode">
+                    <span class="text-dark_mode dark:text-light_mode select-all">
                       1.05 ETH
                     </span>
                   </li>
                   <li>
-                    <span class="text-nft_institutional">
+                    <span class="text-nft_institutional select-all">
                       1,569.32 $
                     </span>
                   </li>
                   <li>
-                    <span class="text-dark_mode dark:text-light_mode">
+                    <span class="text-dark_mode dark:text-light_mode select-all">
                       8% below
                     </span>
                   </li>
                   <li class="col-span-2">
-                    <span class="text-dark_mode dark:text-light_mode">
+                    <span class="text-dark_mode dark:text-light_mode select-all">
                       2022-07-18 10:04
                     </span>
                   </li>
                   <li class="col-span-2">
                     <span>
-                      <a href="#" class="underline text-dark_mode hover:text-nft_institutional dark:text-light_mode dark:hover:text-nft_institutional">Rarepep</a>
+                      <a href="#" class="underline text-dark_mode hover:text-nft_institutional dark:text-light_mode dark:hover:text-nft_institutional select-all">
+                        Rarepep
+                      </a>
                     </span>
                   </li>
                 </ul>

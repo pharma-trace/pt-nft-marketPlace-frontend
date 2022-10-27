@@ -13,13 +13,13 @@
     <div class="flex flex-row items-center gap-4">
       <div class="basis-6/12">
         <hgroup>
-          <h6 class="text-nft_institutional text-lg font-medium">
+          <h6 class="text-nft_institutional text-lg font-medium select-text">
             About Us
           </h6>
-          <h1 class="mt-10 w-[80%] text-dark_mode font-bold dark:text-light_mode">
+          <h1 class="mt-10 w-[80%] text-dark_mode font-bold dark:text-light_mode select-text">
             We are a new type of digital asset called NFT which is not an NFT.
           </h1>
-          <h6 class="mt-10 text-dark_mode text-lg font-medium leading-loose dark:text-gray-300">
+          <h6 class="mt-10 text-dark_mode text-lg font-medium leading-loose dark:text-gray-300 select-text">
             The NFT PharmaTrace Marketplace was born on September 2022 from the idea of <span class="text-pt_institutional underline">Dr. Issame Outaleb</span>
             founder of PharmaTrace, blockchain based ecosystem where the pharmaceutical industry works together
             and does better business based on a common distributed ledger.
@@ -29,20 +29,12 @@
       <div class="basis-6/12">
         <div class="flex flex-row gap-4">
           <div class="basis-2/12 relative">
-            <figure class="absolute top-[100px]">
-              <img
-                src="{{ site.data.configs.imageUrl }}about-us/group-icon-lightbulb.svg"
-                alt="Icon - lightbulb"
-                class="w-full rounded-lg object-cover"
-              >
-            </figure>
-            <figure class="absolute bottom-[-50px]">
-              <img
-                src="{{ site.data.configs.imageUrl }}about-us/group-icon-suitcase.svg"
-                alt="Icon - suitcase"
-                class="w-full rounded-lg object-cover"
-              >
-            </figure>
+            <span class="flex items-center justify-center rounded-xl w-[75px] h-[75px] absolute top-[100px] shadow-sm bg-light_mode dark:bg-sub_dark_mode">
+              <i class="fa-regular fa-lightbulb text-nft_institutional text-4xl"></i>
+            </span>
+            <span class="flex items-center justify-center rounded-xl w-[75px] h-[75px] absolute bottom-[-50px] shadow-sm bg-light_mode dark:bg-sub_dark_mode">
+              <i class="fa-solid fa-suitcase text-pt_institutional text-3xl"></i>
+            </span>
           </div>
           <div class="basis-10/12">
             <figure>
@@ -54,20 +46,12 @@
             </figure>
           </div>
           <div class="basis-2/12 relative">
-            <figure class="absolute top-[25px]">
-              <img
-                src="{{ site.data.configs.imageUrl }}about-us/group-icon-heart.svg"
-                alt="Icon - heart"
-                class="w-full rounded-lg object-cover"
-              >
-            </figure>
-            <figure class="absolute bottom-[-25px]">
-              <img
-                src="{{ site.data.configs.imageUrl }}about-us/group-icon-mug.svg"
-                alt="Icon - mug"
-                class="w-full rounded-lg object-cover"
-              >
-            </figure>
+            <span class="flex items-center justify-center rounded-xl w-[75px] h-[75px] absolute top-[25px] shadow-sm bg-light_mode dark:bg-sub_dark_mode">
+              <i class="fa-solid fa-heart text-error text-3xl"></i>
+            </span>
+            <span class="flex items-center justify-center rounded-xl w-[75px] h-[75px] absolute bottom-[-25px] shadow-sm bg-light_mode dark:bg-sub_dark_mode">
+              <i class="fa-solid fa-mug-saucer text-[#9B6B00] text-3xl"></i>
+            </span>
           </div>
         </div>
       </div>
@@ -80,19 +64,19 @@
         <div class="flex flex-col gap-y-8">
           <div class="w-full p-8 relative bg-pt_institutional/20 rounded-lg">
             <span class="block text-gray-300 text-6xl font-bold absolute top-[-25px] left-2">1</span>
-            <span class="block text-pt_institutional text-base font-semibold">
+            <span class="block text-pt_institutional text-base font-semibold select-all">
               We are transparent
             </span>
           </div>
           <div class="w-full p-8 relative bg-pt_institutional/20 rounded-lg">
             <span class="block text-gray-300 text-6xl font-bold absolute top-[-25px] left-2">2</span>
-            <span class="block text-pt_institutional text-base font-semibold">
+            <span class="block text-pt_institutional text-base font-semibold select-all">
               We are human
             </span>
           </div>
           <div class="w-full p-8 relative bg-pt_institutional/20 rounded-lg">
             <span class="block text-gray-300 text-6xl font-bold absolute top-[-25px] left-2">3</span>
-            <span class="block text-pt_institutional text-base font-semibold">
+            <span class="block text-pt_institutional text-base font-semibold select-all">
               We are focused on product
             </span>
           </div>
@@ -100,13 +84,13 @@
       </div>
       <div class="basis-6/12 ml-[16.666667%]">
         <hgroup>
-          <h6 class="text-nft_institutional text-lg font-medium">
+          <h6 class="text-nft_institutional text-lg font-medium select-text">
             There are many variations of passages
           </h6>
-          <h1 class="mt-10 w-[80%] text-dark_mode font-bold dark:text-light_mode">
+          <h1 class="mt-10 w-[80%] text-dark_mode font-bold dark:text-light_mode select-text">
             Our philosophy
           </h1>
-          <h6 class="mt-10 text-dark_mode text-lg font-medium leading-loose dark:text-gray-300">
+          <h6 class="mt-10 text-dark_mode text-lg font-medium leading-loose dark:text-gray-300 select-text">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
             ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
             duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -120,10 +104,10 @@
     <div class="flex flex-row">
       <div class="basis-6/12">
         <hgroup>
-          <h6 class="text-nft_institutional text-lg font-medium">
+          <h6 class="text-nft_institutional text-lg font-medium select-text">
             Behind desks and laptops
           </h6>
-          <h1 class="mt-10 w-[80%] text-dark_mode font-bold dark:text-light_mode">
+          <h1 class="mt-10 w-[80%] text-dark_mode font-bold dark:text-light_mode select-text">
             Top Management Team
           </h1>
         </hgroup>
@@ -138,7 +122,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Dr. Issame Outaleb
             </span>
             <span class="block text-sm text-gray-300">
@@ -155,7 +139,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Helmut Hauschild
             </span>
             <span class="block text-sm text-gray-300">
@@ -172,7 +156,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Mo Bamoh
             </span>
             <span class="block text-sm text-gray-300">
@@ -189,7 +173,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Manfred Voglmaer
             </span>
             <span class="block text-sm text-gray-300">
@@ -206,7 +190,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Amit Joshi
             </span>
             <span class="block text-sm text-gray-300">
@@ -223,7 +207,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Heist Kim
             </span>
             <span class="block text-sm text-gray-300">
@@ -240,7 +224,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Tanvi Nigam
             </span>
             <span class="block text-sm text-gray-300">
@@ -257,7 +241,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Eva Jenisch
             </span>
             <span class="block text-sm text-gray-300">
@@ -273,7 +257,7 @@
     <div class="flex flex-row">
       <div class="basis-6/12">
         <hgroup>
-          <h1 class="mt-10 w-[80%] text-dark_mode font-bold dark:text-light_mode">
+          <h1 class="mt-10 w-[80%] text-dark_mode font-bold dark:text-light_mode select-text">
             Technical Team
           </h1>
         </hgroup>
@@ -288,7 +272,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Sandeep Mishra
             </span>
             <span class="block text-sm text-gray-300">
@@ -305,7 +289,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Jay Sun
             </span>
             <span class="block text-sm text-gray-300">
@@ -322,7 +306,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Touqeer Shah
             </span>
             <span class="block text-sm text-gray-300">
@@ -339,7 +323,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Majid Keshtidar
             </span>
             <span class="block text-sm text-gray-300">
@@ -356,7 +340,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Federico La Terra
             </span>
             <span class="block text-sm text-gray-300">
@@ -374,7 +358,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode dark:border-sub_dark_border">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Ali Mirkharazi
             </span>
             <span class="block text-sm text-gray-300">
@@ -391,7 +375,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Zubaer Haque
             </span>
             <span class="block text-sm text-gray-300">
@@ -408,7 +392,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Vikas Pathak
             </span>
             <span class="block text-sm text-gray-300">
@@ -425,7 +409,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Manjeet Singh
             </span>
             <span class="block text-sm text-gray-300">
@@ -442,7 +426,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Amir Fatemi
             </span>
             <span class="block text-sm text-gray-300">
@@ -459,7 +443,7 @@
             class="w-40 h-40 rounded-full border-2 border-solid border-gray-100 object-cover dark:border-sub_dark_border"
           >
           <figcaption class="ml-4">
-            <span class="block text-dark_mode text-base font-bold dark:text-light_mode">
+            <span class="block text-dark_mode text-base font-bold dark:text-light_mode select-text">
               Abhinav
             </span>
             <span class="block text-sm text-gray-300">
@@ -471,7 +455,7 @@
     </div>
   </section>
   <div class="nft__scroll-left-text mt-32 relative -right-[250px]">
-    <span class="text-gray-100 text-big font-bold leading-none whitespace-nowrap dark:text-sub_dark_border">
+    <span class="text-gray-100 text-big font-bold leading-none whitespace-nowrap dark:text-sub_dark_border select-all">
       Team Work Together
     </span>
   </div>
