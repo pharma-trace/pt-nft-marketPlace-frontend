@@ -9,46 +9,78 @@ import './tailwind.config';
 
 import ActiveMenuLink from 'active-menu-link';
 
-(function() {
+(() => {
   console.log('Ready');
   //document.querySelector('input[name = "category"]:checked').value;
 
+  const getDarkModeImage = {
+    'trademarkPT': '/images/trademarks/trademark-pharmatrace-nft-dark-mode.svg',
+    'trademarkMetamask': '/images/trademarks/trademark-metamask-dark-mode.svg',
+    'trademarkCoinbase': '/images/trademarks/trademark-coinbase-dark-mode.svg',
+    'trademarkWalletconnect': '/images/trademarks/trademark-walletconnect-dark-mode.svg',
+    'trademarkFortmatic': '/images/trademarks/trademark-fortmatic-dark-mode.svg',
+    'hero': '/images/homepage/hero/hero-dark-mode.png'
+  };
+
+  const getLightModeImage = {
+    'trademarkPT': '/images/trademarks/trademark-pharmatrace-nft.svg',
+    'trademarkMetamask': '/images/trademarks/trademark-metamask.svg',
+    'trademarkCoinbase': '/images/trademarks/trademark-coinbase.svg',
+    'trademarkWalletconnect': '/images/trademarks/trademark-walletconnect.svg',
+    'trademarkFortmatic': '/images/trademarks/trademark-fortmatic.svg',
+    'hero': '/images/homepage/hero/hero.png'
+  };
+
   // Dark mode switcher
   // --------------------------------------------------------------------------------------------------------------------------------------------- //
+  const themeToggleButton = document.getElementById('theme-toggle');
   const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
   const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
 
-  // Change the icons inside the button based on previous settings
-  if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  const setDarkTheme = () => {
     themeToggleLightIcon.classList.remove('hidden');
-  } else {
-    themeToggleDarkIcon.classList.remove('hidden');
+    themeToggleDarkIcon.classList.add('hidden');
+    document.documentElement.classList.add('dark');
+    localStorage.setItem('theme', 'dark');
+    theme = 'dark';
+
+    // only for test
+    document.querySelector('header img[data-name="trademark-pt"]').src = getDarkModeImage.trademarkPT;
+    if (location.pathname == '/pages/homepage/index.html') {
+      document.querySelector('.nft__bar-corporate-trademarks img[data-name="trademark-metamask"]').src = getDarkModeImage.trademarkMetamask;
+      document.querySelector('.nft__bar-corporate-trademarks img[data-name="trademark-coinbase"]').src = getDarkModeImage.trademarkCoinbase;
+      document.querySelector('.nft__bar-corporate-trademarks img[data-name="trademark-walletconnect"]').src = getDarkModeImage.trademarkWalletconnect;
+      document.querySelector('.nft__bar-corporate-trademarks img[data-name="trademark-fortmatic"]').src = getDarkModeImage.trademarkFortmatic;
+      document.querySelector('.nft__hero img[data-name="hero"]').src = getDarkModeImage.hero;
+    }
   }
 
-  const themeToggleBtn = document.getElementById('theme-toggle');
-  themeToggleBtn.addEventListener('click', () => {
-    // toggle icons inside button
-    themeToggleDarkIcon.classList.toggle('hidden');
-    themeToggleLightIcon.classList.toggle('hidden');
+  const setLightTheme = () => {
+    themeToggleDarkIcon.classList.remove('hidden');
+    themeToggleLightIcon.classList.add('hidden');
+    document.documentElement.classList.remove('dark');
+    localStorage.setItem('theme', 'light');
+    theme = 'light';
 
-    // if set via local storage previously
-    if (localStorage.getItem('theme')) {
-      if (localStorage.getItem('theme') === 'light') {
-        document.documentElement.classList.add('dark');
-        localStorage.setItem('theme', 'dark');
-      } else {
-        document.documentElement.classList.remove('dark');
-        localStorage.setItem('theme', 'light');
-      }
-      // if NOT set via local storage previously
+    // only for test
+    document.querySelector('header img[data-name="trademark-pt"]').src = getLightModeImage.trademarkPT;
+    if (location.pathname == '/pages/homepage/index.html') {
+      document.querySelector('.nft__bar-corporate-trademarks img[data-name="trademark-metamask"]').src = getLightModeImage.trademarkMetamask;
+      document.querySelector('.nft__bar-corporate-trademarks img[data-name="trademark-coinbase"]').src = getLightModeImage.trademarkCoinbase;
+      document.querySelector('.nft__bar-corporate-trademarks img[data-name="trademark-walletconnect"]').src = getLightModeImage.trademarkWalletconnect;
+      document.querySelector('.nft__bar-corporate-trademarks img[data-name="trademark-fortmatic"]').src = getLightModeImage.trademarkFortmatic;
+      document.querySelector('.nft__hero img[data-name="hero"]').src = getLightModeImage.hero;
+    }
+  }
+
+  let theme = localStorage.getItem('theme') || 'light';
+  theme === 'light' ? setLightTheme() : setDarkTheme();
+
+  themeToggleButton.addEventListener('click', () => {
+    if (theme === 'light') {
+      setDarkTheme();
     } else {
-      if (document.documentElement.classList.contains('dark')) {
-        document.documentElement.classList.remove('dark');
-        localStorage.setItem('theme', 'light');
-      } else {
-        document.documentElement.classList.add('dark');
-        localStorage.setItem('theme', 'dark');
-      }
+      setLightTheme();
     }
   });
 

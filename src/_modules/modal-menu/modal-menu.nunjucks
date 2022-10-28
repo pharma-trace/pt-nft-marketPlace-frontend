@@ -8,20 +8,20 @@
       <span class="ml-4 text-dark_mode text-lg font-semibold">Menu</span>
     </button>
     <button id="theme-toggle" type="button" class="ml-10 flex items-center" data-toggle-dark="light">
-      <span id="theme-toggle-dark-icon" class="flex items-center">
-        <span class="flex items-center justify-center w-[35px] h-[35px] bg-dark_mode rounded-lg">
-          <i class="fa-solid fa-moon text-light_mode text-xl"></i>
-        </span>
-        <span class="ml-3 font-medium">
-          Use dark-mode
-        </span>
-      </span>
       <span id="theme-toggle-light-icon" class="hidden flex items-center">
         <span class="flex items-center justify-center w-[35px] h-[35px] bg-light_mode rounded-lg">
           <i class="fa-solid fa-sun text-xl"></i>
         </span>
         <span class="ml-3 font-medium">
           Use light-mode
+        </span>
+      </span>
+      <span id="theme-toggle-dark-icon" class="flex items-center hidden">
+        <span class="flex items-center justify-center w-[35px] h-[35px] bg-dark_mode rounded-lg">
+          <i class="fa-solid fa-moon text-light_mode text-xl"></i>
+        </span>
+        <span class="ml-3 font-medium">
+          Use dark-mode
         </span>
       </span>
     </button>

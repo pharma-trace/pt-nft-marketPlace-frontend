@@ -62,68 +62,13 @@
         </div>
       </div>
       <div class="basis-7/12">
-        <div class="nft__hero-figures relative w-full h-[700px]">
-          <figure class="-1 z-10 relative">
+        <div class="relative">
+          <figure>
             <img
-              src="{{ site.data.configs.imageUrl }}homepage/hero/top-dashed-line.svg"
-              alt="Top dashed line"
-              class="max-h-[16rem] object-cover absolute top-[80px] left-0"
-            >
-          </figure>
-          <figure class="z-30 relative">
-            <img
-              src="{{ site.data.configs.imageUrl }}homepage/hero/hero-card-1.png"
-              alt="Hero card 1"
-              class="max-h-[30rem] object-cover absolute top-[140px] left-[160px]"
-            >
-          </figure>
-          <figure class="z-20 relative">
-            <img
-              src="{{ site.data.configs.imageUrl }}homepage/hero/hero-card-2.png"
-              alt="Hero card 2"
-              class="max-h-[24rem] object-cover absolute top-[110px] left-[360px]"
-            >
-          </figure>
-          <figure class="z-10 relative">
-            <img
-              src="{{ site.data.configs.imageUrl }}homepage/hero/bottom-dashed-line.svg"
-              alt="Bottom dashed line"
-              class="max-h-[21rem] object-cover absolute top-[300px] left-[50px]"
-            >
-          </figure>
-          <figure class="z-20 relative">
-            <img
-              src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-art.svg"
-              alt="Icon category Art"
-              class="h-24 object-cover absolute top-[70px] left-[70px]"
-            >
-          </figure>
-          <figure class="z-20 relative">
-            <img
-              src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-sport.svg"
-              alt="Icon category Sport"
-              class="h-24 object-cover absolute top-[110px] left-[660px]"
-            >
-          </figure>
-          <figure class="z-20 relative">
-            <img
-              src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-utility.svg"
-              alt="Icon category Utility"
-              class="h-24 object-cover absolute top-[315px] left-[80px]"
-            >
-          </figure>
-          <figure class="z-20 relative">
-            <img
-              src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-photo.svg"
-              alt="Icon category Photo"
-              class="h-24 object-cover absolute top-[520px] left-[20px]"
-            >
-          </figure>
-          <figure class="z-20 relative">
-            <img
-              src="{{ site.data.configs.imageUrl }}homepage/hero/hero-category-music.svg"
-              alt="Icon category Music"
-              class="h-24 object-cover absolute top-[530px] left-[600px]"
+              src="{{ site.data.configs.imageUrl }}homepage/hero/hero.png"
+              alt="Hero"
+              class="object-cover"
+              data-name="hero"
             >
           </figure>
         </div>
@@ -134,21 +79,25 @@
          src="{{ site.data.configs.imageUrl }}trademarks/trademark-metamask.svg"
          alt="Trademark Metamask"
          class="w-[10rem]"
+         data-name="trademark-metamask"
       >
       <img
          src="{{ site.data.configs.imageUrl }}trademarks/trademark-coinbase.svg"
          alt="Trademark Coinbase"
          class="w-[10rem] ml-20"
+         data-name="trademark-coinbase"
       >
       <img
          src="{{ site.data.configs.imageUrl }}trademarks/trademark-walletconnect.svg"
          alt="Trademark WalletConnect"
          class="w-[10rem] ml-20"
+         data-name="trademark-walletconnect"
       >
       <img
          src="{{ site.data.configs.imageUrl }}trademarks/trademark-fortmatic.svg"
          alt="Trademark Fortmatic"
          class="w-[10rem] ml-20"
+         data-name="trademark-fortmatic"
       >
     </div>
   </section>
